@@ -108,6 +108,18 @@ public partial class AStarNode
 		set => _fakeTileClear = value;
 	}
 
+	public bool fakeTileClear
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get => _fakeTileClear;
+	}
+
+	public Rectangle rect
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get => new Rectangle(x << 6, y << 6, 64, 64);
+	}
+
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public AStarNode(AStarGraph aStarGraph, int x, int y)
 	{
@@ -116,5 +128,11 @@ public partial class AStarNode
 		_aStarGraph = aStarGraph;
 		this.x = x;
 		this.y = y;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public Rectangle GetBoundingBox()
+	{
+		return new Rectangle(x << 6, y << 6, 64, 64);
 	}
 }
