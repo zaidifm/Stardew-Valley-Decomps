@@ -43,4 +43,20 @@ public partial class AStarNode
 		Rectangle tileBounds = new Rectangle(x << 6, y << 6, 64, 64);
 		return ((Desert)location).desertMerchantBounds.Intersects(tileBounds);
 	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public bool ContainsFestivalProp()
+	{
+		if (Game1.CurrentEvent == null)
+			return false;
+
+		Rectangle tileBounds = new Rectangle(x << 6, y << 6, 64, 64);
+		for (int i = 0; i < Game1.CurrentEvent.festivalProps.Count; i++)
+		{
+			if (Game1.CurrentEvent.festivalProps[i].isColliding(tileBounds))
+				return true;
+		}
+
+		return false;
+	}
 }
