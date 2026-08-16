@@ -20,6 +20,15 @@ ALLOWED_CONFIDENCE = {"", "high", "medium", "low"}
 KEY_FIELDS = ("assembly", "type", "method", "token")
 
 
+def read_rows(path: Path) -> list[tuple[Path, int, dict[str, str]]]:
+    rows: list[tuple[Path, int, dict[str, str]]] = []
+    with path.open(newline="", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle, delimiter="\t")
+        for line_no, row in enumerate(reader, start=2):
+            rows.append((path, line_no, row))
+    return rows
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -27,36 +36,61 @@ def main() -> int:
         nargs="?",
         type=Path,
         default=Path(__file__).parents[1] / "reconstruction" / "methods.tsv",
+        help="consolidated base ledger TSV",
+    )
+    parser.add_argument(
+        "--fragments",
+        type=Path,
+        default=None,
+        help="append-only fragment directory; defaults to <ledger-dir>/ledger",
+    )
+    parser.add_argument(
+        "--no-fragments",
+        action="store_true",
+        help="validate only the consolidated base ledger",
     )
     args = parser.parse_args()
 
-    with args.ledger.open(newline="", encoding="utf-8") as handle:
-        rows = list(csv.DictReader(handle, delimiter="\t"))
+    fragment_dir = args.fragments or args.ledger.parent / "ledger"
+    paths = [args.ledger]
+    if not args.no_fragments and fragment_dir.is_dir():
+        paths.extend(sorted(fragment_dir.glob("*.tsv")))
 
-    seen: set[tuple[str, ...]] = set()
+    source_rows: list[tuple[Path, int, dict[str, str]]] = []
+    for path in paths:
+        source_rows.extend(read_rows(path))
+
+    seen: dict[tuple[str, ...], tuple[Path, int]] = {}
     errors: list[str] = []
     statuses: Counter[str] = Counter()
     confidences: Counter[str] = Counter()
 
-    for line_no, row in enumerate(rows, start=2):
+    for path, line_no, row in source_rows:
         key = tuple(row.get(field, "") for field in KEY_FIELDS)
+        location = f"{path}:{line_no}"
         if not all(key):
-            errors.append(f"line {line_no}: incomplete key {key!r}")
+            errors.append(f"{location}: incomplete key {key!r}")
         elif key in seen:
-            errors.append(f"line {line_no}: duplicate key {key!r}")
-        seen.add(key)
+            prior_path, prior_line = seen[key]
+            errors.append(
+                f"{location}: duplicate key {key!r}; first seen at {prior_path}:{prior_line}"
+            )
+        else:
+            seen[key] = (path, line_no)
 
         status = row.get("status", "")
         confidence = row.get("confidence", "")
         if status not in ALLOWED_STATUSES:
-            errors.append(f"line {line_no}: invalid status {status!r}")
+            errors.append(f"{location}: invalid status {status!r}")
         if confidence not in ALLOWED_CONFIDENCE:
-            errors.append(f"line {line_no}: invalid confidence {confidence!r}")
+            errors.append(f"{location}: invalid confidence {confidence!r}")
         statuses[status] += 1
         confidences[confidence or "unset"] += 1
 
-    print(f"ledger: {args.ledger}")
-    print(f"rows: {len(rows)}")
+    print("ledger files:")
+    for path in paths:
+        print(f"  {path}")
+    print(f"rows: {len(source_rows)}")
     print("status: " + ", ".join(f"{k}={v}" for k, v in sorted(statuses.items())))
     print("confidence: " + ", ".join(f"{k}={v}" for k, v in sorted(confidences.items())))
 
