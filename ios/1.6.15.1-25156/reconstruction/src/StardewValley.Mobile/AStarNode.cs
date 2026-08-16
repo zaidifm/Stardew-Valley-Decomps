@@ -131,6 +131,34 @@ public partial class AStarNode
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
+	public List<AStarNode> GetNeighbouringNodeList(bool canWalkOnTile = true)
+	{
+		List<AStarNode> neighbours = new List<AStarNode>();
+		AddNeighbourIfMatching(neighbours, _aStarGraph.FetchAStarNode(x, y - 1), canWalkOnTile);
+		AddNeighbourIfMatching(neighbours, _aStarGraph.FetchAStarNode(x, y + 1), canWalkOnTile);
+		AddNeighbourIfMatching(neighbours, _aStarGraph.FetchAStarNode(x - 1, y), canWalkOnTile);
+		AddNeighbourIfMatching(neighbours, _aStarGraph.FetchAStarNode(x + 1, y), canWalkOnTile);
+		return neighbours;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public List<AStarNode> GetNeighbouringNodeListFull(bool canWalkOnTile = true)
+	{
+		List<AStarNode> neighbours = GetNeighbouringNodeList(canWalkOnTile);
+		AddNeighbourIfMatching(neighbours, _aStarGraph.FetchAStarNode(x - 1, y - 1), canWalkOnTile);
+		AddNeighbourIfMatching(neighbours, _aStarGraph.FetchAStarNode(x + 1, y - 1), canWalkOnTile);
+		AddNeighbourIfMatching(neighbours, _aStarGraph.FetchAStarNode(x - 1, y + 1), canWalkOnTile);
+		AddNeighbourIfMatching(neighbours, _aStarGraph.FetchAStarNode(x + 1, y + 1), canWalkOnTile);
+		return neighbours;
+	}
+
+	private static void AddNeighbourIfMatching(List<AStarNode> neighbours, AStarNode node, bool canWalkOnTile)
+	{
+		if (node != null && node.TileClear == canWalkOnTile)
+			neighbours.Add(node);
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
 	public Rectangle GetBoundingBox()
 	{
 		return new Rectangle(x << 6, y << 6, 64, 64);
