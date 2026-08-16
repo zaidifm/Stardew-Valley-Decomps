@@ -108,6 +108,51 @@ public partial class AStarNode
 		set => _fakeTileClear = value;
 	}
 
+	public bool TileClear
+	{
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		get
+		{
+			if (_fakeTileClear)
+				return true;
+
+			Vector2 tile = new Vector2(x, y);
+			GameLocation location = _aStarGraph.gameLocation;
+			if (!location.isTileOnMap(tile))
+				return false;
+			if (location.isTileOccupiedIgnoreFloorsAndHorse(tile) && !isGate())
+				return false;
+			if (!isTilePassable())
+				return false;
+			if (ContainsStumpOrBoulder())
+				return false;
+			if (ContainsFurniture())
+				return false;
+			if (isFence() && !isGate())
+				return false;
+			if (ContainsBuilding() && !IsBuildingPassable())
+				return false;
+			if (ContainsAnimals())
+				return false;
+			if (ContainsNPC())
+				return false;
+			if (ContainsFestivalProp())
+				return false;
+			if (isBlockingBedTile())
+				return false;
+			if (ContainsTravellingCart())
+				return false;
+			if (ContainsTravellingDesertShop())
+				return false;
+			if (BrokenFestivalTile)
+				return false;
+			if (ContainsCinema())
+				return false;
+
+			return !ContainsParrotExpress();
+		}
+	}
+
 	public bool fakeTileClear
 	{
 		[MethodImpl(MethodImplOptions.NoInlining)]
