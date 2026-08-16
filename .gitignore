@@ -1,0 +1,33 @@
+# Original Stardew Valley game material
+**/Content/
+**/*.ipa
+**/*.xnb
+**/*.xwb
+**/*.xsb
+**/*.xgs
+**/Stardew Valley.dll
+**/StardewValley.dll
+**/StardewValley.GameData.dll
+**/MonoGame.Framework.dll
+**/*.dylib
+**/*.so
+**/*.exe
+
+# Local game paths / build inputs
+Local.Game.props
+local-game/
+game-input/
+originals/
+
+# Reverse-engineering working databases
+*.gpr
+*.rep/
+*.db
+*.log
+
+# Build/editor noise
+bin/
+obj/
+.vs/
+.idea/
+.DS_Store
