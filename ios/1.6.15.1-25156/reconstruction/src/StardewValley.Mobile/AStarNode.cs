@@ -135,4 +135,73 @@ public partial class AStarNode
 	{
 		return new Rectangle(x << 6, y << 6, 64, 64);
 	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public bool isFence()
+	{
+		Vector2 tile = new Vector2(x, y);
+		if (!_aStarGraph.gameLocation.objects.ContainsKey(tile))
+			return false;
+
+		return _aStarGraph.gameLocation.objects[tile] is Fence;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public bool isGate()
+	{
+		Vector2 tile = new Vector2(x, y);
+		if (!_aStarGraph.gameLocation.objects.ContainsKey(tile))
+			return false;
+
+		if (_aStarGraph.gameLocation.objects[tile] is Fence fence && fence.isGate.Value)
+			return !fence.isSoloGate;
+
+		return false;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public bool isGateOpen()
+	{
+		Vector2 tile = new Vector2(x, y);
+		if (!_aStarGraph.gameLocation.objects.ContainsKey(tile))
+			return false;
+
+		if (_aStarGraph.gameLocation.objects[tile] is Fence fence && fence.isGate.Value && !fence.isSoloGate)
+			return fence.gatePosition.Value == Fence.gateOpenedPosition;
+
+		return false;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public Object FetchObject()
+	{
+		Vector2 tile = new Vector2(x, y);
+		if (_aStarGraph.gameLocation.objects.ContainsKey(tile))
+			return _aStarGraph.gameLocation.objects[tile];
+
+		return null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public bool ContainsGate()
+	{
+		Vector2 tile = new Vector2(x, y);
+		if (!_aStarGraph.gameLocation.objects.ContainsKey(tile))
+			return false;
+
+		return _aStarGraph.gameLocation.objects[tile] is Fence fence && fence.isGate.Value;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public Fence FetchGate()
+	{
+		Vector2 tile = new Vector2(x, y);
+		if (!_aStarGraph.gameLocation.objects.ContainsKey(tile))
+			return null;
+
+		if (_aStarGraph.gameLocation.objects[tile] is Fence fence && fence.isGate.Value)
+			return fence;
+
+		return null;
+	}
 }
