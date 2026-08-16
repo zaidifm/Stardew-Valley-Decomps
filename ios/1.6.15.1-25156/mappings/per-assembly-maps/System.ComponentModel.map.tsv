@@ -1,0 +1,2 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.ComponentModel	0	0x06000001	System.IServiceProvider	GetService	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10042f278	0x94000000	0x10042f278		absent	0x10042f278

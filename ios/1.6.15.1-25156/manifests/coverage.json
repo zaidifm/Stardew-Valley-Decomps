@@ -1,0 +1,18 @@
+{
+  "target": "Stardew Valley iOS 16.15.5 / embedded StardewValley 1.6.15.1 build 25156",
+  "mobile_core_high_level_methods": 422,
+  "ios_only_platform_high_level_methods": 410,
+  "total_high_level_methods": 832,
+  "raw_arm64_fallback_methods": 3,
+  "fallbacks": [
+    "060066af__SDV_StardewValley_Mobile_TapToMove_EndNodeBlocked_060066af.asm.txt",
+    "06005e13__SDV_StardewValley_Menus_MobileCustomizer_draw_06005e13.asm.txt",
+    "06005e28__SDV_StardewValley_Menus_MobileFarmChooser_draw_06005e28.asm.txt"
+  ],
+  "notes": [
+    "mobile-core contains 421 bounded pass-2 decompilations plus TapToMove.OnTap recovered in a dedicated long pass",
+    "TapToMove.EndNodeBlocked is raw ARM64 fallback because Ghidra high-level decompilation repeatedly timed out",
+    "MobileCustomizer.draw and MobileFarmChooser.draw are raw ARM64 fallbacks because high-level decompilation timed out/crashed",
+    "iOS-only platform corpus uses second-pass output when available and otherwise the successful first-pass output"
+  ]
+}

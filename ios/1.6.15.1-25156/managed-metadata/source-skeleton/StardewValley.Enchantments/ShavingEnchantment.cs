@@ -1,0 +1,17 @@
+using System.Runtime.CompilerServices;
+
+namespace StardewValley.Enchantments;
+
+public class ShavingEnchantment : AxeEnchantment
+{
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override string GetName()
+	{
+		/*Error: Method body consists only of 'ret', but nothing is being returned. Decompiled assembly might be a reference assembly.*/;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public ShavingEnchantment()
+	{
+	}
+}

@@ -1,0 +1,653 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Microsoft.Xna.Framework;
+using StardewValley.Delegates;
+using StardewValley.Menus;
+using StardewValley.TokenizableStrings;
+
+namespace StardewValley;
+
+public static class ChatCommands
+{
+	public class ChatCommand
+	{
+		public readonly string Name;
+
+		public readonly ChatCommandHandlerDelegate Handler;
+
+		public readonly Func<string, string> HelpDescription;
+
+		public readonly bool IsMainPlayerOnly;
+
+		public readonly bool IsMultiplayerOnly;
+
+		public readonly bool IsCheatsOnly;
+
+		public ChatCommand(string name, Func<string, string> helpDescription, ChatCommandHandlerDelegate handler, bool isMainPlayerOnly, bool isMultiplayerOnly, bool isCheatsOnly)
+		{
+			Name = name;
+			HelpDescription = helpDescription;
+			Handler = handler;
+			IsMainPlayerOnly = isMainPlayerOnly;
+			IsMultiplayerOnly = isMultiplayerOnly;
+			IsCheatsOnly = isCheatsOnly;
+		}
+
+		public bool IsVisible()
+		{
+			if (IsMainPlayerOnly && !Game1.IsMasterGame)
+			{
+				return false;
+			}
+			if (IsMultiplayerOnly && !Game1.IsServer && !Game1.IsMultiplayer)
+			{
+				return false;
+			}
+			if (IsCheatsOnly && !AllowCheats)
+			{
+				return false;
+			}
+			return true;
+		}
+	}
+
+	public static class DefaultHandlers
+	{
+		public static void Ban(string[] command, ChatBox chat)
+		{
+			int matchingIndex = 0;
+			Farmer farmer = chat.findMatchingFarmer(command, ref matchingIndex, allowMatchingByUserName: true);
+			if (farmer != null)
+			{
+				string text = Game1.server.ban(farmer.UniqueMultiplayerID);
+				if (text == null || !Game1.bannedUsers.TryGetValue(text, out var value))
+				{
+					chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Ban_Failed"));
+					return;
+				}
+				string sub = ((value != null) ? (value + " (" + text + ")") : text);
+				chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Ban_Done", sub));
+			}
+			else
+			{
+				chat.addErrorMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Error_NoSuchOnlinePlayer"));
+				chat.listPlayers(otherPlayersOnly: true);
+			}
+		}
+
+		public static void Cheat(string[] command, ChatBox chat)
+		{
+			chat.addNiceTryEasterEggMessage();
+		}
+
+		public static void Clear(string[] command, ChatBox chat)
+		{
+			chat.messages.Clear();
+		}
+
+		public static void Color(string[] command, ChatBox chat)
+		{
+			if (command.Length > 1)
+			{
+				Game1.player.defaultChatColor = command[1];
+			}
+		}
+
+		public static void ConcernedApe(string[] command, ChatBox chat)
+		{
+			if (Game1.player.mailReceived.Add("apeChat1"))
+			{
+				chat.addMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_ConcernedApe_1"), new Color(104, 214, 255));
+			}
+			else
+			{
+				chat.addMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_ConcernedApe_2"), Microsoft.Xna.Framework.Color.Yellow);
+			}
+		}
+
+		public static void ColorList(string[] command, ChatBox chat)
+		{
+			chat.addMessage("white, red, blue, green, jade, yellowgreen, pink, purple, yellow, orange, brown, gray, cream, salmon, peach, aqua, jungle, plum", Microsoft.Xna.Framework.Color.White);
+		}
+
+		public static void Debug(string[] command, ChatBox chat)
+		{
+			string text = ArgUtility.UnsplitQuoteAware(command, ' ', 1);
+			if (string.IsNullOrWhiteSpace(text))
+			{
+				chat.addErrorMessage("invalid usage: requires a debug command to run");
+			}
+			else
+			{
+				chat.cheat(text, isDebug: true);
+			}
+		}
+
+		public static void Emote(string[] command, ChatBox chat)
+		{
+			if (!Game1.player.CanEmote())
+			{
+				return;
+			}
+			bool flag = false;
+			if (command.Length > 1)
+			{
+				string text = command[1].ToLowerInvariant();
+				text = text.Substring(0, Math.Min(text.Length, 16));
+				for (int i = 0; i < Farmer.EMOTES.Length; i++)
+				{
+					if (text == Farmer.EMOTES[i].emoteString)
+					{
+						flag = true;
+						break;
+					}
+				}
+				if (flag)
+				{
+					Game1.player.netDoEmote(text);
+				}
+			}
+			if (flag)
+			{
+				return;
+			}
+			string text2 = "";
+			for (int j = 0; j < Farmer.EMOTES.Length; j++)
+			{
+				if (!Farmer.EMOTES[j].hidden)
+				{
+					text2 += Farmer.EMOTES[j].emoteString;
+					if (j < Farmer.EMOTES.Length - 1)
+					{
+						text2 += ", ";
+					}
+				}
+			}
+			chat.addMessage(text2, Microsoft.Xna.Framework.Color.White);
+		}
+
+		public static void Help(string[] command, ChatBox chat)
+		{
+			string text = ArgUtility.Get(command, 1);
+			if (text != null)
+			{
+				if (Handlers.TryGetValue(text, out var value))
+				{
+					string text2 = value.HelpDescription?.Invoke(value.Name);
+					if (text2 != null)
+					{
+						chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Help_CommandDescription", text2));
+						return;
+					}
+				}
+				chat.addErrorMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Help_NoSuchCommand", text));
+			}
+			List<string> list = new List<string>();
+			List<string> list2 = new List<string>();
+			foreach (ChatCommand value2 in Handlers.Values)
+			{
+				if (value2.IsVisible() && value2.HelpDescription?.Invoke(value2.Name) != null)
+				{
+					if (value2.IsMultiplayerOnly)
+					{
+						list2.Add(value2.Name);
+					}
+					else
+					{
+						list.Add(value2.Name);
+					}
+				}
+			}
+			chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Help_Intro"));
+			chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Help_CommandList", string.Join(", ", list)));
+			if (list2.Count > 0)
+			{
+				chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Help_MultiplayerCommandList", string.Join(", ", list2)));
+			}
+		}
+
+		public static void Kick(string[] command, ChatBox chat)
+		{
+			int matchingIndex = 0;
+			Farmer farmer = chat.findMatchingFarmer(command, ref matchingIndex, allowMatchingByUserName: true);
+			if (farmer != null)
+			{
+				Game1.server.kick(farmer.UniqueMultiplayerID);
+				return;
+			}
+			chat.addErrorMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Error_NoSuchOnlinePlayer"));
+			chat.listPlayers(otherPlayersOnly: true);
+		}
+
+		public static void List(string[] command, ChatBox chat)
+		{
+			chat.listPlayers();
+		}
+
+		public static void MapScreenshot(string[] command, ChatBox chat)
+		{
+			if (Game1.game1.CanTakeScreenshots())
+			{
+				int result = 25;
+				string screenshot_name = null;
+				if (command.Length > 2 && !int.TryParse(command[2], out result))
+				{
+					result = 25;
+				}
+				if (command.Length > 1)
+				{
+					screenshot_name = command[1];
+				}
+				if (result <= 10)
+				{
+					result = 10;
+				}
+				string text = Game1.game1.takeMapScreenshot((float)result / 100f, screenshot_name, null);
+				if (text != null)
+				{
+					chat.addMessage("Wrote '" + text + "'.", Microsoft.Xna.Framework.Color.White);
+				}
+				else
+				{
+					chat.addMessage("Failed.", Microsoft.Xna.Framework.Color.Red);
+				}
+			}
+		}
+
+		public static void Message(string[] command, ChatBox chat)
+		{
+			chat.sendPrivateMessage(command);
+		}
+
+		public static void Money(string[] command, ChatBox chat)
+		{
+			GetDebugPassThrough("Money")(command, chat);
+		}
+
+		public static void MoveBuildingPermission(string[] command, ChatBox chat)
+		{
+			if (command.Length <= 1)
+			{
+				chat.addMessage("off, owned, on", Microsoft.Xna.Framework.Color.White);
+				return;
+			}
+			switch (command[1].ToLowerInvariant())
+			{
+			case "off":
+				Game1.player.team.farmhandsCanMoveBuildings.Value = FarmerTeam.RemoteBuildingPermissions.Off;
+				break;
+			case "owned":
+				Game1.player.team.farmhandsCanMoveBuildings.Value = FarmerTeam.RemoteBuildingPermissions.OwnedBuildings;
+				break;
+			case "on":
+				Game1.player.team.farmhandsCanMoveBuildings.Value = FarmerTeam.RemoteBuildingPermissions.On;
+				break;
+			}
+			chat.addMessage($"moveBuildingPermission {Game1.player.team.farmhandsCanMoveBuildings.Value}", Microsoft.Xna.Framework.Color.White);
+		}
+
+		public static void Pause(string[] command, ChatBox chat)
+		{
+			if (!Game1.IsMasterGame)
+			{
+				chat.addErrorMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Error_HostOnly"));
+				return;
+			}
+			Game1.netWorldState.Value.IsPaused = !Game1.netWorldState.Value.IsPaused;
+			chat.globalInfoMessage(Game1.netWorldState.Value.IsPaused ? "Paused" : "Resumed");
+		}
+
+		public static void Ping(string[] command, ChatBox chat)
+		{
+			if (!Game1.IsMultiplayer)
+			{
+				return;
+			}
+			StringBuilder stringBuilder = new StringBuilder();
+			if (Game1.IsServer)
+			{
+				foreach (KeyValuePair<long, Farmer> otherFarmer in Game1.otherFarmers)
+				{
+					stringBuilder.Clear();
+					stringBuilder.AppendFormat("Ping({0}) {1}ms ", otherFarmer.Value.Name, (int)Game1.server.getPingToClient(otherFarmer.Key));
+					chat.addMessage(stringBuilder.ToString(), Microsoft.Xna.Framework.Color.White);
+				}
+				return;
+			}
+			stringBuilder.AppendFormat("Ping: {0}ms", (int)Game1.client.GetPingToHost());
+			chat.addMessage(stringBuilder.ToString(), Microsoft.Xna.Framework.Color.White);
+		}
+
+		public static void PrintDiag(string[] command, ChatBox chat)
+		{
+			StringBuilder stringBuilder = new StringBuilder();
+			Program.AppendDiagnostics(stringBuilder);
+			chat.addInfoMessage(stringBuilder.ToString());
+			Game1.log.Info(stringBuilder.ToString());
+		}
+
+		public static void Qi(string[] command, ChatBox chat)
+		{
+			if (Game1.player.mailReceived.Add("QiChat1"))
+			{
+				chat.addMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Qi_1"), new Color(100, 50, 255));
+			}
+			else if (Game1.player.mailReceived.Add("QiChat2"))
+			{
+				chat.addMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Qi_2"), new Color(100, 50, 255));
+				chat.addMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Qi_3"), Microsoft.Xna.Framework.Color.Yellow);
+			}
+		}
+
+		public static void RecountNuts(string[] command, ChatBox chat)
+		{
+			Game1.game1.RecountWalnuts();
+		}
+
+		public static void Reply(string[] command, ChatBox chat)
+		{
+			chat.replyPrivateMessage(command);
+		}
+
+		public static void Resume(string[] command, ChatBox chat)
+		{
+			if (!Game1.IsMasterGame)
+			{
+				chat.addErrorMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Error_HostOnly"));
+			}
+			else if (Game1.netWorldState.Value.IsPaused)
+			{
+				Game1.netWorldState.Value.IsPaused = false;
+				chat.globalInfoMessage("Resumed");
+			}
+		}
+
+		public static void SleepAnnounceMode(string[] command, ChatBox chat)
+		{
+			if (command.Length > 1)
+			{
+				switch (command[1].ToLowerInvariant())
+				{
+				case "all":
+					Game1.player.team.sleepAnnounceMode.Value = FarmerTeam.SleepAnnounceModes.All;
+					break;
+				case "first":
+					Game1.player.team.sleepAnnounceMode.Value = FarmerTeam.SleepAnnounceModes.First;
+					break;
+				case "off":
+					Game1.player.team.sleepAnnounceMode.Value = FarmerTeam.SleepAnnounceModes.Off;
+					break;
+				}
+				Game1.multiplayer.globalChatInfoMessage("SleepAnnounceModeSet", TokenStringBuilder.LocalizedText($"Strings\\UI:ChatCommands_SleepAnnounceMode_{Game1.player.team.sleepAnnounceMode.Value}"));
+			}
+		}
+
+		public static void Unban(string[] command, ChatBox chat)
+		{
+			if (Game1.bannedUsers.Count == 0)
+			{
+				chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Unban_NoPlayersBanned"));
+				return;
+			}
+			bool flag = false;
+			if (command.Length > 1)
+			{
+				string text = command[1];
+				string text2 = null;
+				if (Game1.bannedUsers.TryGetValue(text, out var value))
+				{
+					text2 = text;
+				}
+				else
+				{
+					foreach (KeyValuePair<string, string> bannedUser in Game1.bannedUsers)
+					{
+						if (bannedUser.Value == text)
+						{
+							text2 = bannedUser.Key;
+							value = bannedUser.Value;
+							break;
+						}
+					}
+				}
+				if (text2 != null)
+				{
+					string sub = ((value != null) ? (value + " (" + text2 + ")") : text2);
+					chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Unban_Done", sub));
+					Game1.bannedUsers.Remove(text2);
+				}
+				else
+				{
+					flag = true;
+					chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Unban_PlayerNotFound"));
+				}
+			}
+			else
+			{
+				flag = true;
+			}
+			if (!flag)
+			{
+				return;
+			}
+			chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Unban_PlayerList"));
+			foreach (KeyValuePair<string, string> bannedUser2 in Game1.bannedUsers)
+			{
+				string message = "- " + bannedUser2.Key;
+				if (bannedUser2.Value != null)
+				{
+					message = $"- {bannedUser2.Value} ({bannedUser2.Key})";
+				}
+				chat.addInfoMessage(message);
+			}
+		}
+
+		public static void UnbanAll(string[] command, ChatBox chat)
+		{
+			if (Game1.bannedUsers.Count == 0)
+			{
+				chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Unban_NoPlayersBanned"));
+				return;
+			}
+			chat.addInfoMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_UnbanAll_Done"));
+			Game1.bannedUsers.Clear();
+		}
+
+		public static void UnlinkPlayer(string[] command, ChatBox chat)
+		{
+			int matchingIndex = 0;
+			Farmer farmer = chat.findMatchingFarmer(command, ref matchingIndex, allowMatchingByUserName: true, onlineOnly: false);
+			if (farmer != null)
+			{
+				farmer.userID.Value = string.Empty;
+				Game1.log.Info($"Unlinked {(farmer.isActive() ? "active" : "inactive")} player {farmer.uniqueMultiplayerID} ('{farmer.Name}').");
+			}
+			else
+			{
+				chat.addErrorMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Error_NoSuchPlayer"));
+				chat.listPlayers(otherPlayersOnly: true, onlineOnly: false);
+			}
+		}
+	}
+
+	private static readonly Dictionary<string, ChatCommand> Handlers;
+
+	private static readonly Dictionary<string, string> Aliases;
+
+	public static bool AllowCheats
+	{
+		get
+		{
+			if (!Program.enableCheats)
+			{
+				return Game1.player?.team?.allowChatCheats.Value == true;
+			}
+			return true;
+		}
+	}
+
+	static ChatCommands()
+	{
+		Handlers = new Dictionary<string, ChatCommand>(StringComparer.OrdinalIgnoreCase);
+		Aliases = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+		Register("qi", DefaultHandlers.Qi, null);
+		Register("concernedApe", DefaultHandlers.ConcernedApe, null, new string[2] { "ape", "ca" });
+		Register("cheat", DefaultHandlers.Cheat, null, new string[5] { "showMeTheMoney", "imACheat", "cheats", "freeGold", "rosebud" });
+		Register("money", DefaultHandlers.Money, null, null, mainOnly: false, multiplayerOnly: false, cheatsOnly: true);
+		Register("help", DefaultHandlers.Help, null, new string[1] { "h" });
+		Register("clear", DefaultHandlers.Clear, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_Clear_Help", name));
+		Register("list", DefaultHandlers.List, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_List_Help", name), new string[2] { "users", "players" });
+		Register("color", DefaultHandlers.Color, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_Color_Help", name));
+		Register("color-list", DefaultHandlers.ColorList, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_ColorList_Help", name));
+		Register("emote", DefaultHandlers.Emote, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_Emote_Help", name), new string[1] { "e" });
+		Register("mapScreenshot", DefaultHandlers.MapScreenshot, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_MapScreenshot_Help", name));
+		Register("pause", DefaultHandlers.Pause, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_Pause_Help", name));
+		Register("resume", DefaultHandlers.Resume, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_Resume_Help", name));
+		Register("message", DefaultHandlers.Message, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_Message_Help", name), new string[3] { "dm", "pm", "whisper" }, mainOnly: false, multiplayerOnly: true);
+		Register("reply", DefaultHandlers.Reply, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_Reply_Help", name), new string[1] { "r" }, mainOnly: false, multiplayerOnly: true);
+		Register("ping", DefaultHandlers.Ping, null, null, mainOnly: false, multiplayerOnly: true);
+		Register("kick", DefaultHandlers.Kick, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_Kick_Help", name), null, mainOnly: true, multiplayerOnly: true);
+		Register("ban", DefaultHandlers.Ban, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_Ban_Help", name), null, mainOnly: true, multiplayerOnly: true);
+		Register("unban", DefaultHandlers.Unban, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_Unban_Help", name), null, mainOnly: true, multiplayerOnly: true);
+		Register("unbanAll", DefaultHandlers.UnbanAll, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_UnbanAll_Help", name), null, mainOnly: true, multiplayerOnly: true);
+		Register("moveBuildingPermission", DefaultHandlers.MoveBuildingPermission, null, new string[2] { "mbp", "movePermission" }, mainOnly: true, multiplayerOnly: true);
+		Register("sleepAnnounceMode", DefaultHandlers.SleepAnnounceMode, null, null, mainOnly: true, multiplayerOnly: true);
+		Register("unlinkPlayer", DefaultHandlers.UnlinkPlayer, (string name) => Game1.content.LoadString("Strings\\UI:ChatCommands_UnlinkPlayer_Help", name), null, mainOnly: true, multiplayerOnly: true);
+		Register("debug", DefaultHandlers.Debug, null, null, mainOnly: false, multiplayerOnly: false, cheatsOnly: true);
+		Register("logFile", GetDebugPassThrough("LogFile"), null);
+		Register("printDiag", DefaultHandlers.PrintDiag, null);
+		Register("recountNuts", DefaultHandlers.RecountNuts, null);
+		Register("sdlVersion", GetDebugPassThrough("SdlVersion"), null, new string[1] { "sdlv" });
+	}
+
+	public static bool Exists(string commandName)
+	{
+		if (commandName == null)
+		{
+			return false;
+		}
+		if (!Handlers.ContainsKey(commandName))
+		{
+			return Aliases.ContainsKey(commandName);
+		}
+		return true;
+	}
+
+	public static void Register(string commandName, ChatCommandHandlerDelegate handler, Func<string, string> helpDescription, string[] aliases = null, bool mainOnly = false, bool multiplayerOnly = false, bool cheatsOnly = false)
+	{
+		commandName = commandName?.Trim();
+		if (string.IsNullOrWhiteSpace(commandName))
+		{
+			throw new ArgumentException("The chat command name can't be null or empty.", "commandName");
+		}
+		if (Handlers.ContainsKey(commandName))
+		{
+			throw new InvalidOperationException("The chat command name '" + commandName + "' is already registered.");
+		}
+		if (Aliases.TryGetValue(commandName, out var value))
+		{
+			throw new InvalidOperationException($"The chat command name '{commandName}' is already registered as an alias of '{value}'.");
+		}
+		if (handler == null)
+		{
+			throw new ArgumentNullException("handler");
+		}
+		Handlers[commandName] = new ChatCommand(commandName, helpDescription, handler, mainOnly, multiplayerOnly, cheatsOnly);
+		if (aliases != null && aliases.Length != 0)
+		{
+			for (int i = 0; i < aliases.Length; i++)
+			{
+				RegisterAlias(aliases[i], commandName);
+			}
+		}
+	}
+
+	public static void RegisterAlias(string alias, string commandName)
+	{
+		alias = alias?.Trim();
+		if (string.IsNullOrWhiteSpace(alias))
+		{
+			throw new ArgumentException("The alias can't be null or empty.", "alias");
+		}
+		if (Handlers.ContainsKey(alias))
+		{
+			throw new InvalidOperationException("The alias '" + alias + "' is already registered as a chat command name.");
+		}
+		if (Aliases.TryGetValue(alias, out var value))
+		{
+			throw new InvalidOperationException($"The alias '{alias}' is already registered for '{value}'.");
+		}
+		if (string.IsNullOrWhiteSpace(commandName))
+		{
+			throw new ArgumentException("The chat command name can't be null or empty.", "alias");
+		}
+		if (!Handlers.ContainsKey(commandName))
+		{
+			throw new InvalidOperationException($"The alias '{alias}' can't be registered for '{commandName}' because there's no chat command with that name.");
+		}
+		Aliases[alias] = commandName;
+	}
+
+	public static bool TryHandle(string[] command, ChatBox chat)
+	{
+		string text = ArgUtility.Get(command, 0);
+		if (string.IsNullOrWhiteSpace(text))
+		{
+			return false;
+		}
+		if (Aliases.TryGetValue(text, out var value))
+		{
+			text = value;
+		}
+		if (!Handlers.TryGetValue(text, out var value2))
+		{
+			return false;
+		}
+		if (value2.IsMainPlayerOnly && !Game1.IsMasterGame)
+		{
+			chat.addErrorMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Error_HostOnly"));
+			return true;
+		}
+		if (value2.IsMultiplayerOnly && !Game1.IsServer && !Game1.IsMultiplayer)
+		{
+			chat.addErrorMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Error_MultiplayerOnly"));
+			return true;
+		}
+		if (value2.IsCheatsOnly && !AllowCheats)
+		{
+			switch (value2.Name)
+			{
+			case "cheat":
+			case "debug":
+			case "money":
+				chat.addNiceTryEasterEggMessage();
+				return true;
+			default:
+				chat.addErrorMessage(Game1.content.LoadString("Strings\\UI:ChatCommands_Error_CheatsOnly"));
+				return true;
+			}
+		}
+		try
+		{
+			value2.Handler(command, chat);
+			return true;
+		}
+		catch (Exception exception)
+		{
+			Game1.log.Error("Error running chat command '" + string.Join(" ", command) + "'.", exception);
+			return false;
+		}
+	}
+
+	public static ChatCommandHandlerDelegate GetDebugPassThrough(string debugCommandName)
+	{
+		return Handle;
+		void Handle(string[] command, ChatBox chat)
+		{
+			command[0] = debugCommandName;
+			string command2 = ArgUtility.UnsplitQuoteAware(command, ' ');
+			chat.cheat(command2);
+		}
+	}
+}

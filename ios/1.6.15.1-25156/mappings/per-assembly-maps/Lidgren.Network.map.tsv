@@ -1,0 +1,735 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+Lidgren.Network	0	0x06000001	Lidgren.Network.INetEncryption	Encrypt	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003bd370	0x94000000	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	1	0x06000002	Lidgren.Network.INetEncryption	Decrypt	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003bd374	0x97ffffff	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	2	0x06000003	Lidgren.Network.NetAESEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd378	0x947c4f64	0x1022d1108	0x1022d1108	mapped	0x1022d1108
+Lidgren.Network	3	0x06000004	Lidgren.Network.NetAESEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd37c	0x947c4f85	0x1022d1190	0x1022d1190	mapped	0x1022d1190
+Lidgren.Network	4	0x06000005	Lidgren.Network.NetAESEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd380	0x947c4fac	0x1022d1230	0x1022d1230	mapped	0x1022d1230
+Lidgren.Network	5	0x06000006	Lidgren.Network.NetBlockEncryptionBase	get_BlockSize	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x1003bd384	0x97fffffb	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	6	0x06000007	Lidgren.Network.NetBlockEncryptionBase	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd388	0x947c4fdf	0x1022d1304	0x1022d1304	mapped	0x1022d1304
+Lidgren.Network	7	0x06000008	Lidgren.Network.NetBlockEncryptionBase	Encrypt	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd38c	0x947c500d	0x1022d13c0	0x1022d13c0	mapped	0x1022d13c0
+Lidgren.Network	8	0x06000009	Lidgren.Network.NetBlockEncryptionBase	Decrypt	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd390	0x947c5078	0x1022d1570	0x1022d1570	mapped	0x1022d1570
+Lidgren.Network	9	0x0600000a	Lidgren.Network.NetBlockEncryptionBase	EncryptBlock	0x0	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003bd394	0x97fffff7	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	10	0x0600000b	Lidgren.Network.NetBlockEncryptionBase	DecryptBlock	0x0	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003bd398	0x97fffff6	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	11	0x0600000c	Lidgren.Network.NetCryptoProviderBase	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd39c	0x947c50e6	0x1022d1734	0x1022d1734	mapped	0x1022d1734
+Lidgren.Network	12	0x0600000d	Lidgren.Network.NetCryptoProviderBase	SetKey	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd3a0	0x947c5114	0x1022d17f0	0x1022d17f0	mapped	0x1022d17f0
+Lidgren.Network	13	0x0600000e	Lidgren.Network.NetCryptoProviderBase	Encrypt	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd3a4	0x947c51bd	0x1022d1a98	0x1022d1a98	mapped	0x1022d1a98
+Lidgren.Network	14	0x0600000f	Lidgren.Network.NetCryptoProviderBase	Decrypt	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd3a8	0x947c5249	0x1022d1ccc	0x1022d1ccc	mapped	0x1022d1ccc
+Lidgren.Network	15	0x06000010	Lidgren.Network.NetCryptoProviderEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3ac	0x947c52dc	0x1022d1f1c	0x1022d1f1c	mapped	0x1022d1f1c
+Lidgren.Network	16	0x06000011	Lidgren.Network.NetCryptoProviderEncryption	GetEncryptStream	0x0	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003bd3b0	0x97fffff0	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	17	0x06000012	Lidgren.Network.NetCryptoProviderEncryption	GetDecryptStream	0x0	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003bd3b4	0x97ffffef	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	18	0x06000013	Lidgren.Network.NetCryptoProviderEncryption	Encrypt	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd3b8	0x947c52e9	0x1022d1f5c	0x1022d1f5c	mapped	0x1022d1f5c
+Lidgren.Network	19	0x06000014	Lidgren.Network.NetCryptoProviderEncryption	Decrypt	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd3bc	0x947c536d	0x1022d2170	0x1022d2170	mapped	0x1022d2170
+Lidgren.Network	20	0x06000015	Lidgren.Network.NetDESEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3c0	0x947c53ea	0x1022d2368	0x1022d2368	mapped	0x1022d2368
+Lidgren.Network	21	0x06000016	Lidgren.Network.NetDESEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3c4	0x947c540b	0x1022d23f0	0x1022d23f0	mapped	0x1022d23f0
+Lidgren.Network	22	0x06000017	Lidgren.Network.NetDESEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3c8	0x947c5432	0x1022d2490	0x1022d2490	mapped	0x1022d2490
+Lidgren.Network	23	0x06000018	Lidgren.Network.NetEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3cc	0x947c5466	0x1022d2564	0x1022d2564	mapped	0x1022d2564
+Lidgren.Network	24	0x06000019	Lidgren.Network.NetEncryption	SetKey	0x2050	NoInlining	Public, HideBySig	0x1003bd3d0	0x947c549a	0x1022d2638	0x1022d2638	mapped	0x1022d2638
+Lidgren.Network	25	0x0600001a	Lidgren.Network.NetEncryption	SetKey	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003bd3d4	0x97ffffe7	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	26	0x0600001b	Lidgren.Network.NetEncryption	Encrypt	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003bd3d8	0x97ffffe6	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	27	0x0600001c	Lidgren.Network.NetEncryption	Decrypt	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003bd3dc	0x97ffffe5	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	28	0x0600001d	Lidgren.Network.NetRC2Encryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3e0	0x947c54cf	0x1022d271c	0x1022d271c	mapped	0x1022d271c
+Lidgren.Network	29	0x0600001e	Lidgren.Network.NetRC2Encryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3e4	0x947c54f0	0x1022d27a4	0x1022d27a4	mapped	0x1022d27a4
+Lidgren.Network	30	0x0600001f	Lidgren.Network.NetRC2Encryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3e8	0x947c5517	0x1022d2844	0x1022d2844	mapped	0x1022d2844
+Lidgren.Network	31	0x06000020	Lidgren.Network.NetTripleDESEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3ec	0x947c554b	0x1022d2918	0x1022d2918	mapped	0x1022d2918
+Lidgren.Network	32	0x06000021	Lidgren.Network.NetTripleDESEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3f0	0x947c556c	0x1022d29a0	0x1022d29a0	mapped	0x1022d29a0
+Lidgren.Network	33	0x06000022	Lidgren.Network.NetTripleDESEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3f4	0x947c5593	0x1022d2a40	0x1022d2a40	mapped	0x1022d2a40
+Lidgren.Network	34	0x06000023	Lidgren.Network.NetXorEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd3f8	0x947c55c7	0x1022d2b14	0x1022d2b14	mapped	0x1022d2b14
+Lidgren.Network	35	0x06000024	Lidgren.Network.NetXorEncryption	SetKey	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd3fc	0x947c55e6	0x1022d2b94	0x1022d2b94	mapped	0x1022d2b94
+Lidgren.Network	36	0x06000025	Lidgren.Network.NetXorEncryption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd400	0x947c5618	0x1022d2c60	0x1022d2c60	mapped	0x1022d2c60
+Lidgren.Network	37	0x06000026	Lidgren.Network.NetXorEncryption	Encrypt	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd404	0x947c5652	0x1022d2d4c	0x1022d2d4c	mapped	0x1022d2d4c
+Lidgren.Network	38	0x06000027	Lidgren.Network.NetXorEncryption	Decrypt	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd408	0x947c56a1	0x1022d2e8c	0x1022d2e8c	mapped	0x1022d2e8c
+Lidgren.Network	39	0x06000028	Lidgren.Network.NetXtea	get_BlockSize	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x1003bd40c	0x947c56f0	0x1022d2fcc	0x1022d2fcc	mapped	0x1022d2fcc
+Lidgren.Network	40	0x06000029	Lidgren.Network.NetXtea	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd410	0x947c56f1	0x1022d2fd4	0x1022d2fd4	mapped	0x1022d2fd4
+Lidgren.Network	41	0x0600002a	Lidgren.Network.NetXtea	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd414	0x947c578d	0x1022d3248	0x1022d3248	mapped	0x1022d3248
+Lidgren.Network	42	0x0600002b	Lidgren.Network.NetXtea	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd418	0x947c57a1	0x1022d329c	0x1022d329c	mapped	0x1022d329c
+Lidgren.Network	43	0x0600002c	Lidgren.Network.NetXtea	SetKey	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd41c	0x947c57d3	0x1022d3368	0x1022d3368	mapped	0x1022d3368
+Lidgren.Network	44	0x0600002d	Lidgren.Network.NetXtea	EncryptBlock	0x2050	NoInlining	Family, Virtual, HideBySig	0x1003bd420	0x947c57f4	0x1022d33f0	0x1022d33f0	mapped	0x1022d33f0
+Lidgren.Network	45	0x0600002e	Lidgren.Network.NetXtea	DecryptBlock	0x2050	NoInlining	Family, Virtual, HideBySig	0x1003bd424	0x947c5863	0x1022d35b0	0x1022d35b0	mapped	0x1022d35b0
+Lidgren.Network	46	0x0600002f	Lidgren.Network.NetXtea	BytesToUInt	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd428	0x947c58d2	0x1022d3770	0x1022d3770	mapped	0x1022d3770
+Lidgren.Network	47	0x06000030	Lidgren.Network.NetXtea	UIntToBytes	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd42c	0x947c58fc	0x1022d381c	0x1022d381c	mapped	0x1022d381c
+Lidgren.Network	48	0x06000031	Lidgren.Network.NamespaceDoc	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd430	0x947c5928	0x1022d38d0	0x1022d38d0	mapped	0x1022d38d0
+Lidgren.Network	49	0x06000032	Lidgren.Network.NetBigInteger	GetByteLength	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd434	0x947c5928	0x1022d38d4	0x1022d38d4	mapped	0x1022d38d4
+Lidgren.Network	50	0x06000033	Lidgren.Network.NetBigInteger	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x1003bd438	0x947c593b	0x1022d3924	0x1022d3924	mapped	0x1022d3924
+Lidgren.Network	51	0x06000034	Lidgren.Network.NetBigInteger	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x1003bd43c	0x947c5952	0x1022d3984	0x1022d3984	mapped	0x1022d3984
+Lidgren.Network	52	0x06000035	Lidgren.Network.NetBigInteger	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd440	0x947c59bc	0x1022d3b30	0x1022d3b30	mapped	0x1022d3b30
+Lidgren.Network	53	0x06000036	Lidgren.Network.NetBigInteger	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd444	0x947c59d7	0x1022d3ba0	0x1022d3ba0	mapped	0x1022d3ba0
+Lidgren.Network	54	0x06000037	Lidgren.Network.NetBigInteger	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd448	0x947c5af6	0x1022d4020	0x1022d4020	mapped	0x1022d4020
+Lidgren.Network	55	0x06000038	Lidgren.Network.NetBigInteger	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd44c	0x947c5b18	0x1022d40ac	0x1022d40ac	mapped	0x1022d40ac
+Lidgren.Network	56	0x06000039	Lidgren.Network.NetBigInteger	MakeMagnitude	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd450	0x947c5bd8	0x1022d43b0	0x1022d43b0	mapped	0x1022d43b0
+Lidgren.Network	57	0x0600003a	Lidgren.Network.NetBigInteger	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd454	0x947c5c5c	0x1022d45c4	0x1022d45c4	mapped	0x1022d45c4
+Lidgren.Network	58	0x0600003b	Lidgren.Network.NetBigInteger	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd458	0x947c5c82	0x1022d4660	0x1022d4660	mapped	0x1022d4660
+Lidgren.Network	59	0x0600003c	Lidgren.Network.NetBigInteger	Abs	0x2050	NoInlining	Public, HideBySig	0x1003bd45c	0x947c5cd6	0x1022d47b4	0x1022d47b4	mapped	0x1022d47b4
+Lidgren.Network	60	0x0600003d	Lidgren.Network.NetBigInteger	AddMagnitudes	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd460	0x947c5ced	0x1022d4814	0x1022d4814	mapped	0x1022d4814
+Lidgren.Network	61	0x0600003e	Lidgren.Network.NetBigInteger	Add	0x2050	NoInlining	Public, HideBySig	0x1003bd464	0x947c5d43	0x1022d4970	0x1022d4970	mapped	0x1022d4970
+Lidgren.Network	62	0x0600003f	Lidgren.Network.NetBigInteger	AddToMagnitude	0x2050	NoInlining	Private, HideBySig	0x1003bd468	0x947c5d71	0x1022d4a2c	0x1022d4a2c	mapped	0x1022d4a2c
+Lidgren.Network	63	0x06000040	Lidgren.Network.NetBigInteger	And	0x2050	NoInlining	Public, HideBySig	0x1003bd46c	0x947c5deb	0x1022d4c18	0x1022d4c18	mapped	0x1022d4c18
+Lidgren.Network	64	0x06000041	Lidgren.Network.NetBigInteger	calcBitLength	0x2050	NoInlining	Private, HideBySig	0x1003bd470	0x947c5ea6	0x1022d4f08	0x1022d4f08	mapped	0x1022d4f08
+Lidgren.Network	65	0x06000042	Lidgren.Network.NetBigInteger	get_BitLength	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd474	0x947c5f08	0x1022d5094	0x1022d5094	mapped	0x1022d5094
+Lidgren.Network	66	0x06000043	Lidgren.Network.NetBigInteger	BitLen	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd478	0x947c5f25	0x1022d510c	0x1022d510c	mapped	0x1022d510c
+Lidgren.Network	67	0x06000044	Lidgren.Network.NetBigInteger	QuickPow2Check	0x2050	NoInlining	Private, HideBySig	0x1003bd47c	0x947c5f95	0x1022d52d0	0x1022d52d0	mapped	0x1022d52d0
+Lidgren.Network	68	0x06000045	Lidgren.Network.NetBigInteger	CompareTo	0x2050	NoInlining	Public, HideBySig	0x1003bd480	0x947c5fa5	0x1022d5314	0x1022d5314	mapped	0x1022d5314
+Lidgren.Network	69	0x06000046	Lidgren.Network.NetBigInteger	CompareTo	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd484	0x947c5fce	0x1022d53bc	0x1022d53bc	mapped	0x1022d53bc
+Lidgren.Network	70	0x06000047	Lidgren.Network.NetBigInteger	CompareNoLeadingZeroes	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd488	0x947c6025	0x1022d551c	0x1022d551c	mapped	0x1022d551c
+Lidgren.Network	71	0x06000048	Lidgren.Network.NetBigInteger	CompareTo	0x2050	NoInlining	Public, HideBySig	0x1003bd48c	0x947c607f	0x1022d5688	0x1022d5688	mapped	0x1022d5688
+Lidgren.Network	72	0x06000049	Lidgren.Network.NetBigInteger	Divide	0x2050	NoInlining	Private, HideBySig	0x1003bd490	0x947c60a9	0x1022d5734	0x1022d5734	mapped	0x1022d5734
+Lidgren.Network	73	0x0600004a	Lidgren.Network.NetBigInteger	Divide	0x2050	NoInlining	Public, HideBySig	0x1003bd494	0x947c61f1	0x1022d5c58	0x1022d5c58	mapped	0x1022d5c58
+Lidgren.Network	74	0x0600004b	Lidgren.Network.NetBigInteger	DivideAndRemainder	0x2050	NoInlining	Public, HideBySig	0x1003bd498	0x947c628b	0x1022d5ec4	0x1022d5ec4	mapped	0x1022d5ec4
+Lidgren.Network	75	0x0600004c	Lidgren.Network.NetBigInteger	Equals	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd49c	0x947c635d	0x1022d6210	0x1022d6210	mapped	0x1022d6210
+Lidgren.Network	76	0x0600004d	Lidgren.Network.NetBigInteger	Gcd	0x2050	NoInlining	Public, HideBySig	0x1003bd4a0	0x947c63b5	0x1022d6374	0x1022d6374	mapped	0x1022d6374
+Lidgren.Network	77	0x0600004e	Lidgren.Network.NetBigInteger	GetHashCode	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd4a4	0x947c63eb	0x1022d6450	0x1022d6450	mapped	0x1022d6450
+Lidgren.Network	78	0x0600004f	Lidgren.Network.NetBigInteger	Inc	0x2050	NoInlining	Private, HideBySig	0x1003bd4a8	0x947c6404	0x1022d64b8	0x1022d64b8	mapped	0x1022d64b8
+Lidgren.Network	79	0x06000050	Lidgren.Network.NetBigInteger	get_IntValue	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd4ac	0x947c6444	0x1022d65bc	0x1022d65bc	mapped	0x1022d65bc
+Lidgren.Network	80	0x06000051	Lidgren.Network.NetBigInteger	Max	0x2050	NoInlining	Public, HideBySig	0x1003bd4b0	0x947c646e	0x1022d6668	0x1022d6668	mapped	0x1022d6668
+Lidgren.Network	81	0x06000052	Lidgren.Network.NetBigInteger	Min	0x2050	NoInlining	Public, HideBySig	0x1003bd4b4	0x947c647f	0x1022d66b0	0x1022d66b0	mapped	0x1022d66b0
+Lidgren.Network	82	0x06000053	Lidgren.Network.NetBigInteger	Mod	0x2050	NoInlining	Public, HideBySig	0x1003bd4b8	0x947c6490	0x1022d66f8	0x1022d66f8	mapped	0x1022d66f8
+Lidgren.Network	83	0x06000054	Lidgren.Network.NetBigInteger	ModInverse	0x2050	NoInlining	Public, HideBySig	0x1003bd4bc	0x947c64ce	0x1022d67f4	0x1022d67f4	mapped	0x1022d67f4
+Lidgren.Network	84	0x06000055	Lidgren.Network.NetBigInteger	ExtEuclid	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd4c0	0x947c6523	0x1022d694c	0x1022d694c	mapped	0x1022d694c
+Lidgren.Network	85	0x06000056	Lidgren.Network.NetBigInteger	ZeroOut	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd4c4	0x947c65b8	0x1022d6ba4	0x1022d6ba4	mapped	0x1022d6ba4
+Lidgren.Network	86	0x06000057	Lidgren.Network.NetBigInteger	ModPow	0x2050	NoInlining	Public, HideBySig	0x1003bd4c8	0x947c65d8	0x1022d6c28	0x1022d6c28	mapped	0x1022d6c28
+Lidgren.Network	87	0x06000058	Lidgren.Network.NetBigInteger	Square	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd4cc	0x947c676e	0x1022d7284	0x1022d7284	mapped	0x1022d7284
+Lidgren.Network	88	0x06000059	Lidgren.Network.NetBigInteger	Multiply	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd4d0	0x947c681b	0x1022d753c	0x1022d753c	mapped	0x1022d753c
+Lidgren.Network	89	0x0600005a	Lidgren.Network.NetBigInteger	FastExtEuclid	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd4d4	0x947c68a5	0x1022d7768	0x1022d7768	mapped	0x1022d7768
+Lidgren.Network	90	0x0600005b	Lidgren.Network.NetBigInteger	FastModInverse	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd4d8	0x947c68ff	0x1022d78d4	0x1022d78d4	mapped	0x1022d78d4
+Lidgren.Network	91	0x0600005c	Lidgren.Network.NetBigInteger	GetMQuote	0x2050	NoInlining	Private, HideBySig	0x1003bd4dc	0x947c6944	0x1022d79ec	0x1022d79ec	mapped	0x1022d79ec
+Lidgren.Network	92	0x0600005d	Lidgren.Network.NetBigInteger	MultiplyMonty	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd4e0	0x947c6969	0x1022d7a84	0x1022d7a84	mapped	0x1022d7a84
+Lidgren.Network	93	0x0600005e	Lidgren.Network.NetBigInteger	MultiplyMontyNIsOne	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd4e4	0x947c6a76	0x1022d7ebc	0x1022d7ebc	mapped	0x1022d7ebc
+Lidgren.Network	94	0x0600005f	Lidgren.Network.NetBigInteger	Modulus	0x2050	NoInlining	Public, HideBySig	0x1003bd4e8	0x947c6a97	0x1022d7f44	0x1022d7f44	mapped	0x1022d7f44
+Lidgren.Network	95	0x06000060	Lidgren.Network.NetBigInteger	Multiply	0x2050	NoInlining	Public, HideBySig	0x1003bd4ec	0x947c6aa6	0x1022d7f84	0x1022d7f84	mapped	0x1022d7f84
+Lidgren.Network	96	0x06000061	Lidgren.Network.NetBigInteger	Negate	0x2050	NoInlining	Public, HideBySig	0x1003bd4f0	0x947c6b37	0x1022d81cc	0x1022d81cc	mapped	0x1022d81cc
+Lidgren.Network	97	0x06000062	Lidgren.Network.NetBigInteger	Not	0x2050	NoInlining	Public, HideBySig	0x1003bd4f4	0x947c6b61	0x1022d8278	0x1022d8278	mapped	0x1022d8278
+Lidgren.Network	98	0x06000063	Lidgren.Network.NetBigInteger	Pow	0x2050	NoInlining	Public, HideBySig	0x1003bd4f8	0x947c6b75	0x1022d82cc	0x1022d82cc	mapped	0x1022d82cc
+Lidgren.Network	99	0x06000064	Lidgren.Network.NetBigInteger	Remainder	0x2050	NoInlining	Private, HideBySig	0x1003bd4fc	0x947c6bca	0x1022d8424	0x1022d8424	mapped	0x1022d8424
+Lidgren.Network	100	0x06000065	Lidgren.Network.NetBigInteger	Remainder	0x2050	NoInlining	Private, HideBySig	0x1003bd500	0x947c6c09	0x1022d8524	0x1022d8524	mapped	0x1022d8524
+Lidgren.Network	101	0x06000066	Lidgren.Network.NetBigInteger	Remainder	0x2050	NoInlining	Public, HideBySig	0x1003bd504	0x947c6cff	0x1022d8900	0x1022d8900	mapped	0x1022d8900
+Lidgren.Network	102	0x06000067	Lidgren.Network.NetBigInteger	LastNBits	0x2050	NoInlining	Private, HideBySig	0x1003bd508	0x947c6d98	0x1022d8b68	0x1022d8b68	mapped	0x1022d8b68
+Lidgren.Network	103	0x06000068	Lidgren.Network.NetBigInteger	ShiftLeft	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd50c	0x947c6dec	0x1022d8cbc	0x1022d8cbc	mapped	0x1022d8cbc
+Lidgren.Network	104	0x06000069	Lidgren.Network.NetBigInteger	ShiftLeft	0x2050	NoInlining	Public, HideBySig	0x1003bd510	0x947c6e78	0x1022d8ef0	0x1022d8ef0	mapped	0x1022d8ef0
+Lidgren.Network	105	0x0600006a	Lidgren.Network.NetBigInteger	ShiftRightInPlace	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd514	0x947c6ec6	0x1022d902c	0x1022d902c	mapped	0x1022d902c
+Lidgren.Network	106	0x0600006b	Lidgren.Network.NetBigInteger	ShiftRightOneInPlace	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd518	0x947c6f52	0x1022d9260	0x1022d9260	mapped	0x1022d9260
+Lidgren.Network	107	0x0600006c	Lidgren.Network.NetBigInteger	ShiftRight	0x2050	NoInlining	Public, HideBySig	0x1003bd51c	0x947c6faa	0x1022d93c4	0x1022d93c4	mapped	0x1022d93c4
+Lidgren.Network	108	0x0600006d	Lidgren.Network.NetBigInteger	get_SignValue	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd520	0x947c704e	0x1022d9658	0x1022d9658	mapped	0x1022d9658
+Lidgren.Network	109	0x0600006e	Lidgren.Network.NetBigInteger	Subtract	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd524	0x947c7056	0x1022d967c	0x1022d967c	mapped	0x1022d967c
+Lidgren.Network	110	0x0600006f	Lidgren.Network.NetBigInteger	Subtract	0x2050	NoInlining	Public, HideBySig	0x1003bd528	0x947c70bd	0x1022d981c	0x1022d981c	mapped	0x1022d981c
+Lidgren.Network	111	0x06000070	Lidgren.Network.NetBigInteger	doSubBigLil	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd52c	0x947c710b	0x1022d9958	0x1022d9958	mapped	0x1022d9958
+Lidgren.Network	112	0x06000071	Lidgren.Network.NetBigInteger	ToByteArray	0x2050	NoInlining	Public, HideBySig	0x1003bd530	0x947c714a	0x1022d9a58	0x1022d9a58	mapped	0x1022d9a58
+Lidgren.Network	113	0x06000072	Lidgren.Network.NetBigInteger	ToByteArrayUnsigned	0x2050	NoInlining	Public, HideBySig	0x1003bd534	0x947c7158	0x1022d9a94	0x1022d9a94	mapped	0x1022d9a94
+Lidgren.Network	114	0x06000073	Lidgren.Network.NetBigInteger	ToByteArray	0x2050	NoInlining	Private, HideBySig	0x1003bd538	0x947c7166	0x1022d9ad0	0x1022d9ad0	mapped	0x1022d9ad0
+Lidgren.Network	115	0x06000074	Lidgren.Network.NetBigInteger	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd53c	0x947c729c	0x1022d9fac	0x1022d9fac	mapped	0x1022d9fac
+Lidgren.Network	116	0x06000075	Lidgren.Network.NetBigInteger	ToString	0x2050	NoInlining	Public, HideBySig	0x1003bd540	0x947c72aa	0x1022d9fe8	0x1022d9fe8	mapped	0x1022d9fe8
+Lidgren.Network	117	0x06000076	Lidgren.Network.NetBigInteger	createUValueOf	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd544	0x947c73c9	0x1022da468	0x1022da468	mapped	0x1022da468
+Lidgren.Network	118	0x06000077	Lidgren.Network.NetBigInteger	createValueOf	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd548	0x947c740c	0x1022da578	0x1022da578	mapped	0x1022da578
+Lidgren.Network	119	0x06000078	Lidgren.Network.NetBigInteger	ValueOf	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd54c	0x947c743a	0x1022da634	0x1022da634	mapped	0x1022da634
+Lidgren.Network	120	0x06000079	Lidgren.Network.NetBigInteger	GetLowestSetBit	0x2050	NoInlining	Public, HideBySig	0x1003bd550	0x947c7472	0x1022da718	0x1022da718	mapped	0x1022da718
+Lidgren.Network	121	0x0600007a	Lidgren.Network.NetBigInteger	TestBit	0x2050	NoInlining	Public, HideBySig	0x1003bd554	0x947c74cb	0x1022da880	0x1022da880	mapped	0x1022da880
+Lidgren.Network	122	0x0600007b	Lidgren.Network.NetBigInteger	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bd558	0x947c750c	0x1022da988	0x1022da988	mapped	0x1022da988
+Lidgren.Network	123	0x0600007c	Lidgren.Network.NetBitVector	get_Capacity	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd55c	0x947c758e	0x1022dab94	0x1022dab94	mapped	0x1022dab94
+Lidgren.Network	124	0x0600007d	Lidgren.Network.NetBitVector	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd560	0x947c7596	0x1022dabb8	0x1022dabb8	mapped	0x1022dabb8
+Lidgren.Network	125	0x0600007e	Lidgren.Network.NetBitVector	IsEmpty	0x2050	NoInlining	Public, HideBySig	0x1003bd564	0x947c75c3	0x1022dac70	0x1022dac70	mapped	0x1022dac70
+Lidgren.Network	126	0x0600007f	Lidgren.Network.NetBitVector	Count	0x2050	NoInlining	Public, HideBySig	0x1003bd568	0x947c75cd	0x1022dac9c	0x1022dac9c	mapped	0x1022dac9c
+Lidgren.Network	127	0x06000080	Lidgren.Network.NetBitVector	RotateDown	0x2050	NoInlining	Public, HideBySig	0x1003bd56c	0x947c75d5	0x1022dacc0	0x1022dacc0	mapped	0x1022dacc0
+Lidgren.Network	128	0x06000081	Lidgren.Network.NetBitVector	GetFirstSetIndex	0x2050	NoInlining	Public, HideBySig	0x1003bd570	0x947c762a	0x1022dae18	0x1022dae18	mapped	0x1022dae18
+Lidgren.Network	129	0x06000082	Lidgren.Network.NetBitVector	Get	0x2050	NoInlining	Public, HideBySig	0x1003bd574	0x947c766b	0x1022daf20	0x1022daf20	mapped	0x1022daf20
+Lidgren.Network	130	0x06000083	Lidgren.Network.NetBitVector	Set	0x2050	NoInlining	Public, HideBySig	0x1003bd578	0x947c7687	0x1022daf94	0x1022daf94	mapped	0x1022daf94
+Lidgren.Network	131	0x06000084	Lidgren.Network.NetBitVector	get_Bit	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd57c	0x947c76d7	0x1022db0d8	0x1022db0d8	mapped	0x1022db0d8
+Lidgren.Network	132	0x06000085	Lidgren.Network.NetBitVector	set_Bit	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd580	0x947c76f3	0x1022db14c	0x1022db14c	mapped	0x1022db14c
+Lidgren.Network	133	0x06000086	Lidgren.Network.NetBitVector	Clear	0x2050	NoInlining	Public, HideBySig	0x1003bd584	0x947c7706	0x1022db19c	0x1022db19c	mapped	0x1022db19c
+Lidgren.Network	134	0x06000087	Lidgren.Network.NetBitVector	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd588	0x947c771f	0x1022db204	0x1022db204	mapped	0x1022db204
+Lidgren.Network	135	0x06000088	Lidgren.Network.NetBitWriter	ReadByte	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd58c	0x947c777b	0x1022db378	0x1022db378	mapped	0x1022db378
+Lidgren.Network	136	0x06000089	Lidgren.Network.NetBitWriter	ReadBytes	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd590	0x947c77b9	0x1022db474	0x1022db474	mapped	0x1022db474
+Lidgren.Network	137	0x0600008a	Lidgren.Network.NetBitWriter	WriteByte	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd594	0x947c7811	0x1022db5d8	0x1022db5d8	mapped	0x1022db5d8
+Lidgren.Network	138	0x0600008b	Lidgren.Network.NetBitWriter	WriteBytes	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd598	0x947c7856	0x1022db6f0	0x1022db6f0	mapped	0x1022db6f0
+Lidgren.Network	139	0x0600008c	Lidgren.Network.NetBitWriter	ReadUInt16	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd59c	0x947c78d8	0x1022db8fc	0x1022db8fc	mapped	0x1022db8fc
+Lidgren.Network	140	0x0600008d	Lidgren.Network.NetBitWriter	ReadUInt32	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd5a0	0x947c78fd	0x1022db994	0x1022db994	mapped	0x1022db994
+Lidgren.Network	141	0x0600008e	Lidgren.Network.NetBitWriter	WriteUInt16	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd5a4	0x947c793a	0x1022dba8c	0x1022dba8c	mapped	0x1022dba8c
+Lidgren.Network	142	0x0600008f	Lidgren.Network.NetBitWriter	WriteUInt32	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd5a8	0x947c795d	0x1022dbb1c	0x1022dbb1c	mapped	0x1022dbb1c
+Lidgren.Network	143	0x06000090	Lidgren.Network.NetBitWriter	WriteUInt64	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd5ac	0x947c7994	0x1022dbbfc	0x1022dbbfc	mapped	0x1022dbbfc
+Lidgren.Network	144	0x06000091	Lidgren.Network.NetBitWriter	WriteVariableUInt32	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd5b0	0x947c79eb	0x1022dbd5c	0x1022dbd5c	mapped	0x1022dbd5c
+Lidgren.Network	145	0x06000092	Lidgren.Network.NetBitWriter	ReadVariableUInt32	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd5b4	0x947c7a35	0x1022dbe88	0x1022dbe88	mapped	0x1022dbe88
+Lidgren.Network	146	0x06000093	Lidgren.Network.NetBuffer	get_Data	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd5b8	0x947c7a6c	0x1022dbf68	0x1022dbf68	mapped	0x1022dbf68
+Lidgren.Network	147	0x06000094	Lidgren.Network.NetBuffer	set_Data	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd5bc	0x947c7a74	0x1022dbf8c	0x1022dbf8c	mapped	0x1022dbf8c
+Lidgren.Network	148	0x06000095	Lidgren.Network.NetBuffer	get_LengthBytes	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd5c0	0x947c7a83	0x1022dbfcc	0x1022dbfcc	mapped	0x1022dbfcc
+Lidgren.Network	149	0x06000096	Lidgren.Network.NetBuffer	set_LengthBytes	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd5c4	0x947c7a8d	0x1022dbff8	0x1022dbff8	mapped	0x1022dbff8
+Lidgren.Network	150	0x06000097	Lidgren.Network.NetBuffer	get_LengthBits	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd5c8	0x947c7aa3	0x1022dc054	0x1022dc054	mapped	0x1022dc054
+Lidgren.Network	151	0x06000098	Lidgren.Network.NetBuffer	set_LengthBits	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd5cc	0x947c7aab	0x1022dc078	0x1022dc078	mapped	0x1022dc078
+Lidgren.Network	152	0x06000099	Lidgren.Network.NetBuffer	get_Position	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd5d0	0x947c7ac1	0x1022dc0d4	0x1022dc0d4	mapped	0x1022dc0d4
+Lidgren.Network	153	0x0600009a	Lidgren.Network.NetBuffer	set_Position	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd5d4	0x947c7ac9	0x1022dc0f8	0x1022dc0f8	mapped	0x1022dc0f8
+Lidgren.Network	154	0x0600009b	Lidgren.Network.NetBuffer	get_PositionInBytes	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd5d8	0x947c7ad1	0x1022dc11c	0x1022dc11c	mapped	0x1022dc11c
+Lidgren.Network	155	0x0600009c	Lidgren.Network.NetBuffer	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bd5dc	0x947c7add	0x1022dc150	0x1022dc150	mapped	0x1022dc150
+Lidgren.Network	156	0x0600009d	Lidgren.Network.NetBuffer	PeekDataBuffer	0x2050	NoInlining	Public, HideBySig	0x1003bd5e0	0x947c7bb1	0x1022dc4a4	0x1022dc4a4	mapped	0x1022dc4a4
+Lidgren.Network	157	0x0600009e	Lidgren.Network.NetBuffer	PeekBoolean	0x2050	NoInlining	Public, HideBySig	0x1003bd5e4	0x947c7bb9	0x1022dc4c8	0x1022dc4c8	mapped	0x1022dc4c8
+Lidgren.Network	158	0x0600009f	Lidgren.Network.NetBuffer	PeekByte	0x2050	NoInlining	Public, HideBySig	0x1003bd5e8	0x947c7bd0	0x1022dc528	0x1022dc528	mapped	0x1022dc528
+Lidgren.Network	159	0x060000a0	Lidgren.Network.NetBuffer	PeekSByte	0x2050	NoInlining	Public, HideBySig	0x1003bd5ec	0x947c7be5	0x1022dc580	0x1022dc580	mapped	0x1022dc580
+Lidgren.Network	160	0x060000a1	Lidgren.Network.NetBuffer	PeekByte	0x2050	NoInlining	Public, HideBySig	0x1003bd5f0	0x947c7bfa	0x1022dc5d8	0x1022dc5d8	mapped	0x1022dc5d8
+Lidgren.Network	161	0x060000a2	Lidgren.Network.NetBuffer	PeekBytes	0x2050	NoInlining	Public, HideBySig	0x1003bd5f4	0x947c7c10	0x1022dc634	0x1022dc634	mapped	0x1022dc634
+Lidgren.Network	162	0x060000a3	Lidgren.Network.NetBuffer	PeekBytes	0x2050	NoInlining	Public, HideBySig	0x1003bd5f8	0x947c7c39	0x1022dc6dc	0x1022dc6dc	mapped	0x1022dc6dc
+Lidgren.Network	163	0x060000a4	Lidgren.Network.NetBuffer	PeekInt16	0x2050	NoInlining	Public, HideBySig	0x1003bd5fc	0x947c7c55	0x1022dc750	0x1022dc750	mapped	0x1022dc750
+Lidgren.Network	164	0x060000a5	Lidgren.Network.NetBuffer	PeekUInt16	0x2050	NoInlining	Public, HideBySig	0x1003bd600	0x947c7c75	0x1022dc7d4	0x1022dc7d4	mapped	0x1022dc7d4
+Lidgren.Network	165	0x060000a6	Lidgren.Network.NetBuffer	PeekInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd604	0x947c7c95	0x1022dc858	0x1022dc858	mapped	0x1022dc858
+Lidgren.Network	166	0x060000a7	Lidgren.Network.NetBuffer	PeekInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd608	0x947c7ccb	0x1022dc934	0x1022dc934	mapped	0x1022dc934
+Lidgren.Network	167	0x060000a8	Lidgren.Network.NetBuffer	PeekUInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd60c	0x947c7cec	0x1022dc9bc	0x1022dc9bc	mapped	0x1022dc9bc
+Lidgren.Network	168	0x060000a9	Lidgren.Network.NetBuffer	PeekUInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd610	0x947c7d22	0x1022dca98	0x1022dca98	mapped	0x1022dca98
+Lidgren.Network	169	0x060000aa	Lidgren.Network.NetBuffer	PeekUInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd614	0x947c7d38	0x1022dcaf4	0x1022dcaf4	mapped	0x1022dcaf4
+Lidgren.Network	170	0x060000ab	Lidgren.Network.NetBuffer	PeekInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd618	0x947c7d9b	0x1022dcc84	0x1022dcc84	mapped	0x1022dcc84
+Lidgren.Network	171	0x060000ac	Lidgren.Network.NetBuffer	PeekUInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd61c	0x947c7da8	0x1022dccbc	0x1022dccbc	mapped	0x1022dccbc
+Lidgren.Network	172	0x060000ad	Lidgren.Network.NetBuffer	PeekInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd620	0x947c7dfa	0x1022dce08	0x1022dce08	mapped	0x1022dce08
+Lidgren.Network	173	0x060000ae	Lidgren.Network.NetBuffer	PeekFloat	0x2050	NoInlining	Public, HideBySig	0x1003bd624	0x947c7e09	0x1022dce48	0x1022dce48	mapped	0x1022dce48
+Lidgren.Network	174	0x060000af	Lidgren.Network.NetBuffer	PeekSingle	0x2050	NoInlining	Public, HideBySig	0x1003bd628	0x947c7e16	0x1022dce80	0x1022dce80	mapped	0x1022dce80
+Lidgren.Network	175	0x060000b0	Lidgren.Network.NetBuffer	PeekDouble	0x2050	NoInlining	Public, HideBySig	0x1003bd62c	0x947c7e32	0x1022dcef4	0x1022dcef4	mapped	0x1022dcef4
+Lidgren.Network	176	0x060000b1	Lidgren.Network.NetBuffer	PeekString	0x2050	NoInlining	Public, HideBySig	0x1003bd630	0x947c7e4e	0x1022dcf68	0x1022dcf68	mapped	0x1022dcf68
+Lidgren.Network	177	0x060000b2	Lidgren.Network.NetBuffer	ReadBoolean	0x2050	NoInlining	Public, HideBySig	0x1003bd634	0x947c7e63	0x1022dcfc0	0x1022dcfc0	mapped	0x1022dcfc0
+Lidgren.Network	178	0x060000b3	Lidgren.Network.NetBuffer	ReadByte	0x2050	NoInlining	Public, HideBySig	0x1003bd638	0x947c7e7d	0x1022dd02c	0x1022dd02c	mapped	0x1022dd02c
+Lidgren.Network	179	0x060000b4	Lidgren.Network.NetBuffer	ReadByte	0x2050	NoInlining	Public, HideBySig	0x1003bd63c	0x947c7e95	0x1022dd090	0x1022dd090	mapped	0x1022dd090
+Lidgren.Network	180	0x060000b5	Lidgren.Network.NetBuffer	ReadSByte	0x2050	NoInlining	Public, HideBySig	0x1003bd640	0x947c7ebd	0x1022dd134	0x1022dd134	mapped	0x1022dd134
+Lidgren.Network	181	0x060000b6	Lidgren.Network.NetBuffer	ReadByte	0x2050	NoInlining	Public, HideBySig	0x1003bd644	0x947c7ed5	0x1022dd198	0x1022dd198	mapped	0x1022dd198
+Lidgren.Network	182	0x060000b7	Lidgren.Network.NetBuffer	ReadBytes	0x2050	NoInlining	Public, HideBySig	0x1003bd648	0x947c7eee	0x1022dd200	0x1022dd200	mapped	0x1022dd200
+Lidgren.Network	183	0x060000b8	Lidgren.Network.NetBuffer	ReadBytes	0x2050	NoInlining	Public, HideBySig	0x1003bd64c	0x947c7f1a	0x1022dd2b4	0x1022dd2b4	mapped	0x1022dd2b4
+Lidgren.Network	184	0x060000b9	Lidgren.Network.NetBuffer	ReadBytes	0x2050	NoInlining	Public, HideBySig	0x1003bd650	0x947c7f61	0x1022dd3d4	0x1022dd3d4	mapped	0x1022dd3d4
+Lidgren.Network	185	0x060000ba	Lidgren.Network.NetBuffer	ReadBits	0x2050	NoInlining	Public, HideBySig	0x1003bd654	0x947c7f80	0x1022dd454	0x1022dd454	mapped	0x1022dd454
+Lidgren.Network	186	0x060000bb	Lidgren.Network.NetBuffer	ReadInt16	0x2050	NoInlining	Public, HideBySig	0x1003bd658	0x947c7fbd	0x1022dd54c	0x1022dd54c	mapped	0x1022dd54c
+Lidgren.Network	187	0x060000bc	Lidgren.Network.NetBuffer	ReadUInt16	0x2050	NoInlining	Public, HideBySig	0x1003bd65c	0x947c7fe0	0x1022dd5dc	0x1022dd5dc	mapped	0x1022dd5dc
+Lidgren.Network	188	0x060000bd	Lidgren.Network.NetBuffer	ReadInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd660	0x947c8003	0x1022dd66c	0x1022dd66c	mapped	0x1022dd66c
+Lidgren.Network	189	0x060000be	Lidgren.Network.NetBuffer	ReadInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd664	0x947c803e	0x1022dd75c	0x1022dd75c	mapped	0x1022dd75c
+Lidgren.Network	190	0x060000bf	Lidgren.Network.NetBuffer	ReadInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd668	0x947c808d	0x1022dd89c	0x1022dd89c	mapped	0x1022dd89c
+Lidgren.Network	191	0x060000c0	Lidgren.Network.NetBuffer	ReadUInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd66c	0x947c80b1	0x1022dd930	0x1022dd930	mapped	0x1022dd930
+Lidgren.Network	192	0x060000c1	Lidgren.Network.NetBuffer	ReadUInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd670	0x947c80ec	0x1022dda20	0x1022dda20	mapped	0x1022dda20
+Lidgren.Network	193	0x060000c2	Lidgren.Network.NetBuffer	ReadUInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd674	0x947c813b	0x1022ddb60	0x1022ddb60	mapped	0x1022ddb60
+Lidgren.Network	194	0x060000c3	Lidgren.Network.NetBuffer	ReadUInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd678	0x947c8154	0x1022ddbc8	0x1022ddbc8	mapped	0x1022ddbc8
+Lidgren.Network	195	0x060000c4	Lidgren.Network.NetBuffer	ReadInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd67c	0x947c81bd	0x1022ddd70	0x1022ddd70	mapped	0x1022ddd70
+Lidgren.Network	196	0x060000c5	Lidgren.Network.NetBuffer	ReadUInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd680	0x947c81ca	0x1022ddda8	0x1022ddda8	mapped	0x1022ddda8
+Lidgren.Network	197	0x060000c6	Lidgren.Network.NetBuffer	ReadInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd684	0x947c821f	0x1022ddf00	0x1022ddf00	mapped	0x1022ddf00
+Lidgren.Network	198	0x060000c7	Lidgren.Network.NetBuffer	ReadFloat	0x2050	NoInlining	Public, HideBySig	0x1003bd688	0x947c822e	0x1022ddf40	0x1022ddf40	mapped	0x1022ddf40
+Lidgren.Network	199	0x060000c8	Lidgren.Network.NetBuffer	ReadSingle	0x2050	NoInlining	Public, HideBySig	0x1003bd68c	0x947c823b	0x1022ddf78	0x1022ddf78	mapped	0x1022ddf78
+Lidgren.Network	200	0x060000c9	Lidgren.Network.NetBuffer	ReadSingle	0x2050	NoInlining	Public, HideBySig	0x1003bd690	0x947c825b	0x1022ddffc	0x1022ddffc	mapped	0x1022ddffc
+Lidgren.Network	201	0x060000ca	Lidgren.Network.NetBuffer	ReadDouble	0x2050	NoInlining	Public, HideBySig	0x1003bd694	0x947c8291	0x1022de0d8	0x1022de0d8	mapped	0x1022de0d8
+Lidgren.Network	202	0x060000cb	Lidgren.Network.NetBuffer	ReadVariableUInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd698	0x947c82b1	0x1022de15c	0x1022de15c	mapped	0x1022de15c
+Lidgren.Network	203	0x060000cc	Lidgren.Network.NetBuffer	ReadVariableUInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd69c	0x947c82e1	0x1022de220	0x1022de220	mapped	0x1022de220
+Lidgren.Network	204	0x060000cd	Lidgren.Network.NetBuffer	ReadVariableInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd6a0	0x947c831f	0x1022de31c	0x1022de31c	mapped	0x1022de31c
+Lidgren.Network	205	0x060000ce	Lidgren.Network.NetBuffer	ReadVariableInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd6a4	0x947c832f	0x1022de360	0x1022de360	mapped	0x1022de360
+Lidgren.Network	206	0x060000cf	Lidgren.Network.NetBuffer	ReadVariableUInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd6a8	0x947c833f	0x1022de3a4	0x1022de3a4	mapped	0x1022de3a4
+Lidgren.Network	207	0x060000d0	Lidgren.Network.NetBuffer	ReadSignedSingle	0x2050	NoInlining	Public, HideBySig	0x1003bd6ac	0x947c836f	0x1022de468	0x1022de468	mapped	0x1022de468
+Lidgren.Network	208	0x060000d1	Lidgren.Network.NetBuffer	ReadUnitSingle	0x2050	NoInlining	Public, HideBySig	0x1003bd6b0	0x947c8387	0x1022de4cc	0x1022de4cc	mapped	0x1022de4cc
+Lidgren.Network	209	0x060000d2	Lidgren.Network.NetBuffer	ReadRangedSingle	0x2050	NoInlining	Public, HideBySig	0x1003bd6b4	0x947c839c	0x1022de524	0x1022de524	mapped	0x1022de524
+Lidgren.Network	210	0x060000d3	Lidgren.Network.NetBuffer	ReadRangedInteger	0x2050	NoInlining	Public, HideBySig	0x1003bd6b8	0x947c83b9	0x1022de59c	0x1022de59c	mapped	0x1022de59c
+Lidgren.Network	211	0x060000d4	Lidgren.Network.NetBuffer	ReadRangedInteger	0x2050	NoInlining	Public, HideBySig	0x1003bd6bc	0x947c83db	0x1022de628	0x1022de628	mapped	0x1022de628
+Lidgren.Network	212	0x060000d5	Lidgren.Network.NetBuffer	ReadString	0x2050	NoInlining	Public, HideBySig	0x1003bd6c0	0x947c83fd	0x1022de6b4	0x1022de6b4	mapped	0x1022de6b4
+Lidgren.Network	213	0x060000d6	Lidgren.Network.NetBuffer	ReadString	0x2050	NoInlining	Public, HideBySig	0x1003bd6c4	0x947c845a	0x1022de82c	0x1022de82c	mapped	0x1022de82c
+Lidgren.Network	214	0x060000d7	Lidgren.Network.NetBuffer	ReadTime	0x2050	NoInlining	Public, HideBySig	0x1003bd6c8	0x947c84ff	0x1022deac4	0x1022deac4	mapped	0x1022deac4
+Lidgren.Network	215	0x060000d8	Lidgren.Network.NetBuffer	ReadIPEndPoint	0x2050	NoInlining	Public, HideBySig	0x1003bd6cc	0x947c8532	0x1022deb94	0x1022deb94	mapped	0x1022deb94
+Lidgren.Network	216	0x060000d9	Lidgren.Network.NetBuffer	SkipPadBits	0x2050	NoInlining	Public, HideBySig	0x1003bd6d0	0x947c855d	0x1022dec44	0x1022dec44	mapped	0x1022dec44
+Lidgren.Network	217	0x060000da	Lidgren.Network.NetBuffer	ReadPadBits	0x2050	NoInlining	Public, HideBySig	0x1003bd6d4	0x947c8568	0x1022dec74	0x1022dec74	mapped	0x1022dec74
+Lidgren.Network	218	0x060000db	Lidgren.Network.NetBuffer	SkipPadBits	0x2050	NoInlining	Public, HideBySig	0x1003bd6d8	0x947c8573	0x1022deca4	0x1022deca4	mapped	0x1022deca4
+Lidgren.Network	219	0x060000dc	Lidgren.Network.NetBuffer	ReadAllFields	0x2050	NoInlining	Public, HideBySig	0x1003bd6dc	0x947c857d	0x1022decd0	0x1022decd0	mapped	0x1022decd0
+Lidgren.Network	220	0x060000dd	Lidgren.Network.NetBuffer	ReadAllFields	0x2050	NoInlining	Public, HideBySig	0x1003bd6e0	0x947c858d	0x1022ded14	0x1022ded14	mapped	0x1022ded14
+Lidgren.Network	221	0x060000de	Lidgren.Network.NetBuffer	ReadAllProperties	0x2050	NoInlining	Public, HideBySig	0x1003bd6e4	0x947c85fa	0x1022deecc	0x1022deecc	mapped	0x1022deecc
+Lidgren.Network	222	0x060000df	Lidgren.Network.NetBuffer	ReadAllProperties	0x2050	NoInlining	Public, HideBySig	0x1003bd6e8	0x947c860a	0x1022def10	0x1022def10	mapped	0x1022def10
+Lidgren.Network	223	0x060000e0	Lidgren.Network.NetBuffer	EnsureBufferSize	0x2050	NoInlining	Public, HideBySig	0x1003bd6ec	0x947c8686	0x1022df104	0x1022df104	mapped	0x1022df104
+Lidgren.Network	224	0x060000e1	Lidgren.Network.NetBuffer	InternalEnsureBufferSize	0x2050	NoInlining	Assembly, HideBySig	0x1003bd6f0	0x947c86bc	0x1022df1e0	0x1022df1e0	mapped	0x1022df1e0
+Lidgren.Network	225	0x060000e2	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd6f4	0x947c86f0	0x1022df2b4	0x1022df2b4	mapped	0x1022df2b4
+Lidgren.Network	226	0x060000e3	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd6f8	0x947c870f	0x1022df334	0x1022df334	mapped	0x1022df334
+Lidgren.Network	227	0x060000e4	Lidgren.Network.NetBuffer	WriteAt	0x2050	NoInlining	Public, HideBySig	0x1003bd6fc	0x947c872d	0x1022df3b0	0x1022df3b0	mapped	0x1022df3b0
+Lidgren.Network	228	0x060000e5	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd700	0x947c874f	0x1022df43c	0x1022df43c	mapped	0x1022df43c
+Lidgren.Network	229	0x060000e6	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd704	0x947c876d	0x1022df4b8	0x1022df4b8	mapped	0x1022df4b8
+Lidgren.Network	230	0x060000e7	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd708	0x947c878e	0x1022df540	0x1022df540	mapped	0x1022df540
+Lidgren.Network	231	0x060000e8	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd70c	0x947c87bc	0x1022df5fc	0x1022df5fc	mapped	0x1022df5fc
+Lidgren.Network	232	0x060000e9	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd710	0x947c87ec	0x1022df6c0	0x1022df6c0	mapped	0x1022df6c0
+Lidgren.Network	233	0x060000ea	Lidgren.Network.NetBuffer	WriteAt	0x2050	NoInlining	Public, HideBySig	0x1003bd714	0x947c8813	0x1022df760	0x1022df760	mapped	0x1022df760
+Lidgren.Network	234	0x060000eb	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd718	0x947c883d	0x1022df80c	0x1022df80c	mapped	0x1022df80c
+Lidgren.Network	235	0x060000ec	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd71c	0x947c886f	0x1022df8d8	0x1022df8d8	mapped	0x1022df8d8
+Lidgren.Network	236	0x060000ed	Lidgren.Network.NetBuffer	WriteAt	0x2050	NoInlining	Public, HideBySig	0x1003bd720	0x947c8896	0x1022df978	0x1022df978	mapped	0x1022df978
+Lidgren.Network	237	0x060000ee	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd724	0x947c88c0	0x1022dfa24	0x1022dfa24	mapped	0x1022dfa24
+Lidgren.Network	238	0x060000ef	Lidgren.Network.NetBuffer	WriteAt	0x2050	NoInlining	Public, HideBySig	0x1003bd728	0x947c88f1	0x1022dfaec	0x1022dfaec	mapped	0x1022dfaec
+Lidgren.Network	239	0x060000f0	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd72c	0x947c8925	0x1022dfbc0	0x1022dfbc0	mapped	0x1022dfbc0
+Lidgren.Network	240	0x060000f1	Lidgren.Network.NetBuffer	WriteAt	0x2050	NoInlining	Public, HideBySig	0x1003bd730	0x947c8956	0x1022dfc88	0x1022dfc88	mapped	0x1022dfc88
+Lidgren.Network	241	0x060000f2	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd734	0x947c898a	0x1022dfd5c	0x1022dfd5c	mapped	0x1022dfd5c
+Lidgren.Network	242	0x060000f3	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd738	0x947c89ab	0x1022dfde4	0x1022dfde4	mapped	0x1022dfde4
+Lidgren.Network	243	0x060000f4	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd73c	0x947c89d5	0x1022dfe90	0x1022dfe90	mapped	0x1022dfe90
+Lidgren.Network	244	0x060000f5	Lidgren.Network.NetBuffer	WriteAt	0x2050	NoInlining	Public, HideBySig	0x1003bd740	0x947c89f3	0x1022dff0c	0x1022dff0c	mapped	0x1022dff0c
+Lidgren.Network	245	0x060000f6	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd744	0x947c8a15	0x1022dff98	0x1022dff98	mapped	0x1022dff98
+Lidgren.Network	246	0x060000f7	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd748	0x947c8a36	0x1022e0020	0x1022e0020	mapped	0x1022e0020
+Lidgren.Network	247	0x060000f8	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd74c	0x947c8a54	0x1022e009c	0x1022e009c	mapped	0x1022e009c
+Lidgren.Network	248	0x060000f9	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd750	0x947c8a75	0x1022e0124	0x1022e0124	mapped	0x1022e0124
+Lidgren.Network	249	0x060000fa	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd754	0x947c8a84	0x1022e0164	0x1022e0164	mapped	0x1022e0164
+Lidgren.Network	250	0x060000fb	Lidgren.Network.NetBuffer	WriteVariableUInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd758	0x947c8aac	0x1022e0208	0x1022e0208	mapped	0x1022e0208
+Lidgren.Network	251	0x060000fc	Lidgren.Network.NetBuffer	WriteVariableInt32	0x2050	NoInlining	Public, HideBySig	0x1003bd75c	0x947c8ad1	0x1022e02a0	0x1022e02a0	mapped	0x1022e02a0
+Lidgren.Network	252	0x060000fd	Lidgren.Network.NetBuffer	WriteVariableInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd760	0x947c8af7	0x1022e033c	0x1022e033c	mapped	0x1022e033c
+Lidgren.Network	253	0x060000fe	Lidgren.Network.NetBuffer	WriteVariableUInt64	0x2050	NoInlining	Public, HideBySig	0x1003bd764	0x947c8b1d	0x1022e03d8	0x1022e03d8	mapped	0x1022e03d8
+Lidgren.Network	254	0x060000ff	Lidgren.Network.NetBuffer	WriteSignedSingle	0x2050	NoInlining	Public, HideBySig	0x1003bd768	0x947c8b42	0x1022e0470	0x1022e0470	mapped	0x1022e0470
+Lidgren.Network	255	0x06000100	Lidgren.Network.NetBuffer	WriteUnitSingle	0x2050	NoInlining	Public, HideBySig	0x1003bd76c	0x947c8b5f	0x1022e04e8	0x1022e04e8	mapped	0x1022e04e8
+Lidgren.Network	256	0x06000101	Lidgren.Network.NetBuffer	WriteRangedSingle	0x2050	NoInlining	Public, HideBySig	0x1003bd770	0x947c8b78	0x1022e0550	0x1022e0550	mapped	0x1022e0550
+Lidgren.Network	257	0x06000102	Lidgren.Network.NetBuffer	WriteRangedInteger	0x2050	NoInlining	Public, HideBySig	0x1003bd774	0x947c8b94	0x1022e05c4	0x1022e05c4	mapped	0x1022e05c4
+Lidgren.Network	258	0x06000103	Lidgren.Network.NetBuffer	WriteRangedInteger	0x2050	NoInlining	Public, HideBySig	0x1003bd778	0x947c8bb8	0x1022e0658	0x1022e0658	mapped	0x1022e0658
+Lidgren.Network	259	0x06000104	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd77c	0x947c8bdc	0x1022e06ec	0x1022e06ec	mapped	0x1022e06ec
+Lidgren.Network	260	0x06000105	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd780	0x947c8c3e	0x1022e0878	0x1022e0878	mapped	0x1022e0878
+Lidgren.Network	261	0x06000106	Lidgren.Network.NetBuffer	WriteTime	0x2050	NoInlining	Public, HideBySig	0x1003bd784	0x947c8c66	0x1022e091c	0x1022e091c	mapped	0x1022e091c
+Lidgren.Network	262	0x06000107	Lidgren.Network.NetBuffer	WriteTime	0x2050	NoInlining	Public, HideBySig	0x1003bd788	0x947c8c7c	0x1022e0978	0x1022e0978	mapped	0x1022e0978
+Lidgren.Network	263	0x06000108	Lidgren.Network.NetBuffer	WritePadBits	0x2050	NoInlining	Public, HideBySig	0x1003bd78c	0x947c8c96	0x1022e09e4	0x1022e09e4	mapped	0x1022e09e4
+Lidgren.Network	264	0x06000109	Lidgren.Network.NetBuffer	WritePadBits	0x2050	NoInlining	Public, HideBySig	0x1003bd790	0x947c8cad	0x1022e0a44	0x1022e0a44	mapped	0x1022e0a44
+Lidgren.Network	265	0x0600010a	Lidgren.Network.NetBuffer	Write	0x2050	NoInlining	Public, HideBySig	0x1003bd794	0x947c8cc4	0x1022e0aa4	0x1022e0aa4	mapped	0x1022e0aa4
+Lidgren.Network	266	0x0600010b	Lidgren.Network.NetBuffer	WriteAllFields	0x2050	NoInlining	Public, HideBySig	0x1003bd798	0x947c8d0c	0x1022e0bc8	0x1022e0bc8	mapped	0x1022e0bc8
+Lidgren.Network	267	0x0600010c	Lidgren.Network.NetBuffer	WriteAllFields	0x2050	NoInlining	Public, HideBySig	0x1003bd79c	0x947c8d1c	0x1022e0c0c	0x1022e0c0c	mapped	0x1022e0c0c
+Lidgren.Network	268	0x0600010d	Lidgren.Network.NetBuffer	WriteAllProperties	0x2050	NoInlining	Public, HideBySig	0x1003bd7a0	0x947c8da7	0x1022e0e3c	0x1022e0e3c	mapped	0x1022e0e3c
+Lidgren.Network	269	0x0600010e	Lidgren.Network.NetBuffer	WriteAllProperties	0x2050	NoInlining	Public, HideBySig	0x1003bd7a4	0x947c8db7	0x1022e0e80	0x1022e0e80	mapped	0x1022e0e80
+Lidgren.Network	270	0x0600010f	Lidgren.Network.NetBuffer	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd7a8	0x947c8e28	0x1022e1048	0x1022e1048	mapped	0x1022e1048
+Lidgren.Network	271	0x06000110	Lidgren.Network.NetClient	get_ServerConnection	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd7ac	0x947c8e35	0x1022e1080	0x1022e1080	mapped	0x1022e1080
+Lidgren.Network	272	0x06000111	Lidgren.Network.NetClient	get_ConnectionStatus	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd7b0	0x947c8e68	0x1022e1150	0x1022e1150	mapped	0x1022e1150
+Lidgren.Network	273	0x06000112	Lidgren.Network.NetClient	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd7b4	0x947c8e79	0x1022e1198	0x1022e1198	mapped	0x1022e1198
+Lidgren.Network	274	0x06000113	Lidgren.Network.NetClient	Connect	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd7b8	0x947c8e8e	0x1022e11f0	0x1022e11f0	mapped	0x1022e11f0
+Lidgren.Network	275	0x06000114	Lidgren.Network.NetClient	Disconnect	0x2050	NoInlining	Public, HideBySig	0x1003bd7bc	0x97ffe9d5	0x1003b7f10	0x1003b7f10	mapped	0x1003b7f10
+Lidgren.Network	276	0x06000115	Lidgren.Network.NetClient	SendMessage	0x2050	NoInlining	Public, HideBySig	0x1003bd7c0	0x947c8f2c	0x1022e1470	0x1022e1470	mapped	0x1022e1470
+Lidgren.Network	277	0x06000116	Lidgren.Network.NetClient	SendMessage	0x2050	NoInlining	Public, HideBySig	0x1003bd7c4	0x947c8f53	0x1022e1510	0x1022e1510	mapped	0x1022e1510
+Lidgren.Network	278	0x06000117	Lidgren.Network.NetClient	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd7c8	0x947c8f7e	0x1022e15c0	0x1022e15c0	mapped	0x1022e15c0
+Lidgren.Network	279	0x06000118	Lidgren.Network.NetConnection	get_Tag	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd7cc	0x947c8fa3	0x1022e1658	0x1022e1658	mapped	0x1022e1658
+Lidgren.Network	280	0x06000119	Lidgren.Network.NetConnection	set_Tag	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd7d0	0x947c8fab	0x1022e167c	0x1022e167c	mapped	0x1022e167c
+Lidgren.Network	281	0x0600011a	Lidgren.Network.NetConnection	get_Peer	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd7d4	0x947c8fba	0x1022e16bc	0x1022e16bc	mapped	0x1022e16bc
+Lidgren.Network	282	0x0600011b	Lidgren.Network.NetConnection	get_Status	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd7d8	0x947c8fc2	0x1022e16e0	0x1022e16e0	mapped	0x1022e16e0
+Lidgren.Network	283	0x0600011c	Lidgren.Network.NetConnection	get_Statistics	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd7dc	0x947c8fca	0x1022e1704	0x1022e1704	mapped	0x1022e1704
+Lidgren.Network	284	0x0600011d	Lidgren.Network.NetConnection	get_RemoteEndPoint	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd7e0	0x947c8fd2	0x1022e1728	0x1022e1728	mapped	0x1022e1728
+Lidgren.Network	285	0x0600011e	Lidgren.Network.NetConnection	get_RemoteUniqueIdentifier	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd7e4	0x947c8fda	0x1022e174c	0x1022e174c	mapped	0x1022e174c
+Lidgren.Network	286	0x0600011f	Lidgren.Network.NetConnection	get_LocalHailMessage	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd7e8	0x947c8fe2	0x1022e1770	0x1022e1770	mapped	0x1022e1770
+Lidgren.Network	287	0x06000120	Lidgren.Network.NetConnection	GetResendDelay	0x2050	NoInlining	Assembly, HideBySig	0x1003bd7ec	0x947c8fea	0x1022e1794	0x1022e1794	mapped	0x1022e1794
+Lidgren.Network	288	0x06000121	Lidgren.Network.NetConnection	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003bd7f0	0x947c8ffd	0x1022e17e4	0x1022e17e4	mapped	0x1022e17e4
+Lidgren.Network	289	0x06000122	Lidgren.Network.NetConnection	MutateEndPoint	0x2050	NoInlining	Assembly, HideBySig	0x1003bd7f4	0x947c9081	0x1022e19f8	0x1022e19f8	mapped	0x1022e19f8
+Lidgren.Network	290	0x06000123	Lidgren.Network.NetConnection	ResetTimeout	0x2050	NoInlining	Assembly, HideBySig	0x1003bd7f8	0x947c9090	0x1022e1a38	0x1022e1a38	mapped	0x1022e1a38
+Lidgren.Network	291	0x06000124	Lidgren.Network.NetConnection	SetStatus	0x2050	NoInlining	Public, HideBySig	0x1003bd7fc	0x947c909f	0x1022e1a78	0x1022e1a78	mapped	0x1022e1a78
+Lidgren.Network	292	0x06000125	Lidgren.Network.NetConnection	Heartbeat	0x2050	NoInlining	Assembly, HideBySig	0x1003bd800	0x947c9119	0x1022e1c64	0x1022e1c64	mapped	0x1022e1c64
+Lidgren.Network	293	0x06000126	Lidgren.Network.NetConnection	QueueSendMessage	0x2050	NoInlining	Assembly, HideBySig	0x1003bd804	0x947c9294	0x1022e2254	0x1022e2254	mapped	0x1022e2254
+Lidgren.Network	294	0x06000127	Lidgren.Network.NetConnection	SendMessage	0x2050	NoInlining	Public, HideBySig	0x1003bd808	0x947c9339	0x1022e24ec	0x1022e24ec	mapped	0x1022e24ec
+Lidgren.Network	295	0x06000128	Lidgren.Network.NetConnection	EnqueueMessage	0x2050	NoInlining	Assembly, HideBySig	0x1003bd80c	0x947c9359	0x1022e2570	0x1022e2570	mapped	0x1022e2570
+Lidgren.Network	296	0x06000129	Lidgren.Network.NetConnection	CreateSenderChannel	0x2050	NoInlining	Private, HideBySig	0x1003bd810	0x947c93f6	0x1022e27e8	0x1022e27e8	mapped	0x1022e27e8
+Lidgren.Network	297	0x0600012a	Lidgren.Network.NetConnection	ReceivedLibraryMessage	0x2050	NoInlining	Assembly, HideBySig	0x1003bd814	0x947c9487	0x1022e2a30	0x1022e2a30	mapped	0x1022e2a30
+Lidgren.Network	298	0x0600012b	Lidgren.Network.NetConnection	ReceivedMessage	0x2050	NoInlining	Assembly, HideBySig	0x1003bd818	0x947c95e4	0x1022e2fa8	0x1022e2fa8	mapped	0x1022e2fa8
+Lidgren.Network	299	0x0600012c	Lidgren.Network.NetConnection	CreateReceiverChannel	0x2050	NoInlining	Private, HideBySig	0x1003bd81c	0x947c9614	0x1022e306c	0x1022e306c	mapped	0x1022e306c
+Lidgren.Network	300	0x0600012d	Lidgren.Network.NetConnection	QueueAck	0x2050	NoInlining	Assembly, HideBySig	0x1003bd820	0x947c96a7	0x1022e32bc	0x1022e32bc	mapped	0x1022e32bc
+Lidgren.Network	301	0x0600012e	Lidgren.Network.NetConnection	GetSendQueueInfo	0x2050	NoInlining	Public, HideBySig	0x1003bd824	0x947c96d1	0x1022e3368	0x1022e3368	mapped	0x1022e3368
+Lidgren.Network	302	0x0600012f	Lidgren.Network.NetConnection	CanSendImmediately	0x2050	NoInlining	Public, HideBySig	0x1003bd828	0x947c9714	0x1022e3478	0x1022e3478	mapped	0x1022e3478
+Lidgren.Network	303	0x06000130	Lidgren.Network.NetConnection	Shutdown	0x2050	NoInlining	Assembly, HideBySig	0x1003bd82c	0x947c973f	0x1022e3528	0x1022e3528	mapped	0x1022e3528
+Lidgren.Network	304	0x06000131	Lidgren.Network.NetConnection	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd830	0x947c974f	0x1022e356c	0x1022e356c	mapped	0x1022e356c
+Lidgren.Network	305	0x06000132	Lidgren.Network.NetConnection	get_RemoteHailMessage	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd834	0x947c9779	0x1022e3618	0x1022e3618	mapped	0x1022e3618
+Lidgren.Network	306	0x06000133	Lidgren.Network.NetConnection	UnconnectedHeartbeat	0x2050	NoInlining	Assembly, HideBySig	0x1003bd838	0x947c9781	0x1022e363c	0x1022e363c	mapped	0x1022e363c
+Lidgren.Network	307	0x06000134	Lidgren.Network.NetConnection	ExecuteDisconnect	0x2050	NoInlining	Assembly, HideBySig	0x1003bd83c	0x947c97f9	0x1022e3820	0x1022e3820	mapped	0x1022e3820
+Lidgren.Network	308	0x06000135	Lidgren.Network.NetConnection	SendConnect	0x2050	NoInlining	Assembly, HideBySig	0x1003bd840	0x947c989f	0x1022e3abc	0x1022e3abc	mapped	0x1022e3abc
+Lidgren.Network	309	0x06000136	Lidgren.Network.NetConnection	SendConnectResponse	0x2050	NoInlining	Assembly, HideBySig	0x1003bd844	0x947c991e	0x1022e3cbc	0x1022e3cbc	mapped	0x1022e3cbc
+Lidgren.Network	310	0x06000137	Lidgren.Network.NetConnection	SendDisconnect	0x2050	NoInlining	Assembly, HideBySig	0x1003bd848	0x947c99c6	0x1022e3f60	0x1022e3f60	mapped	0x1022e3f60
+Lidgren.Network	311	0x06000138	Lidgren.Network.NetConnection	WriteLocalHail	0x2050	NoInlining	Private, HideBySig	0x1003bd84c	0x947c9a22	0x1022e40d4	0x1022e40d4	mapped	0x1022e40d4
+Lidgren.Network	312	0x06000139	Lidgren.Network.NetConnection	SendConnectionEstablished	0x2050	NoInlining	Assembly, HideBySig	0x1003bd850	0x947c9a8f	0x1022e428c	0x1022e428c	mapped	0x1022e428c
+Lidgren.Network	313	0x0600013a	Lidgren.Network.NetConnection	Approve	0x2050	NoInlining	Public, HideBySig	0x1003bd854	0x947c9ae7	0x1022e43f0	0x1022e43f0	mapped	0x1022e43f0
+Lidgren.Network	314	0x0600013b	Lidgren.Network.NetConnection	Approve	0x2050	NoInlining	Public, HideBySig	0x1003bd858	0x947c9b20	0x1022e44d8	0x1022e44d8	mapped	0x1022e44d8
+Lidgren.Network	315	0x0600013c	Lidgren.Network.NetConnection	Deny	0x2050	NoInlining	Public, HideBySig	0x1003bd85c	0x947c9b61	0x1022e45e0	0x1022e45e0	mapped	0x1022e45e0
+Lidgren.Network	316	0x0600013d	Lidgren.Network.NetConnection	Deny	0x2050	NoInlining	Public, HideBySig	0x1003bd860	0x947c9b7c	0x1022e4650	0x1022e4650	mapped	0x1022e4650
+Lidgren.Network	317	0x0600013e	Lidgren.Network.NetConnection	ReceivedHandshake	0x2050	NoInlining	Assembly, HideBySig	0x1003bd864	0x947c9bca	0x1022e478c	0x1022e478c	mapped	0x1022e478c
+Lidgren.Network	318	0x0600013f	Lidgren.Network.NetConnection	HandleConnectResponse	0x2050	NoInlining	Private, HideBySig	0x1003bd868	0x947c9d5a	0x1022e4dd0	0x1022e4dd0	mapped	0x1022e4dd0
+Lidgren.Network	319	0x06000140	Lidgren.Network.NetConnection	ValidateHandshakeData	0x2050	NoInlining	Private, HideBySig	0x1003bd86c	0x947c9dad	0x1022e4f20	0x1022e4f20	mapped	0x1022e4f20
+Lidgren.Network	320	0x06000141	Lidgren.Network.NetConnection	Disconnect	0x2050	NoInlining	Public, HideBySig	0x1003bd870	0x947c9e53	0x1022e51bc	0x1022e51bc	mapped	0x1022e51bc
+Lidgren.Network	321	0x06000142	Lidgren.Network.NetConnection	get_AverageRoundtripTime	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd874	0x947c9e7c	0x1022e5264	0x1022e5264	mapped	0x1022e5264
+Lidgren.Network	322	0x06000143	Lidgren.Network.NetConnection	get_RemoteTimeOffset	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd878	0x947c9e85	0x1022e528c	0x1022e528c	mapped	0x1022e528c
+Lidgren.Network	323	0x06000144	Lidgren.Network.NetConnection	InitializeRemoteTimeOffset	0x2050	NoInlining	Assembly, HideBySig	0x1003bd87c	0x947c9e8e	0x1022e52b4	0x1022e52b4	mapped	0x1022e52b4
+Lidgren.Network	324	0x06000145	Lidgren.Network.NetConnection	GetLocalTime	0x2050	NoInlining	Public, HideBySig	0x1003bd880	0x947c9eaa	0x1022e5328	0x1022e5328	mapped	0x1022e5328
+Lidgren.Network	325	0x06000146	Lidgren.Network.NetConnection	GetRemoteTime	0x2050	NoInlining	Public, HideBySig	0x1003bd884	0x947c9eb3	0x1022e5350	0x1022e5350	mapped	0x1022e5350
+Lidgren.Network	326	0x06000147	Lidgren.Network.NetConnection	InitializePing	0x2050	NoInlining	Assembly, HideBySig	0x1003bd888	0x947c9ebc	0x1022e5378	0x1022e5378	mapped	0x1022e5378
+Lidgren.Network	327	0x06000148	Lidgren.Network.NetConnection	SendPing	0x2050	NoInlining	Assembly, HideBySig	0x1003bd88c	0x947c9ed8	0x1022e53ec	0x1022e53ec	mapped	0x1022e53ec
+Lidgren.Network	328	0x06000149	Lidgren.Network.NetConnection	SendPong	0x2050	NoInlining	Assembly, HideBySig	0x1003bd890	0x947c9f28	0x1022e5530	0x1022e5530	mapped	0x1022e5530
+Lidgren.Network	329	0x0600014a	Lidgren.Network.NetConnection	ReceivedPong	0x2050	NoInlining	Assembly, HideBySig	0x1003bd894	0x947c9f78	0x1022e5674	0x1022e5674	mapped	0x1022e5674
+Lidgren.Network	330	0x0600014b	Lidgren.Network.NetConnection	get_CurrentMTU	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd898	0x947ca016	0x1022e58f0	0x1022e58f0	mapped	0x1022e58f0
+Lidgren.Network	331	0x0600014c	Lidgren.Network.NetConnection	InitExpandMTU	0x2050	NoInlining	Assembly, HideBySig	0x1003bd89c	0x947ca01e	0x1022e5914	0x1022e5914	mapped	0x1022e5914
+Lidgren.Network	332	0x0600014d	Lidgren.Network.NetConnection	MTUExpansionHeartbeat	0x2050	NoInlining	Private, HideBySig	0x1003bd8a0	0x947ca036	0x1022e5978	0x1022e5978	mapped	0x1022e5978
+Lidgren.Network	333	0x0600014e	Lidgren.Network.NetConnection	ExpandMTU	0x2050	NoInlining	Private, HideBySig	0x1003bd8a4	0x947ca083	0x1022e5ab0	0x1022e5ab0	mapped	0x1022e5ab0
+Lidgren.Network	334	0x0600014f	Lidgren.Network.NetConnection	SendExpandMTU	0x2050	NoInlining	Private, HideBySig	0x1003bd8a8	0x947ca0b1	0x1022e5b6c	0x1022e5b6c	mapped	0x1022e5b6c
+Lidgren.Network	335	0x06000150	Lidgren.Network.NetConnection	FinalizeMTU	0x2050	NoInlining	Private, HideBySig	0x1003bd8ac	0x947ca13f	0x1022e5da8	0x1022e5da8	mapped	0x1022e5da8
+Lidgren.Network	336	0x06000151	Lidgren.Network.NetConnection	SendMTUSuccess	0x2050	NoInlining	Private, HideBySig	0x1003bd8b0	0x947ca151	0x1022e5df4	0x1022e5df4	mapped	0x1022e5df4
+Lidgren.Network	337	0x06000152	Lidgren.Network.NetConnection	HandleExpandMTUSuccess	0x2050	NoInlining	Private, HideBySig	0x1003bd8b4	0x947ca1af	0x1022e5f70	0x1022e5f70	mapped	0x1022e5f70
+Lidgren.Network	338	0x06000153	Lidgren.Network.NetConnectionStatistics	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003bd8b8	0x947ca1e4	0x1022e6048	0x1022e6048	mapped	0x1022e6048
+Lidgren.Network	339	0x06000154	Lidgren.Network.NetConnectionStatistics	Reset	0x2050	NoInlining	Assembly, HideBySig	0x1003bd8bc	0x947ca202	0x1022e60c4	0x1022e60c4	mapped	0x1022e60c4
+Lidgren.Network	340	0x06000155	Lidgren.Network.NetConnectionStatistics	get_SentPackets	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd8c0	0x947ca20f	0x1022e60fc	0x1022e60fc	mapped	0x1022e60fc
+Lidgren.Network	341	0x06000156	Lidgren.Network.NetConnectionStatistics	get_ReceivedPackets	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd8c4	0x947ca217	0x1022e6120	0x1022e6120	mapped	0x1022e6120
+Lidgren.Network	342	0x06000157	Lidgren.Network.NetConnectionStatistics	get_SentBytes	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd8c8	0x947ca21f	0x1022e6144	0x1022e6144	mapped	0x1022e6144
+Lidgren.Network	343	0x06000158	Lidgren.Network.NetConnectionStatistics	get_ReceivedBytes	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd8cc	0x947ca227	0x1022e6168	0x1022e6168	mapped	0x1022e6168
+Lidgren.Network	344	0x06000159	Lidgren.Network.NetConnectionStatistics	get_SentMessages	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd8d0	0x947ca22f	0x1022e618c	0x1022e618c	mapped	0x1022e618c
+Lidgren.Network	345	0x0600015a	Lidgren.Network.NetConnectionStatistics	get_ReceivedMessages	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd8d4	0x947ca237	0x1022e61b0	0x1022e61b0	mapped	0x1022e61b0
+Lidgren.Network	346	0x0600015b	Lidgren.Network.NetConnectionStatistics	get_ResentMessages	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd8d8	0x947ca23f	0x1022e61d4	0x1022e61d4	mapped	0x1022e61d4
+Lidgren.Network	347	0x0600015c	Lidgren.Network.NetConnectionStatistics	get_DroppedMessages	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd8dc	0x947ca249	0x1022e6200	0x1022e6200	mapped	0x1022e6200
+Lidgren.Network	348	0x0600015d	Lidgren.Network.NetConnectionStatistics	PacketSent	0x2050	NoInlining	Assembly, HideBySig	0x1003bd8e0	0x947ca251	0x1022e6224	0x1022e6224	mapped	0x1022e6224
+Lidgren.Network	349	0x0600015e	Lidgren.Network.NetConnectionStatistics	PacketReceived	0x2050	NoInlining	Assembly, HideBySig	0x1003bd8e4	0x947ca261	0x1022e6268	0x1022e6268	mapped	0x1022e6268
+Lidgren.Network	350	0x0600015f	Lidgren.Network.NetConnectionStatistics	MessageResent	0x2050	NoInlining	Assembly, HideBySig	0x1003bd8e8	0x947ca274	0x1022e62b8	0x1022e62b8	mapped	0x1022e62b8
+Lidgren.Network	351	0x06000160	Lidgren.Network.NetConnectionStatistics	MessageDropped	0x2050	NoInlining	Assembly, HideBySig	0x1003bd8ec	0x947ca288	0x1022e630c	0x1022e630c	mapped	0x1022e630c
+Lidgren.Network	352	0x06000161	Lidgren.Network.NetConnectionStatistics	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd8f0	0x947ca292	0x1022e6338	0x1022e6338	mapped	0x1022e6338
+Lidgren.Network	353	0x06000162	Lidgren.Network.NetException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd8f4	0x947ca401	0x1022e68f8	0x1022e68f8	mapped	0x1022e68f8
+Lidgren.Network	354	0x06000163	Lidgren.Network.NetException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd8f8	0x947ca40c	0x1022e6928	0x1022e6928	mapped	0x1022e6928
+Lidgren.Network	355	0x06000164	Lidgren.Network.NetException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd8fc	0x947ca41e	0x1022e6974	0x1022e6974	mapped	0x1022e6974
+Lidgren.Network	356	0x06000165	Lidgren.Network.NetException	Assert	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd900	0x947ca435	0x1022e69d4	0x1022e69d4	mapped	0x1022e69d4
+Lidgren.Network	357	0x06000166	Lidgren.Network.NetException	Assert	0x2050	NoInlining	Public, Static, HideBySig	0x1003bd904	0x947ca459	0x1022e6a68	0x1022e6a68	mapped	0x1022e6a68
+Lidgren.Network	358	0x06000167	Lidgren.Network.NetFragmentationHelper	WriteHeader	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bd908	0x947ca47b	0x1022e6af4	0x1022e6af4	mapped	0x1022e6af4
+Lidgren.Network	359	0x06000168	Lidgren.Network.NetFragmentationHelper	ReadHeader	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bd90c	0x947ca51c	0x1022e6d7c	0x1022e6d7c	mapped	0x1022e6d7c
+Lidgren.Network	360	0x06000169	Lidgren.Network.NetFragmentationHelper	GetFragmentationHeaderSize	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bd910	0x947ca5b8	0x1022e6ff0	0x1022e6ff0	mapped	0x1022e6ff0
+Lidgren.Network	361	0x0600016a	Lidgren.Network.NetFragmentationHelper	GetBestChunkSize	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bd914	0x947ca5fd	0x1022e7108	0x1022e7108	mapped	0x1022e7108
+Lidgren.Network	362	0x0600016b	Lidgren.Network.NetFragmentationInfo	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd918	0x947ca6b5	0x1022e73ec	0x1022e73ec	mapped	0x1022e73ec
+Lidgren.Network	363	0x0600016c	Lidgren.Network.NetIncomingMessage	get_MessageType	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd91c	0x947ca6b5	0x1022e73f0	0x1022e73f0	mapped	0x1022e73f0
+Lidgren.Network	364	0x0600016d	Lidgren.Network.NetIncomingMessage	get_DeliveryMethod	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd920	0x947ca6bd	0x1022e7414	0x1022e7414	mapped	0x1022e7414
+Lidgren.Network	365	0x0600016e	Lidgren.Network.NetIncomingMessage	get_SequenceChannel	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd924	0x947ca6d0	0x1022e7464	0x1022e7464	mapped	0x1022e7464
+Lidgren.Network	366	0x0600016f	Lidgren.Network.NetIncomingMessage	get_SenderEndPoint	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd928	0x947ca6e5	0x1022e74bc	0x1022e74bc	mapped	0x1022e74bc
+Lidgren.Network	367	0x06000170	Lidgren.Network.NetIncomingMessage	get_SenderConnection	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd92c	0x947ca6ed	0x1022e74e0	0x1022e74e0	mapped	0x1022e74e0
+Lidgren.Network	368	0x06000171	Lidgren.Network.NetIncomingMessage	get_ReceiveTime	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd930	0x947ca6f5	0x1022e7504	0x1022e7504	mapped	0x1022e7504
+Lidgren.Network	369	0x06000172	Lidgren.Network.NetIncomingMessage	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003bd934	0x947ca6fd	0x1022e7528	0x1022e7528	mapped	0x1022e7528
+Lidgren.Network	370	0x06000173	Lidgren.Network.NetIncomingMessage	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003bd938	0x947ca706	0x1022e7550	0x1022e7550	mapped	0x1022e7550
+Lidgren.Network	371	0x06000174	Lidgren.Network.NetIncomingMessage	Reset	0x2050	NoInlining	Assembly, HideBySig	0x1003bd93c	0x947ca719	0x1022e75a0	0x1022e75a0	mapped	0x1022e75a0
+Lidgren.Network	372	0x06000175	Lidgren.Network.NetIncomingMessage	Decrypt	0x2050	NoInlining	Public, HideBySig	0x1003bd940	0x947ca726	0x1022e75d8	0x1022e75d8	mapped	0x1022e75d8
+Lidgren.Network	373	0x06000176	Lidgren.Network.NetIncomingMessage	ReadTime	0x2050	NoInlining	Public, HideBySig	0x1003bd944	0x947ca73d	0x1022e7638	0x1022e7638	mapped	0x1022e7638
+Lidgren.Network	374	0x06000177	Lidgren.Network.NetIncomingMessage	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bd948	0x947ca753	0x1022e7694	0x1022e7694	mapped	0x1022e7694
+Lidgren.Network	375	0x06000178	Lidgren.Network.NetPeer	Introduce	0x2050	NoInlining	Public, HideBySig	0x1003bd94c	0x947ca796	0x1022e77a4	0x1022e77a4	mapped	0x1022e77a4
+Lidgren.Network	376	0x06000179	Lidgren.Network.NetPeer	HandleNatIntroduction	0x2050	NoInlining	Assembly, HideBySig	0x1003bd950	0x947ca840	0x1022e7a50	0x1022e7a50	mapped	0x1022e7a50
+Lidgren.Network	377	0x0600017a	Lidgren.Network.NetPeer	HandleNatPunch	0x2050	NoInlining	Private, HideBySig	0x1003bd954	0x947ca8f9	0x1022e7d38	0x1022e7d38	mapped	0x1022e7d38
+Lidgren.Network	378	0x0600017b	Lidgren.Network.NetPeer	HandleNatPunchConfirmRequest	0x2050	NoInlining	Private, HideBySig	0x1003bd958	0x947ca9a0	0x1022e7fd8	0x1022e7fd8	mapped	0x1022e7fd8
+Lidgren.Network	379	0x0600017c	Lidgren.Network.NetPeer	HandleNatPunchConfirmed	0x2050	NoInlining	Private, HideBySig	0x1003bd95c	0x947caa12	0x1022e81a4	0x1022e81a4	mapped	0x1022e81a4
+Lidgren.Network	380	0x0600017d	Lidgren.Network.NetPeer	get_Status	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd960	0x947caa4e	0x1022e8298	0x1022e8298	mapped	0x1022e8298
+Lidgren.Network	381	0x0600017e	Lidgren.Network.NetPeer	get_MessageReceivedEvent	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd964	0x947caa56	0x1022e82bc	0x1022e82bc	mapped	0x1022e82bc
+Lidgren.Network	382	0x0600017f	Lidgren.Network.NetPeer	get_UniqueIdentifier	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd968	0x947caab6	0x1022e8440	0x1022e8440	mapped	0x1022e8440
+Lidgren.Network	383	0x06000180	Lidgren.Network.NetPeer	get_Port	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd96c	0x947caabe	0x1022e8464	0x1022e8464	mapped	0x1022e8464
+Lidgren.Network	384	0x06000181	Lidgren.Network.NetPeer	get_UPnP	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd970	0x947caac6	0x1022e8488	0x1022e8488	mapped	0x1022e8488
+Lidgren.Network	385	0x06000182	Lidgren.Network.NetPeer	get_Tag	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd974	0x947caace	0x1022e84ac	0x1022e84ac	mapped	0x1022e84ac
+Lidgren.Network	386	0x06000183	Lidgren.Network.NetPeer	set_Tag	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd978	0x947caad6	0x1022e84d0	0x1022e84d0	mapped	0x1022e84d0
+Lidgren.Network	387	0x06000184	Lidgren.Network.NetPeer	get_Connections	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd97c	0x947caae5	0x1022e8510	0x1022e8510	mapped	0x1022e8510
+Lidgren.Network	388	0x06000185	Lidgren.Network.NetPeer	get_ConnectionsCount	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd980	0x947cab2b	0x1022e862c	0x1022e862c	mapped	0x1022e862c
+Lidgren.Network	389	0x06000186	Lidgren.Network.NetPeer	get_Statistics	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd984	0x947cab37	0x1022e8660	0x1022e8660	mapped	0x1022e8660
+Lidgren.Network	390	0x06000187	Lidgren.Network.NetPeer	get_Configuration	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd988	0x947cab3f	0x1022e8684	0x1022e8684	mapped	0x1022e8684
+Lidgren.Network	391	0x06000188	Lidgren.Network.NetPeer	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bd98c	0x947cab47	0x1022e86a8	0x1022e86a8	mapped	0x1022e86a8
+Lidgren.Network	392	0x06000189	Lidgren.Network.NetPeer	Start	0x2050	NoInlining	Public, HideBySig	0x1003bd990	0x947cabf6	0x1022e8968	0x1022e8968	mapped	0x1022e8968
+Lidgren.Network	393	0x0600018a	Lidgren.Network.NetPeer	GetConnection	0x2050	NoInlining	Public, HideBySig	0x1003bd994	0x947cac89	0x1022e8bb8	0x1022e8bb8	mapped	0x1022e8bb8
+Lidgren.Network	394	0x0600018b	Lidgren.Network.NetPeer	WaitMessage	0x2050	NoInlining	Public, HideBySig	0x1003bd998	0x947cacb3	0x1022e8c64	0x1022e8c64	mapped	0x1022e8c64
+Lidgren.Network	395	0x0600018c	Lidgren.Network.NetPeer	ReadMessage	0x2050	NoInlining	Public, HideBySig	0x1003bd99c	0x947cacdd	0x1022e8d10	0x1022e8d10	mapped	0x1022e8d10
+Lidgren.Network	396	0x0600018d	Lidgren.Network.NetPeer	ReadMessage	0x2050	NoInlining	Public, HideBySig	0x1003bd9a0	0x947cad1d	0x1022e8e14	0x1022e8e14	mapped	0x1022e8e14
+Lidgren.Network	397	0x0600018e	Lidgren.Network.NetPeer	ReadMessages	0x2050	NoInlining	Public, HideBySig	0x1003bd9a4	0x947cad3b	0x1022e8e90	0x1022e8e90	mapped	0x1022e8e90
+Lidgren.Network	398	0x0600018f	Lidgren.Network.NetPeer	SendLibrary	0x2050	NoInlining	Assembly, HideBySig	0x1003bd9a8	0x947cad96	0x1022e9000	0x1022e9000	mapped	0x1022e9000
+Lidgren.Network	399	0x06000190	Lidgren.Network.NetPeer	GetNetEndPoint	0x2050	NoInlining	Private, Static, HideBySig	0x1003bd9ac	0x947cadc1	0x1022e90b0	0x1022e90b0	mapped	0x1022e90b0
+Lidgren.Network	400	0x06000191	Lidgren.Network.NetPeer	Connect	0x2050	NoInlining	Public, HideBySig	0x1003bd9b0	0x947cadf4	0x1022e9180	0x1022e9180	mapped	0x1022e9180
+Lidgren.Network	401	0x06000192	Lidgren.Network.NetPeer	Connect	0x2050	NoInlining	Public, HideBySig	0x1003bd9b4	0x947cae12	0x1022e91fc	0x1022e91fc	mapped	0x1022e91fc
+Lidgren.Network	402	0x06000193	Lidgren.Network.NetPeer	Connect	0x2050	NoInlining	Public, HideBySig	0x1003bd9b8	0x947cae31	0x1022e927c	0x1022e927c	mapped	0x1022e927c
+Lidgren.Network	403	0x06000194	Lidgren.Network.NetPeer	Connect	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1003bd9bc	0x947cae49	0x1022e92e0	0x1022e92e0	mapped	0x1022e92e0
+Lidgren.Network	404	0x06000195	Lidgren.Network.NetPeer	RawSend	0x2050	NoInlining	Public, HideBySig	0x1003bd9c0	0x947caf0d	0x1022e95f4	0x1022e95f4	mapped	0x1022e95f4
+Lidgren.Network	405	0x06000196	Lidgren.Network.NetPeer	ThrowOrLog	0x2050	NoInlining	Assembly, HideBySig	0x1003bd9c4	0x947caf35	0x1022e9698	0x1022e9698	mapped	0x1022e9698
+Lidgren.Network	406	0x06000197	Lidgren.Network.NetPeer	Shutdown	0x2050	NoInlining	Public, HideBySig	0x1003bd9c8	0x947caf44	0x1022e96d8	0x1022e96d8	mapped	0x1022e96d8
+Lidgren.Network	407	0x06000198	Lidgren.Network.NetPeer	DiscoverLocalPeers	0x2050	NoInlining	Public, HideBySig	0x1003bd9cc	0x947caf56	0x1022e9724	0x1022e9724	mapped	0x1022e9724
+Lidgren.Network	408	0x06000199	Lidgren.Network.NetPeer	DiscoverKnownPeer	0x2050	NoInlining	Public, HideBySig	0x1003bd9d0	0x947cafad	0x1022e9884	0x1022e9884	mapped	0x1022e9884
+Lidgren.Network	409	0x0600019a	Lidgren.Network.NetPeer	DiscoverKnownPeer	0x2050	NoInlining	Public, HideBySig	0x1003bd9d4	0x947cafd7	0x1022e9930	0x1022e9930	mapped	0x1022e9930
+Lidgren.Network	410	0x0600019b	Lidgren.Network.NetPeer	SendDiscoveryResponse	0x2050	NoInlining	Public, HideBySig	0x1003bd9d8	0x947cb018	0x1022e9a38	0x1022e9a38	mapped	0x1022e9a38
+Lidgren.Network	411	0x0600019c	Lidgren.Network.NetPeer	SendFragmentedMessage	0x2050	NoInlining	Private, HideBySig	0x1003bd9dc	0x947cb0a7	0x1022e9c78	0x1022e9c78	mapped	0x1022e9c78
+Lidgren.Network	412	0x0600019d	Lidgren.Network.NetPeer	HandleReleasedFragment	0x2050	NoInlining	Private, HideBySig	0x1003bd9e0	0x947cb1fa	0x1022ea1c8	0x1022ea1c8	mapped	0x1022ea1c8
+Lidgren.Network	413	0x0600019e	Lidgren.Network.NetPeer	get_Socket	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bd9e4	0x947cb300	0x1022ea5e4	0x1022ea5e4	mapped	0x1022ea5e4
+Lidgren.Network	414	0x0600019f	Lidgren.Network.NetPeer	RegisterReceivedCallback	0x2050	NoInlining	Public, HideBySig	0x1003bd9e8	0x947cb308	0x1022ea608	0x1022ea608	mapped	0x1022ea608
+Lidgren.Network	415	0x060001a0	Lidgren.Network.NetPeer	UnregisterReceivedCallback	0x2050	NoInlining	Public, HideBySig	0x1003bd9ec	0x947cb38a	0x1022ea814	0x1022ea814	mapped	0x1022ea814
+Lidgren.Network	416	0x060001a1	Lidgren.Network.NetPeer	ReleaseMessage	0x2050	NoInlining	Assembly, HideBySig	0x1003bd9f0	0x97ffe9d4	0x1003b8140	0x1003b8140	mapped	0x1003b8140
+Lidgren.Network	417	0x060001a2	Lidgren.Network.NetPeer	BindSocket	0x2050	NoInlining	Private, HideBySig	0x1003bd9f4	0x947cb3d5	0x1022ea948	0x1022ea948	mapped	0x1022ea948
+Lidgren.Network	418	0x060001a3	Lidgren.Network.NetPeer	InitializeNetwork	0x2050	NoInlining	Private, HideBySig	0x1003bd9f8	0x947cb4d6	0x1022ead50	0x1022ead50	mapped	0x1022ead50
+Lidgren.Network	419	0x060001a4	Lidgren.Network.NetPeer	NetworkLoop	0x2050	NoInlining	Private, HideBySig	0x1003bd9fc	0x947cb5ae	0x1022eb0b4	0x1022eb0b4	mapped	0x1022eb0b4
+Lidgren.Network	420	0x060001a5	Lidgren.Network.NetPeer	ExecutePeerShutdown	0x2050	NoInlining	Private, HideBySig	0x1003bda00	0x97ffea74	0x1003b83d0	0x1003b83d0	mapped	0x1003b83d0
+Lidgren.Network	421	0x060001a6	Lidgren.Network.NetPeer	Heartbeat	0x2050	NoInlining	Private, HideBySig	0x1003bda04	0x947cb5e5	0x1022eb198	0x1022eb198	mapped	0x1022eb198
+Lidgren.Network	422	0x060001a7	Lidgren.Network.NetPeer	FlushSendQueue	0x2050	NoInlining	Public, HideBySig	0x1003bda08	0x947cba47	0x1022ec324	0x1022ec324	mapped	0x1022ec324
+Lidgren.Network	423	0x060001a8	Lidgren.Network.NetPeer	HandleIncomingDiscoveryRequest	0x2050	NoInlining	Assembly, HideBySig	0x1003bda0c	0x947cba51	0x1022ec350	0x1022ec350	mapped	0x1022ec350
+Lidgren.Network	424	0x060001a9	Lidgren.Network.NetPeer	HandleIncomingDiscoveryResponse	0x2050	NoInlining	Assembly, HideBySig	0x1003bda10	0x947cba96	0x1022ec468	0x1022ec468	mapped	0x1022ec468
+Lidgren.Network	425	0x060001aa	Lidgren.Network.NetPeer	ReceivedUnconnectedLibraryMessage	0x2050	NoInlining	Private, HideBySig	0x1003bda14	0x97ffec67	0x1003b8bb0	0x1003b8bb0	mapped	0x1003b8bb0
+Lidgren.Network	426	0x060001ab	Lidgren.Network.NetPeer	AcceptConnection	0x2050	NoInlining	Assembly, HideBySig	0x1003bda18	0x947cbada	0x1022ec580	0x1022ec580	mapped	0x1022ec580
+Lidgren.Network	427	0x060001ac	Lidgren.Network.NetPeer	VerifyNetworkThread	0x2050	NoInlining	Assembly, HideBySig	0x1003bda1c	0x947cbb5f	0x1022ec798	0x1022ec798	mapped	0x1022ec798
+Lidgren.Network	428	0x060001ad	Lidgren.Network.NetPeer	SetupReadHelperMessage	0x2050	NoInlining	Assembly, HideBySig	0x1003bda20	0x947cbbbd	0x1022ec914	0x1022ec914	mapped	0x1022ec914
+Lidgren.Network	429	0x060001ae	Lidgren.Network.NetPeer	SendMTUPacket	0x2050	NoInlining	Assembly, HideBySig	0x1003bda24	0x97ffee2b	0x1003b92d0	0x1003b92d0	mapped	0x1003b92d0
+Lidgren.Network	430	0x060001af	Lidgren.Network.NetPeer	SendPacket	0x2050	NoInlining	Assembly, HideBySig	0x1003bda28	0x97ffef9a	0x1003b9890	0x1003b9890	mapped	0x1003b9890
+Lidgren.Network	431	0x060001b0	Lidgren.Network.NetPeer	FlushDelayedPackets	0x2050	NoInlining	Private, HideBySig	0x1003bda2c	0x947cbbd2	0x1022ec974	0x1022ec974	mapped	0x1022ec974
+Lidgren.Network	432	0x060001b1	Lidgren.Network.NetPeer	LogVerbose	0x2050	NoInlining	Assembly, HideBySig	0x1003bda30	0x947cbbd2	0x1022ec978	0x1022ec978	mapped	0x1022ec978
+Lidgren.Network	433	0x060001b2	Lidgren.Network.NetPeer	LogDebug	0x2050	NoInlining	Assembly, HideBySig	0x1003bda34	0x947cbbf1	0x1022ec9f8	0x1022ec9f8	mapped	0x1022ec9f8
+Lidgren.Network	434	0x060001b3	Lidgren.Network.NetPeer	LogWarning	0x2050	NoInlining	Assembly, HideBySig	0x1003bda38	0x947cbc10	0x1022eca78	0x1022eca78	mapped	0x1022eca78
+Lidgren.Network	435	0x060001b4	Lidgren.Network.NetPeer	LogError	0x2050	NoInlining	Assembly, HideBySig	0x1003bda3c	0x947cbc2f	0x1022ecaf8	0x1022ecaf8	mapped	0x1022ecaf8
+Lidgren.Network	436	0x060001b5	Lidgren.Network.NetPeer	InitializePools	0x2050	NoInlining	Private, HideBySig	0x1003bda40	0x947cbc4e	0x1022ecb78	0x1022ecb78	mapped	0x1022ecb78
+Lidgren.Network	437	0x060001b6	Lidgren.Network.NetPeer	GetStorage	0x2050	NoInlining	Assembly, HideBySig	0x1003bda44	0x947cbca7	0x1022ecce0	0x1022ecce0	mapped	0x1022ecce0
+Lidgren.Network	438	0x060001b7	Lidgren.Network.NetPeer	Recycle	0x2050	NoInlining	Assembly, HideBySig	0x1003bda48	0x947cbd59	0x1022ecfac	0x1022ecfac	mapped	0x1022ecfac
+Lidgren.Network	439	0x060001b8	Lidgren.Network.NetPeer	CreateMessage	0x2050	NoInlining	Public, HideBySig	0x1003bda4c	0x947cbe10	0x1022ed28c	0x1022ed28c	mapped	0x1022ed28c
+Lidgren.Network	440	0x060001b9	Lidgren.Network.NetPeer	CreateMessage	0x2050	NoInlining	Public, HideBySig	0x1003bda50	0x947cbe28	0x1022ed2f0	0x1022ed2f0	mapped	0x1022ed2f0
+Lidgren.Network	441	0x060001ba	Lidgren.Network.NetPeer	CreateMessage	0x2050	NoInlining	Public, HideBySig	0x1003bda54	0x947cbe47	0x1022ed370	0x1022ed370	mapped	0x1022ed370
+Lidgren.Network	442	0x060001bb	Lidgren.Network.NetPeer	CreateIncomingMessage	0x2050	NoInlining	Assembly, HideBySig	0x1003bda58	0x947cbe8a	0x1022ed480	0x1022ed480	mapped	0x1022ed480
+Lidgren.Network	443	0x060001bc	Lidgren.Network.NetPeer	CreateIncomingMessage	0x2050	NoInlining	Assembly, HideBySig	0x1003bda5c	0x947cbece	0x1022ed594	0x1022ed594	mapped	0x1022ed594
+Lidgren.Network	444	0x060001bd	Lidgren.Network.NetPeer	Recycle	0x2050	NoInlining	Public, HideBySig	0x1003bda60	0x947cbf18	0x1022ed6c0	0x1022ed6c0	mapped	0x1022ed6c0
+Lidgren.Network	445	0x060001be	Lidgren.Network.NetPeer	Recycle	0x2050	NoInlining	Public, HideBySig	0x1003bda64	0x947cbf55	0x1022ed7b8	0x1022ed7b8	mapped	0x1022ed7b8
+Lidgren.Network	446	0x060001bf	Lidgren.Network.NetPeer	Recycle	0x2050	NoInlining	Assembly, HideBySig	0x1003bda68	0x947cbfbc	0x1022ed958	0x1022ed958	mapped	0x1022ed958
+Lidgren.Network	447	0x060001c0	Lidgren.Network.NetPeer	CreateIncomingMessage	0x2050	NoInlining	Assembly, HideBySig	0x1003bda6c	0x947cbffd	0x1022eda60	0x1022eda60	mapped	0x1022eda60
+Lidgren.Network	448	0x060001c1	Lidgren.Network.NetPeer	SendMessage	0x2050	NoInlining	Public, HideBySig	0x1003bda70	0x947cc048	0x1022edb90	0x1022edb90	mapped	0x1022edb90
+Lidgren.Network	449	0x060001c2	Lidgren.Network.NetPeer	SendMessage	0x2050	NoInlining	Public, HideBySig	0x1003bda74	0x947cc05e	0x1022edbec	0x1022edbec	mapped	0x1022edbec
+Lidgren.Network	450	0x060001c3	Lidgren.Network.NetPeer	GetMTU	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bda78	0x947cc0e9	0x1022ede1c	0x1022ede1c	mapped	0x1022ede1c
+Lidgren.Network	451	0x060001c4	Lidgren.Network.NetPeer	SendMessage	0x2050	NoInlining	Public, HideBySig	0x1003bda7c	0x947cc129	0x1022edf20	0x1022edf20	mapped	0x1022edf20
+Lidgren.Network	452	0x060001c5	Lidgren.Network.NetPeer	SendUnconnectedMessage	0x2050	NoInlining	Public, HideBySig	0x1003bda80	0x947cc241	0x1022ee384	0x1022ee384	mapped	0x1022ee384
+Lidgren.Network	453	0x060001c6	Lidgren.Network.NetPeer	SendUnconnectedMessage	0x2050	NoInlining	Public, HideBySig	0x1003bda84	0x947cc2e0	0x1022ee604	0x1022ee604	mapped	0x1022ee604
+Lidgren.Network	454	0x060001c7	Lidgren.Network.NetPeer	SendUnconnectedMessage	0x2050	NoInlining	Public, HideBySig	0x1003bda88	0x947cc36a	0x1022ee830	0x1022ee830	mapped	0x1022ee830
+Lidgren.Network	455	0x060001c8	Lidgren.Network.NetPeer	SendUnconnectedToSelf	0x2050	NoInlining	Public, HideBySig	0x1003bda8c	0x947cc44f	0x1022eebc8	0x1022eebc8	mapped	0x1022eebc8
+Lidgren.Network	456	0x060001c9	Lidgren.Network.NetOutgoingMessage	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003bda90	0x947cc4c6	0x1022eeda8	0x1022eeda8	mapped	0x1022eeda8
+Lidgren.Network	457	0x060001ca	Lidgren.Network.NetOutgoingMessage	Reset	0x2050	NoInlining	Assembly, HideBySig	0x1003bda94	0x947cc4cf	0x1022eedd0	0x1022eedd0	mapped	0x1022eedd0
+Lidgren.Network	458	0x060001cb	Lidgren.Network.NetOutgoingMessage	Encode	0x2050	NoInlining	Assembly, HideBySig	0x1003bda98	0x947cc4db	0x1022eee04	0x1022eee04	mapped	0x1022eee04
+Lidgren.Network	459	0x060001cc	Lidgren.Network.NetOutgoingMessage	GetEncodedSize	0x2050	NoInlining	Assembly, HideBySig	0x1003bda9c	0x947cc562	0x1022ef024	0x1022ef024	mapped	0x1022ef024
+Lidgren.Network	460	0x060001cd	Lidgren.Network.NetOutgoingMessage	Encrypt	0x2050	NoInlining	Public, HideBySig	0x1003bdaa0	0x947cc5b9	0x1022ef184	0x1022ef184	mapped	0x1022ef184
+Lidgren.Network	461	0x060001ce	Lidgren.Network.NetOutgoingMessage	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdaa4	0x947cc5d0	0x1022ef1e4	0x1022ef1e4	mapped	0x1022ef1e4
+Lidgren.Network	462	0x060001cf	Lidgren.Network.ReceivedFragmentGroup	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdaa8	0x947cc628	0x1022ef348	0x1022ef348	mapped	0x1022ef348
+Lidgren.Network	463	0x060001d0	Lidgren.Network.NetPeerConfiguration	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdaac	0x947cc628	0x1022ef34c	0x1022ef34c	mapped	0x1022ef34c
+Lidgren.Network	464	0x060001d1	Lidgren.Network.NetPeerConfiguration	Lock	0x2050	NoInlining	Assembly, HideBySig	0x1003bdab0	0x947cc698	0x1022ef510	0x1022ef510	mapped	0x1022ef510
+Lidgren.Network	465	0x060001d2	Lidgren.Network.NetPeerConfiguration	get_AppIdentifier	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdab4	0x947cc6a2	0x1022ef53c	0x1022ef53c	mapped	0x1022ef53c
+Lidgren.Network	466	0x060001d3	Lidgren.Network.NetPeerConfiguration	EnableMessageType	0x2050	NoInlining	Public, HideBySig	0x1003bdab8	0x947cc6aa	0x1022ef560	0x1022ef560	mapped	0x1022ef560
+Lidgren.Network	467	0x060001d4	Lidgren.Network.NetPeerConfiguration	DisableMessageType	0x2050	NoInlining	Public, HideBySig	0x1003bdabc	0x947cc6b4	0x1022ef58c	0x1022ef58c	mapped	0x1022ef58c
+Lidgren.Network	468	0x060001d5	Lidgren.Network.NetPeerConfiguration	SetMessageTypeEnabled	0x2050	NoInlining	Public, HideBySig	0x1003bdac0	0x947cc6be	0x1022ef5b8	0x1022ef5b8	mapped	0x1022ef5b8
+Lidgren.Network	469	0x060001d6	Lidgren.Network.NetPeerConfiguration	IsMessageTypeEnabled	0x2050	NoInlining	Public, HideBySig	0x1003bdac4	0x947cc6d0	0x1022ef604	0x1022ef604	mapped	0x1022ef604
+Lidgren.Network	470	0x060001d7	Lidgren.Network.NetPeerConfiguration	get_UnreliableSizeBehaviour	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdac8	0x947cc6da	0x1022ef630	0x1022ef630	mapped	0x1022ef630
+Lidgren.Network	471	0x060001d8	Lidgren.Network.NetPeerConfiguration	set_UnreliableSizeBehaviour	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdacc	0x947cc6e2	0x1022ef654	0x1022ef654	mapped	0x1022ef654
+Lidgren.Network	472	0x060001d9	Lidgren.Network.NetPeerConfiguration	get_NetworkThreadName	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdad0	0x947cc6ea	0x1022ef678	0x1022ef678	mapped	0x1022ef678
+Lidgren.Network	473	0x060001da	Lidgren.Network.NetPeerConfiguration	set_NetworkThreadName	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdad4	0x947cc6f2	0x1022ef69c	0x1022ef69c	mapped	0x1022ef69c
+Lidgren.Network	474	0x060001db	Lidgren.Network.NetPeerConfiguration	get_MaximumConnections	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdad8	0x947cc727	0x1022ef774	0x1022ef774	mapped	0x1022ef774
+Lidgren.Network	475	0x060001dc	Lidgren.Network.NetPeerConfiguration	set_MaximumConnections	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdadc	0x947cc72f	0x1022ef798	0x1022ef798	mapped	0x1022ef798
+Lidgren.Network	476	0x060001dd	Lidgren.Network.NetPeerConfiguration	get_MaximumTransmissionUnit	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdae0	0x947cc75e	0x1022ef858	0x1022ef858	mapped	0x1022ef858
+Lidgren.Network	477	0x060001de	Lidgren.Network.NetPeerConfiguration	set_MaximumTransmissionUnit	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdae4	0x947cc766	0x1022ef87c	0x1022ef87c	mapped	0x1022ef87c
+Lidgren.Network	478	0x060001df	Lidgren.Network.NetPeerConfiguration	get_DefaultOutgoingMessageCapacity	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdae8	0x947cc7ad	0x1022ef99c	0x1022ef99c	mapped	0x1022ef99c
+Lidgren.Network	479	0x060001e0	Lidgren.Network.NetPeerConfiguration	set_DefaultOutgoingMessageCapacity	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdaec	0x947cc7b5	0x1022ef9c0	0x1022ef9c0	mapped	0x1022ef9c0
+Lidgren.Network	480	0x060001e1	Lidgren.Network.NetPeerConfiguration	get_PingInterval	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdaf0	0x947cc7bd	0x1022ef9e4	0x1022ef9e4	mapped	0x1022ef9e4
+Lidgren.Network	481	0x060001e2	Lidgren.Network.NetPeerConfiguration	set_PingInterval	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdaf4	0x947cc7c5	0x1022efa08	0x1022efa08	mapped	0x1022efa08
+Lidgren.Network	482	0x060001e3	Lidgren.Network.NetPeerConfiguration	get_UseMessageRecycling	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdaf8	0x947cc7cd	0x1022efa2c	0x1022efa2c	mapped	0x1022efa2c
+Lidgren.Network	483	0x060001e4	Lidgren.Network.NetPeerConfiguration	set_UseMessageRecycling	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdafc	0x947cc7d5	0x1022efa50	0x1022efa50	mapped	0x1022efa50
+Lidgren.Network	484	0x060001e5	Lidgren.Network.NetPeerConfiguration	get_RecycledCacheMaxCount	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb00	0x947cc804	0x1022efb10	0x1022efb10	mapped	0x1022efb10
+Lidgren.Network	485	0x060001e6	Lidgren.Network.NetPeerConfiguration	set_RecycledCacheMaxCount	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb04	0x947cc80c	0x1022efb34	0x1022efb34	mapped	0x1022efb34
+Lidgren.Network	486	0x060001e7	Lidgren.Network.NetPeerConfiguration	get_ConnectionTimeout	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb08	0x947cc83b	0x1022efbf4	0x1022efbf4	mapped	0x1022efbf4
+Lidgren.Network	487	0x060001e8	Lidgren.Network.NetPeerConfiguration	set_ConnectionTimeout	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb0c	0x947cc843	0x1022efc18	0x1022efc18	mapped	0x1022efc18
+Lidgren.Network	488	0x060001e9	Lidgren.Network.NetPeerConfiguration	get_EnableUPnP	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb10	0x947cc875	0x1022efce4	0x1022efce4	mapped	0x1022efce4
+Lidgren.Network	489	0x060001ea	Lidgren.Network.NetPeerConfiguration	set_EnableUPnP	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb14	0x947cc87d	0x1022efd08	0x1022efd08	mapped	0x1022efd08
+Lidgren.Network	490	0x060001eb	Lidgren.Network.NetPeerConfiguration	get_AutoFlushSendQueue	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb18	0x947cc8ac	0x1022efdc8	0x1022efdc8	mapped	0x1022efdc8
+Lidgren.Network	491	0x060001ec	Lidgren.Network.NetPeerConfiguration	set_AutoFlushSendQueue	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb1c	0x947cc8b4	0x1022efdec	0x1022efdec	mapped	0x1022efdec
+Lidgren.Network	492	0x060001ed	Lidgren.Network.NetPeerConfiguration	get_SuppressUnreliableUnorderedAcks	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb20	0x947cc8bc	0x1022efe10	0x1022efe10	mapped	0x1022efe10
+Lidgren.Network	493	0x060001ee	Lidgren.Network.NetPeerConfiguration	set_SuppressUnreliableUnorderedAcks	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb24	0x947cc8c4	0x1022efe34	0x1022efe34	mapped	0x1022efe34
+Lidgren.Network	494	0x060001ef	Lidgren.Network.NetPeerConfiguration	get_LocalAddress	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb28	0x947cc8f3	0x1022efef4	0x1022efef4	mapped	0x1022efef4
+Lidgren.Network	495	0x060001f0	Lidgren.Network.NetPeerConfiguration	set_LocalAddress	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb2c	0x947cc8fb	0x1022eff18	0x1022eff18	mapped	0x1022eff18
+Lidgren.Network	496	0x060001f1	Lidgren.Network.NetPeerConfiguration	get_BroadcastAddress	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb30	0x947cc930	0x1022efff0	0x1022efff0	mapped	0x1022efff0
+Lidgren.Network	497	0x060001f2	Lidgren.Network.NetPeerConfiguration	set_BroadcastAddress	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb34	0x947cc938	0x1022f0014	0x1022f0014	mapped	0x1022f0014
+Lidgren.Network	498	0x060001f3	Lidgren.Network.NetPeerConfiguration	get_Port	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb38	0x947cc96d	0x1022f00ec	0x1022f00ec	mapped	0x1022f00ec
+Lidgren.Network	499	0x060001f4	Lidgren.Network.NetPeerConfiguration	set_Port	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb3c	0x947cc975	0x1022f0110	0x1022f0110	mapped	0x1022f0110
+Lidgren.Network	500	0x060001f5	Lidgren.Network.NetPeerConfiguration	get_ReceiveBufferSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb40	0x947cc9a4	0x1022f01d0	0x1022f01d0	mapped	0x1022f01d0
+Lidgren.Network	501	0x060001f6	Lidgren.Network.NetPeerConfiguration	set_ReceiveBufferSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb44	0x947cc9ac	0x1022f01f4	0x1022f01f4	mapped	0x1022f01f4
+Lidgren.Network	502	0x060001f7	Lidgren.Network.NetPeerConfiguration	get_SendBufferSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb48	0x947cc9db	0x1022f02b4	0x1022f02b4	mapped	0x1022f02b4
+Lidgren.Network	503	0x060001f8	Lidgren.Network.NetPeerConfiguration	set_SendBufferSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb4c	0x947cc9e3	0x1022f02d8	0x1022f02d8	mapped	0x1022f02d8
+Lidgren.Network	504	0x060001f9	Lidgren.Network.NetPeerConfiguration	get_AcceptIncomingConnections	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb50	0x947cca12	0x1022f0398	0x1022f0398	mapped	0x1022f0398
+Lidgren.Network	505	0x060001fa	Lidgren.Network.NetPeerConfiguration	set_AcceptIncomingConnections	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb54	0x947cca1a	0x1022f03bc	0x1022f03bc	mapped	0x1022f03bc
+Lidgren.Network	506	0x060001fb	Lidgren.Network.NetPeerConfiguration	get_ResendHandshakeInterval	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb58	0x947cca22	0x1022f03e0	0x1022f03e0	mapped	0x1022f03e0
+Lidgren.Network	507	0x060001fc	Lidgren.Network.NetPeerConfiguration	set_ResendHandshakeInterval	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb5c	0x947cca2a	0x1022f0404	0x1022f0404	mapped	0x1022f0404
+Lidgren.Network	508	0x060001fd	Lidgren.Network.NetPeerConfiguration	get_MaximumHandshakeAttempts	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb60	0x947cca32	0x1022f0428	0x1022f0428	mapped	0x1022f0428
+Lidgren.Network	509	0x060001fe	Lidgren.Network.NetPeerConfiguration	set_MaximumHandshakeAttempts	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb64	0x947cca3a	0x1022f044c	0x1022f044c	mapped	0x1022f044c
+Lidgren.Network	510	0x060001ff	Lidgren.Network.NetPeerConfiguration	get_AutoExpandMTU	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb68	0x947cca69	0x1022f050c	0x1022f050c	mapped	0x1022f050c
+Lidgren.Network	511	0x06000200	Lidgren.Network.NetPeerConfiguration	set_AutoExpandMTU	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb6c	0x947cca71	0x1022f0530	0x1022f0530	mapped	0x1022f0530
+Lidgren.Network	512	0x06000201	Lidgren.Network.NetPeerConfiguration	get_ExpandMTUFrequency	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb70	0x947ccaa0	0x1022f05f0	0x1022f05f0	mapped	0x1022f05f0
+Lidgren.Network	513	0x06000202	Lidgren.Network.NetPeerConfiguration	set_ExpandMTUFrequency	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb74	0x947ccaa8	0x1022f0614	0x1022f0614	mapped	0x1022f0614
+Lidgren.Network	514	0x06000203	Lidgren.Network.NetPeerConfiguration	get_ExpandMTUFailAttempts	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb78	0x947ccab0	0x1022f0638	0x1022f0638	mapped	0x1022f0638
+Lidgren.Network	515	0x06000204	Lidgren.Network.NetPeerConfiguration	set_ExpandMTUFailAttempts	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb7c	0x947ccab8	0x1022f065c	0x1022f065c	mapped	0x1022f065c
+Lidgren.Network	516	0x06000205	Lidgren.Network.NetPeerConfiguration	Clone	0x2050	NoInlining	Public, HideBySig	0x1003bdb80	0x947ccac0	0x1022f0680	0x1022f0680	mapped	0x1022f0680
+Lidgren.Network	517	0x06000206	Lidgren.Network.NetPeerStatistics	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003bdb84	0x947ccae4	0x1022f0714	0x1022f0714	mapped	0x1022f0714
+Lidgren.Network	518	0x06000207	Lidgren.Network.NetPeerStatistics	Reset	0x2050	NoInlining	Assembly, HideBySig	0x1003bdb88	0x947ccb01	0x1022f078c	0x1022f078c	mapped	0x1022f078c
+Lidgren.Network	519	0x06000208	Lidgren.Network.NetPeerStatistics	get_SentPackets	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb8c	0x947ccb0c	0x1022f07bc	0x1022f07bc	mapped	0x1022f07bc
+Lidgren.Network	520	0x06000209	Lidgren.Network.NetPeerStatistics	get_ReceivedPackets	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb90	0x947ccb14	0x1022f07e0	0x1022f07e0	mapped	0x1022f07e0
+Lidgren.Network	521	0x0600020a	Lidgren.Network.NetPeerStatistics	get_SentMessages	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb94	0x947ccb1c	0x1022f0804	0x1022f0804	mapped	0x1022f0804
+Lidgren.Network	522	0x0600020b	Lidgren.Network.NetPeerStatistics	get_ReceivedMessages	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb98	0x947ccb24	0x1022f0828	0x1022f0828	mapped	0x1022f0828
+Lidgren.Network	523	0x0600020c	Lidgren.Network.NetPeerStatistics	get_SentBytes	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdb9c	0x947ccb2c	0x1022f084c	0x1022f084c	mapped	0x1022f084c
+Lidgren.Network	524	0x0600020d	Lidgren.Network.NetPeerStatistics	get_ReceivedBytes	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdba0	0x947ccb34	0x1022f0870	0x1022f0870	mapped	0x1022f0870
+Lidgren.Network	525	0x0600020e	Lidgren.Network.NetPeerStatistics	get_StorageBytesAllocated	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdba4	0x947ccb3c	0x1022f0894	0x1022f0894	mapped	0x1022f0894
+Lidgren.Network	526	0x0600020f	Lidgren.Network.NetPeerStatistics	get_BytesInRecyclePool	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdba8	0x947ccb44	0x1022f08b8	0x1022f08b8	mapped	0x1022f08b8
+Lidgren.Network	527	0x06000210	Lidgren.Network.NetPeerStatistics	PacketSent	0x2050	NoInlining	Assembly, HideBySig	0x1003bdbac	0x947ccb83	0x1022f09b8	0x1022f09b8	mapped	0x1022f09b8
+Lidgren.Network	528	0x06000211	Lidgren.Network.NetPeerStatistics	PacketReceived	0x2050	NoInlining	Assembly, HideBySig	0x1003bdbb0	0x947ccb93	0x1022f09fc	0x1022f09fc	mapped	0x1022f09fc
+Lidgren.Network	529	0x06000212	Lidgren.Network.NetPeerStatistics	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdbb4	0x947ccba4	0x1022f0a44	0x1022f0a44	mapped	0x1022f0a44
+Lidgren.Network	530	0x06000213	Lidgren.Network.NetQueue`1	get_Count	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdbb8	0x947ccc25	0x1022f0c4c	0x1022f0c4c	mapped	0x1022f0c4c
+Lidgren.Network	531	0x06000214	Lidgren.Network.NetQueue`1	get_Capacity	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdbbc	0x947ccc47	0x1022f0cd8	0x1022f0cd8	mapped	0x1022f0cd8
+Lidgren.Network	532	0x06000215	Lidgren.Network.NetQueue`1	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdbc0	0x947ccc6e	0x1022f0d78	0x1022f0d78	mapped	0x1022f0d78
+Lidgren.Network	533	0x06000216	Lidgren.Network.NetQueue`1	Enqueue	0x2050	NoInlining	Public, HideBySig	0x1003bdbc4	0x947cccac	0x1022f0e74	0x1022f0e74	mapped	0x1022f0e74
+Lidgren.Network	534	0x06000217	Lidgren.Network.NetQueue`1	Enqueue	0x2050	NoInlining	Public, HideBySig	0x1003bdbc8	0x97fff072	0x1003b9d90	0x1003b9d90	mapped	0x1003b9d90
+Lidgren.Network	535	0x06000218	Lidgren.Network.NetQueue`1	EnqueueFirst	0x2050	NoInlining	Public, HideBySig	0x1003bdbcc	0x947ccd33	0x1022f1098	0x1022f1098	mapped	0x1022f1098
+Lidgren.Network	536	0x06000219	Lidgren.Network.NetQueue`1	SetCapacity	0x2050	NoInlining	Private, HideBySig	0x1003bdbd0	0x947ccdba	0x1022f12b8	0x1022f12b8	mapped	0x1022f12b8
+Lidgren.Network	537	0x0600021a	Lidgren.Network.NetQueue`1	TryDequeue	0x2050	NoInlining	Public, HideBySig	0x1003bdbd4	0x97fff12b	0x1003ba080	0x1003ba080	mapped	0x1003ba080
+Lidgren.Network	538	0x0600021b	Lidgren.Network.NetQueue`1	TryDrain	0x2050	NoInlining	Public, HideBySig	0x1003bdbd8	0x947cce17	0x1022f1434	0x1022f1434	mapped	0x1022f1434
+Lidgren.Network	539	0x0600021c	Lidgren.Network.NetQueue`1	TryPeek	0x2050	NoInlining	Public, HideBySig	0x1003bdbdc	0x947ccec2	0x1022f16e4	0x1022f16e4	mapped	0x1022f16e4
+Lidgren.Network	540	0x0600021d	Lidgren.Network.NetQueue`1	Contains	0x2050	NoInlining	Public, HideBySig	0x1003bdbe0	0x947ccf30	0x1022f18a0	0x1022f18a0	mapped	0x1022f18a0
+Lidgren.Network	541	0x0600021e	Lidgren.Network.NetQueue`1	ToArray	0x2050	NoInlining	Public, HideBySig	0x1003bdbe4	0x947ccfc0	0x1022f1ae4	0x1022f1ae4	mapped	0x1022f1ae4
+Lidgren.Network	542	0x0600021f	Lidgren.Network.NetQueue`1	Clear	0x2050	NoInlining	Public, HideBySig	0x1003bdbe8	0x947cd040	0x1022f1ce8	0x1022f1ce8	mapped	0x1022f1ce8
+Lidgren.Network	543	0x06000220	Lidgren.Network.NetRandom	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdbec	0x947cd097	0x1022f1e48	0x1022f1e48	mapped	0x1022f1e48
+Lidgren.Network	544	0x06000221	Lidgren.Network.NetRandom	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdbf0	0x947cd0bb	0x1022f1edc	0x1022f1edc	mapped	0x1022f1edc
+Lidgren.Network	545	0x06000222	Lidgren.Network.NetRandom	Initialize	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1003bdbf4	0x947cd0de	0x1022f1f6c	0x1022f1f6c	mapped	0x1022f1f6c
+Lidgren.Network	546	0x06000223	Lidgren.Network.NetRandom	NextUInt32	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1003bdbf8	0x947cd0ef	0x1022f1fb4	0x1022f1fb4	mapped	0x1022f1fb4
+Lidgren.Network	547	0x06000224	Lidgren.Network.NetRandom	Next	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdbfc	0x947cd100	0x1022f1ffc	0x1022f1ffc	mapped	0x1022f1ffc
+Lidgren.Network	548	0x06000225	Lidgren.Network.NetRandom	NextInt32	0x2050	NoInlining	Public, HideBySig	0x1003bdc00	0x947cd11e	0x1022f2078	0x1022f2078	mapped	0x1022f2078
+Lidgren.Network	549	0x06000226	Lidgren.Network.NetRandom	NextDouble	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc04	0x947cd134	0x1022f20d4	0x1022f20d4	mapped	0x1022f20d4
+Lidgren.Network	550	0x06000227	Lidgren.Network.NetRandom	Sample	0x2050	NoInlining	Family, Virtual, HideBySig	0x1003bdc08	0x947cd145	0x1022f211c	0x1022f211c	mapped	0x1022f211c
+Lidgren.Network	551	0x06000228	Lidgren.Network.NetRandom	NextSingle	0x2050	NoInlining	Public, HideBySig	0x1003bdc0c	0x947cd156	0x1022f2164	0x1022f2164	mapped	0x1022f2164
+Lidgren.Network	552	0x06000229	Lidgren.Network.NetRandom	Next	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc10	0x947cd16d	0x1022f21c4	0x1022f21c4	mapped	0x1022f21c4
+Lidgren.Network	553	0x0600022a	Lidgren.Network.NetRandom	Next	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc14	0x947cd186	0x1022f222c	0x1022f222c	mapped	0x1022f222c
+Lidgren.Network	554	0x0600022b	Lidgren.Network.NetRandom	NextUInt64	0x2050	NoInlining	Public, HideBySig	0x1003bdc18	0x947cd1a4	0x1022f22a8	0x1022f22a8	mapped	0x1022f22a8
+Lidgren.Network	555	0x0600022c	Lidgren.Network.NetRandom	NextBool	0x2050	NoInlining	Public, HideBySig	0x1003bdc1c	0x947cd1bf	0x1022f2318	0x1022f2318	mapped	0x1022f2318
+Lidgren.Network	556	0x0600022d	Lidgren.Network.NetRandom	NextBytes	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1003bdc20	0x947cd1df	0x1022f239c	0x1022f239c	mapped	0x1022f239c
+Lidgren.Network	557	0x0600022e	Lidgren.Network.NetRandom	NextBytes	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc24	0x947cd259	0x1022f2588	0x1022f2588	mapped	0x1022f2588
+Lidgren.Network	558	0x0600022f	Lidgren.Network.NetRandom	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bdc28	0x947cd275	0x1022f25fc	0x1022f25fc	mapped	0x1022f25fc
+Lidgren.Network	559	0x06000230	Lidgren.Network.MWCRandom	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdc2c	0x947cd292	0x1022f2674	0x1022f2674	mapped	0x1022f2674
+Lidgren.Network	560	0x06000231	Lidgren.Network.MWCRandom	Initialize	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc30	0x947cd2b1	0x1022f26f4	0x1022f26f4	mapped	0x1022f26f4
+Lidgren.Network	561	0x06000232	Lidgren.Network.MWCRandom	Initialize	0x2050	NoInlining	Public, HideBySig	0x1003bdc34	0x947cd2bd	0x1022f2728	0x1022f2728	mapped	0x1022f2728
+Lidgren.Network	562	0x06000233	Lidgren.Network.MWCRandom	NextUInt32	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc38	0x947cd2c5	0x1022f274c	0x1022f274c	mapped	0x1022f274c
+Lidgren.Network	563	0x06000234	Lidgren.Network.MWCRandom	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bdc3c	0x947cd2d9	0x1022f27a0	0x1022f27a0	mapped	0x1022f27a0
+Lidgren.Network	564	0x06000235	Lidgren.Network.XorShiftRandom	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdc40	0x947cd2f6	0x1022f2818	0x1022f2818	mapped	0x1022f2818
+Lidgren.Network	565	0x06000236	Lidgren.Network.XorShiftRandom	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdc44	0x947cd312	0x1022f288c	0x1022f288c	mapped	0x1022f288c
+Lidgren.Network	566	0x06000237	Lidgren.Network.XorShiftRandom	Initialize	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc48	0x947cd32e	0x1022f2900	0x1022f2900	mapped	0x1022f2900
+Lidgren.Network	567	0x06000238	Lidgren.Network.XorShiftRandom	Initialize	0x2050	NoInlining	Public, HideBySig	0x1003bdc4c	0x947cd33f	0x1022f2948	0x1022f2948	mapped	0x1022f2948
+Lidgren.Network	568	0x06000239	Lidgren.Network.XorShiftRandom	NextUInt32	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc50	0x947cd34e	0x1022f2988	0x1022f2988	mapped	0x1022f2988
+Lidgren.Network	569	0x0600023a	Lidgren.Network.XorShiftRandom	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bdc54	0x947cd361	0x1022f29d8	0x1022f29d8	mapped	0x1022f29d8
+Lidgren.Network	570	0x0600023b	Lidgren.Network.MersenneTwisterRandom	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdc58	0x947cd37e	0x1022f2a50	0x1022f2a50	mapped	0x1022f2a50
+Lidgren.Network	571	0x0600023c	Lidgren.Network.MersenneTwisterRandom	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdc5c	0x947cd3a2	0x1022f2ae4	0x1022f2ae4	mapped	0x1022f2ae4
+Lidgren.Network	572	0x0600023d	Lidgren.Network.MersenneTwisterRandom	Initialize	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc60	0x947cd3c5	0x1022f2b74	0x1022f2b74	mapped	0x1022f2b74
+Lidgren.Network	573	0x0600023e	Lidgren.Network.MersenneTwisterRandom	NextUInt32	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc64	0x947cd42d	0x1022f2d18	0x1022f2d18	mapped	0x1022f2d18
+Lidgren.Network	574	0x0600023f	Lidgren.Network.MersenneTwisterRandom	GenRandAll	0x2050	NoInlining	Private, HideBySig	0x1003bdc68	0x947cd45d	0x1022f2ddc	0x1022f2ddc	mapped	0x1022f2ddc
+Lidgren.Network	575	0x06000240	Lidgren.Network.MersenneTwisterRandom	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bdc6c	0x947cd50a	0x1022f3094	0x1022f3094	mapped	0x1022f3094
+Lidgren.Network	576	0x06000241	Lidgren.Network.CryptoRandom	Initialize	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc70	0x947cd527	0x1022f310c	0x1022f310c	mapped	0x1022f310c
+Lidgren.Network	577	0x06000242	Lidgren.Network.CryptoRandom	NextUInt32	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc74	0x947cd550	0x1022f31b4	0x1022f31b4	mapped	0x1022f31b4
+Lidgren.Network	578	0x06000243	Lidgren.Network.CryptoRandom	NextBytes	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc78	0x947cd59b	0x1022f32e4	0x1022f32e4	mapped	0x1022f32e4
+Lidgren.Network	579	0x06000244	Lidgren.Network.CryptoRandom	NextBytes	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdc7c	0x947cd5b5	0x1022f3350	0x1022f3350	mapped	0x1022f3350
+Lidgren.Network	580	0x06000245	Lidgren.Network.CryptoRandom	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdc80	0x947cd5e9	0x1022f3424	0x1022f3424	mapped	0x1022f3424
+Lidgren.Network	581	0x06000246	Lidgren.Network.CryptoRandom	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bdc84	0x947cd615	0x1022f34d8	0x1022f34d8	mapped	0x1022f34d8
+Lidgren.Network	582	0x06000247	Lidgren.Network.NetRandomSeed	GetUInt32	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdc88	0x947cd632	0x1022f3550	0x1022f3550	mapped	0x1022f3550
+Lidgren.Network	583	0x06000248	Lidgren.Network.NetRandomSeed	GetUInt64	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdc8c	0x947cd648	0x1022f35ac	0x1022f35ac	mapped	0x1022f35ac
+Lidgren.Network	584	0x06000249	Lidgren.Network.NetRandomSeed	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bdc90	0x947cd6bb	0x1022f377c	0x1022f377c	mapped	0x1022f377c
+Lidgren.Network	585	0x0600024a	Lidgren.Network.NetReceiverChannelBase	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdc94	0x947cd6cd	0x1022f37c8	0x1022f37c8	mapped	0x1022f37c8
+Lidgren.Network	586	0x0600024b	Lidgren.Network.NetReceiverChannelBase	ReceiveMessage	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1003bdc98	0x97fffdb6	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	587	0x0600024c	Lidgren.Network.NetReliableOrderedReceiver	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdc9c	0x947cd6e4	0x1022f382c	0x1022f382c	mapped	0x1022f382c
+Lidgren.Network	588	0x0600024d	Lidgren.Network.NetReliableOrderedReceiver	AdvanceWindow	0x2050	NoInlining	Private, HideBySig	0x1003bdca0	0x947cd72a	0x1022f3948	0x1022f3948	mapped	0x1022f3948
+Lidgren.Network	589	0x0600024e	Lidgren.Network.NetReliableOrderedReceiver	ReceiveMessage	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdca4	0x947cd75e	0x1022f3a1c	0x1022f3a1c	mapped	0x1022f3a1c
+Lidgren.Network	590	0x0600024f	Lidgren.Network.NetReliableSenderChannel	get_WindowSize	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride, SpecialName	0x1003bdca8	0x947cd818	0x1022f3d08	0x1022f3d08	mapped	0x1022f3d08
+Lidgren.Network	591	0x06000250	Lidgren.Network.NetReliableSenderChannel	NeedToSendMessages	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdcac	0x947cd820	0x1022f3d2c	0x1022f3d2c	mapped	0x1022f3d2c
+Lidgren.Network	592	0x06000251	Lidgren.Network.NetReliableSenderChannel	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003bdcb0	0x947cd837	0x1022f3d8c	0x1022f3d8c	mapped	0x1022f3d8c
+Lidgren.Network	593	0x06000252	Lidgren.Network.NetReliableSenderChannel	GetAllowedSends	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdcb4	0x947cd896	0x1022f3f0c	0x1022f3f0c	mapped	0x1022f3f0c
+Lidgren.Network	594	0x06000253	Lidgren.Network.NetReliableSenderChannel	Reset	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdcb8	0x947cd8a8	0x1022f3f58	0x1022f3f58	mapped	0x1022f3f58
+Lidgren.Network	595	0x06000254	Lidgren.Network.NetReliableSenderChannel	Enqueue	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdcbc	0x947cd8f4	0x1022f408c	0x1022f408c	mapped	0x1022f408c
+Lidgren.Network	596	0x06000255	Lidgren.Network.NetReliableSenderChannel	SendQueuedMessages	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdcc0	0x947cd934	0x1022f4190	0x1022f4190	mapped	0x1022f4190
+Lidgren.Network	597	0x06000256	Lidgren.Network.NetReliableSenderChannel	ExecuteSend	0x2050	NoInlining	Private, HideBySig	0x1003bdcc4	0x947cd9dc	0x1022f4434	0x1022f4434	mapped	0x1022f4434
+Lidgren.Network	598	0x06000257	Lidgren.Network.NetReliableSenderChannel	DestoreMessage	0x2050	NoInlining	Private, HideBySig	0x1003bdcc8	0x947cda75	0x1022f469c	0x1022f469c	mapped	0x1022f469c
+Lidgren.Network	599	0x06000258	Lidgren.Network.NetReliableSenderChannel	ReceiveAcknowledge	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdccc	0x947cdad5	0x1022f4820	0x1022f4820	mapped	0x1022f4820
+Lidgren.Network	600	0x06000259	Lidgren.Network.NetReliableSequencedReceiver	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdcd0	0x947cdc0b	0x1022f4cfc	0x1022f4cfc	mapped	0x1022f4cfc
+Lidgren.Network	601	0x0600025a	Lidgren.Network.NetReliableSequencedReceiver	AdvanceWindow	0x2050	NoInlining	Private, HideBySig	0x1003bdcd4	0x947cdc24	0x1022f4d64	0x1022f4d64	mapped	0x1022f4d64
+Lidgren.Network	602	0x0600025b	Lidgren.Network.NetReliableSequencedReceiver	ReceiveMessage	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdcd8	0x947cdc33	0x1022f4da4	0x1022f4da4	mapped	0x1022f4da4
+Lidgren.Network	603	0x0600025c	Lidgren.Network.NetReliableUnorderedReceiver	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdcdc	0x947cdc7d	0x1022f4ed0	0x1022f4ed0	mapped	0x1022f4ed0
+Lidgren.Network	604	0x0600025d	Lidgren.Network.NetReliableUnorderedReceiver	AdvanceWindow	0x2050	NoInlining	Private, HideBySig	0x1003bdce0	0x947cdcba	0x1022f4fc8	0x1022f4fc8	mapped	0x1022f4fc8
+Lidgren.Network	605	0x0600025e	Lidgren.Network.NetReliableUnorderedReceiver	ReceiveMessage	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdce4	0x947cdcee	0x1022f509c	0x1022f509c	mapped	0x1022f509c
+Lidgren.Network	606	0x0600025f	Lidgren.Network.NetSenderChannelBase	get_WindowSize	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract, SpecialName	0x1003bdce8	0x97fffda2	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	607	0x06000260	Lidgren.Network.NetSenderChannelBase	GetAllowedSends	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1003bdcec	0x97fffda1	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	608	0x06000261	Lidgren.Network.NetSenderChannelBase	get_QueuedSendsCount	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1003bdcf0	0x947cdd8a	0x1022f5318	0x1022f5318	mapped	0x1022f5318
+Lidgren.Network	609	0x06000262	Lidgren.Network.NetSenderChannelBase	NeedToSendMessages	0x2050	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride	0x1003bdcf4	0x947cddae	0x1022f53ac	0x1022f53ac	mapped	0x1022f53ac
+Lidgren.Network	610	0x06000263	Lidgren.Network.NetSenderChannelBase	GetFreeWindowSlots	0x2050	NoInlining	Public, HideBySig	0x1003bdcf8	0x947cddd4	0x1022f5448	0x1022f5448	mapped	0x1022f5448
+Lidgren.Network	611	0x06000264	Lidgren.Network.NetSenderChannelBase	Enqueue	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1003bdcfc	0x97fffd9d	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	612	0x06000265	Lidgren.Network.NetSenderChannelBase	SendQueuedMessages	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1003bdd00	0x97fffd9c	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	613	0x06000266	Lidgren.Network.NetSenderChannelBase	Reset	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1003bdd04	0x97fffd9b	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	614	0x06000267	Lidgren.Network.NetSenderChannelBase	ReceiveAcknowledge	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1003bdd08	0x97fffd9a	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	615	0x06000268	Lidgren.Network.NetSenderChannelBase	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x1003bdd0c	0x947cddfb	0x1022f54f8	0x1022f54f8	mapped	0x1022f54f8
+Lidgren.Network	616	0x06000269	Lidgren.Network.NetServer	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdd10	0x947cddfb	0x1022f54fc	0x1022f54fc	mapped	0x1022f54fc
+Lidgren.Network	617	0x0600026a	Lidgren.Network.NetServer	SendToAll	0x2050	NoInlining	Public, HideBySig	0x1003bdd14	0x947cde12	0x1022f555c	0x1022f555c	mapped	0x1022f555c
+Lidgren.Network	618	0x0600026b	Lidgren.Network.NetServer	SendToAll	0x2050	NoInlining	Public, HideBySig	0x1003bdd18	0x947cde3b	0x1022f5604	0x1022f5604	mapped	0x1022f5604
+Lidgren.Network	619	0x0600026c	Lidgren.Network.NetServer	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x1003bdd1c	0x947cded7	0x1022f5878	0x1022f5878	mapped	0x1022f5878
+Lidgren.Network	620	0x0600026d	Lidgren.Network.NetSRP	ComputeMultiplier	0x2050	NoInlining	Private, Static, HideBySig	0x1003bdd20	0x947cdf05	0x1022f5934	0x1022f5934	mapped	0x1022f5934
+Lidgren.Network	621	0x0600026e	Lidgren.Network.NetSRP	CreateRandomSalt	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd24	0x947cdf4b	0x1022f5a50	0x1022f5a50	mapped	0x1022f5a50
+Lidgren.Network	622	0x0600026f	Lidgren.Network.NetSRP	CreateRandomEphemeral	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd28	0x947cdf72	0x1022f5af0	0x1022f5af0	mapped	0x1022f5af0
+Lidgren.Network	623	0x06000270	Lidgren.Network.NetSRP	ComputePrivateKey	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd2c	0x947cdf99	0x1022f5b90	0x1022f5b90	mapped	0x1022f5b90
+Lidgren.Network	624	0x06000271	Lidgren.Network.NetSRP	ComputeServerVerifier	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd30	0x947cdff9	0x1022f5d14	0x1022f5d14	mapped	0x1022f5d14
+Lidgren.Network	625	0x06000272	Lidgren.Network.NetSRP	ComputeClientEphemeral	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd34	0x947ce02e	0x1022f5dec	0x1022f5dec	mapped	0x1022f5dec
+Lidgren.Network	626	0x06000273	Lidgren.Network.NetSRP	ComputeServerEphemeral	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd38	0x947ce063	0x1022f5ec4	0x1022f5ec4	mapped	0x1022f5ec4
+Lidgren.Network	627	0x06000274	Lidgren.Network.NetSRP	ComputeU	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd3c	0x947ce0b6	0x1022f6014	0x1022f6014	mapped	0x1022f6014
+Lidgren.Network	628	0x06000275	Lidgren.Network.NetSRP	ComputeServerSessionValue	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd40	0x947ce0f8	0x1022f6120	0x1022f6120	mapped	0x1022f6120
+Lidgren.Network	629	0x06000276	Lidgren.Network.NetSRP	ComputeClientSessionValue	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd44	0x947ce166	0x1022f62dc	0x1022f62dc	mapped	0x1022f62dc
+Lidgren.Network	630	0x06000277	Lidgren.Network.NetSRP	CreateEncryption	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd48	0x947ce210	0x1022f6588	0x1022f6588	mapped	0x1022f6588
+Lidgren.Network	631	0x06000278	Lidgren.Network.NetSRP	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bdd4c	0x947ce284	0x1022f675c	0x1022f675c	mapped	0x1022f675c
+Lidgren.Network	632	0x06000279	Lidgren.Network.NetStoredReliableMessage	Reset	0x2050	NoInlining	Public, HideBySig	0x1003bdd50	0x947ce2b1	0x1022f6814	0x1022f6814	mapped	0x1022f6814
+Lidgren.Network	633	0x0600027a	Lidgren.Network.NetTime	ToReadable	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdd54	0x947ce2ba	0x1022f683c	0x1022f683c	mapped	0x1022f683c
+Lidgren.Network	634	0x0600027b	Lidgren.Network.NetTime	get_Now	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003bdd58	0x947ce2e8	0x1022f68f8	0x1022f68f8	mapped	0x1022f68f8
+Lidgren.Network	635	0x0600027c	Lidgren.Network.NetTime	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bdd5c	0x947ce305	0x1022f6970	0x1022f6970	mapped	0x1022f6970
+Lidgren.Network	636	0x0600027d	Lidgren.Network.NetTuple`2	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdd60	0x947ce325	0x1022f69f4	0x1022f69f4	mapped	0x1022f69f4
+Lidgren.Network	637	0x0600027e	Lidgren.Network.NetUnreliableSenderChannel	get_WindowSize	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride, SpecialName	0x1003bdd64	0x947ce33b	0x1022f6a50	0x1022f6a50	mapped	0x1022f6a50
+Lidgren.Network	638	0x0600027f	Lidgren.Network.NetUnreliableSenderChannel	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003bdd68	0x947ce343	0x1022f6a74	0x1022f6a74	mapped	0x1022f6a74
+Lidgren.Network	639	0x06000280	Lidgren.Network.NetUnreliableSenderChannel	GetAllowedSends	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdd6c	0x947ce39a	0x1022f6bd4	0x1022f6bd4	mapped	0x1022f6bd4
+Lidgren.Network	640	0x06000281	Lidgren.Network.NetUnreliableSenderChannel	Reset	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdd70	0x947ce3bf	0x1022f6c6c	0x1022f6c6c	mapped	0x1022f6c6c
+Lidgren.Network	641	0x06000282	Lidgren.Network.NetUnreliableSenderChannel	Enqueue	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdd74	0x947ce3eb	0x1022f6d20	0x1022f6d20	mapped	0x1022f6d20
+Lidgren.Network	642	0x06000283	Lidgren.Network.NetUnreliableSenderChannel	SendQueuedMessages	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdd78	0x947ce442	0x1022f6e80	0x1022f6e80	mapped	0x1022f6e80
+Lidgren.Network	643	0x06000284	Lidgren.Network.NetUnreliableSenderChannel	ExecuteSend	0x2050	NoInlining	Private, HideBySig	0x1003bdd7c	0x947ce489	0x1022f6fa0	0x1022f6fa0	mapped	0x1022f6fa0
+Lidgren.Network	644	0x06000285	Lidgren.Network.NetUnreliableSenderChannel	ReceiveAcknowledge	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdd80	0x947ce4bb	0x1022f706c	0x1022f706c	mapped	0x1022f706c
+Lidgren.Network	645	0x06000286	Lidgren.Network.NetUnreliableSequencedReceiver	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdd84	0x947ce522	0x1022f720c	0x1022f720c	mapped	0x1022f720c
+Lidgren.Network	646	0x06000287	Lidgren.Network.NetUnreliableSequencedReceiver	ReceiveMessage	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdd88	0x947ce53c	0x1022f7278	0x1022f7278	mapped	0x1022f7278
+Lidgren.Network	647	0x06000288	Lidgren.Network.NetUnreliableUnorderedReceiver	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdd8c	0x947ce56f	0x1022f7348	0x1022f7348	mapped	0x1022f7348
+Lidgren.Network	648	0x06000289	Lidgren.Network.NetUnreliableUnorderedReceiver	ReceiveMessage	0x2050	NoInlining	Assembly, Virtual, HideBySig, CheckAccessOnOverride	0x1003bdd90	0x947ce594	0x1022f73e0	0x1022f73e0	mapped	0x1022f73e0
+Lidgren.Network	649	0x0600028a	Lidgren.Network.NetUPnP	get_Status	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003bdd94	0x947ce5bb	0x1022f7480	0x1022f7480	mapped	0x1022f7480
+Lidgren.Network	650	0x0600028b	Lidgren.Network.NetUPnP	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdd98	0x947ce5c3	0x1022f74a4	0x1022f74a4	mapped	0x1022f74a4
+Lidgren.Network	651	0x0600028c	Lidgren.Network.NetUPnP	Discover	0x2050	NoInlining	Assembly, HideBySig	0x1003bdd9c	0x947ce5fe	0x1022f7594	0x1022f7594	mapped	0x1022f7594
+Lidgren.Network	652	0x0600028d	Lidgren.Network.NetUPnP	CheckForDiscoveryTimeout	0x2050	NoInlining	Assembly, HideBySig	0x1003bdda0	0x947ce668	0x1022f7740	0x1022f7740	mapped	0x1022f7740
+Lidgren.Network	653	0x0600028e	Lidgren.Network.NetUPnP	ExtractServiceUrl	0x2050	NoInlining	Assembly, HideBySig	0x1003bdda4	0x97fff16b	0x1003ba350	0x1003ba350	mapped	0x1003ba350
+Lidgren.Network	654	0x0600028f	Lidgren.Network.NetUPnP	CombineUrls	0x2050	NoInlining	Private, Static, HideBySig	0x1003bdda8	0x947ce680	0x1022f77a8	0x1022f77a8	mapped	0x1022f77a8
+Lidgren.Network	655	0x06000290	Lidgren.Network.NetUPnP	CheckAvailability	0x2050	NoInlining	Private, HideBySig	0x1003bddac	0x947ce6c8	0x1022f78cc	0x1022f78cc	mapped	0x1022f78cc
+Lidgren.Network	656	0x06000291	Lidgren.Network.NetUPnP	ForwardPort	0x2050	NoInlining	Public, HideBySig	0x1003bddb0	0x947ce6f3	0x1022f797c	0x1022f797c	mapped	0x1022f797c
+Lidgren.Network	657	0x06000292	Lidgren.Network.NetUPnP	DeleteForwardingRule	0x2050	NoInlining	Public, HideBySig	0x1003bddb4	0x947ce7b5	0x1022f7c88	0x1022f7c88	mapped	0x1022f7c88
+Lidgren.Network	658	0x06000293	Lidgren.Network.NetUPnP	GetExternalIP	0x2050	NoInlining	Public, HideBySig	0x1003bddb8	0x947ce84d	0x1022f7eec	0x1022f7eec	mapped	0x1022f7eec
+Lidgren.Network	659	0x06000294	Lidgren.Network.NetUPnP	SOAPRequest	0x2050	NoInlining	Private, HideBySig	0x1003bddbc	0x947ce8cb	0x1022f80e8	0x1022f80e8	mapped	0x1022f80e8
+Lidgren.Network	660	0x06000295	Lidgren.Network.NetUtility	ResolveAsync	0x2050	NoInlining	Public, Static, HideBySig	0x1003bddc0	0x947ce992	0x1022f8408	0x1022f8408	mapped	0x1022f8408
+Lidgren.Network	661	0x06000296	Lidgren.Network.NetUtility	Resolve	0x2050	NoInlining	Public, Static, HideBySig	0x1003bddc4	0x947ce9d0	0x1022f8504	0x1022f8504	mapped	0x1022f8504
+Lidgren.Network	662	0x06000297	Lidgren.Network.NetUtility	GetCachedBroadcastAddress	0x2050	NoInlining	Public, Static, HideBySig	0x1003bddc8	0x947ce9f6	0x1022f85a0	0x1022f85a0	mapped	0x1022f85a0
+Lidgren.Network	663	0x06000298	Lidgren.Network.NetUtility	ResolveAsync	0x2050	NoInlining	Public, Static, HideBySig	0x1003bddcc	0x947cea11	0x1022f8610	0x1022f8610	mapped	0x1022f8610
+Lidgren.Network	664	0x06000299	Lidgren.Network.NetUtility	Resolve	0x2050	NoInlining	Public, Static, HideBySig	0x1003bddd0	0x947ceabd	0x1022f88c4	0x1022f88c4	mapped	0x1022f88c4
+Lidgren.Network	665	0x0600029a	Lidgren.Network.NetUtility	ToHexString	0x2050	NoInlining	Public, Static, HideBySig	0x1003bddd4	0x947ceb3e	0x1022f8acc	0x1022f8acc	mapped	0x1022f8acc
+Lidgren.Network	666	0x0600029b	Lidgren.Network.NetUtility	ToHexString	0x2050	NoInlining	Public, Static, HideBySig	0x1003bddd8	0x947ceb61	0x1022f8b5c	0x1022f8b5c	mapped	0x1022f8b5c
+Lidgren.Network	667	0x0600029c	Lidgren.Network.NetUtility	ToHexString	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdddc	0x947ceb81	0x1022f8be0	0x1022f8be0	mapped	0x1022f8be0
+Lidgren.Network	668	0x0600029d	Lidgren.Network.NetUtility	IsLocal	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdde0	0x947cebf7	0x1022f8dbc	0x1022f8dbc	mapped	0x1022f8dbc
+Lidgren.Network	669	0x0600029e	Lidgren.Network.NetUtility	IsLocal	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdde4	0x947cec12	0x1022f8e2c	0x1022f8e2c	mapped	0x1022f8e2c
+Lidgren.Network	670	0x0600029f	Lidgren.Network.NetUtility	BitsToHoldUInt	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdde8	0x947cec4d	0x1022f8f1c	0x1022f8f1c	mapped	0x1022f8f1c
+Lidgren.Network	671	0x060002a0	Lidgren.Network.NetUtility	BitsToHoldUInt64	0x2050	NoInlining	Public, Static, HideBySig	0x1003bddec	0x947cec71	0x1022f8fb0	0x1022f8fb0	mapped	0x1022f8fb0
+Lidgren.Network	672	0x060002a1	Lidgren.Network.NetUtility	BytesToHoldBits	0x2050	NoInlining	Public, Static, HideBySig	0x1003bddf0	0x947cec95	0x1022f9044	0x1022f9044	mapped	0x1022f9044
+Lidgren.Network	673	0x060002a2	Lidgren.Network.NetUtility	SwapByteOrder	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bddf4	0x947ceca8	0x1022f9094	0x1022f9094	mapped	0x1022f9094
+Lidgren.Network	674	0x060002a3	Lidgren.Network.NetUtility	SwapByteOrder	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bddf8	0x947cecb7	0x1022f90d4	0x1022f90d4	mapped	0x1022f90d4
+Lidgren.Network	675	0x060002a4	Lidgren.Network.NetUtility	CompareElements	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bddfc	0x947cecc6	0x1022f9114	0x1022f9114	mapped	0x1022f9114
+Lidgren.Network	676	0x060002a5	Lidgren.Network.NetUtility	ToByteArray	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde00	0x947ced01	0x1022f9204	0x1022f9204	mapped	0x1022f9204
+Lidgren.Network	677	0x060002a6	Lidgren.Network.NetUtility	ToHumanReadable	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde04	0x947ced47	0x1022f9320	0x1022f9320	mapped	0x1022f9320
+Lidgren.Network	678	0x060002a7	Lidgren.Network.NetUtility	RelativeSequenceNumber	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bde08	0x947ced88	0x1022f9428	0x1022f9428	mapped	0x1022f9428
+Lidgren.Network	679	0x060002a8	Lidgren.Network.NetUtility	GetWindowSize	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde0c	0x947ceda1	0x1022f9490	0x1022f9490	mapped	0x1022f9490
+Lidgren.Network	680	0x060002a9	Lidgren.Network.NetUtility	SortMembersList	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bde10	0x947cedb5	0x1022f94e4	0x1022f94e4	mapped	0x1022f94e4
+Lidgren.Network	681	0x060002aa	Lidgren.Network.NetUtility	GetDeliveryMethod	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003bde14	0x947cee41	0x1022f9718	0x1022f9718	mapped	0x1022f9718
+Lidgren.Network	682	0x060002ab	Lidgren.Network.NetUtility	MakeCommaDelimitedList	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde18	0x947cee60	0x1022f9798	0x1022f9798	mapped	0x1022f9798
+Lidgren.Network	683	0x060002ac	Lidgren.Network.NetUtility	ComputeSHAHash	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde1c	0x947ceec3	0x1022f9928	0x1022f9928	mapped	0x1022f9928
+Lidgren.Network	684	0x060002ad	Lidgren.Network.NetUtility	GetPlatformSeed	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde20	0x947ceee3	0x1022f99ac	0x1022f99ac	mapped	0x1022f99ac
+Lidgren.Network	685	0x060002ae	Lidgren.Network.NetUtility	get_Now	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003bde24	0x947ceefc	0x1022f9a14	0x1022f9a14	mapped	0x1022f9a14
+Lidgren.Network	686	0x060002af	Lidgren.Network.NetUtility	GetNetworkInterface	0x2050	NoInlining	Private, Static, HideBySig	0x1003bde28	0x947cef19	0x1022f9a8c	0x1022f9a8c	mapped	0x1022f9a8c
+Lidgren.Network	687	0x060002b0	Lidgren.Network.NetUtility	GetMacAddressBytes	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde2c	0x947cf017	0x1022f9e88	0x1022f9e88	mapped	0x1022f9e88
+Lidgren.Network	688	0x060002b1	Lidgren.Network.NetUtility	GetBroadcastAddress	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde30	0x947cf038	0x1022f9f10	0x1022f9f10	mapped	0x1022f9f10
+Lidgren.Network	689	0x060002b2	Lidgren.Network.NetUtility	GetMyAddress	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde34	0x947cf10a	0x1022fa25c	0x1022fa25c	mapped	0x1022fa25c
+Lidgren.Network	690	0x060002b3	Lidgren.Network.NetUtility	Sleep	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde38	0x947cf1a7	0x1022fa4d4	0x1022fa4d4	mapped	0x1022fa4d4
+Lidgren.Network	691	0x060002b4	Lidgren.Network.NetUtility	CreateAddressFromBytes	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde3c	0x947cf1bf	0x1022fa538	0x1022fa538	mapped	0x1022fa538
+Lidgren.Network	692	0x060002b5	Lidgren.Network.NetUtility	ComputeSHAHash	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde40	0x947cf1dd	0x1022fa5b4	0x1022fa5b4	mapped	0x1022fa5b4
+Lidgren.Network	693	0x060002b6	Lidgren.Network.NetUtility	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003bde44	0x947cf204	0x1022fa654	0x1022fa654	mapped	0x1022fa654
+Lidgren.Network	694	0x060002b7	Lidgren.Network.SenderChannelBase	Send	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1003bde48	0x97fffd4a	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	695	0x060002b8	Lidgren.Network.SenderChannelBase	SendQueuedMessages	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1003bde4c	0x97fffd49	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	696	0x060002b9	Lidgren.Network.SenderChannelBase	Reset	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1003bde50	0x97fffd48	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	697	0x060002ba	Lidgren.Network.SenderChannelBase	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x1003bde54	0x947cf22e	0x1022fa70c	0x1022fa70c	mapped	0x1022fa70c
+Lidgren.Network	698	0x060002bb	Lidgren.Network.Xna.XNAExtensions	Write	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde58	0x947cf22e	0x1022fa710	0x1022fa710	mapped	0x1022fa710
+Lidgren.Network	699	0x060002bc	Lidgren.Network.Xna.XNAExtensions	ReadPoint	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde5c	0x947cf27e	0x1022fa854	0x1022fa854	mapped	0x1022fa854
+Lidgren.Network	700	0x060002bd	Lidgren.Network.Xna.XNAExtensions	WriteHalfPrecision	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde60	0x947cf2e7	0x1022fa9fc	0x1022fa9fc	mapped	0x1022fa9fc
+Lidgren.Network	701	0x060002be	Lidgren.Network.Xna.XNAExtensions	ReadHalfPrecisionSingle	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde64	0x947cf316	0x1022faabc	0x1022faabc	mapped	0x1022faabc
+Lidgren.Network	702	0x060002bf	Lidgren.Network.Xna.XNAExtensions	Write	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde68	0x947cf33d	0x1022fab5c	0x1022fab5c	mapped	0x1022fab5c
+Lidgren.Network	703	0x060002c0	Lidgren.Network.Xna.XNAExtensions	ReadVector2	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde6c	0x947cf358	0x1022fabcc	0x1022fabcc	mapped	0x1022fabcc
+Lidgren.Network	704	0x060002c1	Lidgren.Network.Xna.XNAExtensions	Write	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde70	0x947cf38f	0x1022facac	0x1022facac	mapped	0x1022facac
+Lidgren.Network	705	0x060002c2	Lidgren.Network.Xna.XNAExtensions	WriteHalfPrecision	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde74	0x947cf3b0	0x1022fad34	0x1022fad34	mapped	0x1022fad34
+Lidgren.Network	706	0x060002c3	Lidgren.Network.Xna.XNAExtensions	ReadVector3	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde78	0x947cf413	0x1022faec4	0x1022faec4	mapped	0x1022faec4
+Lidgren.Network	707	0x060002c4	Lidgren.Network.Xna.XNAExtensions	ReadHalfPrecisionVector3	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde7c	0x947cf45d	0x1022faff0	0x1022faff0	mapped	0x1022faff0
+Lidgren.Network	708	0x060002c5	Lidgren.Network.Xna.XNAExtensions	Write	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde80	0x947cf4ad	0x1022fb134	0x1022fb134	mapped	0x1022fb134
+Lidgren.Network	709	0x060002c6	Lidgren.Network.Xna.XNAExtensions	ReadVector4	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde84	0x947cf4d2	0x1022fb1cc	0x1022fb1cc	mapped	0x1022fb1cc
+Lidgren.Network	710	0x060002c7	Lidgren.Network.Xna.XNAExtensions	WriteUnitVector3	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde88	0x947cf531	0x1022fb34c	0x1022fb34c	mapped	0x1022fb34c
+Lidgren.Network	711	0x060002c8	Lidgren.Network.Xna.XNAExtensions	ReadUnitVector3	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde8c	0x947cf581	0x1022fb490	0x1022fb490	mapped	0x1022fb490
+Lidgren.Network	712	0x060002c9	Lidgren.Network.Xna.XNAExtensions	WriteRotation	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde90	0x947cf5ce	0x1022fb5c8	0x1022fb5c8	mapped	0x1022fb5c8
+Lidgren.Network	713	0x060002ca	Lidgren.Network.Xna.XNAExtensions	ReadRotation	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde94	0x947cf630	0x1022fb754	0x1022fb754	mapped	0x1022fb754
+Lidgren.Network	714	0x060002cb	Lidgren.Network.Xna.XNAExtensions	WriteMatrix	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde98	0x947cf66f	0x1022fb854	0x1022fb854	mapped	0x1022fb854
+Lidgren.Network	715	0x060002cc	Lidgren.Network.Xna.XNAExtensions	WriteMatrix	0x2050	NoInlining	Public, Static, HideBySig	0x1003bde9c	0x947cf699	0x1022fb900	0x1022fb900	mapped	0x1022fb900
+Lidgren.Network	716	0x060002cd	Lidgren.Network.Xna.XNAExtensions	ReadMatrix	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdea0	0x947cf6bf	0x1022fb99c	0x1022fb99c	mapped	0x1022fb99c
+Lidgren.Network	717	0x060002ce	Lidgren.Network.Xna.XNAExtensions	ReadMatrix	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdea4	0x947cf70f	0x1022fbae0	0x1022fbae0	mapped	0x1022fbae0
+Lidgren.Network	718	0x060002cf	Lidgren.Network.Xna.XNAExtensions	Write	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdea8	0x947cf75f	0x1022fbc24	0x1022fbc24	mapped	0x1022fbc24
+Lidgren.Network	719	0x060002d0	Lidgren.Network.Xna.XNAExtensions	ReadBoundingSphere	0x2050	NoInlining	Public, Static, HideBySig	0x1003bdeac	0x947cf784	0x1022fbcbc	0x1022fbcbc	mapped	0x1022fbcbc
+Lidgren.Network	720	0x060002d1	Lidgren.Network.NetPeer+<>c__DisplayClass84_0	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdeb0	0x947cf7e3	0x1022fbe3c	0x1022fbe3c	mapped	0x1022fbe3c
+Lidgren.Network	721	0x060002d2	Lidgren.Network.NetPeer+<>c__DisplayClass84_0	<UnregisterReceivedCallback>b__0	0x2050	NoInlining	Assembly, HideBySig	0x1003bdeb4	0x947cf7e3	0x1022fbe40	0x1022fbe40	mapped	0x1022fbe40
+Lidgren.Network	722	0x060002d3	Lidgren.Network.NetUtility+ResolveEndPointCallback	.ctor	0x0	11	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdeb8	0x97fffd2e	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	723	0x060002d4	Lidgren.Network.NetUtility+ResolveEndPointCallback	Invoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x1003bdebc	0x97fffd2d	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	724	0x060002d5	Lidgren.Network.NetUtility+ResolveEndPointCallback	BeginInvoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x1003bdec0	0x97fffd2c	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	725	0x060002d6	Lidgren.Network.NetUtility+ResolveEndPointCallback	EndInvoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x1003bdec4	0x97fffd2b	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	726	0x060002d7	Lidgren.Network.NetUtility+ResolveAddressCallback	.ctor	0x0	11	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdec8	0x97fffd2a	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	727	0x060002d8	Lidgren.Network.NetUtility+ResolveAddressCallback	Invoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x1003bdecc	0x97fffd29	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	728	0x060002d9	Lidgren.Network.NetUtility+ResolveAddressCallback	BeginInvoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x1003bded0	0x97fffd28	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	729	0x060002da	Lidgren.Network.NetUtility+ResolveAddressCallback	EndInvoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x1003bded4	0x97fffd27	0x1003bd370		absent	0x1003bd370
+Lidgren.Network	730	0x060002db	Lidgren.Network.NetUtility+<>c__DisplayClass3_0	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bded8	0x947cf7f5	0x1022fbeac	0x1022fbeac	mapped	0x1022fbeac
+Lidgren.Network	731	0x060002dc	Lidgren.Network.NetUtility+<>c__DisplayClass3_0	<ResolveAsync>b__0	0x2050	NoInlining	Assembly, HideBySig	0x1003bdedc	0x947cf7f5	0x1022fbeb0	0x1022fbeb0	mapped	0x1022fbeb0
+Lidgren.Network	732	0x060002dd	Lidgren.Network.NetUtility+<>c__DisplayClass7_0	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003bdee0	0x947cf82e	0x1022fbf98	0x1022fbf98	mapped	0x1022fbf98
+Lidgren.Network	733	0x060002de	Lidgren.Network.NetUtility+<>c__DisplayClass7_0	<ResolveAsync>b__0	0x2050	NoInlining	Assembly, HideBySig	0x1003bdee4	0x947cf82e	0x1022fbf9c	0x1022fbf9c	mapped	0x1022fbf9c

@@ -10,4 +10,4 @@ Current Steam/Linux managed-code recovery.
 - GameData recovered source: 168 C# files
 - Recorded decompilation failures: zero
 
-Original game DLLs and Content assets are not committed. The `manifests/` directory records binary/content provenance and searchable metadata indexes.
+Original game DLLs and Content assets are not committed. `manifests/` records binary/content provenance and searchable metadata indexes.

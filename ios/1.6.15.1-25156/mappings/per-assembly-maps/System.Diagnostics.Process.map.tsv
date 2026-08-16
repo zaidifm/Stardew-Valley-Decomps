@@ -1,0 +1,27 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Diagnostics.Process	0	0x06000001	Interop+Sys	GetHostName	0x2050	NoInlining	Private, Static, HideBySig	0x1004330d0	0x9483b492	0x102520318	0x102520318	mapped	0x102520318
+System.Diagnostics.Process	1	0x06000002	Interop+Sys	GetHostName	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004330d4	0x9483b4a7	0x102520370	0x102520370	mapped	0x102520370
+System.Diagnostics.Process	2	0x06000003	Interop+Sys	<GetHostName>g____PInvoke|7_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004330d8	0x97fffffe	0x1004330d0		absent	0x1004330d0
+System.Diagnostics.Process	3	0x06000004	System.Diagnostics.AsyncStreamReader	CancelOperation	0x2050	NoInlining	Assembly, HideBySig	0x1004330dc	0x9483b51c	0x10252054c	0x10252054c	mapped	0x10252054c
+System.Diagnostics.Process	4	0x06000005	System.Diagnostics.AsyncStreamReader	Dispose	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004330e0	0x9483b52d	0x102520594	0x102520594	mapped	0x102520594
+System.Diagnostics.Process	5	0x06000006	System.Diagnostics.Process	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x1004330e4	0x9483b53e	0x1025205dc	0x1025205dc	mapped	0x1025205dc
+System.Diagnostics.Process	6	0x06000007	System.Diagnostics.Process	get_Associated	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1004330e8	0x9483b574	0x1025206b8	0x1025206b8	mapped	0x1025206b8
+System.Diagnostics.Process	7	0x06000008	System.Diagnostics.Process	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004330ec	0x9483b581	0x1025206f0	0x1025206f0	mapped	0x1025206f0
+System.Diagnostics.Process	8	0x06000009	System.Diagnostics.Process	Close	0x2050	NoInlining	Public, HideBySig	0x1004330f0	0x9483b59b	0x10252075c	0x10252075c	mapped	0x10252075c
+System.Diagnostics.Process	9	0x0600000a	System.Diagnostics.Process	GetCurrentProcess	0x2050	NoInlining	Public, Static, HideBySig	0x1004330f4	0x9483b6ab	0x102520ba0	0x102520ba0	mapped	0x102520ba0
+System.Diagnostics.Process	10	0x0600000b	System.Diagnostics.Process	Refresh	0x2050	NoInlining	Public, HideBySig	0x1004330f8	0x9483b6ce	0x102520c30	0x102520c30	mapped	0x102520c30
+System.Diagnostics.Process	11	0x0600000c	System.Diagnostics.Process	StopWatchingForExit	0x2050	NoInlining	Private, HideBySig	0x1004330fc	0x9483b6ec	0x102520cac	0x102520cac	mapped	0x102520cac
+System.Diagnostics.Process	12	0x0600000d	System.Diagnostics.Process	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100433100	0x9483b72b	0x102520dac	0x102520dac	mapped	0x102520dac
+System.Diagnostics.Process	13	0x0600000e	System.Diagnostics.Process	Kill	0x2050	NoInlining	Public, HideBySig	0x100433104	0x9483b770	0x102520ec4	0x102520ec4	mapped	0x102520ec4
+System.Diagnostics.Process	14	0x0600000f	System.Diagnostics.Process	CloseCore	0x2050	NoInlining	Private, HideBySig	0x100433108	0x9483b77a	0x102520ef0	0x102520ef0	mapped	0x102520ef0
+System.Diagnostics.Process	15	0x06000010	System.Diagnostics.Process	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10043310c	0x9483b78e	0x102520f44	0x102520f44	mapped	0x102520f44
+System.Diagnostics.Process	16	0x06000011	System.Diagnostics.ProcessInfo	get_ProcessName	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100433110	0x9483b7b3	0x102520fdc	0x102520fdc	mapped	0x102520fdc
+System.Diagnostics.Process	17	0x06000012	System.Diagnostics.ProcessManager	IsRemoteMachine	0x2050	NoInlining	Public, Static, HideBySig	0x100433114	0x9483b7c4	0x102521024	0x102521024	mapped	0x102521024
+System.Diagnostics.Process	18	0x06000013	System.Diagnostics.ProcessManager	GetProcessInfo	0x2050	NoInlining	Public, Static, HideBySig	0x100433118	0x9483b7e0	0x102521098	0x102521098	mapped	0x102521098
+System.Diagnostics.Process	19	0x06000014	System.Diagnostics.ProcessManager	IsRemoteMachineCore	0x2050	NoInlining	Private, Static, HideBySig	0x10043311c	0x9483b7fa	0x102521104	0x102521104	mapped	0x102521104
+System.Diagnostics.Process	20	0x06000015	System.Diagnostics.ProcessManager	ThrowIfRemoteMachine	0x2050	NoInlining	Assembly, Static, HideBySig	0x100433120	0x9483b81c	0x102521190	0x102521190	mapped	0x102521190
+System.Diagnostics.Process	21	0x06000016	System.Diagnostics.ProcessManager	CreateProcessInfo	0x2050	NoInlining	Private, Static, HideBySig	0x100433124	0x9483b835	0x1025211f8	0x1025211f8	mapped	0x1025211f8
+System.Diagnostics.Process	22	0x06000017	System.Diagnostics.ProcessModuleCollection	Dispose	0x2050	NoInlining	Assembly, HideBySig	0x100433128	0x9483b83f	0x102521224	0x102521224	mapped	0x102521224
+System.Diagnostics.Process	23	0x06000018	System.Diagnostics.ProcessThreadCollection	Dispose	0x2050	NoInlining	Assembly, HideBySig	0x10043312c	0x9483b850	0x10252126c	0x10252126c	mapped	0x10252126c
+System.Diagnostics.Process	24	0x06000019	System.Diagnostics.ProcessWaitState+Holder	Dispose	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100433130	0x9483b861	0x1025212b4	0x1025212b4	mapped	0x1025212b4
+System.Diagnostics.Process	25	0x0600001a	Microsoft.Win32.SafeHandles.SafeProcessHandle	ReleaseHandle	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100433134	0x9483b872	0x1025212fc	0x1025212fc	mapped	0x1025212fc

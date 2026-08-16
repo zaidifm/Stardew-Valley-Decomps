@@ -1,0 +1,10 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.ObjectModel	0	0x06000001	System.ComponentModel.TypeConverterAttribute	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005189e8	0x948a9ff4	0x1027c09b8	0x1027c09b8	mapped	0x1027c09b8
+System.ObjectModel	1	0x06000002	System.ComponentModel.TypeConverterAttribute	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005189ec	0x948aa012	0x1027c0a34	0x1027c0a34	mapped	0x1027c0a34
+System.ObjectModel	2	0x06000003	System.ComponentModel.TypeConverterAttribute	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005189f0	0x948aa041	0x1027c0af4	0x1027c0af4	mapped	0x1027c0af4
+System.ObjectModel	3	0x06000004	System.ComponentModel.TypeConverterAttribute	get_ConverterTypeName	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005189f4	0x948aa069	0x1027c0b98	0x1027c0b98	mapped	0x1027c0b98
+System.ObjectModel	4	0x06000005	System.ComponentModel.TypeConverterAttribute	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005189f8	0x948aa071	0x1027c0bbc	0x1027c0bbc	mapped	0x1027c0bbc
+System.ObjectModel	5	0x06000006	System.ComponentModel.TypeConverterAttribute	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005189fc	0x948aa09a	0x1027c0c64	0x1027c0c64	mapped	0x1027c0c64
+System.ObjectModel	6	0x06000007	System.ComponentModel.TypeConverterAttribute	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100518a00	0x948aa0b2	0x1027c0cc8	0x1027c0cc8	mapped	0x1027c0cc8
+System.ObjectModel	7	0x06000008	System.ComponentModel.TypeDescriptionProviderAttribute	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100518a04	0x948aa0d8	0x1027c0d64	0x1027c0d64	mapped	0x1027c0d64
+System.ObjectModel	8	0x06000009	System.ComponentModel.TypeDescriptionProviderAttribute	get_TypeName	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100518a08	0x948aa107	0x1027c0e24	0x1027c0e24	mapped	0x1027c0e24

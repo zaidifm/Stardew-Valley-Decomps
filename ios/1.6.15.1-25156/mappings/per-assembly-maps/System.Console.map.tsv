@@ -1,0 +1,65 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Console	0	0x06000001	Interop+Sys	Log	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x10042f408	0x94000000	0x10042f408		absent	0x10042f408
+System.Console	1	0x06000002	System.Console	get_OutputEncoding	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10042f40c	0x948395db	0x102514b78	0x102514b78	mapped	0x102514b78
+System.Console	2	0x06000003	System.Console	get_Out	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10042f410	0x9483963b	0x102514cfc	0x102514cfc	mapped	0x102514cfc
+System.Console	3	0x06000004	System.Console	CreateOutputWriter	0x2050	NoInlining	Private, Static, HideBySig	0x10042f414	0x94839655	0x102514d68	0x102514d68	mapped	0x102514d68
+System.Console	4	0x06000005	System.Console	WriteLine	0x2050	NoInlining	Public, Static, HideBySig	0x10042f418	0x94839686	0x102514e30	0x102514e30	mapped	0x102514e30
+System.Console	5	0x06000006	System.Console	WriteLine	0x2050	NoInlining	Public, Static, HideBySig	0x10042f41c	0x948396a6	0x102514eb4	0x102514eb4	mapped	0x102514eb4
+System.Console	6	0x06000007	System.Console	WriteLine	0x2050	NoInlining	Public, Static, HideBySig	0x10042f420	0x948396c6	0x102514f38	0x102514f38	mapped	0x102514f38
+System.Console	7	0x06000008	System.Console	WriteLine	0x2050	NoInlining	Public, Static, HideBySig	0x10042f424	0x948396e8	0x102514fc4	0x102514fc4	mapped	0x102514fc4
+System.Console	8	0x06000009	System.Console	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10042f428	0x9483970e	0x102515060	0x102515060	mapped	0x102515060
+System.Console	9	0x0600000a	System.Console	<get_Out>g__EnsureInitialized|26_0	0x2050	NoInlining	Assembly, Static, HideBySig	0x10042f42c	0x94839729	0x1025150d0	0x1025150d0	mapped	0x1025150d0
+System.Console	10	0x0600000b	System.NSLogStream	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10042f430	0x94839770	0x1025151f0	0x1025151f0	mapped	0x1025151f0
+System.Console	11	0x0600000c	System.NSLogStream	Print	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x10042f434	0x9483977f	0x102515230	0x102515230	mapped	0x102515230
+System.Console	12	0x0600000d	System.ConsolePal	OpenStandardOutput	0x2050	NoInlining	Public, Static, HideBySig	0x10042f438	0x9483978f	0x102515274	0x102515274	mapped	0x102515274
+System.Console	13	0x0600000e	System.ConsolePal	get_OutputEncoding	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10042f43c	0x948397b3	0x102515308	0x102515308	mapped	0x102515308
+System.Console	14	0x0600000f	System.Text.EncodingExtensions	RemovePreamble	0x2050	NoInlining	Public, Static, HideBySig	0x10042f440	0x948397cf	0x10251537c	0x10251537c	mapped	0x10251537c
+System.Console	15	0x06000010	System.Text.ConsoleEncoding	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x10042f444	0x94839800	0x102515444	0x102515444	mapped	0x102515444
+System.Console	16	0x06000011	System.Text.ConsoleEncoding	GetPreamble	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f448	0x9483981b	0x1025154b4	0x1025154b4	mapped	0x1025154b4
+System.Console	17	0x06000012	System.Text.ConsoleEncoding	get_CodePage	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10042f44c	0x94839837	0x102515528	0x102515528	mapped	0x102515528
+System.Console	18	0x06000013	System.Text.ConsoleEncoding	get_EncodingName	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10042f450	0x9483984f	0x10251558c	0x10251558c	mapped	0x10251558c
+System.Console	19	0x06000014	System.Text.ConsoleEncoding	get_WebName	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10042f454	0x94839867	0x1025155f0	0x1025155f0	mapped	0x1025155f0
+System.Console	20	0x06000015	System.Text.ConsoleEncoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f458	0x9483987f	0x102515654	0x102515654	mapped	0x102515654
+System.Console	21	0x06000016	System.Text.ConsoleEncoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f45c	0x9483989d	0x1025156d0	0x1025156d0	mapped	0x1025156d0
+System.Console	22	0x06000017	System.Text.ConsoleEncoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f460	0x948398bd	0x102515754	0x102515754	mapped	0x102515754
+System.Console	23	0x06000018	System.Text.ConsoleEncoding	GetBytes	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f464	0x948398d7	0x1025157c0	0x1025157c0	mapped	0x1025157c0
+System.Console	24	0x06000019	System.Text.ConsoleEncoding	GetBytes	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f468	0x948398fb	0x102515854	0x102515854	mapped	0x102515854
+System.Console	25	0x0600001a	System.Text.ConsoleEncoding	GetBytes	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f46c	0x94839921	0x1025158f0	0x1025158f0	mapped	0x1025158f0
+System.Console	26	0x0600001b	System.Text.ConsoleEncoding	GetBytes	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f470	0x9483993b	0x10251595c	0x10251595c	mapped	0x10251595c
+System.Console	27	0x0600001c	System.Text.ConsoleEncoding	GetCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f474	0x94839961	0x1025159f8	0x1025159f8	mapped	0x1025159f8
+System.Console	28	0x0600001d	System.Text.ConsoleEncoding	GetCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f478	0x9483997f	0x102515a74	0x102515a74	mapped	0x102515a74
+System.Console	29	0x0600001e	System.Text.ConsoleEncoding	GetChars	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f47c	0x9483999f	0x102515af8	0x102515af8	mapped	0x102515af8
+System.Console	30	0x0600001f	System.Text.ConsoleEncoding	GetChars	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f480	0x948399c3	0x102515b8c	0x102515b8c	mapped	0x102515b8c
+System.Console	31	0x06000020	System.Text.ConsoleEncoding	GetChars	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f484	0x948399dd	0x102515bf8	0x102515bf8	mapped	0x102515bf8
+System.Console	32	0x06000021	System.Text.ConsoleEncoding	GetChars	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f488	0x948399fd	0x102515c7c	0x102515c7c	mapped	0x102515c7c
+System.Console	33	0x06000022	System.Text.ConsoleEncoding	GetDecoder	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f48c	0x94839a23	0x102515d18	0x102515d18	mapped	0x102515d18
+System.Console	34	0x06000023	System.Text.ConsoleEncoding	GetEncoder	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f490	0x94839a3b	0x102515d7c	0x102515d7c	mapped	0x102515d7c
+System.Console	35	0x06000024	System.Text.ConsoleEncoding	GetMaxByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f494	0x94839a53	0x102515de0	0x102515de0	mapped	0x102515de0
+System.Console	36	0x06000025	System.Text.ConsoleEncoding	GetMaxCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f498	0x94839a6d	0x102515e4c	0x102515e4c	mapped	0x102515e4c
+System.Console	37	0x06000026	System.Text.ConsoleEncoding	GetString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f49c	0x94839a87	0x102515eb8	0x102515eb8	mapped	0x102515eb8
+System.Console	38	0x06000027	System.Text.ConsoleEncoding	GetString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f4a0	0x94839aa1	0x102515f24	0x102515f24	mapped	0x102515f24
+System.Console	39	0x06000028	System.IO.ConsoleStream	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x10042f4a4	0x94839ac1	0x102515fa8	0x102515fa8	mapped	0x102515fa8
+System.Console	40	0x06000029	System.IO.ConsoleStream	Write	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f4a8	0x94839acd	0x102515fdc	0x102515fdc	mapped	0x102515fdc
+System.Console	41	0x0600002a	System.IO.ConsoleStream	WriteByte	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f4ac	0x94839afc	0x10251609c	0x10251609c	mapped	0x10251609c
+System.Console	42	0x0600002b	System.IO.ConsoleStream	Read	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f4b0	0x94839b16	0x102516108	0x102516108	mapped	0x102516108
+System.Console	43	0x0600002c	System.IO.ConsoleStream	ReadByte	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f4b4	0x94839b50	0x1025161f4	0x1025161f4	mapped	0x1025161f4
+System.Console	44	0x0600002d	System.IO.ConsoleStream	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x10042f4b8	0x94839b6d	0x10251626c	0x10251626c	mapped	0x10251626c
+System.Console	45	0x0600002e	System.IO.ConsoleStream	get_CanRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10042f4bc	0x94839b75	0x102516290	0x102516290	mapped	0x102516290
+System.Console	46	0x0600002f	System.IO.ConsoleStream	get_CanWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10042f4c0	0x94839b7d	0x1025162b4	0x1025162b4	mapped	0x1025162b4
+System.Console	47	0x06000030	System.IO.ConsoleStream	get_CanSeek	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10042f4c4	0x94839b85	0x1025162d8	0x1025162d8	mapped	0x1025162d8
+System.Console	48	0x06000031	System.IO.ConsoleStream	get_Length	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10042f4c8	0x94839b86	0x1025162e0	0x1025162e0	mapped	0x1025162e0
+System.Console	49	0x06000032	System.IO.ConsoleStream	get_Position	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10042f4cc	0x94839b8e	0x102516304	0x102516304	mapped	0x102516304
+System.Console	50	0x06000033	System.IO.ConsoleStream	set_Position	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10042f4d0	0x94839b96	0x102516328	0x102516328	mapped	0x102516328
+System.Console	51	0x06000034	System.IO.ConsoleStream	Flush	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f4d4	0x94839b9e	0x10251634c	0x10251634c	mapped	0x10251634c
+System.Console	52	0x06000035	System.IO.ConsoleStream	SetLength	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f4d8	0x94839b9e	0x102516350	0x102516350	mapped	0x102516350
+System.Console	53	0x06000036	System.IO.ConsoleStream	Seek	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f4dc	0x94839ba6	0x102516374	0x102516374	mapped	0x102516374
+System.Console	54	0x06000037	System.IO.ConsoleStream	ValidateRead	0x2050	NoInlining	Family, HideBySig	0x10042f4e0	0x94839bae	0x102516398	0x102516398	mapped	0x102516398
+System.Console	55	0x06000038	System.IO.ConsoleStream	ValidateWrite	0x2050	NoInlining	Family, HideBySig	0x10042f4e4	0x94839bda	0x10251644c	0x10251644c	mapped	0x10251644c
+System.Console	56	0x06000039	System.IO.CachedConsoleStream	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10042f4e8	0x94839c06	0x102516500	0x102516500	mapped	0x102516500
+System.Console	57	0x0600003a	System.IO.CachedConsoleStream	Read	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f4ec	0x94839c43	0x1025165f8	0x1025165f8	mapped	0x1025165f8
+System.Console	58	0x0600003b	System.IO.CachedConsoleStream	Write	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10042f4f0	0x94839c4b	0x10251661c	0x10251661c	mapped	0x10251661c
+System.Console	59	0x0600003c	System.IO.CachedConsoleStream	Print	0x0	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10042f4f4	0x97ffffc5	0x10042f408		absent	0x10042f408
+System.Console	60	0x0600003d	System.IO.CachedConsoleStream	WriteOrCache	0x2050	NoInlining	Private, Static, HideBySig	0x10042f4f8	0x94839cd9	0x10251685c	0x10251685c	mapped	0x10251685c
+System.Console	61	0x0600003e	System.IO.Error	GetReadNotSupported	0x2050	NoInlining	Assembly, Static, HideBySig	0x10042f4fc	0x94839d44	0x102516a0c	0x102516a0c	mapped	0x102516a0c
+System.Console	62	0x0600003f	System.IO.Error	GetSeekNotSupported	0x2050	NoInlining	Assembly, Static, HideBySig	0x10042f500	0x94839d61	0x102516a84	0x102516a84	mapped	0x102516a84
+System.Console	63	0x06000040	System.IO.Error	GetWriteNotSupported	0x2050	NoInlining	Assembly, Static, HideBySig	0x10042f504	0x94839d7e	0x102516afc	0x102516afc	mapped	0x102516afc

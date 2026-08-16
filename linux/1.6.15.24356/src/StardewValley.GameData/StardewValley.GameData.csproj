@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>StardewValley.GameData</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Latest</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>../../stardew_runtime/game/Stardew Valley/MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>../../stardew_runtime/game/Stardew Valley/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>../../stardew_runtime/game/Stardew Valley/System.Linq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

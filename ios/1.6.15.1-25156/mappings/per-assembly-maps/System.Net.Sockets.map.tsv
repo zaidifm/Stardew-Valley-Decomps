@@ -1,0 +1,683 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Net.Sockets	0	0x06000001	Interop+ErrorInfo	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x100513498	0x9489c020	0x102783518	0x102783518	mapped	0x102783518
+System.Net.Sockets	1	0x06000002	Interop+ErrorInfo	get_Error	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x10051349c	0x9489c02a	0x102783544	0x102783544	mapped	0x102783544
+System.Net.Sockets	2	0x06000003	Interop+ErrorInfo	get_RawErrno	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005134a0	0x9489c032	0x102783568	0x102783568	mapped	0x102783568
+System.Net.Sockets	3	0x06000004	Interop+ErrorInfo	GetErrorMessage	0x2050	NoInlining	Assembly, HideBySig	0x1005134a4	0x9489c049	0x1027835c8	0x1027835c8	mapped	0x1027835c8
+System.Net.Sockets	4	0x06000005	Interop+ErrorInfo	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005134a8	0x9489c05f	0x102783624	0x102783624	mapped	0x102783624
+System.Net.Sockets	5	0x06000006	Interop+Sys	GetLastError	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134ac	0x9489c103	0x1027838b8	0x1027838b8	mapped	0x1027838b8
+System.Net.Sockets	6	0x06000007	Interop+Sys	StrError	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134b0	0x9489c10d	0x1027838e4	0x1027838e4	mapped	0x1027838e4
+System.Net.Sockets	7	0x06000008	Interop+Sys	ConvertErrorPlatformToPal	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005134b4	0x97fffff9	0x100513498		absent	0x100513498
+System.Net.Sockets	8	0x06000009	Interop+Sys	ConvertErrorPalToPlatform	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005134b8	0x97fffff8	0x100513498		absent	0x100513498
+System.Net.Sockets	9	0x0600000a	Interop+Sys	StrErrorR	0x0	136	Private, Static, HideBySig, PinvokeImpl	0x1005134bc	0x97fffff7	0x100513498		absent	0x100513498
+System.Net.Sockets	10	0x0600000b	Interop+Sys	Accept	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134c0	0x9489c11f	0x10278393c	0x10278393c	mapped	0x10278393c
+System.Net.Sockets	11	0x0600000c	Interop+Sys	Bind	0x2050	NoInlining	Private, Static, HideBySig	0x1005134c4	0x97ffc99f	0x100505b40	0x100505b40	mapped	0x100505b40
+System.Net.Sockets	12	0x0600000d	Interop+Sys	Bind	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134c8	0x9489c15f	0x102783a44	0x102783a44	mapped	0x102783a44
+System.Net.Sockets	13	0x0600000e	Interop+Sys	Close	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134cc	0x9489c175	0x102783aa0	0x102783aa0	mapped	0x102783aa0
+System.Net.Sockets	14	0x0600000f	Interop+Sys	Connect	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134d0	0x9489c188	0x102783af0	0x102783af0	mapped	0x102783af0
+System.Net.Sockets	15	0x06000010	Interop+Sys	Disconnect	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005134d4	0x97fffff1	0x100513498		absent	0x100513498
+System.Net.Sockets	16	0x06000011	Interop+Sys	GetBytesAvailable	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134d8	0x9489c1c6	0x102783bf0	0x102783bf0	mapped	0x102783bf0
+System.Net.Sockets	17	0x06000012	Interop+Sys	GetAtOutOfBandMark	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134dc	0x9489c201	0x102783ce0	0x102783ce0	mapped	0x102783ce0
+System.Net.Sockets	18	0x06000013	Interop+Sys	GetDomainSocketSizes	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005134e0	0x97ffffee	0x100513498		absent	0x100513498
+System.Net.Sockets	19	0x06000014	Interop+Sys	GetMaximumAddressSize	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005134e4	0x97ffffed	0x100513498		absent	0x100513498
+System.Net.Sockets	20	0x06000015	Interop+Sys	GetPeerName	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134e8	0x9489c23a	0x102783dd0	0x102783dd0	mapped	0x102783dd0
+System.Net.Sockets	21	0x06000016	Interop+Sys	GetSocketErrorOption	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134ec	0x9489c279	0x102783ed0	0x102783ed0	mapped	0x102783ed0
+System.Net.Sockets	22	0x06000017	Interop+Sys	GetSocketType	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134f0	0x97ffc9f0	0x100505cb0	0x100505cb0	mapped	0x100505cb0
+System.Net.Sockets	23	0x06000018	Interop+Sys	GetSockName	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134f4	0x9489c2b3	0x102783fc0	0x102783fc0	mapped	0x102783fc0
+System.Net.Sockets	24	0x06000019	Interop+Sys	GetSockOpt	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005134f8	0x9489c2f2	0x1027840c0	0x1027840c0	mapped	0x1027840c0
+System.Net.Sockets	25	0x0600001a	Interop+Sys	GetSockOpt	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005134fc	0x97ffffe7	0x100513498		absent	0x100513498
+System.Net.Sockets	26	0x0600001b	Interop+Sys	GetLingerOption	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513500	0x9489c336	0x1027841d8	0x1027841d8	mapped	0x1027841d8
+System.Net.Sockets	27	0x0600001c	Interop+Sys	SetLingerOption	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513504	0x9489c371	0x1027842c8	0x1027842c8	mapped	0x1027842c8
+System.Net.Sockets	28	0x0600001d	Interop+Sys	SetLingerOption	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513508	0x97ffffe4	0x100513498		absent	0x100513498
+System.Net.Sockets	29	0x0600001e	Interop+Sys	SetSendTimeout	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051350c	0x9489c3ab	0x1027843b8	0x1027843b8	mapped	0x1027843b8
+System.Net.Sockets	30	0x0600001f	Interop+Sys	SetReceiveTimeout	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513510	0x9489c3e6	0x1027844a8	0x1027844a8	mapped	0x1027844a8
+System.Net.Sockets	31	0x06000020	Interop+Sys	FStat	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513514	0x97ffca6f	0x100505ed0	0x100505ed0	mapped	0x100505ed0
+System.Net.Sockets	32	0x06000021	Interop+Sys	Listen	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513518	0x9489c420	0x102784598	0x102784598	mapped	0x102784598
+System.Net.Sockets	33	0x06000022	Interop+Sys	GetIPv4MulticastOption	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051351c	0x9489c45b	0x102784688	0x102784688	mapped	0x102784688
+System.Net.Sockets	34	0x06000023	Interop+Sys	SetIPv4MulticastOption	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513520	0x9489c49a	0x102784788	0x102784788	mapped	0x102784788
+System.Net.Sockets	35	0x06000024	Interop+Sys	GetIPv6MulticastOption	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513524	0x9489c4d9	0x102784888	0x102784888	mapped	0x102784888
+System.Net.Sockets	36	0x06000025	Interop+Sys	SetIPv6MulticastOption	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513528	0x9489c518	0x102784988	0x102784988	mapped	0x102784988
+System.Net.Sockets	37	0x06000026	Interop+Sys	Poll	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x10051352c	0x97ffffdb	0x100513498		absent	0x100513498
+System.Net.Sockets	38	0x06000027	Interop+Sys	Poll	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513530	0x9489c556	0x102784a88	0x102784a88	mapped	0x102784a88
+System.Net.Sockets	39	0x06000028	Interop+Sys	PlatformSupportsDualModeIPv4PacketInfo	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513534	0x97ffffd9	0x100513498		absent	0x100513498
+System.Net.Sockets	40	0x06000029	Interop+Sys	Read	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513538	0x9489c5a0	0x102784bb8	0x102784bb8	mapped	0x102784bb8
+System.Net.Sockets	41	0x0600002a	Interop+Sys	Receive	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051353c	0x9489c5e6	0x102784cd4	0x102784cd4	mapped	0x102784cd4
+System.Net.Sockets	42	0x0600002b	Interop+Sys	ReceiveMessage	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513540	0x9489c62b	0x102784dec	0x102784dec	mapped	0x102784dec
+System.Net.Sockets	43	0x0600002c	Interop+Sys	Send	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513544	0x9489c66c	0x102784ef4	0x102784ef4	mapped	0x102784ef4
+System.Net.Sockets	44	0x0600002d	Interop+Sys	SendMessage	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513548	0x9489c6b1	0x10278500c	0x10278500c	mapped	0x10278500c
+System.Net.Sockets	45	0x0600002e	Interop+Sys	SetSockOpt	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051354c	0x9489c6f2	0x102785114	0x102785114	mapped	0x102785114
+System.Net.Sockets	46	0x0600002f	Interop+Sys	SetSockOpt	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513550	0x97ffffd2	0x100513498		absent	0x100513498
+System.Net.Sockets	47	0x06000030	Interop+Sys	Shutdown	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513554	0x9489c736	0x10278522c	0x10278522c	mapped	0x10278522c
+System.Net.Sockets	48	0x06000031	Interop+Sys	Shutdown	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513558	0x97ffffd0	0x100513498		absent	0x100513498
+System.Net.Sockets	49	0x06000032	Interop+Sys	Socket	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x10051355c	0x97ffffcf	0x100513498		absent	0x100513498
+System.Net.Sockets	50	0x06000033	Interop+Sys	CreateSocketEventPort	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513560	0x97ffffce	0x100513498		absent	0x100513498
+System.Net.Sockets	51	0x06000034	Interop+Sys	CloseSocketEventPort	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513564	0x97ffffcd	0x100513498		absent	0x100513498
+System.Net.Sockets	52	0x06000035	Interop+Sys	CreateSocketEventBuffer	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513568	0x97ffffcc	0x100513498		absent	0x100513498
+System.Net.Sockets	53	0x06000036	Interop+Sys	FreeSocketEventBuffer	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x10051356c	0x97ffffcb	0x100513498		absent	0x100513498
+System.Net.Sockets	54	0x06000037	Interop+Sys	TryChangeSocketEventRegistration	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513570	0x97ffffca	0x100513498		absent	0x100513498
+System.Net.Sockets	55	0x06000038	Interop+Sys	WaitForSocketEvents	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513574	0x97ffffc9	0x100513498		absent	0x100513498
+System.Net.Sockets	56	0x06000039	Interop+Sys	GetSocketAddressSizes	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513578	0x97ffffc8	0x100513498		absent	0x100513498
+System.Net.Sockets	57	0x0600003a	Interop+Sys	GetAddressFamily	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x10051357c	0x97ffffc7	0x100513498		absent	0x100513498
+System.Net.Sockets	58	0x0600003b	Interop+Sys	GetPort	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513580	0x97ffffc6	0x100513498		absent	0x100513498
+System.Net.Sockets	59	0x0600003c	Interop+Sys	GetIPv4Address	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513584	0x97ffffc5	0x100513498		absent	0x100513498
+System.Net.Sockets	60	0x0600003d	Interop+Sys	GetIPv6Address	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513588	0x97ffffc4	0x100513498		absent	0x100513498
+System.Net.Sockets	61	0x0600003e	Interop+Sys	Write	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051358c	0x9489c764	0x10278531c	0x10278531c	mapped	0x10278531c
+System.Net.Sockets	62	0x0600003f	Interop+Sys	<Accept>g____PInvoke|6_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513590	0x97ffffc2	0x100513498		absent	0x100513498
+System.Net.Sockets	63	0x06000040	Interop+Sys	<Bind>g____PInvoke|7_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513594	0x97ffffc1	0x100513498		absent	0x100513498
+System.Net.Sockets	64	0x06000041	Interop+Sys	<Close>g____PInvoke|9_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513598	0x97ffffc0	0x100513498		absent	0x100513498
+System.Net.Sockets	65	0x06000042	Interop+Sys	<Connect>g____PInvoke|10_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x10051359c	0x97ffffbf	0x100513498		absent	0x100513498
+System.Net.Sockets	66	0x06000043	Interop+Sys	<GetBytesAvailable>g____PInvoke|13_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135a0	0x97ffffbe	0x100513498		absent	0x100513498
+System.Net.Sockets	67	0x06000044	Interop+Sys	<GetAtOutOfBandMark>g____PInvoke|14_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135a4	0x97ffffbd	0x100513498		absent	0x100513498
+System.Net.Sockets	68	0x06000045	Interop+Sys	<GetPeerName>g____PInvoke|17_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135a8	0x97ffffbc	0x100513498		absent	0x100513498
+System.Net.Sockets	69	0x06000046	Interop+Sys	<GetSocketErrorOption>g____PInvoke|18_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135ac	0x97ffffbb	0x100513498		absent	0x100513498
+System.Net.Sockets	70	0x06000047	Interop+Sys	<GetSocketType>g____PInvoke|19_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135b0	0x97ffffba	0x100513498		absent	0x100513498
+System.Net.Sockets	71	0x06000048	Interop+Sys	<GetSockName>g____PInvoke|20_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135b4	0x97ffffb9	0x100513498		absent	0x100513498
+System.Net.Sockets	72	0x06000049	Interop+Sys	<GetSockOpt>g____PInvoke|21_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135b8	0x97ffffb8	0x100513498		absent	0x100513498
+System.Net.Sockets	73	0x0600004a	Interop+Sys	<GetLingerOption>g____PInvoke|34_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135bc	0x97ffffb7	0x100513498		absent	0x100513498
+System.Net.Sockets	74	0x0600004b	Interop+Sys	<SetLingerOption>g____PInvoke|35_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135c0	0x97ffffb6	0x100513498		absent	0x100513498
+System.Net.Sockets	75	0x0600004c	Interop+Sys	<SetSendTimeout>g____PInvoke|38_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135c4	0x97ffffb5	0x100513498		absent	0x100513498
+System.Net.Sockets	76	0x0600004d	Interop+Sys	<SetReceiveTimeout>g____PInvoke|39_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135c8	0x97ffffb4	0x100513498		absent	0x100513498
+System.Net.Sockets	77	0x0600004e	Interop+Sys	<FStat>g____PInvoke|43_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135cc	0x97ffffb3	0x100513498		absent	0x100513498
+System.Net.Sockets	78	0x0600004f	Interop+Sys	<Listen>g____PInvoke|46_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135d0	0x97ffffb2	0x100513498		absent	0x100513498
+System.Net.Sockets	79	0x06000050	Interop+Sys	<GetIPv4MulticastOption>g____PInvoke|52_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135d4	0x97ffffb1	0x100513498		absent	0x100513498
+System.Net.Sockets	80	0x06000051	Interop+Sys	<SetIPv4MulticastOption>g____PInvoke|53_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135d8	0x97ffffb0	0x100513498		absent	0x100513498
+System.Net.Sockets	81	0x06000052	Interop+Sys	<GetIPv6MulticastOption>g____PInvoke|54_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135dc	0x97ffffaf	0x100513498		absent	0x100513498
+System.Net.Sockets	82	0x06000053	Interop+Sys	<SetIPv6MulticastOption>g____PInvoke|55_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135e0	0x97ffffae	0x100513498		absent	0x100513498
+System.Net.Sockets	83	0x06000054	Interop+Sys	<Read>g____PInvoke|59_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135e4	0x97ffffad	0x100513498		absent	0x100513498
+System.Net.Sockets	84	0x06000055	Interop+Sys	<Receive>g____PInvoke|60_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135e8	0x97ffffac	0x100513498		absent	0x100513498
+System.Net.Sockets	85	0x06000056	Interop+Sys	<ReceiveMessage>g____PInvoke|61_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135ec	0x97ffffab	0x100513498		absent	0x100513498
+System.Net.Sockets	86	0x06000057	Interop+Sys	<Send>g____PInvoke|62_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135f0	0x97ffffaa	0x100513498		absent	0x100513498
+System.Net.Sockets	87	0x06000058	Interop+Sys	<SendMessage>g____PInvoke|63_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135f4	0x97ffffa9	0x100513498		absent	0x100513498
+System.Net.Sockets	88	0x06000059	Interop+Sys	<SetSockOpt>g____PInvoke|64_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135f8	0x97ffffa8	0x100513498		absent	0x100513498
+System.Net.Sockets	89	0x0600005a	Interop+Sys	<Shutdown>g____PInvoke|67_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1005135fc	0x97ffffa7	0x100513498		absent	0x100513498
+System.Net.Sockets	90	0x0600005b	Interop+Sys	<Write>g____PInvoke|92_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513600	0x97ffffa6	0x100513498		absent	0x100513498
+System.Net.Sockets	91	0x0600005c	Interop+Sys+Fcntl	DangerousSetIsNonBlocking	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513604	0x9489c78d	0x102785438	0x102785438	mapped	0x102785438
+System.Net.Sockets	92	0x0600005d	Interop+Sys+Fcntl	SetIsNonBlocking	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513608	0x9489c7a2	0x102785490	0x102785490	mapped	0x102785490
+System.Net.Sockets	93	0x0600005e	Interop+Sys+Fcntl	GetIsNonBlocking	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051360c	0x9489c7e4	0x10278559c	0x10278559c	mapped	0x10278559c
+System.Net.Sockets	94	0x0600005f	Interop+Sys+Fcntl	GetFD	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513610	0x9489c82c	0x1027856c0	0x1027856c0	mapped	0x1027856c0
+System.Net.Sockets	95	0x06000060	Interop+Sys+Fcntl	<DangerousSetIsNonBlocking>g____PInvoke|0_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513614	0x97ffffa1	0x100513498		absent	0x100513498
+System.Net.Sockets	96	0x06000061	Interop+Sys+Fcntl	<SetIsNonBlocking>g____PInvoke|1_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513618	0x97ffffa0	0x100513498		absent	0x100513498
+System.Net.Sockets	97	0x06000062	Interop+Sys+Fcntl	<GetIsNonBlocking>g____PInvoke|2_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x10051361c	0x97ffff9f	0x100513498		absent	0x100513498
+System.Net.Sockets	98	0x06000063	Interop+Sys+Fcntl	<GetFD>g____PInvoke|5_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x100513620	0x97ffff9e	0x100513498		absent	0x100513498
+System.Net.Sockets	99	0x06000064	Interop+Sys+IPAddress	get_IsIPv6	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513624	0x9489c83b	0x102785710	0x102785710	mapped	0x102785710
+System.Net.Sockets	100	0x06000065	Interop+Sys+IPAddress	set_IsIPv6	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513628	0x9489c845	0x10278573c	0x10278573c	mapped	0x10278573c
+System.Net.Sockets	101	0x06000066	Interop+Sys+IPAddress	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10051362c	0x9489c850	0x10278576c	0x10278576c	mapped	0x10278576c
+System.Net.Sockets	102	0x06000067	Interop+Sys+IPAddress	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513630	0x9489c86f	0x1027857ec	0x1027857ec	mapped	0x1027857ec
+System.Net.Sockets	103	0x06000068	Interop+Sys+IPAddress	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100513634	0x9489c8a8	0x1027858d4	0x1027858d4	mapped	0x1027858d4
+System.Net.Sockets	104	0x06000069	InteropErrorExtensions	Info	0x2050	NoInlining	Public, Static, HideBySig	0x100513638	0x9489c8d6	0x102785990	0x102785990	mapped	0x102785990
+System.Net.Sockets	105	0x0600006a	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051363c	0x9489c8d7	0x102785998	0x102785998	mapped	0x102785998
+System.Net.Sockets	106	0x0600006b	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513640	0x9489c903	0x102785a4c	0x102785a4c	mapped	0x102785a4c
+System.Net.Sockets	107	0x0600006c	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513644	0x9489c938	0x102785b24	0x102785b24	mapped	0x102785b24
+System.Net.Sockets	108	0x0600006d	System.Net.NetEventSource	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513648	0x9489c974	0x102785c18	0x102785c18	mapped	0x102785c18
+System.Net.Sockets	109	0x0600006e	System.Net.NetEventSource	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10051364c	0x9489c989	0x102785c70	0x102785c70	mapped	0x102785c70
+System.Net.Sockets	110	0x0600006f	System.Net.InternalException	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x100513650	0x9489c9a4	0x102785ce0	0x102785ce0	mapped	0x102785ce0
+System.Net.Sockets	111	0x06000070	System.Net.InternalException	get_Message	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x100513654	0x9489c9b6	0x102785d2c	0x102785d2c	mapped	0x102785d2c
+System.Net.Sockets	112	0x06000071	System.Net.ExceptionCheck	IsFatal	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513658	0x9489c9e6	0x102785df0	0x102785df0	mapped	0x102785df0
+System.Net.Sockets	113	0x06000072	System.Net.RangeValidationHelpers	ValidateSegment	0x2050	NoInlining	Public, Static, HideBySig	0x10051365c	0x9489c9fd	0x102785e50	0x102785e50	mapped	0x102785e50
+System.Net.Sockets	114	0x06000073	System.Net.TcpValidationHelpers	ValidatePortNumber	0x2050	NoInlining	Public, Static, HideBySig	0x100513660	0x9489ca2e	0x102785f18	0x102785f18	mapped	0x102785f18
+System.Net.Sockets	115	0x06000074	System.Net.SocketProtocolSupportPal	get_OSSupportsIPv6	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100513664	0x9489ca30	0x102785f24	0x102785f24	mapped	0x102785f24
+System.Net.Sockets	116	0x06000075	System.Net.SocketProtocolSupportPal	get_OSSupportsIPv4	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100513668	0x9489ca40	0x102785f68	0x102785f68	mapped	0x102785f68
+System.Net.Sockets	117	0x06000076	System.Net.SocketProtocolSupportPal	get_OSSupportsUnixDomainSockets	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10051366c	0x9489ca50	0x102785fac	0x102785fac	mapped	0x102785fac
+System.Net.Sockets	118	0x06000077	System.Net.SocketProtocolSupportPal	IsIPv6Disabled	0x2050	NoInlining	Private, Static, HideBySig	0x100513670	0x9489ca60	0x102785ff0	0x102785ff0	mapped	0x102785ff0
+System.Net.Sockets	119	0x06000078	System.Net.SocketProtocolSupportPal	IsSupported	0x2050	NoInlining	Private, Static, HideBySig	0x100513674	0x9489ca8f	0x1027860b0	0x1027860b0	mapped	0x1027860b0
+System.Net.Sockets	120	0x06000079	System.Net.SocketProtocolSupportPal	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513678	0x9489cad1	0x1027861bc	0x1027861bc	mapped	0x1027861bc
+System.Net.Sockets	121	0x0600007a	System.Net.InteropIPAddressExtensions	GetNativeIPAddress	0x2050	NoInlining	Public, Static, HideBySig	0x10051367c	0x9489caf8	0x10278625c	0x10278625c	mapped	0x10278625c
+System.Net.Sockets	122	0x0600007b	System.Net.InteropIPAddressExtensions	GetIPAddress	0x2050	NoInlining	Public, Static, HideBySig	0x100513680	0x9489cb2b	0x10278632c	0x10278632c	mapped	0x10278632c
+System.Net.Sockets	123	0x0600007c	System.Net.SocketAddressPal	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513684	0x9489cb58	0x1027863e4	0x1027863e4	mapped	0x1027863e4
+System.Net.Sockets	124	0x0600007d	System.Net.SocketAddressPal	ThrowOnFailure	0x2050	NoInlining	Private, Static, HideBySig	0x100513688	0x9489cb83	0x102786494	0x102786494	mapped	0x102786494
+System.Net.Sockets	125	0x0600007e	System.Net.SocketAddressPal	GetAddressFamily	0x2050	NoInlining	Public, Static, HideBySig	0x10051368c	0x9489cbab	0x102786538	0x102786538	mapped	0x102786538
+System.Net.Sockets	126	0x0600007f	System.Net.SocketAddressPal	GetPort	0x2050	NoInlining	Public, Static, HideBySig	0x100513690	0x9489cbcc	0x1027865c0	0x1027865c0	mapped	0x1027865c0
+System.Net.Sockets	127	0x06000080	System.Net.SocketAddressPal	GetIPv4Address	0x2050	NoInlining	Public, Static, HideBySig	0x100513694	0x9489cbed	0x102786648	0x102786648	mapped	0x102786648
+System.Net.Sockets	128	0x06000081	System.Net.SocketAddressPal	GetIPv6Address	0x2050	NoInlining	Public, Static, HideBySig	0x100513698	0x9489cc0d	0x1027866cc	0x1027866cc	mapped	0x1027866cc
+System.Net.Sockets	129	0x06000082	System.Net.Sockets.SocketsTelemetry	ConnectStop	0x2050	NoInlining	Private, HideBySig	0x10051369c	0x9489cc3d	0x102786790	0x102786790	mapped	0x102786790
+System.Net.Sockets	130	0x06000083	System.Net.Sockets.SocketsTelemetry	ConnectFailed	0x2050	NoInlining	Private, HideBySig	0x1005136a0	0x9489cc3d	0x102786794	0x102786794	mapped	0x102786794
+System.Net.Sockets	131	0x06000084	System.Net.Sockets.SocketsTelemetry	AcceptStop	0x2050	NoInlining	Private, HideBySig	0x1005136a4	0x9489cc3d	0x102786798	0x102786798	mapped	0x102786798
+System.Net.Sockets	132	0x06000085	System.Net.Sockets.SocketsTelemetry	AcceptFailed	0x2050	NoInlining	Private, HideBySig	0x1005136a8	0x9489cc3d	0x10278679c	0x10278679c	mapped	0x10278679c
+System.Net.Sockets	133	0x06000086	System.Net.Sockets.SocketsTelemetry	ConnectStart	0x2050	NoInlining	Public, HideBySig	0x1005136ac	0x9489cc3d	0x1027867a0	0x1027867a0	mapped	0x1027867a0
+System.Net.Sockets	134	0x06000087	System.Net.Sockets.SocketsTelemetry	AfterConnect	0x2050	NoInlining	Public, HideBySig	0x1005136b0	0x9489cc50	0x1027867f0	0x1027867f0	mapped	0x1027867f0
+System.Net.Sockets	135	0x06000088	System.Net.Sockets.SocketsTelemetry	AfterAccept	0x2050	NoInlining	Public, HideBySig	0x1005136b4	0x9489cc71	0x102786878	0x102786878	mapped	0x102786878
+System.Net.Sockets	136	0x06000089	System.Net.Sockets.SocketsTelemetry	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005136b8	0x9489cc87	0x1027868d4	0x1027868d4	mapped	0x1027868d4
+System.Net.Sockets	137	0x0600008a	System.Net.Sockets.SocketsTelemetry	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1005136bc	0x9489cc9c	0x10278692c	0x10278692c	mapped	0x10278692c
+System.Net.Sockets	138	0x0600008b	System.Net.Sockets.IPPacketInformation	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1005136c0	0x9489ccb7	0x10278699c	0x10278699c	mapped	0x10278699c
+System.Net.Sockets	139	0x0600008c	System.Net.Sockets.IPPacketInformation	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1005136c4	0x9489ccd5	0x102786a18	0x102786a18	mapped	0x102786a18
+System.Net.Sockets	140	0x0600008d	System.Net.Sockets.IPPacketInformation	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005136c8	0x9489ccf5	0x102786a9c	0x102786a9c	mapped	0x102786a9c
+System.Net.Sockets	141	0x0600008e	System.Net.Sockets.IPPacketInformation	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1005136cc	0x9489cd28	0x102786b6c	0x102786b6c	mapped	0x102786b6c
+System.Net.Sockets	142	0x0600008f	System.Net.Sockets.IPPacketInformation	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005136d0	0x9489cd4b	0x102786bfc	0x102786bfc	mapped	0x102786bfc
+System.Net.Sockets	143	0x06000090	System.Net.Sockets.LingerOption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005136d4	0x9489cd6b	0x102786c80	0x102786c80	mapped	0x102786c80
+System.Net.Sockets	144	0x06000091	System.Net.Sockets.LingerOption	get_Enabled	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005136d8	0x9489cd74	0x102786ca8	0x102786ca8	mapped	0x102786ca8
+System.Net.Sockets	145	0x06000092	System.Net.Sockets.LingerOption	set_Enabled	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005136dc	0x9489cd7c	0x102786ccc	0x102786ccc	mapped	0x102786ccc
+System.Net.Sockets	146	0x06000093	System.Net.Sockets.LingerOption	get_LingerTime	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005136e0	0x9489cd84	0x102786cf0	0x102786cf0	mapped	0x102786cf0
+System.Net.Sockets	147	0x06000094	System.Net.Sockets.LingerOption	set_LingerTime	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005136e4	0x9489cd8c	0x102786d14	0x102786d14	mapped	0x102786d14
+System.Net.Sockets	148	0x06000095	System.Net.Sockets.LingerOption	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005136e8	0x9489cd94	0x102786d38	0x102786d38	mapped	0x102786d38
+System.Net.Sockets	149	0x06000096	System.Net.Sockets.LingerOption	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005136ec	0x9489cdbb	0x102786dd8	0x102786dd8	mapped	0x102786dd8
+System.Net.Sockets	150	0x06000097	System.Net.Sockets.MulticastOption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005136f0	0x9489cddc	0x102786e60	0x102786e60	mapped	0x102786e60
+System.Net.Sockets	151	0x06000098	System.Net.Sockets.MulticastOption	get_Group	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005136f4	0x9489ce11	0x102786f38	0x102786f38	mapped	0x102786f38
+System.Net.Sockets	152	0x06000099	System.Net.Sockets.MulticastOption	get_LocalAddress	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005136f8	0x9489ce19	0x102786f5c	0x102786f5c	mapped	0x102786f5c
+System.Net.Sockets	153	0x0600009a	System.Net.Sockets.MulticastOption	set_LocalAddress	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005136fc	0x9489ce21	0x102786f80	0x102786f80	mapped	0x102786f80
+System.Net.Sockets	154	0x0600009b	System.Net.Sockets.MulticastOption	get_InterfaceIndex	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513700	0x9489ce30	0x102786fc0	0x102786fc0	mapped	0x102786fc0
+System.Net.Sockets	155	0x0600009c	System.Net.Sockets.MulticastOption	set_InterfaceIndex	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513704	0x9489ce38	0x102786fe4	0x102786fe4	mapped	0x102786fe4
+System.Net.Sockets	156	0x0600009d	System.Net.Sockets.IPv6MulticastOption	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513708	0x9489ce62	0x102787090	0x102787090	mapped	0x102787090
+System.Net.Sockets	157	0x0600009e	System.Net.Sockets.IPv6MulticastOption	get_Group	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051370c	0x9489ce9d	0x102787180	0x102787180	mapped	0x102787180
+System.Net.Sockets	158	0x0600009f	System.Net.Sockets.IPv6MulticastOption	get_InterfaceIndex	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513710	0x9489cea5	0x1027871a4	0x1027871a4	mapped	0x1027871a4
+System.Net.Sockets	159	0x060000a0	System.Net.Sockets.IPv6MulticastOption	set_InterfaceIndex	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513714	0x9489cead	0x1027871c8	0x1027871c8	mapped	0x1027871c8
+System.Net.Sockets	160	0x060000a1	System.Net.Sockets.NetworkStream	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513718	0x9489ced6	0x102787270	0x102787270	mapped	0x102787270
+System.Net.Sockets	161	0x060000a2	System.Net.Sockets.NetworkStream	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10051371c	0x9489cee7	0x1027872b8	0x1027872b8	mapped	0x1027872b8
+System.Net.Sockets	162	0x060000a3	System.Net.Sockets.NetworkStream	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513720	0x9489cefb	0x10278730c	0x10278730c	mapped	0x10278730c
+System.Net.Sockets	163	0x060000a4	System.Net.Sockets.NetworkStream	get_Socket	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513724	0x9489cf57	0x102787480	0x102787480	mapped	0x102787480
+System.Net.Sockets	164	0x060000a5	System.Net.Sockets.NetworkStream	get_CanRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x100513728	0x9489cf5f	0x1027874a4	0x1027874a4	mapped	0x1027874a4
+System.Net.Sockets	165	0x060000a6	System.Net.Sockets.NetworkStream	get_CanSeek	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10051372c	0x9489cf67	0x1027874c8	0x1027874c8	mapped	0x1027874c8
+System.Net.Sockets	166	0x060000a7	System.Net.Sockets.NetworkStream	get_CanWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x100513730	0x9489cf68	0x1027874d0	0x1027874d0	mapped	0x1027874d0
+System.Net.Sockets	167	0x060000a8	System.Net.Sockets.NetworkStream	get_CanTimeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x100513734	0x9489cf70	0x1027874f4	0x1027874f4	mapped	0x1027874f4
+System.Net.Sockets	168	0x060000a9	System.Net.Sockets.NetworkStream	set_ReadTimeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x100513738	0x9489cf71	0x1027874fc	0x1027874fc	mapped	0x1027874fc
+System.Net.Sockets	169	0x060000aa	System.Net.Sockets.NetworkStream	set_WriteTimeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x10051373c	0x9489cf98	0x10278759c	0x10278759c	mapped	0x10278759c
+System.Net.Sockets	170	0x060000ab	System.Net.Sockets.NetworkStream	get_Length	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x100513740	0x9489cfbf	0x10278763c	0x10278763c	mapped	0x10278763c
+System.Net.Sockets	171	0x060000ac	System.Net.Sockets.NetworkStream	get_Position	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x100513744	0x9489cfd0	0x102787684	0x102787684	mapped	0x102787684
+System.Net.Sockets	172	0x060000ad	System.Net.Sockets.NetworkStream	set_Position	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x100513748	0x9489cfe1	0x1027876cc	0x1027876cc	mapped	0x1027876cc
+System.Net.Sockets	173	0x060000ae	System.Net.Sockets.NetworkStream	Seek	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10051374c	0x9489cff2	0x102787714	0x102787714	mapped	0x102787714
+System.Net.Sockets	174	0x060000af	System.Net.Sockets.NetworkStream	Read	0x2050	NoInlining	Public, Virtual, HideBySig	0x100513750	0x97ffca48	0x100506070	0x100506070	mapped	0x100506070
+System.Net.Sockets	175	0x060000b0	System.Net.Sockets.NetworkStream	Read	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513754	0x97ffcae7	0x1005062f0	0x1005062f0	mapped	0x1005062f0
+System.Net.Sockets	176	0x060000b1	System.Net.Sockets.NetworkStream	ReadByte	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513758	0x9489d001	0x10278775c	0x10278775c	mapped	0x10278775c
+System.Net.Sockets	177	0x060000b2	System.Net.Sockets.NetworkStream	Write	0x2050	NoInlining	Public, Virtual, HideBySig	0x10051375c	0x97ffcb79	0x100506540	0x100506540	mapped	0x100506540
+System.Net.Sockets	178	0x060000b3	System.Net.Sockets.NetworkStream	Write	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513760	0x97ffcc14	0x1005067b0	0x1005067b0	mapped	0x1005067b0
+System.Net.Sockets	179	0x060000b4	System.Net.Sockets.NetworkStream	WriteByte	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513764	0x9489d026	0x1027877fc	0x1027877fc	mapped	0x1027877fc
+System.Net.Sockets	180	0x060000b5	System.Net.Sockets.NetworkStream	Close	0x2050	NoInlining	Public, HideBySig	0x100513768	0x9489d04b	0x102787894	0x102787894	mapped	0x102787894
+System.Net.Sockets	181	0x060000b6	System.Net.Sockets.NetworkStream	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x10051376c	0x9489d071	0x102787930	0x102787930	mapped	0x102787930
+System.Net.Sockets	182	0x060000b7	System.Net.Sockets.NetworkStream	Finalize	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513770	0x9489d0a2	0x1027879f8	0x1027879f8	mapped	0x1027879f8
+System.Net.Sockets	183	0x060000b8	System.Net.Sockets.NetworkStream	BeginRead	0x2050	NoInlining	Public, Virtual, HideBySig	0x100513774	0x97ffcc9f	0x1005069f0	0x1005069f0	mapped	0x1005069f0
+System.Net.Sockets	184	0x060000b9	System.Net.Sockets.NetworkStream	EndRead	0x2050	NoInlining	Public, Virtual, HideBySig	0x100513778	0x97ffcd42	0x100506c80	0x100506c80	mapped	0x100506c80
+System.Net.Sockets	185	0x060000ba	System.Net.Sockets.NetworkStream	BeginWrite	0x2050	NoInlining	Public, Virtual, HideBySig	0x10051377c	0x97ffcdc1	0x100506e80	0x100506e80	mapped	0x100506e80
+System.Net.Sockets	186	0x060000bb	System.Net.Sockets.NetworkStream	EndWrite	0x2050	NoInlining	Public, Virtual, HideBySig	0x100513780	0x97ffce64	0x100507110	0x100507110	mapped	0x100507110
+System.Net.Sockets	187	0x060000bc	System.Net.Sockets.NetworkStream	ReadAsync	0x2050	NoInlining	Public, Virtual, HideBySig	0x100513784	0x97ffcee3	0x100507310	0x100507310	mapped	0x100507310
+System.Net.Sockets	188	0x060000bd	System.Net.Sockets.NetworkStream	ReadAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513788	0x97ffcfc6	0x1005076a0	0x1005076a0	mapped	0x1005076a0
+System.Net.Sockets	189	0x060000be	System.Net.Sockets.NetworkStream	WriteAsync	0x2050	NoInlining	Public, Virtual, HideBySig	0x10051378c	0x97ffd059	0x1005078f0	0x1005078f0	mapped	0x1005078f0
+System.Net.Sockets	190	0x060000bf	System.Net.Sockets.NetworkStream	WriteAsync	0x2050	NoInlining	Public, Virtual, HideBySig	0x100513790	0x97ffd12c	0x100507c40	0x100507c40	mapped	0x100507c40
+System.Net.Sockets	191	0x060000c0	System.Net.Sockets.NetworkStream	Flush	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513794	0x9489d0bb	0x102787a80	0x102787a80	mapped	0x102787a80
+System.Net.Sockets	192	0x060000c1	System.Net.Sockets.NetworkStream	FlushAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513798	0x9489d0bb	0x102787a84	0x102787a84	mapped	0x102787a84
+System.Net.Sockets	193	0x060000c2	System.Net.Sockets.NetworkStream	SetLength	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10051379c	0x9489d0d7	0x102787af8	0x102787af8	mapped	0x102787af8
+System.Net.Sockets	194	0x060000c3	System.Net.Sockets.NetworkStream	SetSocketTimeoutOption	0x2050	NoInlining	Assembly, HideBySig	0x1005137a0	0x9489d0e8	0x102787b40	0x102787b40	mapped	0x102787b40
+System.Net.Sockets	195	0x060000c4	System.Net.Sockets.NetworkStream	ThrowIfDisposed	0x2050	NoInlining	Private, HideBySig	0x1005137a4	0x9489d125	0x102787c38	0x102787c38	mapped	0x102787c38
+System.Net.Sockets	196	0x060000c5	System.Net.Sockets.NetworkStream	WrapException	0x2050	NoInlining	Private, Static, HideBySig	0x1005137a8	0x9489d13b	0x102787c94	0x102787c94	mapped	0x102787c94
+System.Net.Sockets	197	0x060000c6	System.Net.Sockets.SafeSocketHandle	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005137ac	0x9489d169	0x102787d50	0x102787d50	mapped	0x102787d50
+System.Net.Sockets	198	0x060000c7	System.Net.Sockets.SafeSocketHandle	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005137b0	0x9489d191	0x102787df4	0x102787df4	mapped	0x102787df4
+System.Net.Sockets	199	0x060000c8	System.Net.Sockets.SafeSocketHandle	get_OwnsHandle	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137b4	0x9489d1c0	0x102787eb4	0x102787eb4	mapped	0x102787eb4
+System.Net.Sockets	200	0x060000c9	System.Net.Sockets.SafeSocketHandle	get_HasShutdownSend	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137b8	0x9489d1c8	0x102787ed8	0x102787ed8	mapped	0x102787ed8
+System.Net.Sockets	201	0x060000ca	System.Net.Sockets.SafeSocketHandle	TryOwnClose	0x2050	NoInlining	Private, HideBySig	0x1005137bc	0x9489d1d0	0x102787efc	0x102787efc	mapped	0x102787efc
+System.Net.Sockets	202	0x060000cb	System.Net.Sockets.SafeSocketHandle	TrackShutdown	0x2050	NoInlining	Assembly, HideBySig	0x1005137c0	0x9489d1e7	0x102787f5c	0x102787f5c	mapped	0x102787f5c
+System.Net.Sockets	203	0x060000cc	System.Net.Sockets.SafeSocketHandle	get_IsInvalid	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1005137c4	0x9489d1f4	0x102787f94	0x102787f94	mapped	0x102787f94
+System.Net.Sockets	204	0x060000cd	System.Net.Sockets.SafeSocketHandle	ReleaseHandle	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1005137c8	0x9489d205	0x102787fdc	0x102787fdc	mapped	0x102787fdc
+System.Net.Sockets	205	0x060000ce	System.Net.Sockets.SafeSocketHandle	CloseAsIs	0x2050	NoInlining	Assembly, HideBySig	0x1005137cc	0x9489d240	0x1027880cc	0x1027880cc	mapped	0x1027880cc
+System.Net.Sockets	206	0x060000cf	System.Net.Sockets.SafeSocketHandle	CloseHandle	0x2050	NoInlining	Private, HideBySig	0x1005137d0	0x9489d297	0x10278822c	0x10278822c	mapped	0x10278822c
+System.Net.Sockets	207	0x060000d0	System.Net.Sockets.SafeSocketHandle	SetHandleAndValid	0x2050	NoInlining	Private, HideBySig	0x1005137d4	0x9489d2d3	0x102788320	0x102788320	mapped	0x102788320
+System.Net.Sockets	208	0x060000d1	System.Net.Sockets.SafeSocketHandle	get_LastConnectFailed	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137d8	0x9489d2fc	0x1027883c8	0x1027883c8	mapped	0x1027883c8
+System.Net.Sockets	209	0x060000d2	System.Net.Sockets.SafeSocketHandle	set_LastConnectFailed	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137dc	0x9489d304	0x1027883ec	0x1027883ec	mapped	0x1027883ec
+System.Net.Sockets	210	0x060000d3	System.Net.Sockets.SafeSocketHandle	get_DualMode	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137e0	0x9489d30c	0x102788410	0x102788410	mapped	0x102788410
+System.Net.Sockets	211	0x060000d4	System.Net.Sockets.SafeSocketHandle	set_DualMode	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137e4	0x9489d314	0x102788434	0x102788434	mapped	0x102788434
+System.Net.Sockets	212	0x060000d5	System.Net.Sockets.SafeSocketHandle	get_ExposedHandleOrUntrackedConfiguration	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137e8	0x9489d31c	0x102788458	0x102788458	mapped	0x102788458
+System.Net.Sockets	213	0x060000d6	System.Net.Sockets.SafeSocketHandle	set_ExposedHandleOrUntrackedConfiguration	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005137ec	0x9489d324	0x10278847c	0x10278847c	mapped	0x10278847c
+System.Net.Sockets	214	0x060000d7	System.Net.Sockets.SafeSocketHandle	get_PreferInlineCompletions	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137f0	0x9489d32c	0x1027884a0	0x1027884a0	mapped	0x1027884a0
+System.Net.Sockets	215	0x060000d8	System.Net.Sockets.SafeSocketHandle	set_PreferInlineCompletions	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137f4	0x9489d334	0x1027884c4	0x1027884c4	mapped	0x1027884c4
+System.Net.Sockets	216	0x060000d9	System.Net.Sockets.SafeSocketHandle	get_IsSocket	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137f8	0x9489d33c	0x1027884e8	0x1027884e8	mapped	0x1027884e8
+System.Net.Sockets	217	0x060000da	System.Net.Sockets.SafeSocketHandle	set_IsSocket	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005137fc	0x9489d344	0x10278850c	0x10278850c	mapped	0x10278850c
+System.Net.Sockets	218	0x060000db	System.Net.Sockets.SafeSocketHandle	RegisterConnectResult	0x2050	NoInlining	Assembly, HideBySig	0x100513800	0x9489d34c	0x102788530	0x102788530	mapped	0x102788530
+System.Net.Sockets	219	0x060000dc	System.Net.Sockets.SafeSocketHandle	TransferTrackedState	0x2050	NoInlining	Assembly, HideBySig	0x100513804	0x9489d35a	0x10278856c	0x10278856c	mapped	0x10278856c
+System.Net.Sockets	220	0x060000dd	System.Net.Sockets.SafeSocketHandle	IsTrackedOption	0x2050	NoInlining	Assembly, HideBySig	0x100513808	0x9489d370	0x1027885c8	0x1027885c8	mapped	0x1027885c8
+System.Net.Sockets	221	0x060000de	System.Net.Sockets.SafeSocketHandle	TrackOption	0x2050	NoInlining	Assembly, HideBySig	0x10051380c	0x9489d37a	0x1027885f4	0x1027885f4	mapped	0x1027885f4
+System.Net.Sockets	222	0x060000df	System.Net.Sockets.SafeSocketHandle	get_AsyncContext	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513810	0x9489d3eb	0x1027887bc	0x1027887bc	mapped	0x1027887bc
+System.Net.Sockets	223	0x060000e0	System.Net.Sockets.SafeSocketHandle	get_IsNonBlocking	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513814	0x9489d426	0x1027888ac	0x1027888ac	mapped	0x1027888ac
+System.Net.Sockets	224	0x060000e1	System.Net.Sockets.SafeSocketHandle	set_IsNonBlocking	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513818	0x9489d42e	0x1027888d0	0x1027888d0	mapped	0x1027888d0
+System.Net.Sockets	225	0x060000e2	System.Net.Sockets.SafeSocketHandle	get_IsUnderlyingHandleBlocking	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x10051381c	0x9489d44a	0x102788944	0x102788944	mapped	0x102788944
+System.Net.Sockets	226	0x060000e3	System.Net.Sockets.SafeSocketHandle	get_ReceiveTimeout	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513820	0x9489d45f	0x10278899c	0x10278899c	mapped	0x10278899c
+System.Net.Sockets	227	0x060000e4	System.Net.Sockets.SafeSocketHandle	set_ReceiveTimeout	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513824	0x9489d467	0x1027889c0	0x1027889c0	mapped	0x1027889c0
+System.Net.Sockets	228	0x060000e5	System.Net.Sockets.SafeSocketHandle	get_SendTimeout	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513828	0x9489d46f	0x1027889e4	0x1027889e4	mapped	0x1027889e4
+System.Net.Sockets	229	0x060000e6	System.Net.Sockets.SafeSocketHandle	set_SendTimeout	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x10051382c	0x9489d477	0x102788a08	0x102788a08	mapped	0x102788a08
+System.Net.Sockets	230	0x060000e7	System.Net.Sockets.SafeSocketHandle	get_IsDisconnected	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513830	0x9489d47f	0x102788a2c	0x102788a2c	mapped	0x102788a2c
+System.Net.Sockets	231	0x060000e8	System.Net.Sockets.SafeSocketHandle	OnHandleClose	0x2050	NoInlining	Private, HideBySig	0x100513834	0x9489d487	0x102788a50	0x102788a50	mapped	0x102788a50
+System.Net.Sockets	232	0x060000e9	System.Net.Sockets.SafeSocketHandle	TryUnblockSocket	0x2050	NoInlining	Private, HideBySig	0x100513838	0x9489d49b	0x102788aa4	0x102788aa4	mapped	0x102788aa4
+System.Net.Sockets	233	0x060000ea	System.Net.Sockets.SafeSocketHandle	DoCloseHandle	0x2050	NoInlining	Private, HideBySig	0x10051383c	0x9489d4d3	0x102788b88	0x102788b88	mapped	0x102788b88
+System.Net.Sockets	234	0x060000eb	System.Net.Sockets.SafeSocketHandle	CloseHandle	0x2050	NoInlining	Private, HideBySig	0x100513840	0x9489d535	0x102788d14	0x102788d14	mapped	0x102788d14
+System.Net.Sockets	235	0x060000ec	System.Net.Sockets.Socket	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513844	0x9489d563	0x102788dd0	0x102788dd0	mapped	0x102788dd0
+System.Net.Sockets	236	0x060000ed	System.Net.Sockets.Socket	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513848	0x9489d599	0x102788eac	0x102788eac	mapped	0x102788eac
+System.Net.Sockets	237	0x060000ee	System.Net.Sockets.Socket	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x10051384c	0x97ffd191	0x100507e90	0x100507e90	mapped	0x100507e90
+System.Net.Sockets	238	0x060000ef	System.Net.Sockets.Socket	get_OSSupportsIPv4	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100513850	0x9489d5d8	0x102788fb0	0x102788fb0	mapped	0x102788fb0
+System.Net.Sockets	239	0x060000f0	System.Net.Sockets.Socket	get_OSSupportsIPv6	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100513854	0x9489d5f4	0x102789024	0x102789024	mapped	0x102789024
+System.Net.Sockets	240	0x060000f1	System.Net.Sockets.Socket	get_OSSupportsUnixDomainSockets	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100513858	0x9489d610	0x102789098	0x102789098	mapped	0x102789098
+System.Net.Sockets	241	0x060000f2	System.Net.Sockets.Socket	get_Available	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051385c	0x9489d62c	0x10278910c	0x10278910c	mapped	0x10278910c
+System.Net.Sockets	242	0x060000f3	System.Net.Sockets.Socket	get_LocalEndPoint	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513860	0x9489d65f	0x1027891dc	0x1027891dc	mapped	0x1027891dc
+System.Net.Sockets	243	0x060000f4	System.Net.Sockets.Socket	get_RemoteEndPoint	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513864	0x9489d715	0x1027894b8	0x1027894b8	mapped	0x1027894b8
+System.Net.Sockets	244	0x060000f5	System.Net.Sockets.Socket	get_Blocking	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513868	0x9489d7f0	0x102789828	0x102789828	mapped	0x102789828
+System.Net.Sockets	245	0x060000f6	System.Net.Sockets.Socket	set_Blocking	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051386c	0x9489d7f8	0x10278984c	0x10278984c	mapped	0x10278984c
+System.Net.Sockets	246	0x060000f7	System.Net.Sockets.Socket	get_Connected	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513870	0x9489d82e	0x102789928	0x102789928	mapped	0x102789928
+System.Net.Sockets	247	0x060000f8	System.Net.Sockets.Socket	get_AddressFamily	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513874	0x9489d853	0x1027899c0	0x1027899c0	mapped	0x1027899c0
+System.Net.Sockets	248	0x060000f9	System.Net.Sockets.Socket	get_SocketType	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513878	0x9489d85b	0x1027899e4	0x1027899e4	mapped	0x1027899e4
+System.Net.Sockets	249	0x060000fa	System.Net.Sockets.Socket	get_ProtocolType	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051387c	0x9489d863	0x102789a08	0x102789a08	mapped	0x102789a08
+System.Net.Sockets	250	0x060000fb	System.Net.Sockets.Socket	get_ReceiveBufferSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513880	0x9489d86b	0x102789a2c	0x102789a2c	mapped	0x102789a2c
+System.Net.Sockets	251	0x060000fc	System.Net.Sockets.Socket	set_ReceiveBufferSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513884	0x9489d89c	0x102789af4	0x102789af4	mapped	0x102789af4
+System.Net.Sockets	252	0x060000fd	System.Net.Sockets.Socket	get_SendBufferSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513888	0x9489d8be	0x102789b80	0x102789b80	mapped	0x102789b80
+System.Net.Sockets	253	0x060000fe	System.Net.Sockets.Socket	set_SendBufferSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051388c	0x9489d8ef	0x102789c48	0x102789c48	mapped	0x102789c48
+System.Net.Sockets	254	0x060000ff	System.Net.Sockets.Socket	get_ReceiveTimeout	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513890	0x9489d911	0x102789cd4	0x102789cd4	mapped	0x102789cd4
+System.Net.Sockets	255	0x06000100	System.Net.Sockets.Socket	set_ReceiveTimeout	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513894	0x9489d942	0x102789d9c	0x102789d9c	mapped	0x102789d9c
+System.Net.Sockets	256	0x06000101	System.Net.Sockets.Socket	get_SendTimeout	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513898	0x9489d966	0x102789e30	0x102789e30	mapped	0x102789e30
+System.Net.Sockets	257	0x06000102	System.Net.Sockets.Socket	set_SendTimeout	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051389c	0x9489d997	0x102789ef8	0x102789ef8	mapped	0x102789ef8
+System.Net.Sockets	258	0x06000103	System.Net.Sockets.Socket	get_LingerState	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138a0	0x9489d9bb	0x102789f8c	0x102789f8c	mapped	0x102789f8c
+System.Net.Sockets	259	0x06000104	System.Net.Sockets.Socket	set_LingerState	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138a4	0x9489d9e0	0x10278a024	0x10278a024	mapped	0x10278a024
+System.Net.Sockets	260	0x06000105	System.Net.Sockets.Socket	get_NoDelay	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138a8	0x9489d9f1	0x10278a06c	0x10278a06c	mapped	0x10278a06c
+System.Net.Sockets	261	0x06000106	System.Net.Sockets.Socket	set_NoDelay	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138ac	0x9489da24	0x10278a13c	0x10278a13c	mapped	0x10278a13c
+System.Net.Sockets	262	0x06000107	System.Net.Sockets.Socket	get_Ttl	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138b0	0x9489da36	0x10278a188	0x10278a188	mapped	0x10278a188
+System.Net.Sockets	263	0x06000108	System.Net.Sockets.Socket	set_Ttl	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138b4	0x9489da92	0x10278a2fc	0x10278a2fc	mapped	0x10278a2fc
+System.Net.Sockets	264	0x06000109	System.Net.Sockets.Socket	get_DontFragment	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138b8	0x9489dad3	0x10278a404	0x10278a404	mapped	0x10278a404
+System.Net.Sockets	265	0x0600010a	System.Net.Sockets.Socket	set_DontFragment	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138bc	0x9489db17	0x10278a518	0x10278a518	mapped	0x10278a518
+System.Net.Sockets	266	0x0600010b	System.Net.Sockets.Socket	get_EnableBroadcast	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138c0	0x9489db3c	0x10278a5b0	0x10278a5b0	mapped	0x10278a5b0
+System.Net.Sockets	267	0x0600010c	System.Net.Sockets.Socket	set_EnableBroadcast	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138c4	0x9489db78	0x10278a6a4	0x10278a6a4	mapped	0x10278a6a4
+System.Net.Sockets	268	0x0600010d	System.Net.Sockets.Socket	get_DualMode	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138c8	0x9489db8a	0x10278a6f0	0x10278a6f0	mapped	0x10278a6f0
+System.Net.Sockets	269	0x0600010e	System.Net.Sockets.Socket	set_DualMode	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005138cc	0x9489dbc6	0x10278a7e4	0x10278a7e4	mapped	0x10278a7e4
+System.Net.Sockets	270	0x0600010f	System.Net.Sockets.Socket	get_IsDualMode	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005138d0	0x9489dbeb	0x10278a87c	0x10278a87c	mapped	0x10278a87c
+System.Net.Sockets	271	0x06000110	System.Net.Sockets.Socket	CanTryAddressFamily	0x2050	NoInlining	Assembly, HideBySig	0x1005138d4	0x9489dc03	0x10278a8e0	0x10278a8e0	mapped	0x10278a8e0
+System.Net.Sockets	272	0x06000111	System.Net.Sockets.Socket	Bind	0x2050	NoInlining	Public, HideBySig	0x1005138d8	0x9489dc21	0x10278a95c	0x10278a95c	mapped	0x10278a95c
+System.Net.Sockets	273	0x06000112	System.Net.Sockets.Socket	DoBind	0x2050	NoInlining	Private, HideBySig	0x1005138dc	0x9489dc5d	0x10278aa50	0x10278aa50	mapped	0x10278aa50
+System.Net.Sockets	274	0x06000113	System.Net.Sockets.Socket	Connect	0x2050	NoInlining	Public, HideBySig	0x1005138e0	0x9489dce6	0x10278ac78	0x10278ac78	mapped	0x10278ac78
+System.Net.Sockets	275	0x06000114	System.Net.Sockets.Socket	Connect	0x2050	NoInlining	Public, HideBySig	0x1005138e4	0x9489dd72	0x10278aeac	0x10278aeac	mapped	0x10278aeac
+System.Net.Sockets	276	0x06000115	System.Net.Sockets.Socket	Connect	0x2050	NoInlining	Public, HideBySig	0x1005138e8	0x9489ddd2	0x10278b030	0x10278b030	mapped	0x10278b030
+System.Net.Sockets	277	0x06000116	System.Net.Sockets.Socket	Connect	0x2050	NoInlining	Public, HideBySig	0x1005138ec	0x97ffd505	0x100508d00	0x100508d00	mapped	0x100508d00
+System.Net.Sockets	278	0x06000117	System.Net.Sockets.Socket	Close	0x2050	NoInlining	Public, HideBySig	0x1005138f0	0x9489de26	0x10278b188	0x10278b188	mapped	0x10278b188
+System.Net.Sockets	279	0x06000118	System.Net.Sockets.Socket	Close	0x2050	NoInlining	Public, HideBySig	0x1005138f4	0x9489de47	0x10278b210	0x10278b210	mapped	0x10278b210
+System.Net.Sockets	280	0x06000119	System.Net.Sockets.Socket	Listen	0x2050	NoInlining	Public, HideBySig	0x1005138f8	0x9489de75	0x10278b2cc	0x10278b2cc	mapped	0x10278b2cc
+System.Net.Sockets	281	0x0600011a	System.Net.Sockets.Socket	Accept	0x2050	NoInlining	Public, HideBySig	0x1005138fc	0x9489dea7	0x10278b398	0x10278b398	mapped	0x10278b398
+System.Net.Sockets	282	0x0600011b	System.Net.Sockets.Socket	Send	0x2050	NoInlining	Public, HideBySig	0x100513900	0x9489df64	0x10278b690	0x10278b690	mapped	0x10278b690
+System.Net.Sockets	283	0x0600011c	System.Net.Sockets.Socket	Send	0x2050	NoInlining	Public, HideBySig	0x100513904	0x9489df98	0x10278b764	0x10278b764	mapped	0x10278b764
+System.Net.Sockets	284	0x0600011d	System.Net.Sockets.Socket	Send	0x2050	NoInlining	Public, HideBySig	0x100513908	0x9489e00c	0x10278b938	0x10278b938	mapped	0x10278b938
+System.Net.Sockets	285	0x0600011e	System.Net.Sockets.Socket	Send	0x2050	NoInlining	Public, HideBySig	0x10051390c	0x9489e03c	0x10278b9fc	0x10278b9fc	mapped	0x10278b9fc
+System.Net.Sockets	286	0x0600011f	System.Net.Sockets.Socket	SendTo	0x2050	NoInlining	Public, HideBySig	0x100513910	0x9489e09e	0x10278bb88	0x10278bb88	mapped	0x10278bb88
+System.Net.Sockets	287	0x06000120	System.Net.Sockets.Socket	Receive	0x2050	NoInlining	Public, HideBySig	0x100513914	0x9489e139	0x10278bdf8	0x10278bdf8	mapped	0x10278bdf8
+System.Net.Sockets	288	0x06000121	System.Net.Sockets.Socket	Receive	0x2050	NoInlining	Public, HideBySig	0x100513918	0x9489e16d	0x10278becc	0x10278becc	mapped	0x10278becc
+System.Net.Sockets	289	0x06000122	System.Net.Sockets.Socket	Receive	0x2050	NoInlining	Public, HideBySig	0x10051391c	0x9489e1e1	0x10278c0a0	0x10278c0a0	mapped	0x10278c0a0
+System.Net.Sockets	290	0x06000123	System.Net.Sockets.Socket	Receive	0x2050	NoInlining	Public, HideBySig	0x100513920	0x9489e211	0x10278c164	0x10278c164	mapped	0x10278c164
+System.Net.Sockets	291	0x06000124	System.Net.Sockets.Socket	ReceiveFrom	0x2050	NoInlining	Public, HideBySig	0x100513924	0x9489e273	0x10278c2f0	0x10278c2f0	mapped	0x10278c2f0
+System.Net.Sockets	292	0x06000125	System.Net.Sockets.Socket	IOControl	0x2050	NoInlining	Public, HideBySig	0x100513928	0x9489e3a2	0x10278c7b0	0x10278c7b0	mapped	0x10278c7b0
+System.Net.Sockets	293	0x06000126	System.Net.Sockets.Socket	SetSocketOption	0x2050	NoInlining	Public, HideBySig	0x10051392c	0x9489e3db	0x10278c898	0x10278c898	mapped	0x10278c898
+System.Net.Sockets	294	0x06000127	System.Net.Sockets.Socket	SetSocketOption	0x2050	NoInlining	Public, HideBySig	0x100513930	0x9489e40e	0x10278c968	0x10278c968	mapped	0x10278c968
+System.Net.Sockets	295	0x06000128	System.Net.Sockets.Socket	SetSocketOption	0x2050	NoInlining	Public, HideBySig	0x100513934	0x9489e424	0x10278c9c4	0x10278c9c4	mapped	0x10278c9c4
+System.Net.Sockets	296	0x06000129	System.Net.Sockets.Socket	GetSocketOption	0x2050	NoInlining	Public, HideBySig	0x100513938	0x9489e4cc	0x10278cc68	0x10278cc68	mapped	0x10278cc68
+System.Net.Sockets	297	0x0600012a	System.Net.Sockets.Socket	Poll	0x2050	NoInlining	Public, HideBySig	0x10051393c	0x9489e527	0x10278cdd8	0x10278cdd8	mapped	0x10278cdd8
+System.Net.Sockets	298	0x0600012b	System.Net.Sockets.Socket	BeginConnect	0x2050	NoInlining	Public, HideBySig	0x100513940	0x9489e560	0x10278cec0	0x10278cec0	mapped	0x10278cec0
+System.Net.Sockets	299	0x0600012c	System.Net.Sockets.Socket	EndConnect	0x2050	NoInlining	Public, HideBySig	0x100513944	0x9489e57c	0x10278cf34	0x10278cf34	mapped	0x10278cf34
+System.Net.Sockets	300	0x0600012d	System.Net.Sockets.Socket	BeginSend	0x2050	NoInlining	Public, HideBySig	0x100513948	0x9489e589	0x10278cf6c	0x10278cf6c	mapped	0x10278cf6c
+System.Net.Sockets	301	0x0600012e	System.Net.Sockets.Socket	EndSend	0x2050	NoInlining	Public, HideBySig	0x10051394c	0x9489e5e1	0x10278d0d0	0x10278d0d0	mapped	0x10278d0d0
+System.Net.Sockets	302	0x0600012f	System.Net.Sockets.Socket	BeginReceive	0x2050	NoInlining	Public, HideBySig	0x100513950	0x9489e5fb	0x10278d13c	0x10278d13c	mapped	0x10278d13c
+System.Net.Sockets	303	0x06000130	System.Net.Sockets.Socket	EndReceive	0x2050	NoInlining	Public, HideBySig	0x100513954	0x9489e65d	0x10278d2c8	0x10278d2c8	mapped	0x10278d2c8
+System.Net.Sockets	304	0x06000131	System.Net.Sockets.Socket	BeginAccept	0x2050	NoInlining	Public, HideBySig	0x100513958	0x9489e677	0x10278d334	0x10278d334	mapped	0x10278d334
+System.Net.Sockets	305	0x06000132	System.Net.Sockets.Socket	EndAccept	0x2050	NoInlining	Public, HideBySig	0x10051395c	0x9489e68b	0x10278d388	0x10278d388	mapped	0x10278d388
+System.Net.Sockets	306	0x06000133	System.Net.Sockets.Socket	Shutdown	0x2050	NoInlining	Public, HideBySig	0x100513960	0x9489e6a5	0x10278d3f4	0x10278d3f4	mapped	0x10278d3f4
+System.Net.Sockets	307	0x06000134	System.Net.Sockets.Socket	AcceptAsync	0x2050	NoInlining	Private, HideBySig	0x100513964	0x9489e6ea	0x10278d50c	0x10278d50c	mapped	0x10278d50c
+System.Net.Sockets	308	0x06000135	System.Net.Sockets.Socket	ConnectAsync	0x2050	NoInlining	Public, HideBySig	0x100513968	0x9489e792	0x10278d7b0	0x10278d7b0	mapped	0x10278d7b0
+System.Net.Sockets	309	0x06000136	System.Net.Sockets.Socket	ConnectAsync	0x2050	NoInlining	Assembly, HideBySig	0x10051396c	0x9489e7a3	0x10278d7f8	0x10278d7f8	mapped	0x10278d7f8
+System.Net.Sockets	310	0x06000137	System.Net.Sockets.Socket	CancelConnectAsync	0x2050	NoInlining	Public, Static, HideBySig	0x100513970	0x9489e906	0x10278dd88	0x10278dd88	mapped	0x10278dd88
+System.Net.Sockets	311	0x06000138	System.Net.Sockets.Socket	ReceiveAsync	0x2050	NoInlining	Private, HideBySig	0x100513974	0x9489e932	0x10278de3c	0x10278de3c	mapped	0x10278de3c
+System.Net.Sockets	312	0x06000139	System.Net.Sockets.Socket	SendAsync	0x2050	NoInlining	Private, HideBySig	0x100513978	0x9489e97b	0x10278df64	0x10278df64	mapped	0x10278df64
+System.Net.Sockets	313	0x0600013a	System.Net.Sockets.Socket	get_Disposed	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x10051397c	0x9489e9c4	0x10278e08c	0x10278e08c	mapped	0x10278e08c
+System.Net.Sockets	314	0x0600013b	System.Net.Sockets.Socket	GetAddressSize	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513980	0x9489e9ce	0x10278e0b8	0x10278e0b8	mapped	0x10278e0b8
+System.Net.Sockets	315	0x0600013c	System.Net.Sockets.Socket	Serialize	0x2050	NoInlining	Private, HideBySig	0x100513984	0x9489ea0e	0x10278e1bc	0x10278e1bc	mapped	0x10278e1bc
+System.Net.Sockets	316	0x0600013d	System.Net.Sockets.Socket	DoConnect	0x2050	NoInlining	Private, HideBySig	0x100513988	0x9489ea72	0x10278e350	0x10278e350	mapped	0x10278e350
+System.Net.Sockets	317	0x0600013e	System.Net.Sockets.Socket	Dispose	0x2050	NoInlining	Family, HideBySig	0x10051398c	0x9489eb21	0x10278e610	0x10278e610	mapped	0x10278e610
+System.Net.Sockets	318	0x0600013f	System.Net.Sockets.Socket	Dispose	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100513990	0x9489ec05	0x10278e9a4	0x10278e9a4	mapped	0x10278e9a4
+System.Net.Sockets	319	0x06000140	System.Net.Sockets.Socket	Finalize	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513994	0x9489ec2d	0x10278ea48	0x10278ea48	mapped	0x10278ea48
+System.Net.Sockets	320	0x06000141	System.Net.Sockets.Socket	InternalShutdown	0x2050	NoInlining	Assembly, HideBySig	0x100513998	0x9489ec4c	0x10278eac8	0x10278eac8	mapped	0x10278eac8
+System.Net.Sockets	321	0x06000142	System.Net.Sockets.Socket	SetSocketOption	0x2050	NoInlining	Assembly, HideBySig	0x10051399c	0x9489ec77	0x10278eb78	0x10278eb78	mapped	0x10278eb78
+System.Net.Sockets	322	0x06000143	System.Net.Sockets.Socket	SetMulticastOption	0x2050	NoInlining	Private, HideBySig	0x1005139a0	0x9489ecf6	0x10278ed78	0x10278ed78	mapped	0x10278ed78
+System.Net.Sockets	323	0x06000144	System.Net.Sockets.Socket	SetIPv6MulticastOption	0x2050	NoInlining	Private, HideBySig	0x1005139a4	0x9489ed2a	0x10278ee4c	0x10278ee4c	mapped	0x10278ee4c
+System.Net.Sockets	324	0x06000145	System.Net.Sockets.Socket	SetLingerOption	0x2050	NoInlining	Private, HideBySig	0x1005139a8	0x9489ed5a	0x10278ef10	0x10278ef10	mapped	0x10278ef10
+System.Net.Sockets	325	0x06000146	System.Net.Sockets.Socket	GetLingerOpt	0x2050	NoInlining	Private, HideBySig	0x1005139ac	0x9489ed8a	0x10278efd4	0x10278efd4	mapped	0x10278efd4
+System.Net.Sockets	326	0x06000147	System.Net.Sockets.Socket	GetMulticastOpt	0x2050	NoInlining	Private, HideBySig	0x1005139b0	0x9489edbc	0x10278f0a0	0x10278f0a0	mapped	0x10278f0a0
+System.Net.Sockets	327	0x06000148	System.Net.Sockets.Socket	GetIPv6MulticastOpt	0x2050	NoInlining	Private, HideBySig	0x1005139b4	0x9489edf0	0x10278f174	0x10278f174	mapped	0x10278f174
+System.Net.Sockets	328	0x06000149	System.Net.Sockets.Socket	InternalSetBlocking	0x2050	NoInlining	Private, HideBySig	0x1005139b8	0x9489ee24	0x10278f248	0x10278f248	mapped	0x10278f248
+System.Net.Sockets	329	0x0600014a	System.Net.Sockets.Socket	InternalSetBlocking	0x2050	NoInlining	Assembly, HideBySig	0x1005139bc	0x9489ee95	0x10278f410	0x10278f410	mapped	0x10278f410
+System.Net.Sockets	330	0x0600014b	System.Net.Sockets.Socket	CreateAcceptSocket	0x2050	NoInlining	Assembly, HideBySig	0x1005139c0	0x9489eea8	0x10278f460	0x10278f460	mapped	0x10278f460
+System.Net.Sockets	331	0x0600014c	System.Net.Sockets.Socket	UpdateAcceptSocket	0x2050	NoInlining	Assembly, HideBySig	0x1005139c4	0x9489eece	0x10278f4fc	0x10278f4fc	mapped	0x10278f4fc
+System.Net.Sockets	332	0x0600014d	System.Net.Sockets.Socket	SetToConnected	0x2050	NoInlining	Assembly, HideBySig	0x1005139c8	0x9489ef28	0x10278f668	0x10278f668	mapped	0x10278f668
+System.Net.Sockets	333	0x0600014e	System.Net.Sockets.Socket	UpdateLocalEndPointOnConnect	0x2050	NoInlining	Private, HideBySig	0x1005139cc	0x9489ef5f	0x10278f748	0x10278f748	mapped	0x10278f748
+System.Net.Sockets	334	0x0600014f	System.Net.Sockets.Socket	IsWildcardEndPoint	0x2050	NoInlining	Private, Static, HideBySig	0x1005139d0	0x9489ef75	0x10278f7a4	0x10278f7a4	mapped	0x10278f7a4
+System.Net.Sockets	335	0x06000150	System.Net.Sockets.Socket	SetToDisconnected	0x2050	NoInlining	Assembly, HideBySig	0x1005139d4	0x9489efbb	0x10278f8c0	0x10278f8c0	mapped	0x10278f8c0
+System.Net.Sockets	336	0x06000151	System.Net.Sockets.Socket	UpdateStatusAfterSocketOptionErrorAndThrowException	0x2050	NoInlining	Private, HideBySig	0x1005139d8	0x9489efdc	0x10278f948	0x10278f948	mapped	0x10278f948
+System.Net.Sockets	337	0x06000152	System.Net.Sockets.Socket	UpdateStatusAfterSocketErrorAndThrowException	0x2050	NoInlining	Private, HideBySig	0x1005139dc	0x9489efef	0x10278f998	0x10278f998	mapped	0x10278f998
+System.Net.Sockets	338	0x06000153	System.Net.Sockets.Socket	UpdateStatusAfterSocketError	0x2050	NoInlining	Assembly, HideBySig	0x1005139e0	0x9489f019	0x10278fa44	0x10278fa44	mapped	0x10278fa44
+System.Net.Sockets	339	0x06000154	System.Net.Sockets.Socket	UpdateStatusAfterSocketError	0x2050	NoInlining	Assembly, HideBySig	0x1005139e4	0x9489f032	0x10278faac	0x10278faac	mapped	0x10278faac
+System.Net.Sockets	340	0x06000155	System.Net.Sockets.Socket	ValidateReceiveFromEndpointAndState	0x2050	NoInlining	Private, HideBySig	0x1005139e8	0x9489f07a	0x10278fbd0	0x10278fbd0	mapped	0x10278fbd0
+System.Net.Sockets	341	0x06000156	System.Net.Sockets.Socket	ValidateBlockingMode	0x2050	NoInlining	Private, HideBySig	0x1005139ec	0x9489f0e5	0x10278fd80	0x10278fd80	mapped	0x10278fd80
+System.Net.Sockets	342	0x06000157	System.Net.Sockets.Socket	ValidateForMultiConnect	0x2050	NoInlining	Private, HideBySig	0x1005139f0	0x9489f104	0x10278fe00	0x10278fe00	mapped	0x10278fe00
+System.Net.Sockets	343	0x06000158	System.Net.Sockets.Socket	UpdateReceiveSocketErrorForDisposed	0x2050	NoInlining	Private, HideBySig	0x1005139f4	0x9489f123	0x10278fe80	0x10278fe80	mapped	0x10278fe80
+System.Net.Sockets	344	0x06000159	System.Net.Sockets.Socket	UpdateSendSocketErrorForDisposed	0x2050	NoInlining	Private, HideBySig	0x1005139f8	0x9489f139	0x10278fedc	0x10278fedc	mapped	0x10278fedc
+System.Net.Sockets	345	0x0600015a	System.Net.Sockets.Socket	UpdateConnectSocketErrorForDisposed	0x2050	NoInlining	Private, HideBySig	0x1005139fc	0x9489f14c	0x10278ff2c	0x10278ff2c	mapped	0x10278ff2c
+System.Net.Sockets	346	0x0600015b	System.Net.Sockets.Socket	UpdateAcceptSocketErrorForDisposed	0x2050	NoInlining	Private, HideBySig	0x100513a00	0x9489f15b	0x10278ff6c	0x10278ff6c	mapped	0x10278ff6c
+System.Net.Sockets	347	0x0600015c	System.Net.Sockets.Socket	ThrowIfDisposed	0x2050	NoInlining	Private, HideBySig	0x100513a04	0x9489f16a	0x10278ffac	0x10278ffac	mapped	0x10278ffac
+System.Net.Sockets	348	0x0600015d	System.Net.Sockets.Socket	ThrowIfConnectedStreamSocket	0x2050	NoInlining	Private, HideBySig	0x100513a08	0x9489f180	0x102790008	0x102790008	mapped	0x102790008
+System.Net.Sockets	349	0x0600015e	System.Net.Sockets.Socket	get_IsConnectionOriented	0x2050	NoInlining	Private, HideBySig, SpecialName	0x100513a0c	0x9489f1ab	0x1027900b8	0x1027900b8	mapped	0x1027900b8
+System.Net.Sockets	350	0x0600015f	System.Net.Sockets.Socket	CheckNonBlockingConnectCompleted	0x2050	NoInlining	Private, HideBySig	0x100513a10	0x9489f1b5	0x1027900e4	0x1027900e4	mapped	0x1027900e4
+System.Net.Sockets	351	0x06000160	System.Net.Sockets.Socket	AcceptAsync	0x2050	NoInlining	Public, HideBySig	0x100513a14	0x9489f1d5	0x102790168	0x102790168	mapped	0x102790168
+System.Net.Sockets	352	0x06000161	System.Net.Sockets.Socket	AcceptAsync	0x2050	NoInlining	Public, HideBySig	0x100513a18	0x9489f1f8	0x1027901f8	0x1027901f8	mapped	0x1027901f8
+System.Net.Sockets	353	0x06000162	System.Net.Sockets.Socket	ConnectAsync	0x2050	NoInlining	Public, HideBySig	0x100513a1c	0x9489f26d	0x1027903d0	0x1027903d0	mapped	0x1027903d0
+System.Net.Sockets	354	0x06000163	System.Net.Sockets.Socket	ConnectAsync	0x2050	NoInlining	Public, HideBySig	0x100513a20	0x9489f282	0x102790428	0x102790428	mapped	0x102790428
+System.Net.Sockets	355	0x06000164	System.Net.Sockets.Socket	ConnectAsync	0x2050	NoInlining	Public, HideBySig	0x100513a24	0x9489f2f4	0x1027905f4	0x1027905f4	mapped	0x1027905f4
+System.Net.Sockets	356	0x06000165	System.Net.Sockets.Socket	ConnectAsync	0x2050	NoInlining	Public, HideBySig	0x100513a28	0x9489f30d	0x10279065c	0x10279065c	mapped	0x10279065c
+System.Net.Sockets	357	0x06000166	System.Net.Sockets.Socket	ReceiveAsync	0x2050	NoInlining	Assembly, HideBySig	0x100513a2c	0x9489f34a	0x102790754	0x102790754	mapped	0x102790754
+System.Net.Sockets	358	0x06000167	System.Net.Sockets.Socket	SendAsync	0x2050	NoInlining	Public, HideBySig	0x100513a30	0x9489f3a0	0x1027908b0	0x1027908b0	mapped	0x1027908b0
+System.Net.Sockets	359	0x06000168	System.Net.Sockets.Socket	SendAsyncForNetworkStream	0x2050	NoInlining	Assembly, HideBySig	0x100513a34	0x9489f3f3	0x102790a00	0x102790a00	mapped	0x102790a00
+System.Net.Sockets	360	0x06000169	System.Net.Sockets.Socket	ValidateBufferArguments	0x2050	NoInlining	Private, Static, HideBySig	0x100513a38	0x9489f445	0x102790b4c	0x102790b4c	mapped	0x102790b4c
+System.Net.Sockets	361	0x0600016a	System.Net.Sockets.Socket	DisposeCachedTaskSocketAsyncEventArgs	0x2050	NoInlining	Private, HideBySig	0x100513a3c	0x9489f477	0x102790c18	0x102790c18	mapped	0x102790c18
+System.Net.Sockets	362	0x0600016b	System.Net.Sockets.Socket	set_PreferInlineCompletions	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513a40	0x9489f4ca	0x102790d68	0x102790d68	mapped	0x102790d68
+System.Net.Sockets	363	0x0600016c	System.Net.Sockets.Socket	LoadSocketTypeFromHandle	0x2050	NoInlining	Private, Static, HideBySig	0x100513a44	0x9489f4d6	0x102790d9c	0x102790d9c	mapped	0x102790d9c
+System.Net.Sockets	364	0x0600016d	System.Net.Sockets.Socket	ReplaceHandleIfNecessaryAfterFailedConnect	0x2050	NoInlining	Assembly, HideBySig	0x100513a48	0x9489f545	0x102790f5c	0x102790f5c	mapped	0x102790f5c
+System.Net.Sockets	365	0x0600016e	System.Net.Sockets.Socket	ReplaceHandle	0x2050	NoInlining	Assembly, HideBySig	0x100513a4c	0x9489f57b	0x102791038	0x102791038	mapped	0x102791038
+System.Net.Sockets	366	0x0600016f	System.Net.Sockets.Socket	ThrowMultiConnectNotSupported	0x2050	NoInlining	Private, Static, HideBySig	0x100513a50	0x9489f6aa	0x1027914f8	0x1027914f8	mapped	0x1027914f8
+System.Net.Sockets	367	0x06000170	System.Net.Sockets.Socket	GetOrCreateAcceptSocket	0x2050	NoInlining	Private, HideBySig	0x100513a54	0x9489f6c2	0x10279155c	0x10279155c	mapped	0x10279155c
+System.Net.Sockets	368	0x06000171	System.Net.Sockets.Socket	DisposeHandle	0x2050	NoInlining	Assembly, HideBySig	0x100513a58	0x9489f70a	0x102791680	0x102791680	mapped	0x102791680
+System.Net.Sockets	369	0x06000172	System.Net.Sockets.Socket	ClearHandle	0x2050	NoInlining	Assembly, HideBySig	0x100513a5c	0x9489f721	0x1027916e0	0x1027916e0	mapped	0x1027916e0
+System.Net.Sockets	370	0x06000173	System.Net.Sockets.Socket	CopyStateFromSource	0x2050	NoInlining	Assembly, HideBySig	0x100513a60	0x9489f729	0x102791704	0x102791704	mapped	0x102791704
+System.Net.Sockets	371	0x06000174	System.Net.Sockets.Socket	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513a64	0x9489f780	0x102791864	0x102791864	mapped	0x102791864
+System.Net.Sockets	372	0x06000175	System.Net.Sockets.Socket	<ConnectAsync>g__WaitForConnectWithCancellation|285_0	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513a68	0x9489f7ae	0x102791920	0x102791920	mapped	0x102791920
+System.Net.Sockets	373	0x06000176	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513a6c	0x9489f7e2	0x1027919f4	0x1027919f4	mapped	0x1027919f4
+System.Net.Sockets	374	0x06000177	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	get_WrapExceptionsForNetworkStream	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513a70	0x9489f7f2	0x102791a38	0x102791a38	mapped	0x102791a38
+System.Net.Sockets	375	0x06000178	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	set_WrapExceptionsForNetworkStream	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513a74	0x9489f7fa	0x102791a5c	0x102791a5c	mapped	0x102791a5c
+System.Net.Sockets	376	0x06000179	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	ReleaseForAsyncCompletion	0x2050	NoInlining	Private, HideBySig	0x100513a78	0x9489f802	0x102791a80	0x102791a80	mapped	0x102791a80
+System.Net.Sockets	377	0x0600017a	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	ReleaseForSyncCompletion	0x2050	264	Private, HideBySig	0x100513a7c	0x9489f84c	0x102791bac	0x102791bac	mapped	0x102791bac
+System.Net.Sockets	378	0x0600017b	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	OnCompleted	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513a80	0x9489f886	0x102791c98	0x102791c98	mapped	0x102791c98
+System.Net.Sockets	379	0x0600017c	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	AcceptAsync	0x2050	NoInlining	Public, HideBySig	0x100513a84	0x9489f8a7	0x102791d20	0x102791d20	mapped	0x102791d20
+System.Net.Sockets	380	0x0600017d	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	ReceiveAsync	0x2050	NoInlining	Public, HideBySig	0x100513a88	0x9489f959	0x102791fec	0x102791fec	mapped	0x102791fec
+System.Net.Sockets	381	0x0600017e	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	SendAsync	0x2050	NoInlining	Public, HideBySig	0x100513a8c	0x9489f9de	0x102792204	0x102792204	mapped	0x102792204
+System.Net.Sockets	382	0x0600017f	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	SendAsyncForNetworkStream	0x2050	NoInlining	Public, HideBySig	0x100513a90	0x9489fa63	0x10279241c	0x10279241c	mapped	0x10279241c
+System.Net.Sockets	383	0x06000180	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	ConnectAsync	0x2050	NoInlining	Public, HideBySig	0x100513a94	0x9489fad7	0x1027925f0	0x1027925f0	mapped	0x1027925f0
+System.Net.Sockets	384	0x06000181	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	GetStatus	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100513a98	0x9489fb8b	0x1027928c4	0x1027928c4	mapped	0x1027928c4
+System.Net.Sockets	385	0x06000182	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	OnCompleted	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100513a9c	0x9489fbad	0x102792950	0x102792950	mapped	0x102792950
+System.Net.Sockets	386	0x06000183	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513aa0	0x9489fbd9	0x102792a04	0x102792a04	mapped	0x102792a04
+System.Net.Sockets	387	0x06000184	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	System.Threading.Tasks.Sources.IValueTaskSource.GetResult	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513aa4	0x9489fc16	0x102792afc	0x102792afc	mapped	0x102792afc
+System.Net.Sockets	388	0x06000185	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	System.Threading.Tasks.Sources.IValueTaskSource<System.Net.Sockets.Socket>.GetResult	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513aa8	0x9489fc51	0x102792bec	0x102792bec	mapped	0x102792bec
+System.Net.Sockets	389	0x06000186	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	System.Threading.Tasks.Sources.IValueTaskSource<System.Net.Sockets.SocketReceiveFromResult>.GetResult	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513aac	0x9489fc96	0x102792d04	0x102792d04	mapped	0x102792d04
+System.Net.Sockets	390	0x06000187	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	System.Threading.Tasks.Sources.IValueTaskSource<System.Net.Sockets.SocketReceiveMessageFromResult>.GetResult	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513ab0	0x9489fce0	0x102792e30	0x102792e30	mapped	0x102792e30
+System.Net.Sockets	391	0x06000188	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	ThrowIncorrectTokenException	0x2050	NoInlining	Private, Static, HideBySig	0x100513ab4	0x9489fd3b	0x102792fa0	0x102792fa0	mapped	0x102792fa0
+System.Net.Sockets	392	0x06000189	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	ThrowException	0x2050	NoInlining	Private, HideBySig	0x100513ab8	0x9489fd4c	0x102792fe8	0x102792fe8	mapped	0x102792fe8
+System.Net.Sockets	393	0x0600018a	System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs	CreateException	0x2050	NoInlining	Private, HideBySig	0x100513abc	0x9489fd63	0x102793048	0x102793048	mapped	0x102793048
+System.Net.Sockets	394	0x0600018b	System.Net.Sockets.Socket+<<ConnectAsync>g__WaitForConnectWithCancellation|285_0>d	MoveNext	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513ac0	0x97ffd5b8	0x1005091a0	0x1005091a0	mapped	0x1005091a0
+System.Net.Sockets	395	0x0600018c	System.Net.Sockets.Socket+<<ConnectAsync>g__WaitForConnectWithCancellation|285_0>d	SetStateMachine	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513ac4	0x9489fdad	0x102793178	0x102793178	mapped	0x102793178
+System.Net.Sockets	396	0x0600018d	System.Net.Sockets.Socket+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513ac8	0x9489fdc2	0x1027931d0	0x1027931d0	mapped	0x1027931d0
+System.Net.Sockets	397	0x0600018e	System.Net.Sockets.Socket+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513acc	0x9489fddd	0x102793240	0x102793240	mapped	0x102793240
+System.Net.Sockets	398	0x0600018f	System.Net.Sockets.Socket+<>c	<ConnectAsync>b__285_1	0x2050	NoInlining	Assembly, HideBySig	0x100513ad0	0x9489fdea	0x102793278	0x102793278	mapped	0x102793278
+System.Net.Sockets	399	0x06000190	System.Net.Sockets.SocketAsyncEventArgs	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513ad4	0x9489fe11	0x102793318	0x102793318	mapped	0x102793318
+System.Net.Sockets	400	0x06000191	System.Net.Sockets.SocketAsyncEventArgs	get_AcceptSocket	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513ad8	0x9489fe2b	0x102793384	0x102793384	mapped	0x102793384
+System.Net.Sockets	401	0x06000192	System.Net.Sockets.SocketAsyncEventArgs	set_AcceptSocket	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513adc	0x9489fe33	0x1027933a8	0x1027933a8	mapped	0x1027933a8
+System.Net.Sockets	402	0x06000193	System.Net.Sockets.SocketAsyncEventArgs	get_ConnectSocket	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513ae0	0x9489fe42	0x1027933e8	0x1027933e8	mapped	0x1027933e8
+System.Net.Sockets	403	0x06000194	System.Net.Sockets.SocketAsyncEventArgs	get_BytesTransferred	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513ae4	0x9489fe4a	0x10279340c	0x10279340c	mapped	0x10279340c
+System.Net.Sockets	404	0x06000195	System.Net.Sockets.SocketAsyncEventArgs	OnCompletedInternal	0x2050	NoInlining	Private, HideBySig	0x100513ae8	0x9489fe52	0x102793430	0x102793430	mapped	0x102793430
+System.Net.Sockets	405	0x06000196	System.Net.Sockets.SocketAsyncEventArgs	OnCompleted	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x100513aec	0x9489fe6d	0x1027934a0	0x1027934a0	mapped	0x1027934a0
+System.Net.Sockets	406	0x06000197	System.Net.Sockets.SocketAsyncEventArgs	AfterConnectAcceptTelemetry	0x2050	NoInlining	Private, HideBySig	0x100513af0	0x9489fe88	0x102793510	0x102793510	mapped	0x102793510
+System.Net.Sockets	407	0x06000198	System.Net.Sockets.SocketAsyncEventArgs	get_LastOperation	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513af4	0x9489febc	0x1027935e4	0x1027935e4	mapped	0x1027935e4
+System.Net.Sockets	408	0x06000199	System.Net.Sockets.SocketAsyncEventArgs	get_ReceiveMessageFromPacketInfo	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513af8	0x9489fec4	0x102793608	0x102793608	mapped	0x102793608
+System.Net.Sockets	409	0x0600019a	System.Net.Sockets.SocketAsyncEventArgs	get_RemoteEndPoint	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513afc	0x9489fece	0x102793634	0x102793634	mapped	0x102793634
+System.Net.Sockets	410	0x0600019b	System.Net.Sockets.SocketAsyncEventArgs	set_RemoteEndPoint	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513b00	0x9489fed6	0x102793658	0x102793658	mapped	0x102793658
+System.Net.Sockets	411	0x0600019c	System.Net.Sockets.SocketAsyncEventArgs	get_SocketError	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513b04	0x9489fee5	0x102793698	0x102793698	mapped	0x102793698
+System.Net.Sockets	412	0x0600019d	System.Net.Sockets.SocketAsyncEventArgs	get_SocketFlags	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513b08	0x9489feed	0x1027936bc	0x1027936bc	mapped	0x1027936bc
+System.Net.Sockets	413	0x0600019e	System.Net.Sockets.SocketAsyncEventArgs	set_SocketFlags	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513b0c	0x9489fef5	0x1027936e0	0x1027936e0	mapped	0x1027936e0
+System.Net.Sockets	414	0x0600019f	System.Net.Sockets.SocketAsyncEventArgs	CopyBufferFrom	0x2050	NoInlining	Assembly, HideBySig	0x100513b10	0x9489fefd	0x102793704	0x102793704	mapped	0x102793704
+System.Net.Sockets	415	0x060001a0	System.Net.Sockets.SocketAsyncEventArgs	SetBuffer	0x2050	NoInlining	Public, HideBySig	0x100513b14	0x9489ff35	0x1027937e8	0x1027937e8	mapped	0x1027937e8
+System.Net.Sockets	416	0x060001a1	System.Net.Sockets.SocketAsyncEventArgs	SetBuffer	0x2050	NoInlining	Public, HideBySig	0x100513b18	0x9489ffab	0x1027939c4	0x1027939c4	mapped	0x1027939c4
+System.Net.Sockets	417	0x060001a2	System.Net.Sockets.SocketAsyncEventArgs	get_HasMultipleBuffers	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513b1c	0x9489fff1	0x102793ae0	0x102793ae0	mapped	0x102793ae0
+System.Net.Sockets	418	0x060001a3	System.Net.Sockets.SocketAsyncEventArgs	SetResults	0x2050	NoInlining	Assembly, HideBySig	0x100513b20	0x9489fffb	0x102793b0c	0x102793b0c	mapped	0x102793b0c
+System.Net.Sockets	419	0x060001a4	System.Net.Sockets.SocketAsyncEventArgs	SetResults	0x2050	NoInlining	Assembly, HideBySig	0x100513b24	0x948a0005	0x102793b38	0x102793b38	mapped	0x102793b38
+System.Net.Sockets	420	0x060001a5	System.Net.Sockets.SocketAsyncEventArgs	ExecutionCallback	0x2050	NoInlining	Private, Static, HideBySig	0x100513b28	0x948a0036	0x102793c00	0x102793c00	mapped	0x102793c00
+System.Net.Sockets	421	0x060001a6	System.Net.Sockets.SocketAsyncEventArgs	Complete	0x2050	NoInlining	Assembly, HideBySig	0x100513b2c	0x948a0069	0x102793cd0	0x102793cd0	mapped	0x102793cd0
+System.Net.Sockets	422	0x060001a7	System.Net.Sockets.SocketAsyncEventArgs	Dispose	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100513b30	0x948a0080	0x102793d30	0x102793d30	mapped	0x102793d30
+System.Net.Sockets	423	0x060001a8	System.Net.Sockets.SocketAsyncEventArgs	Finalize	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513b34	0x948a00a4	0x102793dc4	0x102793dc4	mapped	0x102793dc4
+System.Net.Sockets	424	0x060001a9	System.Net.Sockets.SocketAsyncEventArgs	StartConfiguring	0x2050	NoInlining	Private, HideBySig	0x100513b38	0x948a00ba	0x102793e20	0x102793e20	mapped	0x102793e20
+System.Net.Sockets	425	0x060001aa	System.Net.Sockets.SocketAsyncEventArgs	ThrowForNonFreeStatus	0x2050	NoInlining	Private, HideBySig	0x100513b3c	0x948a00de	0x102793eb4	0x102793eb4	mapped	0x102793eb4
+System.Net.Sockets	426	0x060001ab	System.Net.Sockets.SocketAsyncEventArgs	StartOperationCommon	0x2050	NoInlining	Assembly, HideBySig	0x100513b40	0x948a0103	0x102793f4c	0x102793f4c	mapped	0x102793f4c
+System.Net.Sockets	427	0x060001ac	System.Net.Sockets.SocketAsyncEventArgs	StartOperationAccept	0x2050	NoInlining	Assembly, HideBySig	0x100513b44	0x948a014d	0x102794078	0x102794078	mapped	0x102794078
+System.Net.Sockets	428	0x060001ad	System.Net.Sockets.SocketAsyncEventArgs	StartOperationConnect	0x2050	NoInlining	Assembly, HideBySig	0x100513b48	0x948a01a1	0x1027941cc	0x1027941cc	mapped	0x1027941cc
+System.Net.Sockets	429	0x060001ae	System.Net.Sockets.SocketAsyncEventArgs	CancelConnectAsync	0x2050	NoInlining	Assembly, HideBySig	0x100513b4c	0x948a01d3	0x102794298	0x102794298	mapped	0x102794298
+System.Net.Sockets	430	0x060001af	System.Net.Sockets.SocketAsyncEventArgs	FinishOperationSyncFailure	0x2050	NoInlining	Assembly, HideBySig	0x100513b50	0x948a01f1	0x102794314	0x102794314	mapped	0x102794314
+System.Net.Sockets	431	0x060001b0	System.Net.Sockets.SocketAsyncEventArgs	FinishOperationAsyncFailure	0x2050	NoInlining	Assembly, HideBySig	0x100513b54	0x948a0220	0x1027943d4	0x1027943d4	mapped	0x1027943d4
+System.Net.Sockets	432	0x060001b1	System.Net.Sockets.SocketAsyncEventArgs	DnsConnectAsync	0x2050	NoInlining	Assembly, HideBySig	0x100513b58	0x948a026a	0x102794500	0x102794500	mapped	0x102794500
+System.Net.Sockets	433	0x060001b2	System.Net.Sockets.SocketAsyncEventArgs	FinishOperationSyncSuccess	0x2050	NoInlining	Assembly, HideBySig	0x100513b5c	0x948a02d0	0x10279469c	0x10279469c	mapped	0x10279469c
+System.Net.Sockets	434	0x060001b3	System.Net.Sockets.SocketAsyncEventArgs	FinishOperationAsyncSuccess	0x2050	NoInlining	Assembly, HideBySig	0x100513b60	0x948a044c	0x102794c90	0x102794c90	mapped	0x102794c90
+System.Net.Sockets	435	0x060001b4	System.Net.Sockets.SocketAsyncEventArgs	FinishOperationSync	0x2050	NoInlining	Private, HideBySig	0x100513b64	0x948a0483	0x102794d70	0x102794d70	mapped	0x102794d70
+System.Net.Sockets	436	0x060001b5	System.Net.Sockets.SocketAsyncEventArgs	AcceptCompletionCallback	0x2050	NoInlining	Private, HideBySig	0x100513b68	0x948a04a9	0x102794e0c	0x102794e0c	mapped	0x102794e0c
+System.Net.Sockets	437	0x060001b6	System.Net.Sockets.SocketAsyncEventArgs	CompleteAcceptOperation	0x2050	NoInlining	Private, HideBySig	0x100513b6c	0x948a04c7	0x102794e88	0x102794e88	mapped	0x102794e88
+System.Net.Sockets	438	0x060001b7	System.Net.Sockets.SocketAsyncEventArgs	DoOperationAccept	0x2050	NoInlining	Assembly, HideBySig	0x100513b70	0x948a04d4	0x102794ec0	0x102794ec0	mapped	0x102794ec0
+System.Net.Sockets	439	0x060001b8	System.Net.Sockets.SocketAsyncEventArgs	ConnectCompletionCallback	0x2050	NoInlining	Private, HideBySig	0x100513b74	0x948a0573	0x102795140	0x102795140	mapped	0x102795140
+System.Net.Sockets	440	0x060001b9	System.Net.Sockets.SocketAsyncEventArgs	DoOperationConnectEx	0x2050	NoInlining	Assembly, HideBySig	0x100513b78	0x948a0584	0x102795188	0x102795188	mapped	0x102795188
+System.Net.Sockets	441	0x060001ba	System.Net.Sockets.SocketAsyncEventArgs	DoOperationConnect	0x2050	NoInlining	Assembly, HideBySig	0x100513b7c	0x948a0593	0x1027951c8	0x1027951c8	mapped	0x1027951c8
+System.Net.Sockets	442	0x060001bb	System.Net.Sockets.SocketAsyncEventArgs	get_TransferCompletionCallback	0x2050	NoInlining	Private, HideBySig, SpecialName	0x100513b80	0x948a0605	0x102795394	0x102795394	mapped	0x102795394
+System.Net.Sockets	443	0x060001bc	System.Net.Sockets.SocketAsyncEventArgs	TransferCompletionCallbackCore	0x2050	NoInlining	Private, HideBySig	0x100513b84	0x948a063d	0x102795478	0x102795478	mapped	0x102795478
+System.Net.Sockets	444	0x060001bd	System.Net.Sockets.SocketAsyncEventArgs	CompleteTransferOperation	0x2050	NoInlining	Private, HideBySig	0x100513b88	0x948a065d	0x1027954fc	0x1027954fc	mapped	0x1027954fc
+System.Net.Sockets	445	0x060001be	System.Net.Sockets.SocketAsyncEventArgs	DoOperationReceive	0x2050	NoInlining	Assembly, HideBySig	0x100513b8c	0x948a0665	0x102795520	0x102795520	mapped	0x102795520
+System.Net.Sockets	446	0x060001bf	System.Net.Sockets.SocketAsyncEventArgs	DoOperationSend	0x2050	NoInlining	Assembly, HideBySig	0x100513b90	0x948a071f	0x10279580c	0x10279580c	mapped	0x10279580c
+System.Net.Sockets	447	0x060001c0	System.Net.Sockets.SocketAsyncEventArgs	FinishOperationAccept	0x2050	NoInlining	Private, HideBySig	0x100513b94	0x948a078f	0x1027959d0	0x1027959d0	mapped	0x1027959d0
+System.Net.Sockets	448	0x060001c1	System.Net.Sockets.SocketAsyncEventArgs	UpdateReceivedSocketAddress	0x2050	NoInlining	Private, HideBySig	0x100513b98	0x948a082c	0x102795c48	0x102795c48	mapped	0x102795c48
+System.Net.Sockets	449	0x060001c2	System.Net.Sockets.SocketAsyncEventArgs	CompletionCallback	0x2050	NoInlining	Private, HideBySig	0x100513b9c	0x948a0845	0x102795cb0	0x102795cb0	mapped	0x102795cb0
+System.Net.Sockets	450	0x060001c3	System.Net.Sockets.SocketAsyncEventArgs	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513ba0	0x948a086c	0x102795d50	0x102795d50	mapped	0x102795d50
+System.Net.Sockets	451	0x060001c4	System.Net.Sockets.SocketAsyncEventArgs	<DnsConnectAsync>g__Core|112_0	0x2050	NoInlining	Private, HideBySig	0x100513ba4	0x948a0891	0x102795de8	0x102795de8	mapped	0x102795de8
+System.Net.Sockets	452	0x060001c5	System.Net.Sockets.SocketAsyncEventArgs+MultiConnectSocketAsyncEventArgs	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513ba8	0x948a08e3	0x102795f34	0x102795f34	mapped	0x102795f34
+System.Net.Sockets	453	0x060001c6	System.Net.Sockets.SocketAsyncEventArgs+MultiConnectSocketAsyncEventArgs	GetResult	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100513bac	0x948a08ed	0x102795f60	0x102795f60	mapped	0x102795f60
+System.Net.Sockets	454	0x060001c7	System.Net.Sockets.SocketAsyncEventArgs+MultiConnectSocketAsyncEventArgs	GetStatus	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100513bb0	0x948a090f	0x102795fec	0x102795fec	mapped	0x102795fec
+System.Net.Sockets	455	0x060001c8	System.Net.Sockets.SocketAsyncEventArgs+MultiConnectSocketAsyncEventArgs	OnCompleted	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100513bb4	0x948a0931	0x102796078	0x102796078	mapped	0x102796078
+System.Net.Sockets	456	0x060001c9	System.Net.Sockets.SocketAsyncEventArgs+MultiConnectSocketAsyncEventArgs	get_Version	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513bb8	0x948a095d	0x10279612c	0x10279612c	mapped	0x10279612c
+System.Net.Sockets	457	0x060001ca	System.Net.Sockets.SocketAsyncEventArgs+MultiConnectSocketAsyncEventArgs	Reset	0x2050	NoInlining	Public, HideBySig	0x100513bbc	0x948a096b	0x102796168	0x102796168	mapped	0x102796168
+System.Net.Sockets	458	0x060001cb	System.Net.Sockets.SocketAsyncEventArgs+MultiConnectSocketAsyncEventArgs	OnCompleted	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513bc0	0x948a098b	0x1027961ec	0x1027961ec	mapped	0x1027961ec
+System.Net.Sockets	459	0x060001cc	System.Net.Sockets.SocketAsyncEventArgs+MultiConnectSocketAsyncEventArgs	ReachedCoordinationPointFirst	0x2050	NoInlining	Public, HideBySig	0x100513bc4	0x948a09ac	0x102796274	0x102796274	mapped	0x102796274
+System.Net.Sockets	460	0x060001cd	System.Net.Sockets.SocketAsyncEventArgs+<<DnsConnectAsync>g__Core|112_0>d	MoveNext	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513bc8	0x97ffd782	0x1005099d0	0x1005099d0	mapped	0x1005099d0
+System.Net.Sockets	461	0x060001ce	System.Net.Sockets.SocketAsyncEventArgs+<<DnsConnectAsync>g__Core|112_0>d	SetStateMachine	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513bcc	0x948a09c0	0x1027962cc	0x1027962cc	mapped	0x1027962cc
+System.Net.Sockets	462	0x060001cf	System.Net.Sockets.SocketAsyncEventArgs+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513bd0	0x948a09d5	0x102796324	0x102796324	mapped	0x102796324
+System.Net.Sockets	463	0x060001d0	System.Net.Sockets.SocketAsyncEventArgs+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513bd4	0x948a09f0	0x102796394	0x102796394	mapped	0x102796394
+System.Net.Sockets	464	0x060001d1	System.Net.Sockets.SocketAsyncEventArgs+<>c	<DnsConnectAsync>b__112_1	0x2050	NoInlining	Assembly, HideBySig	0x100513bd8	0x948a09fd	0x1027963cc	0x1027963cc	mapped	0x1027963cc
+System.Net.Sockets	465	0x060001d2	System.Net.Sockets.UnixDomainSocketEndPoint	get_BoundFileName	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513bdc	0x948a0a24	0x10279646c	0x10279646c	mapped	0x10279646c
+System.Net.Sockets	466	0x060001d3	System.Net.Sockets.UnixDomainSocketEndPoint	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x100513be0	0x948a0a2c	0x102796490	0x102796490	mapped	0x102796490
+System.Net.Sockets	467	0x060001d4	System.Net.Sockets.UnixDomainSocketEndPoint	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x100513be4	0x948a0ac7	0x102796700	0x102796700	mapped	0x102796700
+System.Net.Sockets	468	0x060001d5	System.Net.Sockets.UnixDomainSocketEndPoint	Serialize	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513be8	0x948a0b74	0x1027969b8	0x1027969b8	mapped	0x1027969b8
+System.Net.Sockets	469	0x060001d6	System.Net.Sockets.UnixDomainSocketEndPoint	Create	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513bec	0x948a0bb7	0x102796ac8	0x102796ac8	mapped	0x102796ac8
+System.Net.Sockets	470	0x060001d7	System.Net.Sockets.UnixDomainSocketEndPoint	get_AddressFamily	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x100513bf0	0x948a0c07	0x102796c0c	0x102796c0c	mapped	0x102796c0c
+System.Net.Sockets	471	0x060001d8	System.Net.Sockets.UnixDomainSocketEndPoint	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513bf4	0x948a0c08	0x102796c14	0x102796c14	mapped	0x102796c14
+System.Net.Sockets	472	0x060001d9	System.Net.Sockets.UnixDomainSocketEndPoint	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513bf8	0x948a0c38	0x102796cd8	0x102796cd8	mapped	0x102796cd8
+System.Net.Sockets	473	0x060001da	System.Net.Sockets.UnixDomainSocketEndPoint	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513bfc	0x948a0c60	0x102796d7c	0x102796d7c	mapped	0x102796d7c
+System.Net.Sockets	474	0x060001db	System.Net.Sockets.UnixDomainSocketEndPoint	CreateBoundEndPoint	0x2050	NoInlining	Assembly, HideBySig	0x100513c00	0x948a0c78	0x102796de0	0x102796de0	mapped	0x102796de0
+System.Net.Sockets	475	0x060001dc	System.Net.Sockets.UnixDomainSocketEndPoint	CreateUnboundEndPoint	0x2050	NoInlining	Assembly, HideBySig	0x100513c04	0x948a0ca5	0x102796e98	0x102796e98	mapped	0x102796e98
+System.Net.Sockets	476	0x060001dd	System.Net.Sockets.UnixDomainSocketEndPoint	IsAbstract	0x2050	NoInlining	Private, Static, HideBySig	0x100513c08	0x948a0cd1	0x102796f4c	0x102796f4c	mapped	0x102796f4c
+System.Net.Sockets	477	0x060001de	System.Net.Sockets.UnixDomainSocketEndPoint	IsAbstract	0x2050	NoInlining	Private, Static, HideBySig	0x100513c0c	0x948a0ced	0x102796fc0	0x102796fc0	mapped	0x102796fc0
+System.Net.Sockets	478	0x060001df	System.Net.Sockets.UnixDomainSocketEndPoint	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513c10	0x948a0d08	0x102797030	0x102797030	mapped	0x102797030
+System.Net.Sockets	479	0x060001e0	System.Net.Sockets.UnixDomainSocketEndPoint	CreateSocketAddressForSerialize	0x2050	NoInlining	Private, HideBySig	0x100513c14	0x948a0d22	0x10279709c	0x10279709c	mapped	0x10279709c
+System.Net.Sockets	480	0x060001e1	System.Net.Sockets.IPEndPointExtensions	GetIPAddress	0x2050	NoInlining	Public, Static, HideBySig	0x100513c18	0x948a0d51	0x10279715c	0x10279715c	mapped	0x10279715c
+System.Net.Sockets	481	0x060001e2	System.Net.Sockets.IPEndPointExtensions	CreateIPEndPoint	0x2050	NoInlining	Public, Static, HideBySig	0x100513c1c	0x948a0db1	0x1027972e0	0x1027972e0	mapped	0x1027972e0
+System.Net.Sockets	482	0x060001e3	System.Net.Sockets.IPEndPointExtensions	Equals	0x2050	NoInlining	Public, Static, HideBySig	0x100513c20	0x948a0dd9	0x102797384	0x102797384	mapped	0x102797384
+System.Net.Sockets	483	0x060001e4	System.Net.Sockets.SocketAddressExtensions	GetIPAddress	0x2050	NoInlining	Public, Static, HideBySig	0x100513c24	0x948a0e48	0x102797544	0x102797544	mapped	0x102797544
+System.Net.Sockets	484	0x060001e5	System.Net.Sockets.SocketAddressExtensions	GetPort	0x2050	NoInlining	Public, Static, HideBySig	0x100513c28	0x948a0e8e	0x102797660	0x102797660	mapped	0x102797660
+System.Net.Sockets	485	0x060001e6	System.Net.Sockets.SocketAddressExtensions	Equals	0x2050	NoInlining	Public, Static, HideBySig	0x100513c2c	0x948a0ed5	0x102797780	0x102797780	mapped	0x102797780
+System.Net.Sockets	486	0x060001e7	System.Net.Sockets.SocketExceptionFactory	CreateMessage	0x2050	NoInlining	Private, Static, HideBySig	0x100513c30	0x948a0f2e	0x1027978e8	0x1027978e8	mapped	0x1027978e8
+System.Net.Sockets	487	0x060001e8	System.Net.Sockets.SocketExceptionFactory	CreateSocketException	0x2050	NoInlining	Public, Static, HideBySig	0x100513c34	0x948a0f58	0x102797994	0x102797994	mapped	0x102797994
+System.Net.Sockets	488	0x060001e9	System.Net.Sockets.SocketAsyncContext	ReturnOperation	0x2050	NoInlining	Private, HideBySig	0x100513c38	0x948a0f87	0x102797a54	0x102797a54	mapped	0x102797a54
+System.Net.Sockets	489	0x060001ea	System.Net.Sockets.SocketAsyncContext	ReturnOperation	0x2050	NoInlining	Private, HideBySig	0x100513c3c	0x948a0fad	0x102797af0	0x102797af0	mapped	0x102797af0
+System.Net.Sockets	490	0x060001eb	System.Net.Sockets.SocketAsyncContext	ReturnOperation	0x2050	NoInlining	Private, HideBySig	0x100513c40	0x948a0fd4	0x102797b90	0x102797b90	mapped	0x102797b90
+System.Net.Sockets	491	0x060001ec	System.Net.Sockets.SocketAsyncContext	ReturnOperation	0x2050	NoInlining	Private, HideBySig	0x100513c44	0x948a0ffb	0x102797c30	0x102797c30	mapped	0x102797c30
+System.Net.Sockets	492	0x060001ed	System.Net.Sockets.SocketAsyncContext	ReturnOperation	0x2050	NoInlining	Private, HideBySig	0x100513c48	0x948a1022	0x102797cd0	0x102797cd0	mapped	0x102797cd0
+System.Net.Sockets	493	0x060001ee	System.Net.Sockets.SocketAsyncContext	RentAcceptOperation	0x2050	NoInlining	Private, HideBySig	0x100513c4c	0x948a1049	0x102797d70	0x102797d70	mapped	0x102797d70
+System.Net.Sockets	494	0x060001ef	System.Net.Sockets.SocketAsyncContext	RentBufferMemoryReceiveOperation	0x2050	NoInlining	Private, HideBySig	0x100513c50	0x948a108a	0x102797e78	0x102797e78	mapped	0x102797e78
+System.Net.Sockets	495	0x060001f0	System.Net.Sockets.SocketAsyncContext	RentBufferListReceiveOperation	0x2050	NoInlining	Private, HideBySig	0x100513c54	0x948a10cb	0x102797f80	0x102797f80	mapped	0x102797f80
+System.Net.Sockets	496	0x060001f1	System.Net.Sockets.SocketAsyncContext	RentBufferMemorySendOperation	0x2050	NoInlining	Private, HideBySig	0x100513c58	0x948a110c	0x102798088	0x102798088	mapped	0x102798088
+System.Net.Sockets	497	0x060001f2	System.Net.Sockets.SocketAsyncContext	RentBufferListSendOperation	0x2050	NoInlining	Private, HideBySig	0x100513c5c	0x948a114d	0x102798190	0x102798190	mapped	0x102798190
+System.Net.Sockets	498	0x060001f3	System.Net.Sockets.SocketAsyncContext	get_IsRegistered	0x2050	NoInlining	Private, HideBySig, SpecialName	0x100513c60	0x948a118e	0x102798298	0x102798298	mapped	0x102798298
+System.Net.Sockets	499	0x060001f4	System.Net.Sockets.SocketAsyncContext	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513c64	0x948a1198	0x1027982c4	0x1027982c4	mapped	0x1027982c4
+System.Net.Sockets	500	0x060001f5	System.Net.Sockets.SocketAsyncContext	get_PreferInlineCompletions	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513c68	0x948a11e6	0x102798400	0x102798400	mapped	0x102798400
+System.Net.Sockets	501	0x060001f6	System.Net.Sockets.SocketAsyncContext	TryRegister	0x2050	NoInlining	Private, HideBySig	0x100513c6c	0x97ffdcdd	0x10050afe0	0x10050afe0	mapped	0x10050afe0
+System.Net.Sockets	502	0x060001f7	System.Net.Sockets.SocketAsyncContext	StopAndAbort	0x2050	NoInlining	Public, HideBySig	0x100513c70	0x948a11f1	0x102798434	0x102798434	mapped	0x102798434
+System.Net.Sockets	503	0x060001f8	System.Net.Sockets.SocketAsyncContext	SetHandleNonBlocking	0x2050	NoInlining	Public, HideBySig	0x100513c74	0x948a1223	0x102798500	0x102798500	mapped	0x102798500
+System.Net.Sockets	504	0x060001f9	System.Net.Sockets.SocketAsyncContext	get_IsHandleNonBlocking	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513c78	0x948a1254	0x1027985c8	0x1027985c8	mapped	0x1027985c8
+System.Net.Sockets	505	0x060001fa	System.Net.Sockets.SocketAsyncContext	PerformSyncOperation	0x2050	NoInlining	Private, HideBySig	0x100513c7c	0x948a125c	0x1027985ec	0x1027985ec	mapped	0x1027985ec
+System.Net.Sockets	506	0x060001fb	System.Net.Sockets.SocketAsyncContext	ShouldRetrySyncOperation	0x2050	NoInlining	Private, HideBySig	0x100513c80	0x948a130d	0x1027988b4	0x1027988b4	mapped	0x1027988b4
+System.Net.Sockets	507	0x060001fc	System.Net.Sockets.SocketAsyncContext	ProcessAsyncReadOperation	0x2050	NoInlining	Private, HideBySig	0x100513c84	0x948a1324	0x102798914	0x102798914	mapped	0x102798914
+System.Net.Sockets	508	0x060001fd	System.Net.Sockets.SocketAsyncContext	ProcessAsyncWriteOperation	0x2050	NoInlining	Private, HideBySig	0x100513c88	0x948a1346	0x1027989a0	0x1027989a0	mapped	0x1027989a0
+System.Net.Sockets	509	0x060001fe	System.Net.Sockets.SocketAsyncContext	Accept	0x2050	NoInlining	Public, HideBySig	0x100513c8c	0x948a1368	0x102798a2c	0x102798a2c	mapped	0x102798a2c
+System.Net.Sockets	510	0x060001ff	System.Net.Sockets.SocketAsyncContext	AcceptAsync	0x2050	NoInlining	Public, HideBySig	0x100513c90	0x948a13db	0x102798bfc	0x102798bfc	mapped	0x102798bfc
+System.Net.Sockets	511	0x06000200	System.Net.Sockets.SocketAsyncContext	Connect	0x2050	NoInlining	Public, HideBySig	0x100513c94	0x948a148f	0x102798ed0	0x102798ed0	mapped	0x102798ed0
+System.Net.Sockets	512	0x06000201	System.Net.Sockets.SocketAsyncContext	ConnectAsync	0x2050	NoInlining	Public, HideBySig	0x100513c98	0x948a14fd	0x10279908c	0x10279908c	mapped	0x10279908c
+System.Net.Sockets	513	0x06000202	System.Net.Sockets.SocketAsyncContext	Receive	0x2050	NoInlining	Public, HideBySig	0x100513c9c	0x948a156f	0x102799258	0x102799258	mapped	0x102799258
+System.Net.Sockets	514	0x06000203	System.Net.Sockets.SocketAsyncContext	Receive	0x2050	NoInlining	Public, HideBySig	0x100513ca0	0x948a158f	0x1027992dc	0x1027992dc	mapped	0x1027992dc
+System.Net.Sockets	515	0x06000204	System.Net.Sockets.SocketAsyncContext	ReceiveAsync	0x2050	NoInlining	Public, HideBySig	0x100513ca4	0x948a15af	0x102799360	0x102799360	mapped	0x102799360
+System.Net.Sockets	516	0x06000205	System.Net.Sockets.SocketAsyncContext	ReceiveFrom	0x2050	NoInlining	Public, HideBySig	0x100513ca8	0x948a15d5	0x1027993fc	0x1027993fc	mapped	0x1027993fc
+System.Net.Sockets	517	0x06000206	System.Net.Sockets.SocketAsyncContext	ReceiveFrom	0x2050	NoInlining	Public, HideBySig	0x100513cac	0x948a16ad	0x102799760	0x102799760	mapped	0x102799760
+System.Net.Sockets	518	0x06000207	System.Net.Sockets.SocketAsyncContext	ReceiveAsync	0x2050	NoInlining	Public, HideBySig	0x100513cb0	0x948a175d	0x102799a24	0x102799a24	mapped	0x102799a24
+System.Net.Sockets	519	0x06000208	System.Net.Sockets.SocketAsyncContext	ReceiveFromAsync	0x2050	NoInlining	Public, HideBySig	0x100513cb4	0x948a181b	0x102799d20	0x102799d20	mapped	0x102799d20
+System.Net.Sockets	520	0x06000209	System.Net.Sockets.SocketAsyncContext	ReceiveAsync	0x2050	NoInlining	Public, HideBySig	0x100513cb8	0x948a1922	0x10279a140	0x10279a140	mapped	0x10279a140
+System.Net.Sockets	521	0x0600020a	System.Net.Sockets.SocketAsyncContext	ReceiveFromAsync	0x2050	NoInlining	Public, HideBySig	0x100513cbc	0x948a1943	0x10279a1c8	0x10279a1c8	mapped	0x10279a1c8
+System.Net.Sockets	522	0x0600020b	System.Net.Sockets.SocketAsyncContext	Send	0x2050	NoInlining	Public, HideBySig	0x100513cc0	0x948a1a29	0x10279a564	0x10279a564	mapped	0x10279a564
+System.Net.Sockets	523	0x0600020c	System.Net.Sockets.SocketAsyncContext	Send	0x2050	NoInlining	Public, HideBySig	0x100513cc4	0x948a1a46	0x10279a5dc	0x10279a5dc	mapped	0x10279a5dc
+System.Net.Sockets	524	0x0600020d	System.Net.Sockets.SocketAsyncContext	SendAsync	0x2050	NoInlining	Public, HideBySig	0x100513cc8	0x948a1a69	0x10279a66c	0x10279a66c	mapped	0x10279a66c
+System.Net.Sockets	525	0x0600020e	System.Net.Sockets.SocketAsyncContext	SendTo	0x2050	NoInlining	Public, HideBySig	0x100513ccc	0x948a1a91	0x10279a710	0x10279a710	mapped	0x10279a710
+System.Net.Sockets	526	0x0600020f	System.Net.Sockets.SocketAsyncContext	SendTo	0x2050	NoInlining	Public, HideBySig	0x100513cd0	0x948a1b47	0x10279a9ec	0x10279a9ec	mapped	0x10279a9ec
+System.Net.Sockets	527	0x06000210	System.Net.Sockets.SocketAsyncContext	SendToAsync	0x2050	NoInlining	Public, HideBySig	0x100513cd4	0x948a1be4	0x10279ac64	0x10279ac64	mapped	0x10279ac64
+System.Net.Sockets	528	0x06000211	System.Net.Sockets.SocketAsyncContext	SendAsync	0x2050	NoInlining	Public, HideBySig	0x100513cd8	0x948a1cc6	0x10279aff0	0x10279aff0	mapped	0x10279aff0
+System.Net.Sockets	529	0x06000212	System.Net.Sockets.SocketAsyncContext	SendToAsync	0x2050	NoInlining	Public, HideBySig	0x100513cdc	0x948a1ce1	0x10279b060	0x10279b060	mapped	0x10279b060
+System.Net.Sockets	530	0x06000213	System.Net.Sockets.SocketAsyncContext	HandleSyncEventsSpeculatively	0x2050	264	Public, HideBySig	0x100513ce0	0x948a1dac	0x10279b390	0x10279b390	mapped	0x10279b390
+System.Net.Sockets	531	0x06000214	System.Net.Sockets.SocketAsyncContext	HandleEventsInline	0x2050	NoInlining	Public, HideBySig	0x100513ce4	0x948a1df3	0x10279b4b0	0x10279b4b0	mapped	0x10279b4b0
+System.Net.Sockets	532	0x06000215	System.Net.Sockets.SocketAsyncContext	HandleEvents	0x2050	NoInlining	Public, HideBySig	0x100513ce8	0x948a1e29	0x10279b58c	0x10279b58c	mapped	0x10279b58c
+System.Net.Sockets	533	0x06000216	System.Net.Sockets.SocketAsyncContext+AsyncOperation	get_Event	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513cec	0x948a1e67	0x10279b688	0x10279b688	mapped	0x10279b688
+System.Net.Sockets	534	0x06000217	System.Net.Sockets.SocketAsyncContext+AsyncOperation	set_Event	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513cf0	0x948a1e6f	0x10279b6ac	0x10279b6ac	mapped	0x10279b6ac
+System.Net.Sockets	535	0x06000218	System.Net.Sockets.SocketAsyncContext+AsyncOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513cf4	0x948a1e7e	0x10279b6ec	0x10279b6ec	mapped	0x10279b6ec
+System.Net.Sockets	536	0x06000219	System.Net.Sockets.SocketAsyncContext+AsyncOperation	Reset	0x2050	NoInlining	Public, HideBySig	0x100513cf8	0x948a1e99	0x10279b75c	0x10279b75c	mapped	0x10279b75c
+System.Net.Sockets	537	0x0600021a	System.Net.Sockets.SocketAsyncContext+AsyncOperation	TryComplete	0x2050	NoInlining	Public, HideBySig	0x100513cfc	0x948a1eaf	0x10279b7b8	0x10279b7b8	mapped	0x10279b7b8
+System.Net.Sockets	538	0x0600021b	System.Net.Sockets.SocketAsyncContext+AsyncOperation	TryCancel	0x2050	NoInlining	Public, HideBySig	0x100513d00	0x948a1f01	0x10279b904	0x10279b904	mapped	0x10279b904
+System.Net.Sockets	539	0x0600021c	System.Net.Sockets.SocketAsyncContext+AsyncOperation	ProcessCancellation	0x2050	NoInlining	Public, HideBySig	0x100513d04	0x948a1f40	0x10279ba04	0x10279ba04	mapped	0x10279ba04
+System.Net.Sockets	540	0x0600021d	System.Net.Sockets.SocketAsyncContext+AsyncOperation	Dispatch	0x2050	NoInlining	Public, HideBySig	0x100513d08	0x948a1f8a	0x10279bb30	0x10279bb30	mapped	0x10279bb30
+System.Net.Sockets	541	0x0600021e	System.Net.Sockets.SocketAsyncContext+AsyncOperation	Schedule	0x2050	NoInlining	Public, HideBySig	0x100513d0c	0x948a1fa2	0x10279bb94	0x10279bb94	mapped	0x10279bb94
+System.Net.Sockets	542	0x0600021f	System.Net.Sockets.SocketAsyncContext+AsyncOperation	Process	0x2050	NoInlining	Public, HideBySig	0x100513d10	0x948a1fb0	0x10279bbd0	0x10279bbd0	mapped	0x10279bbd0
+System.Net.Sockets	543	0x06000220	System.Net.Sockets.SocketAsyncContext+AsyncOperation	System.Threading.IThreadPoolWorkItem.Execute	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513d14	0x948a1fd2	0x10279bc5c	0x10279bc5c	mapped	0x10279bc5c
+System.Net.Sockets	544	0x06000221	System.Net.Sockets.SocketAsyncContext+AsyncOperation	DoAbort	0x2050	NoInlining	Public, HideBySig	0x100513d18	0x948a1fdc	0x10279bc88	0x10279bc88	mapped	0x10279bc88
+System.Net.Sockets	545	0x06000222	System.Net.Sockets.SocketAsyncContext+AsyncOperation	DoTryComplete	0x0	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask, Abstract	0x100513d1c	0x97fffddf	0x100513498		absent	0x100513498
+System.Net.Sockets	546	0x06000223	System.Net.Sockets.SocketAsyncContext+AsyncOperation	InvokeCallback	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x100513d20	0x97fffdde	0x100513498		absent	0x100513498
+System.Net.Sockets	547	0x06000224	System.Net.Sockets.SocketAsyncContext+AsyncOperation+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513d24	0x948a1fe4	0x10279bcb4	0x10279bcb4	mapped	0x10279bcb4
+System.Net.Sockets	548	0x06000225	System.Net.Sockets.SocketAsyncContext+AsyncOperation+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d28	0x948a1fff	0x10279bd24	0x10279bd24	mapped	0x10279bd24
+System.Net.Sockets	549	0x06000226	System.Net.Sockets.SocketAsyncContext+AsyncOperation+<>c	<ProcessCancellation>b__15_0	0x2050	NoInlining	Assembly, HideBySig	0x100513d2c	0x948a200c	0x10279bd5c	0x10279bd5c	mapped	0x10279bd5c
+System.Net.Sockets	550	0x06000227	System.Net.Sockets.SocketAsyncContext+ReadOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d30	0x948a2039	0x10279be14	0x10279be14	mapped	0x10279be14
+System.Net.Sockets	551	0x06000228	System.Net.Sockets.SocketAsyncContext+ReadOperation	System.Threading.IThreadPoolWorkItem.Execute	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513d34	0x948a2054	0x10279be84	0x10279be84	mapped	0x10279be84
+System.Net.Sockets	552	0x06000229	System.Net.Sockets.SocketAsyncContext+WriteOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d38	0x948a206c	0x10279bee8	0x10279bee8	mapped	0x10279bee8
+System.Net.Sockets	553	0x0600022a	System.Net.Sockets.SocketAsyncContext+WriteOperation	System.Threading.IThreadPoolWorkItem.Execute	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513d3c	0x948a2087	0x10279bf58	0x10279bf58	mapped	0x10279bf58
+System.Net.Sockets	554	0x0600022b	System.Net.Sockets.SocketAsyncContext+SendOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d40	0x948a209f	0x10279bfbc	0x10279bfbc	mapped	0x10279bfbc
+System.Net.Sockets	555	0x0600022c	System.Net.Sockets.SocketAsyncContext+SendOperation	get_Callback	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513d44	0x948a20ba	0x10279c02c	0x10279c02c	mapped	0x10279c02c
+System.Net.Sockets	556	0x0600022d	System.Net.Sockets.SocketAsyncContext+SendOperation	set_Callback	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513d48	0x948a20c2	0x10279c050	0x10279c050	mapped	0x10279c050
+System.Net.Sockets	557	0x0600022e	System.Net.Sockets.SocketAsyncContext+SendOperation	InvokeCallback	0x2050	NoInlining	Public, Virtual, HideBySig	0x100513d4c	0x948a20d1	0x10279c090	0x10279c090	mapped	0x10279c090
+System.Net.Sockets	558	0x0600022f	System.Net.Sockets.SocketAsyncContext+BufferMemorySendOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d50	0x948a20ed	0x10279c104	0x10279c104	mapped	0x10279c104
+System.Net.Sockets	559	0x06000230	System.Net.Sockets.SocketAsyncContext+BufferMemorySendOperation	DoTryComplete	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513d54	0x948a2108	0x10279c174	0x10279c174	mapped	0x10279c174
+System.Net.Sockets	560	0x06000231	System.Net.Sockets.SocketAsyncContext+BufferMemorySendOperation	InvokeCallback	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513d58	0x948a2175	0x10279c32c	0x10279c32c	mapped	0x10279c32c
+System.Net.Sockets	561	0x06000232	System.Net.Sockets.SocketAsyncContext+BufferListSendOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d5c	0x948a21b3	0x10279c428	0x10279c428	mapped	0x10279c428
+System.Net.Sockets	562	0x06000233	System.Net.Sockets.SocketAsyncContext+BufferListSendOperation	DoTryComplete	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513d60	0x948a21ce	0x10279c498	0x10279c498	mapped	0x10279c498
+System.Net.Sockets	563	0x06000234	System.Net.Sockets.SocketAsyncContext+BufferListSendOperation	InvokeCallback	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513d64	0x948a221f	0x10279c5e0	0x10279c5e0	mapped	0x10279c5e0
+System.Net.Sockets	564	0x06000235	System.Net.Sockets.SocketAsyncContext+BufferPtrSendOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d68	0x948a225d	0x10279c6dc	0x10279c6dc	mapped	0x10279c6dc
+System.Net.Sockets	565	0x06000236	System.Net.Sockets.SocketAsyncContext+BufferPtrSendOperation	DoTryComplete	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513d6c	0x948a2278	0x10279c74c	0x10279c74c	mapped	0x10279c74c
+System.Net.Sockets	566	0x06000237	System.Net.Sockets.SocketAsyncContext+ReceiveOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d70	0x948a22ce	0x10279c8a8	0x10279c8a8	mapped	0x10279c8a8
+System.Net.Sockets	567	0x06000238	System.Net.Sockets.SocketAsyncContext+ReceiveOperation	get_Callback	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513d74	0x948a22e9	0x10279c918	0x10279c918	mapped	0x10279c918
+System.Net.Sockets	568	0x06000239	System.Net.Sockets.SocketAsyncContext+ReceiveOperation	set_Callback	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513d78	0x948a22f1	0x10279c93c	0x10279c93c	mapped	0x10279c93c
+System.Net.Sockets	569	0x0600023a	System.Net.Sockets.SocketAsyncContext+ReceiveOperation	InvokeCallback	0x2050	NoInlining	Public, Virtual, HideBySig	0x100513d7c	0x948a2300	0x10279c97c	0x10279c97c	mapped	0x10279c97c
+System.Net.Sockets	570	0x0600023b	System.Net.Sockets.SocketAsyncContext+BufferMemoryReceiveOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d80	0x948a231b	0x10279c9ec	0x10279c9ec	mapped	0x10279c9ec
+System.Net.Sockets	571	0x0600023c	System.Net.Sockets.SocketAsyncContext+BufferMemoryReceiveOperation	DoTryComplete	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513d84	0x948a2336	0x10279ca5c	0x10279ca5c	mapped	0x10279ca5c
+System.Net.Sockets	572	0x0600023d	System.Net.Sockets.SocketAsyncContext+BufferMemoryReceiveOperation	InvokeCallback	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513d88	0x948a23f4	0x10279cd58	0x10279cd58	mapped	0x10279cd58
+System.Net.Sockets	573	0x0600023e	System.Net.Sockets.SocketAsyncContext+BufferListReceiveOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d8c	0x948a2431	0x10279ce50	0x10279ce50	mapped	0x10279ce50
+System.Net.Sockets	574	0x0600023f	System.Net.Sockets.SocketAsyncContext+BufferListReceiveOperation	DoTryComplete	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513d90	0x948a244c	0x10279cec0	0x10279cec0	mapped	0x10279cec0
+System.Net.Sockets	575	0x06000240	System.Net.Sockets.SocketAsyncContext+BufferListReceiveOperation	InvokeCallback	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513d94	0x948a24b9	0x10279d078	0x10279d078	mapped	0x10279d078
+System.Net.Sockets	576	0x06000241	System.Net.Sockets.SocketAsyncContext+BufferPtrReceiveOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513d98	0x948a24f6	0x10279d170	0x10279d170	mapped	0x10279d170
+System.Net.Sockets	577	0x06000242	System.Net.Sockets.SocketAsyncContext+BufferPtrReceiveOperation	DoTryComplete	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513d9c	0x948a2511	0x10279d1e0	0x10279d1e0	mapped	0x10279d1e0
+System.Net.Sockets	578	0x06000243	System.Net.Sockets.SocketAsyncContext+AcceptOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513da0	0x948a257f	0x10279d39c	0x10279d39c	mapped	0x10279d39c
+System.Net.Sockets	579	0x06000244	System.Net.Sockets.SocketAsyncContext+AcceptOperation	get_Callback	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513da4	0x948a259a	0x10279d40c	0x10279d40c	mapped	0x10279d40c
+System.Net.Sockets	580	0x06000245	System.Net.Sockets.SocketAsyncContext+AcceptOperation	set_Callback	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513da8	0x948a25a2	0x10279d430	0x10279d430	mapped	0x10279d430
+System.Net.Sockets	581	0x06000246	System.Net.Sockets.SocketAsyncContext+AcceptOperation	DoTryComplete	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513dac	0x948a25b1	0x10279d470	0x10279d470	mapped	0x10279d470
+System.Net.Sockets	582	0x06000247	System.Net.Sockets.SocketAsyncContext+AcceptOperation	InvokeCallback	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513db0	0x948a25f1	0x10279d574	0x10279d574	mapped	0x10279d574
+System.Net.Sockets	583	0x06000248	System.Net.Sockets.SocketAsyncContext+ConnectOperation	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513db4	0x948a262c	0x10279d664	0x10279d664	mapped	0x10279d664
+System.Net.Sockets	584	0x06000249	System.Net.Sockets.SocketAsyncContext+ConnectOperation	get_Callback	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513db8	0x948a2647	0x10279d6d4	0x10279d6d4	mapped	0x10279d6d4
+System.Net.Sockets	585	0x0600024a	System.Net.Sockets.SocketAsyncContext+ConnectOperation	set_Callback	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513dbc	0x948a264f	0x10279d6f8	0x10279d6f8	mapped	0x10279d6f8
+System.Net.Sockets	586	0x0600024b	System.Net.Sockets.SocketAsyncContext+ConnectOperation	DoTryComplete	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100513dc0	0x948a265e	0x10279d738	0x10279d738	mapped	0x10279d738
+System.Net.Sockets	587	0x0600024c	System.Net.Sockets.SocketAsyncContext+ConnectOperation	InvokeCallback	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100513dc4	0x948a2683	0x10279d7d0	0x10279d7d0	mapped	0x10279d7d0
+System.Net.Sockets	588	0x0600024d	System.Net.Sockets.SocketAsyncContext+LockToken	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513dc8	0x948a269c	0x10279d838	0x10279d838	mapped	0x10279d838
+System.Net.Sockets	589	0x0600024e	System.Net.Sockets.SocketAsyncContext+LockToken	Dispose	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100513dcc	0x948a26bb	0x10279d8b8	0x10279d8b8	mapped	0x10279d8b8
+System.Net.Sockets	590	0x0600024f	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	Lock	0x2050	NoInlining	Private, HideBySig	0x100513dd0	0x948a26ce	0x10279d908	0x10279d908	mapped	0x10279d908
+System.Net.Sockets	591	0x06000250	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	get_IsNextOperationSynchronous_Speculative	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513dd4	0x948a26f3	0x10279d9a0	0x10279d9a0	mapped	0x10279d9a0
+System.Net.Sockets	592	0x06000251	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	Init	0x2050	NoInlining	Public, HideBySig	0x100513dd8	0x948a26fe	0x10279d9d0	0x10279d9d0	mapped	0x10279d9d0
+System.Net.Sockets	593	0x06000252	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	IsReady	0x2050	NoInlining	Public, HideBySig	0x100513ddc	0x948a272c	0x10279da8c	0x10279da8c	mapped	0x10279da8c
+System.Net.Sockets	594	0x06000253	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	StartAsyncOperation	0x2050	NoInlining	Public, HideBySig	0x100513de0	0x948a274b	0x10279db0c	0x10279db0c	mapped	0x10279db0c
+System.Net.Sockets	595	0x06000254	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	ProcessSyncEventOrGetAsyncEvent	0x2050	NoInlining	Public, HideBySig	0x100513de4	0x948a28ac	0x10279e094	0x10279e094	mapped	0x10279e094
+System.Net.Sockets	596	0x06000255	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	ProcessAsyncOperation	0x2050	NoInlining	Assembly, HideBySig	0x100513de8	0x948a2944	0x10279e2f8	0x10279e2f8	mapped	0x10279e2f8
+System.Net.Sockets	597	0x06000256	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	ProcessQueuedOperation	0x2050	NoInlining	Public, HideBySig	0x100513dec	0x948a297d	0x10279e3e0	0x10279e3e0	mapped	0x10279e3e0
+System.Net.Sockets	598	0x06000257	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	CancelAndContinueProcessing	0x2050	NoInlining	Public, HideBySig	0x100513df0	0x948a2aa7	0x10279e88c	0x10279e88c	mapped	0x10279e88c
+System.Net.Sockets	599	0x06000258	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	StopAndAbort	0x2050	NoInlining	Public, HideBySig	0x100513df4	0x948a2b3f	0x10279eaf0	0x10279eaf0	mapped	0x10279eaf0
+System.Net.Sockets	600	0x06000259	System.Net.Sockets.SocketAsyncContext+OperationQueue`1	<StartAsyncOperation>g__HandleFailedRegistration|11_0	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513df8	0x948a2b93	0x10279ec44	0x10279ec44	mapped	0x10279ec44
+System.Net.Sockets	601	0x0600025a	System.Net.Sockets.SocketAsyncContext+OperationQueue`1+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513dfc	0x948a2bdc	0x10279ed6c	0x10279ed6c	mapped	0x10279ed6c
+System.Net.Sockets	602	0x0600025b	System.Net.Sockets.SocketAsyncContext+OperationQueue`1+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513e00	0x948a2c09	0x10279ee24	0x10279ee24	mapped	0x10279ee24
+System.Net.Sockets	603	0x0600025c	System.Net.Sockets.SocketAsyncContext+OperationQueue`1+<>c	<StartAsyncOperation>b__11_1	0x2050	NoInlining	Assembly, HideBySig	0x100513e04	0x948a2c1a	0x10279ee6c	0x10279ee6c	mapped	0x10279ee6c
+System.Net.Sockets	604	0x0600025d	System.Net.Sockets.SocketAsyncEngine	GetEngineCount	0x2050	NoInlining	Private, Static, HideBySig	0x100513e08	0x948a2c47	0x10279ef24	0x10279ef24	mapped	0x10279ef24
+System.Net.Sockets	605	0x0600025e	System.Net.Sockets.SocketAsyncEngine	CreateEngines	0x2050	NoInlining	Private, Static, HideBySig	0x100513e0c	0x948a2c81	0x10279f010	0x10279f010	mapped	0x10279f010
+System.Net.Sockets	606	0x0600025f	System.Net.Sockets.SocketAsyncEngine	TryRegisterSocket	0x2050	NoInlining	Public, Static, HideBySig	0x100513e10	0x948a2cb8	0x10279f0f0	0x10279f0f0	mapped	0x10279f0f0
+System.Net.Sockets	607	0x06000260	System.Net.Sockets.SocketAsyncEngine	TryRegisterCore	0x2050	NoInlining	Private, HideBySig	0x100513e14	0x948a2d1b	0x10279f280	0x10279f280	mapped	0x10279f280
+System.Net.Sockets	608	0x06000261	System.Net.Sockets.SocketAsyncEngine	UnregisterSocket	0x2050	NoInlining	Public, HideBySig	0x100513e18	0x948a2d77	0x10279f3f4	0x10279f3f4	mapped	0x10279f3f4
+System.Net.Sockets	609	0x06000262	System.Net.Sockets.SocketAsyncEngine	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x100513e1c	0x97ffdd1d	0x10050b290	0x10050b290	mapped	0x10050b290
+System.Net.Sockets	610	0x06000263	System.Net.Sockets.SocketAsyncEngine	EventLoop	0x2050	NoInlining	Private, HideBySig	0x100513e20	0x948a2d9f	0x10279f49c	0x10279f49c	mapped	0x10279f49c
+System.Net.Sockets	611	0x06000264	System.Net.Sockets.SocketAsyncEngine	ScheduleToProcessEvents	0x2050	264	Private, HideBySig	0x100513e24	0x948a2e1a	0x10279f68c	0x10279f68c	mapped	0x10279f68c
+System.Net.Sockets	612	0x06000265	System.Net.Sockets.SocketAsyncEngine	System.Threading.IThreadPoolWorkItem.Execute	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100513e28	0x948a2e3d	0x10279f71c	0x10279f71c	mapped	0x10279f71c
+System.Net.Sockets	613	0x06000266	System.Net.Sockets.SocketAsyncEngine	FreeNativeResources	0x2050	NoInlining	Private, HideBySig	0x100513e2c	0x948a2eaa	0x10279f8d4	0x10279f8d4	mapped	0x10279f8d4
+System.Net.Sockets	614	0x06000267	System.Net.Sockets.SocketAsyncEngine	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513e30	0x948a2ec2	0x10279f938	0x10279f938	mapped	0x10279f938
+System.Net.Sockets	615	0x06000268	System.Net.Sockets.SocketAsyncEngine+SocketEventHandler	get_Buffer	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513e34	0x948a2ee7	0x10279f9d0	0x10279f9d0	mapped	0x10279f9d0
+System.Net.Sockets	616	0x06000269	System.Net.Sockets.SocketAsyncEngine+SocketEventHandler	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513e38	0x948a2eef	0x10279f9f4	0x10279f9f4	mapped	0x10279f9f4
+System.Net.Sockets	617	0x0600026a	System.Net.Sockets.SocketAsyncEngine+SocketEventHandler	HandleSocketEvents	0x2050	NoInlining	Public, HideBySig	0x100513e3c	0x948a2f0b	0x10279fa68	0x10279fa68	mapped	0x10279fa68
+System.Net.Sockets	618	0x0600026b	System.Net.Sockets.SocketAsyncEngine+SocketAsyncContextWrapper	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513e40	0x948a2f98	0x10279fca0	0x10279fca0	mapped	0x10279fca0
+System.Net.Sockets	619	0x0600026c	System.Net.Sockets.SocketAsyncEngine+SocketAsyncContextWrapper	get_Context	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100513e44	0x948a2fa7	0x10279fce0	0x10279fce0	mapped	0x10279fce0
+System.Net.Sockets	620	0x0600026d	System.Net.Sockets.SocketAsyncEngine+SocketIOEvent	get_Context	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513e48	0x948a2faf	0x10279fd04	0x10279fd04	mapped	0x10279fd04
+System.Net.Sockets	621	0x0600026e	System.Net.Sockets.SocketAsyncEngine+SocketIOEvent	get_Events	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100513e4c	0x948a2fb7	0x10279fd28	0x10279fd28	mapped	0x10279fd28
+System.Net.Sockets	622	0x0600026f	System.Net.Sockets.SocketAsyncEngine+SocketIOEvent	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513e50	0x948a2fbf	0x10279fd4c	0x10279fd4c	mapped	0x10279fd4c
+System.Net.Sockets	623	0x06000270	System.Net.Sockets.SocketAsyncEngine+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513e54	0x948a2fcf	0x10279fd90	0x10279fd90	mapped	0x10279fd90
+System.Net.Sockets	624	0x06000271	System.Net.Sockets.SocketAsyncEngine+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100513e58	0x948a2fea	0x10279fe00	0x10279fe00	mapped	0x10279fe00
+System.Net.Sockets	625	0x06000272	System.Net.Sockets.SocketAsyncEngine+<>c	<.ctor>b__14_0	0x2050	NoInlining	Assembly, HideBySig	0x100513e5c	0x948a2ff7	0x10279fe38	0x10279fe38	mapped	0x10279fe38
+System.Net.Sockets	626	0x06000273	System.Net.Sockets.SocketPal	GetPlatformSupportsDualModeIPv4PacketInfo	0x2050	NoInlining	Private, Static, HideBySig	0x100513e60	0x948a301f	0x10279fedc	0x10279fedc	mapped	0x10279fedc
+System.Net.Sockets	627	0x06000274	System.Net.Sockets.SocketPal	GetSocketErrorForErrorCode	0x2050	NoInlining	Public, Static, HideBySig	0x100513e64	0x948a3035	0x10279ff38	0x10279ff38	mapped	0x10279ff38
+System.Net.Sockets	628	0x06000275	System.Net.Sockets.SocketPal	CreateSocket	0x2050	NoInlining	Public, Static, HideBySig	0x100513e68	0x948a304d	0x10279ff9c	0x10279ff9c	mapped	0x10279ff9c
+System.Net.Sockets	629	0x06000276	System.Net.Sockets.SocketPal	SysRead	0x2050	NoInlining	Private, Static, HideBySig	0x100513e6c	0x948a30be	0x1027a0164	0x1027a0164	mapped	0x1027a0164
+System.Net.Sockets	630	0x06000277	System.Net.Sockets.SocketPal	SysReceive	0x2050	NoInlining	Private, Static, HideBySig	0x100513e70	0x948a30ed	0x1027a0224	0x1027a0224	mapped	0x1027a0224
+System.Net.Sockets	631	0x06000278	System.Net.Sockets.SocketPal	SysReceive	0x2050	NoInlining	Private, Static, HideBySig	0x100513e74	0x948a311f	0x1027a02f0	0x1027a02f0	mapped	0x1027a02f0
+System.Net.Sockets	632	0x06000279	System.Net.Sockets.SocketPal	SysWrite	0x2050	NoInlining	Private, Static, HideBySig	0x100513e78	0x948a3179	0x1027a045c	0x1027a045c	mapped	0x1027a045c
+System.Net.Sockets	633	0x0600027a	System.Net.Sockets.SocketPal	AvoidNullReference	0x2050	NoInlining	Private, Static, HideBySig	0x100513e7c	0x948a31bb	0x1027a0568	0x1027a0568	mapped	0x1027a0568
+System.Net.Sockets	634	0x0600027b	System.Net.Sockets.SocketPal	SysSend	0x2050	NoInlining	Private, Static, HideBySig	0x100513e80	0x948a31ec	0x1027a0630	0x1027a0630	mapped	0x1027a0630
+System.Net.Sockets	635	0x0600027c	System.Net.Sockets.SocketPal	SysSend	0x2050	NoInlining	Private, Static, HideBySig	0x100513e84	0x948a323c	0x1027a0774	0x1027a0774	mapped	0x1027a0774
+System.Net.Sockets	636	0x0600027d	System.Net.Sockets.SocketPal	SysSend	0x2050	NoInlining	Private, Static, HideBySig	0x100513e88	0x97ffde2a	0x10050b730	0x10050b730	mapped	0x10050b730
+System.Net.Sockets	637	0x0600027e	System.Net.Sockets.SocketPal	SysReceive	0x2050	NoInlining	Private, Static, HideBySig	0x100513e8c	0x97ffe051	0x10050bfd0	0x10050bfd0	mapped	0x10050bfd0
+System.Net.Sockets	638	0x0600027f	System.Net.Sockets.SocketPal	TryCompleteAccept	0x2050	NoInlining	Public, Static, HideBySig	0x100513e90	0x948a32a6	0x1027a0928	0x1027a0928	mapped	0x1027a0928
+System.Net.Sockets	639	0x06000280	System.Net.Sockets.SocketPal	TryStartConnect	0x2050	NoInlining	Public, Static, HideBySig	0x100513e94	0x948a3336	0x1027a0b6c	0x1027a0b6c	mapped	0x1027a0b6c
+System.Net.Sockets	640	0x06000281	System.Net.Sockets.SocketPal	TryCompleteConnect	0x2050	NoInlining	Public, Static, HideBySig	0x100513e98	0x948a3394	0x1027a0ce8	0x1027a0ce8	mapped	0x1027a0ce8
+System.Net.Sockets	641	0x06000282	System.Net.Sockets.SocketPal	TryCompleteReceiveFrom	0x2050	NoInlining	Public, Static, HideBySig	0x100513e9c	0x948a33fb	0x1027a0e88	0x1027a0e88	mapped	0x1027a0e88
+System.Net.Sockets	642	0x06000283	System.Net.Sockets.SocketPal	TryCompleteReceiveFrom	0x2050	NoInlining	Public, Static, HideBySig	0x100513ea0	0x948a3432	0x1027a0f68	0x1027a0f68	mapped	0x1027a0f68
+System.Net.Sockets	643	0x06000284	System.Net.Sockets.SocketPal	TryCompleteReceive	0x2050	NoInlining	Public, Static, HideBySig	0x100513ea4	0x948a3467	0x1027a1040	0x1027a1040	mapped	0x1027a1040
+System.Net.Sockets	644	0x06000285	System.Net.Sockets.SocketPal	TryCompleteReceiveFrom	0x2050	NoInlining	Public, Static, HideBySig	0x100513ea8	0x948a34db	0x1027a1214	0x1027a1214	mapped	0x1027a1214
+System.Net.Sockets	645	0x06000286	System.Net.Sockets.SocketPal	TryCompleteSendTo	0x2050	NoInlining	Public, Static, HideBySig	0x100513eac	0x948a3583	0x1027a14b8	0x1027a14b8	mapped	0x1027a14b8
+System.Net.Sockets	646	0x06000287	System.Net.Sockets.SocketPal	TryCompleteSendTo	0x2050	NoInlining	Public, Static, HideBySig	0x100513eb0	0x948a35bb	0x1027a159c	0x1027a159c	mapped	0x1027a159c
+System.Net.Sockets	647	0x06000288	System.Net.Sockets.SocketPal	TryCompleteSendTo	0x2050	NoInlining	Public, Static, HideBySig	0x100513eb4	0x948a35ed	0x1027a1668	0x1027a1668	mapped	0x1027a1668
+System.Net.Sockets	648	0x06000289	System.Net.Sockets.SocketPal	TryCompleteSendTo	0x2050	NoInlining	Public, Static, HideBySig	0x100513eb8	0x948a3623	0x1027a1744	0x1027a1744	mapped	0x1027a1744
+System.Net.Sockets	649	0x0600028a	System.Net.Sockets.SocketPal	SetBlocking	0x2050	NoInlining	Public, Static, HideBySig	0x100513ebc	0x948a3702	0x1027a1ac4	0x1027a1ac4	mapped	0x1027a1ac4
+System.Net.Sockets	650	0x0600028b	System.Net.Sockets.SocketPal	GetSockName	0x2050	NoInlining	Public, Static, HideBySig	0x100513ec0	0x948a372c	0x1027a1b70	0x1027a1b70	mapped	0x1027a1b70
+System.Net.Sockets	651	0x0600028c	System.Net.Sockets.SocketPal	GetAvailable	0x2050	NoInlining	Public, Static, HideBySig	0x100513ec4	0x948a374c	0x1027a1bf4	0x1027a1bf4	mapped	0x1027a1bf4
+System.Net.Sockets	652	0x0600028d	System.Net.Sockets.SocketPal	GetAtOutOfBandMark	0x2050	NoInlining	Public, Static, HideBySig	0x100513ec8	0x948a3773	0x1027a1c94	0x1027a1c94	mapped	0x1027a1c94
+System.Net.Sockets	653	0x0600028e	System.Net.Sockets.SocketPal	GetPeerName	0x2050	NoInlining	Public, Static, HideBySig	0x100513ecc	0x948a379a	0x1027a1d34	0x1027a1d34	mapped	0x1027a1d34
+System.Net.Sockets	654	0x0600028f	System.Net.Sockets.SocketPal	Bind	0x2050	NoInlining	Public, Static, HideBySig	0x100513ed0	0x948a37c8	0x1027a1df0	0x1027a1df0	mapped	0x1027a1df0
+System.Net.Sockets	655	0x06000290	System.Net.Sockets.SocketPal	Listen	0x2050	NoInlining	Public, Static, HideBySig	0x100513ed4	0x948a37eb	0x1027a1e80	0x1027a1e80	mapped	0x1027a1e80
+System.Net.Sockets	656	0x06000291	System.Net.Sockets.SocketPal	Accept	0x2050	NoInlining	Public, Static, HideBySig	0x100513ed8	0x948a3807	0x1027a1ef4	0x1027a1ef4	mapped	0x1027a1ef4
+System.Net.Sockets	657	0x06000292	System.Net.Sockets.SocketPal	Connect	0x2050	NoInlining	Public, Static, HideBySig	0x100513edc	0x948a3867	0x1027a2078	0x1027a2078	mapped	0x1027a2078
+System.Net.Sockets	658	0x06000293	System.Net.Sockets.SocketPal	Send	0x2050	NoInlining	Public, Static, HideBySig	0x100513ee0	0x948a38a5	0x1027a2174	0x1027a2174	mapped	0x1027a2174
+System.Net.Sockets	659	0x06000294	System.Net.Sockets.SocketPal	Send	0x2050	NoInlining	Public, Static, HideBySig	0x100513ee4	0x948a38f3	0x1027a22b0	0x1027a22b0	mapped	0x1027a22b0
+System.Net.Sockets	660	0x06000295	System.Net.Sockets.SocketPal	SendTo	0x2050	NoInlining	Public, Static, HideBySig	0x100513ee8	0x948a3938	0x1027a23c8	0x1027a23c8	mapped	0x1027a23c8
+System.Net.Sockets	661	0x06000296	System.Net.Sockets.SocketPal	Receive	0x2050	NoInlining	Public, Static, HideBySig	0x100513eec	0x948a39a1	0x1027a2570	0x1027a2570	mapped	0x1027a2570
+System.Net.Sockets	662	0x06000297	System.Net.Sockets.SocketPal	Receive	0x2050	NoInlining	Public, Static, HideBySig	0x100513ef0	0x948a3a07	0x1027a270c	0x1027a270c	mapped	0x1027a270c
+System.Net.Sockets	663	0x06000298	System.Net.Sockets.SocketPal	ReceiveFrom	0x2050	NoInlining	Public, Static, HideBySig	0x100513ef4	0x948a3a4b	0x1027a2820	0x1027a2820	mapped	0x1027a2820
+System.Net.Sockets	664	0x06000299	System.Net.Sockets.SocketPal	WindowsIoctl	0x2050	NoInlining	Public, Static, HideBySig	0x100513ef8	0x948a3ad1	0x1027a2a3c	0x1027a2a3c	mapped	0x1027a2a3c
+System.Net.Sockets	665	0x0600029a	System.Net.Sockets.SocketPal	GetErrorAndTrackSetting	0x2050	NoInlining	Private, Static, HideBySig	0x100513efc	0x948a3b36	0x1027a2bd4	0x1027a2bd4	mapped	0x1027a2bd4
+System.Net.Sockets	666	0x0600029b	System.Net.Sockets.SocketPal	SetSockOpt	0x2050	NoInlining	Public, Static, HideBySig	0x100513f00	0x948a3b60	0x1027a2c80	0x1027a2c80	mapped	0x1027a2c80
+System.Net.Sockets	667	0x0600029c	System.Net.Sockets.SocketPal	SetMulticastOption	0x2050	NoInlining	Public, Static, HideBySig	0x100513f04	0x948a3bd0	0x1027a2e44	0x1027a2e44	mapped	0x1027a2e44
+System.Net.Sockets	668	0x0600029d	System.Net.Sockets.SocketPal	SetIPv6MulticastOption	0x2050	NoInlining	Public, Static, HideBySig	0x100513f08	0x948a3c12	0x1027a2f50	0x1027a2f50	mapped	0x1027a2f50
+System.Net.Sockets	669	0x0600029e	System.Net.Sockets.SocketPal	SetLingerOption	0x2050	NoInlining	Public, Static, HideBySig	0x100513f0c	0x948a3c48	0x1027a302c	0x1027a302c	mapped	0x1027a302c
+System.Net.Sockets	670	0x0600029f	System.Net.Sockets.SocketPal	GetSockOpt	0x2050	NoInlining	Public, Static, HideBySig	0x100513f10	0x948a3c74	0x1027a30e0	0x1027a30e0	mapped	0x1027a30e0
+System.Net.Sockets	671	0x060002a0	System.Net.Sockets.SocketPal	GetMulticastOption	0x2050	NoInlining	Public, Static, HideBySig	0x100513f14	0x948a3cd7	0x1027a3270	0x1027a3270	mapped	0x1027a3270
+System.Net.Sockets	672	0x060002a1	System.Net.Sockets.SocketPal	GetIPv6MulticastOption	0x2050	NoInlining	Public, Static, HideBySig	0x100513f18	0x948a3d29	0x1027a33bc	0x1027a33bc	mapped	0x1027a33bc
+System.Net.Sockets	673	0x060002a2	System.Net.Sockets.SocketPal	GetLingerOption	0x2050	NoInlining	Public, Static, HideBySig	0x100513f1c	0x948a3d72	0x1027a34e4	0x1027a34e4	mapped	0x1027a34e4
+System.Net.Sockets	674	0x060002a3	System.Net.Sockets.SocketPal	Poll	0x2050	NoInlining	Public, Static, HideBySig	0x100513f20	0x948a3daf	0x1027a35dc	0x1027a35dc	mapped	0x1027a35dc
+System.Net.Sockets	675	0x060002a4	System.Net.Sockets.SocketPal	Shutdown	0x2050	NoInlining	Public, Static, HideBySig	0x100513f24	0x948a3e0c	0x1027a3754	0x1027a3754	mapped	0x1027a3754
+System.Net.Sockets	676	0x060002a5	System.Net.Sockets.SocketPal	CreateSocket	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513f28	0x948a3e46	0x1027a3840	0x1027a3840	mapped	0x1027a3840
+System.Net.Sockets	677	0x060002a6	System.Net.Sockets.SocketPal	HasNonBlockingConnectCompleted	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513f2c	0x948a3e6d	0x1027a38e0	0x1027a38e0	mapped	0x1027a38e0
+System.Net.Sockets	678	0x060002a7	System.Net.Sockets.SocketPal	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513f30	0x948a3ebf	0x1027a3a2c	0x1027a3a2c	mapped	0x1027a3a2c
+System.Net.Sockets	679	0x060002a8	System.Net.Sockets.SocketErrorPal	GetSocketErrorForNativeError	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513f34	0x948a3eda	0x1027a3a9c	0x1027a3a9c	mapped	0x1027a3a9c
+System.Net.Sockets	680	0x060002a9	System.Net.Sockets.SocketErrorPal	TryGetNativeErrorForSocketError	0x2050	NoInlining	Assembly, Static, HideBySig	0x100513f38	0x948a3f04	0x1027a3b48	0x1027a3b48	mapped	0x1027a3b48
+System.Net.Sockets	681	0x060002aa	System.Net.Sockets.SocketErrorPal	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100513f3c	0x948a3f29	0x1027a3be0	0x1027a3be0	mapped	0x1027a3be0

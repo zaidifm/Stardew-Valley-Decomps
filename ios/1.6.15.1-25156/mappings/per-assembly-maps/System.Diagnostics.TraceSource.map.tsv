@@ -1,0 +1,24 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Diagnostics.TraceSource	0	0x06000001	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x100433888	0x9483b8a0	0x102521b08	0x102521b08	mapped	0x102521b08
+System.Diagnostics.TraceSource	1	0x06000002	System.Diagnostics.BooleanSwitch	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10043388c	0x9483b8d5	0x102521be0	0x102521be0	mapped	0x102521be0
+System.Diagnostics.TraceSource	2	0x06000003	System.Diagnostics.BooleanSwitch	get_Enabled	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100433890	0x9483b8e8	0x102521c30	0x102521c30	mapped	0x102521c30
+System.Diagnostics.TraceSource	3	0x06000004	System.Diagnostics.BooleanSwitch	OnValueChanged	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100433894	0x9483b8f7	0x102521c70	0x102521c70	mapped	0x102521c70
+System.Diagnostics.TraceSource	4	0x06000005	System.Diagnostics.InitializingSwitchEventArgs	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100433898	0x9483b913	0x102521ce4	0x102521ce4	mapped	0x102521ce4
+System.Diagnostics.TraceSource	5	0x06000006	System.Diagnostics.Switch	get_InitializedLock	0x2050	NoInlining	Private, HideBySig, SpecialName	0x10043389c	0x9483b922	0x102521d24	0x102521d24	mapped	0x102521d24
+System.Diagnostics.TraceSource	6	0x06000007	System.Diagnostics.Switch	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x1004338a0	0x9483b958	0x102521e00	0x102521e00	mapped	0x102521e00
+System.Diagnostics.TraceSource	7	0x06000008	System.Diagnostics.Switch	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x1004338a4	0x9483b978	0x102521e84	0x102521e84	mapped	0x102521e84
+System.Diagnostics.TraceSource	8	0x06000009	System.Diagnostics.Switch	_pruneCachedSwitches	0x2050	NoInlining	Private, Static, HideBySig	0x1004338a8	0x9483ba0b	0x1025220d4	0x1025220d4	mapped	0x1025220d4
+System.Diagnostics.TraceSource	9	0x0600000a	System.Diagnostics.Switch	get_Attributes	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004338ac	0x9483badb	0x102522418	0x102522418	mapped	0x102522418
+System.Diagnostics.TraceSource	10	0x0600000b	System.Diagnostics.Switch	get_SwitchSetting	0x2050	NoInlining	Family, HideBySig, SpecialName	0x1004338b0	0x9483bb08	0x1025224d0	0x1025224d0	mapped	0x1025224d0
+System.Diagnostics.TraceSource	11	0x0600000c	System.Diagnostics.Switch	set_SwitchSetting	0x2050	NoInlining	Family, HideBySig, SpecialName	0x1004338b4	0x9483bb1f	0x102522530	0x102522530	mapped	0x102522530
+System.Diagnostics.TraceSource	12	0x0600000d	System.Diagnostics.Switch	GetSupportedAttributes	0x2050	NoInlining	FamORAssem, Final, Virtual, HideBySig, VtableLayoutMask	0x1004338b8	0x9483bb69	0x10252265c	0x10252265c	mapped	0x10252265c
+System.Diagnostics.TraceSource	13	0x0600000e	System.Diagnostics.Switch	get_Value	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004338bc	0x9483bb6a	0x102522664	0x102522664	mapped	0x102522664
+System.Diagnostics.TraceSource	14	0x0600000f	System.Diagnostics.Switch	OnInitializing	0x2050	NoInlining	Assembly, HideBySig	0x1004338c0	0x9483bb7f	0x1025226bc	0x1025226bc	mapped	0x1025226bc
+System.Diagnostics.TraceSource	15	0x06000010	System.Diagnostics.Switch	Initialize	0x2050	NoInlining	Private, HideBySig	0x1004338c4	0x9483bbb5	0x102522798	0x102522798	mapped	0x102522798
+System.Diagnostics.TraceSource	16	0x06000011	System.Diagnostics.Switch	InitializeWithStatus	0x2050	NoInlining	Private, HideBySig	0x1004338c8	0x97ffff5a	0x100433630	0x100433630	mapped	0x100433630
+System.Diagnostics.TraceSource	17	0x06000012	System.Diagnostics.Switch	OnSwitchSettingChanged	0x2050	NoInlining	Family, Final, Virtual, HideBySig, VtableLayoutMask	0x1004338cc	0x9483bbc1	0x1025227d0	0x1025227d0	mapped	0x1025227d0
+System.Diagnostics.TraceSource	18	0x06000013	System.Diagnostics.Switch	OnValueChanged	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004338d0	0x9483bbc1	0x1025227d4	0x1025227d4	mapped	0x1025227d4
+System.Diagnostics.TraceSource	19	0x06000014	System.Diagnostics.Switch	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004338d4	0x9483bbe9	0x102522878	0x102522878	mapped	0x102522878
+System.Diagnostics.TraceSource	20	0x06000015	System.Diagnostics.TraceUtils	VerifyAttributes	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004338d8	0x9483bc0f	0x102522914	0x102522914	mapped	0x102522914
+System.Diagnostics.TraceSource	21	0x06000016	System.Diagnostics.SwitchLevelAttribute	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004338dc	0x9483bcd1	0x102522c20	0x102522c20	mapped	0x102522c20
+System.Diagnostics.TraceSource	22	0x06000017	System.Diagnostics.SwitchLevelAttribute	set_SwitchLevelType	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004338e0	0x9483bce0	0x102522c60	0x102522c60	mapped	0x102522c60

@@ -1,0 +1,5 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Runtime.Serialization.Formatters	0	0x06000001	System.Runtime.Serialization.Formatters.Binary.BinaryFormatter	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005616b8	0x9491c4c4	0x1029d29c8	0x1029d29c8	mapped	0x1029d29c8
+System.Runtime.Serialization.Formatters	1	0x06000002	System.Runtime.Serialization.Formatters.Binary.BinaryFormatter	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005616bc	0x9491c4eb	0x1029d2a68	0x1029d2a68	mapped	0x1029d2a68
+System.Runtime.Serialization.Formatters	2	0x06000003	System.Runtime.Serialization.Formatters.Binary.BinaryFormatter	Serialize	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1005616c0	0x9491c516	0x1029d2b18	0x1029d2b18	mapped	0x1029d2b18
+System.Runtime.Serialization.Formatters	3	0x06000004	System.Runtime.Serialization.Formatters.Binary.BinaryFormatter	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1005616c4	0x9491c527	0x1029d2b60	0x1029d2b60	mapped	0x1029d2b60

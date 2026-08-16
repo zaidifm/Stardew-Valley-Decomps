@@ -1,0 +1,358 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Net.Primitives	0	0x06000001	Interop+ErrorInfo	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc478	0x9488bc04	0x1026fb488	0x1026fb488	mapped	0x1026fb488
+System.Net.Primitives	1	0x06000002	Interop+ErrorInfo	get_Error	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc47c	0x9488bc0e	0x1026fb4b4	0x1026fb4b4	mapped	0x1026fb4b4
+System.Net.Primitives	2	0x06000003	Interop+ErrorInfo	get_RawErrno	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc480	0x9488bc16	0x1026fb4d8	0x1026fb4d8	mapped	0x1026fb4d8
+System.Net.Primitives	3	0x06000004	Interop+ErrorInfo	GetErrorMessage	0x2050	NoInlining	Assembly, HideBySig	0x1004cc484	0x9488bc2d	0x1026fb538	0x1026fb538	mapped	0x1026fb538
+System.Net.Primitives	4	0x06000005	Interop+ErrorInfo	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc488	0x9488bc43	0x1026fb594	0x1026fb594	mapped	0x1026fb594
+System.Net.Primitives	5	0x06000006	Interop+Sys	StrError	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc48c	0x9488bce7	0x1026fb828	0x1026fb828	mapped	0x1026fb828
+System.Net.Primitives	6	0x06000007	Interop+Sys	ConvertErrorPalToPlatform	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc490	0x97fffffa	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	7	0x06000008	Interop+Sys	StrErrorR	0x0	136	Private, Static, HideBySig, PinvokeImpl	0x1004cc494	0x97fffff9	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	8	0x06000009	Interop+Sys	GetSocketAddressSizes	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc498	0x97fffff8	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	9	0x0600000a	Interop+Sys	GetAddressFamily	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc49c	0x97fffff7	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	10	0x0600000b	Interop+Sys	SetAddressFamily	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc4a0	0x97fffff6	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	11	0x0600000c	Interop+Sys	GetPort	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc4a4	0x97fffff5	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	12	0x0600000d	Interop+Sys	SetPort	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc4a8	0x97fffff4	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	13	0x0600000e	Interop+Sys	GetIPv4Address	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc4ac	0x97fffff3	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	14	0x0600000f	Interop+Sys	SetIPv4Address	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc4b0	0x97fffff2	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	15	0x06000010	Interop+Sys	GetIPv6Address	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc4b4	0x97fffff1	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	16	0x06000011	Interop+Sys	SetIPv6Address	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc4b8	0x97fffff0	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	17	0x06000012	Interop+Sys	GetDomainName	0x0	136	Private, Static, HideBySig, PinvokeImpl	0x1004cc4bc	0x97ffffef	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	18	0x06000013	Interop+Sys	GetDomainName	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4c0	0x9488bcf0	0x1026fb880	0x1026fb880	mapped	0x1026fb880
+System.Net.Primitives	19	0x06000014	Interop+Sys	InterfaceNameToIndex	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc4c4	0x9488bd5f	0x1026fba40	0x1026fba40	mapped	0x1026fba40
+System.Net.Primitives	20	0x06000015	Interop+Sys	<InterfaceNameToIndex>g____PInvoke|33_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004cc4c8	0x97ffffec	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	21	0x06000016	InteropErrorExtensions	Info	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc4cc	0x9488bd96	0x1026fbb24	0x1026fbb24	mapped	0x1026fbb24
+System.Net.Primitives	22	0x06000017	System.IPv4AddressHelper	ParseHostNumber	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4d0	0x9488bd97	0x1026fbb2c	0x1026fbb2c	mapped	0x1026fbb2c
+System.Net.Primitives	23	0x06000018	System.IPv4AddressHelper	IsValid	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4d4	0x9488be61	0x1026fbe58	0x1026fbe58	mapped	0x1026fbe58
+System.Net.Primitives	24	0x06000019	System.IPv4AddressHelper	IsValidCanonical	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4d8	0x9488be82	0x1026fbee0	0x1026fbee0	mapped	0x1026fbee0
+System.Net.Primitives	25	0x0600001a	System.IPv4AddressHelper	ParseNonCanonical	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4dc	0x9488bf1c	0x1026fc14c	0x1026fc14c	mapped	0x1026fc14c
+System.Net.Primitives	26	0x0600001b	System.IPv6AddressHelper	FindCompressionRange	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4e0	0x9488c06a	0x1026fc688	0x1026fc688	mapped	0x1026fc688
+System.Net.Primitives	27	0x0600001c	System.IPv6AddressHelper	ShouldHaveIpv4Embedded	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4e4	0x9488c0aa	0x1026fc78c	0x1026fc78c	mapped	0x1026fc78c
+System.Net.Primitives	28	0x0600001d	System.IPv6AddressHelper	IsValidStrict	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4e8	0x9488c125	0x1026fc97c	0x1026fc97c	mapped	0x1026fc97c
+System.Net.Primitives	29	0x0600001e	System.IPv6AddressHelper	Parse	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4ec	0x9488c281	0x1026fcef0	0x1026fcef0	mapped	0x1026fcef0
+System.Net.Primitives	30	0x0600001f	System.StringExtensions	SubstringTrim	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4f0	0x9488c45a	0x1026fd658	0x1026fd658	mapped	0x1026fd658
+System.Net.Primitives	31	0x06000020	System.HexConverter	ToCharLower	0x2050	264	Public, Static, HideBySig	0x1004cc4f4	0x9488c4c5	0x1026fd808	0x1026fd808	mapped	0x1026fd808
+System.Net.Primitives	32	0x06000021	System.NotImplemented	get_ByDesign	0x2050	NoInlining	Assembly, Static, HideBySig, SpecialName	0x1004cc4f8	0x9488c4cb	0x1026fd824	0x1026fd824	mapped	0x1026fd824
+System.Net.Primitives	33	0x06000022	System.NotImplemented	ByDesignWithMessage	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc4fc	0x9488c4e5	0x1026fd890	0x1026fd890	mapped	0x1026fd890
+System.Net.Primitives	34	0x06000023	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc500	0x9488c503	0x1026fd90c	0x1026fd90c	mapped	0x1026fd90c
+System.Net.Primitives	35	0x06000024	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc504	0x9488c52f	0x1026fd9c0	0x1026fd9c0	mapped	0x1026fd9c0
+System.Net.Primitives	36	0x06000025	System.Text.StringBuilderCache	Acquire	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc508	0x9488c564	0x1026fda98	0x1026fda98	mapped	0x1026fda98
+System.Net.Primitives	37	0x06000026	System.Text.StringBuilderCache	Release	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc50c	0x9488c5a9	0x1026fdbb0	0x1026fdbb0	mapped	0x1026fdbb0
+System.Net.Primitives	38	0x06000027	System.Text.StringBuilderCache	GetStringAndRelease	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc510	0x9488c5da	0x1026fdc78	0x1026fdc78	mapped	0x1026fdc78
+System.Net.Primitives	39	0x06000028	System.Security.Authentication.ExtendedProtection.ChannelBinding	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x1004cc514	0x9488c612	0x1026fdd5c	0x1026fdd5c	mapped	0x1026fdd5c
+System.Net.Primitives	40	0x06000029	System.Security.Authentication.ExtendedProtection.ChannelBinding	get_Size	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x1004cc518	0x97ffffd8	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	41	0x0600002a	System.Net.Cookie	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc51c	0x9488c61f	0x1026fdd98	0x1026fdd98	mapped	0x1026fdd98
+System.Net.Primitives	42	0x0600002b	System.Net.Cookie	get_Comment	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc520	0x9488c679	0x1026fdf04	0x1026fdf04	mapped	0x1026fdf04
+System.Net.Primitives	43	0x0600002c	System.Net.Cookie	set_Comment	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc524	0x9488c681	0x1026fdf28	0x1026fdf28	mapped	0x1026fdf28
+System.Net.Primitives	44	0x0600002d	System.Net.Cookie	set_CommentUri	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc528	0x9488c6a4	0x1026fdfb8	0x1026fdfb8	mapped	0x1026fdfb8
+System.Net.Primitives	45	0x0600002e	System.Net.Cookie	set_HttpOnly	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc52c	0x9488c6b3	0x1026fdff8	0x1026fdff8	mapped	0x1026fdff8
+System.Net.Primitives	46	0x0600002f	System.Net.Cookie	set_Discard	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc530	0x9488c6bb	0x1026fe01c	0x1026fe01c	mapped	0x1026fe01c
+System.Net.Primitives	47	0x06000030	System.Net.Cookie	get_Domain	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc534	0x9488c6c3	0x1026fe040	0x1026fe040	mapped	0x1026fe040
+System.Net.Primitives	48	0x06000031	System.Net.Cookie	set_Domain	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc538	0x9488c6cb	0x1026fe064	0x1026fe064	mapped	0x1026fe064
+System.Net.Primitives	49	0x06000032	System.Net.Cookie	get_Expired	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc53c	0x9488c6f7	0x1026fe118	0x1026fe118	mapped	0x1026fe118
+System.Net.Primitives	50	0x06000033	System.Net.Cookie	get_Expires	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc540	0x9488c724	0x1026fe1d0	0x1026fe1d0	mapped	0x1026fe1d0
+System.Net.Primitives	51	0x06000034	System.Net.Cookie	set_Expires	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc544	0x9488c72c	0x1026fe1f4	0x1026fe1f4	mapped	0x1026fe1f4
+System.Net.Primitives	52	0x06000035	System.Net.Cookie	get_Name	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc548	0x9488c734	0x1026fe218	0x1026fe218	mapped	0x1026fe218
+System.Net.Primitives	53	0x06000036	System.Net.Cookie	InternalSetName	0x2050	NoInlining	Assembly, HideBySig	0x1004cc54c	0x9488c73c	0x1026fe23c	0x1026fe23c	mapped	0x1026fe23c
+System.Net.Primitives	54	0x06000037	System.Net.Cookie	get_Path	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc550	0x9488c78c	0x1026fe380	0x1026fe380	mapped	0x1026fe380
+System.Net.Primitives	55	0x06000038	System.Net.Cookie	set_Path	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc554	0x9488c794	0x1026fe3a4	0x1026fe3a4	mapped	0x1026fe3a4
+System.Net.Primitives	56	0x06000039	System.Net.Cookie	get_Plain	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc558	0x9488c7b8	0x1026fe438	0x1026fe438	mapped	0x1026fe438
+System.Net.Primitives	57	0x0600003a	System.Net.Cookie	IsDomainEqualToHost	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc55c	0x9488c7c2	0x1026fe464	0x1026fe464	mapped	0x1026fe464
+System.Net.Primitives	58	0x0600003b	System.Net.Cookie	VerifySetDefaults	0x2050	NoInlining	Assembly, HideBySig	0x1004cc560	0x9488c7f2	0x1026fe528	0x1026fe528	mapped	0x1026fe528
+System.Net.Primitives	59	0x0600003c	System.Net.Cookie	DomainCharsTest	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc564	0x9488ca22	0x1026fedec	0x1026fedec	mapped	0x1026fedec
+System.Net.Primitives	60	0x0600003d	System.Net.Cookie	set_Port	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc568	0x9488ca4b	0x1026fee94	0x1026fee94	mapped	0x1026fee94
+System.Net.Primitives	61	0x0600003e	System.Net.Cookie	get_PortList	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc56c	0x9488cadb	0x1026ff0d8	0x1026ff0d8	mapped	0x1026ff0d8
+System.Net.Primitives	62	0x0600003f	System.Net.Cookie	get_Secure	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc570	0x9488cae3	0x1026ff0fc	0x1026ff0fc	mapped	0x1026ff0fc
+System.Net.Primitives	63	0x06000040	System.Net.Cookie	set_Secure	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc574	0x9488caeb	0x1026ff120	0x1026ff120	mapped	0x1026ff120
+System.Net.Primitives	64	0x06000041	System.Net.Cookie	get_Value	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc578	0x9488caf3	0x1026ff144	0x1026ff144	mapped	0x1026ff144
+System.Net.Primitives	65	0x06000042	System.Net.Cookie	set_Value	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc57c	0x9488cafb	0x1026ff168	0x1026ff168	mapped	0x1026ff168
+System.Net.Primitives	66	0x06000043	System.Net.Cookie	get_Variant	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc580	0x9488cb1e	0x1026ff1f8	0x1026ff1f8	mapped	0x1026ff1f8
+System.Net.Primitives	67	0x06000044	System.Net.Cookie	get_DomainKey	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc584	0x9488cb26	0x1026ff21c	0x1026ff21c	mapped	0x1026ff21c
+System.Net.Primitives	68	0x06000045	System.Net.Cookie	get_Version	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc588	0x9488cb33	0x1026ff254	0x1026ff254	mapped	0x1026ff254
+System.Net.Primitives	69	0x06000046	System.Net.Cookie	set_Version	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc58c	0x9488cb3b	0x1026ff278	0x1026ff278	mapped	0x1026ff278
+System.Net.Primitives	70	0x06000047	System.Net.Cookie	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc590	0x9488cb66	0x1026ff328	0x1026ff328	mapped	0x1026ff328
+System.Net.Primitives	71	0x06000048	System.Net.Cookie	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc594	0x9488cbb3	0x1026ff460	0x1026ff460	mapped	0x1026ff460
+System.Net.Primitives	72	0x06000049	System.Net.Cookie	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc598	0x9488cc1b	0x1026ff604	0x1026ff604	mapped	0x1026ff604
+System.Net.Primitives	73	0x0600004a	System.Net.Cookie	ToString	0x2050	NoInlining	Assembly, HideBySig	0x1004cc59c	0x9488cc2e	0x1026ff654	0x1026ff654	mapped	0x1026ff654
+System.Net.Primitives	74	0x0600004b	System.Net.Cookie	ToServerString	0x2050	NoInlining	Assembly, HideBySig	0x1004cc5a0	0x9488ccd2	0x1026ff8e8	0x1026ff8e8	mapped	0x1026ff8e8
+System.Net.Primitives	75	0x0600004c	System.Net.Cookie	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cc5a4	0x9488cd80	0x1026ffba4	0x1026ffba4	mapped	0x1026ffba4
+System.Net.Primitives	76	0x0600004d	System.Net.HeaderVariantInfo	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc5a8	0x9488cdb3	0x1026ffc74	0x1026ffc74	mapped	0x1026ffc74
+System.Net.Primitives	77	0x0600004e	System.Net.HeaderVariantInfo	get_Name	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc5ac	0x9488cdc3	0x1026ffcb8	0x1026ffcb8	mapped	0x1026ffcb8
+System.Net.Primitives	78	0x0600004f	System.Net.HeaderVariantInfo	get_Variant	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc5b0	0x9488cdcb	0x1026ffcdc	0x1026ffcdc	mapped	0x1026ffcdc
+System.Net.Primitives	79	0x06000050	System.Net.CookieContainer	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc5b4	0x9488cdd3	0x1026ffd00	0x1026ffd00	mapped	0x1026ffd00
+System.Net.Primitives	80	0x06000051	System.Net.CookieContainer	CreateFqdnMyDomain	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc5b8	0x9488ce09	0x1026ffddc	0x1026ffddc	mapped	0x1026ffddc
+System.Net.Primitives	81	0x06000052	System.Net.CookieContainer	Add	0x2050	NoInlining	Assembly, HideBySig	0x1004cc5bc	0x97ffe92d	0x1004c6a70	0x1004c6a70	mapped	0x1004c6a70
+System.Net.Primitives	82	0x06000053	System.Net.CookieContainer	AgeCookies	0x2050	NoInlining	Private, HideBySig	0x1004cc5c0	0x97ffeac4	0x1004c70d0	0x1004c70d0	mapped	0x1004c70d0
+System.Net.Primitives	83	0x06000054	System.Net.CookieContainer	DomainTableCleanup	0x2050	NoInlining	Private, HideBySig	0x1004cc5c4	0x97ffee3f	0x1004c7ec0	0x1004c7ec0	mapped	0x1004c7ec0
+System.Net.Primitives	84	0x06000055	System.Net.CookieContainer	ExpireCollection	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc5c8	0x9488ce27	0x1026ffe64	0x1026ffe64	mapped	0x1026ffe64
+System.Net.Primitives	85	0x06000056	System.Net.CookieContainer	IsLocalDomain	0x2050	NoInlining	Assembly, HideBySig	0x1004cc5cc	0x9488ce7e	0x1026fffc4	0x1026fffc4	mapped	0x1026fffc4
+System.Net.Primitives	86	0x06000057	System.Net.CookieContainer	CookieCutter	0x2050	NoInlining	Assembly, HideBySig	0x1004cc5d0	0x97ffeff4	0x1004c85a0	0x1004c85a0	mapped	0x1004c85a0
+System.Net.Primitives	87	0x06000058	System.Net.CookieContainer	GetCookies	0x2050	NoInlining	Public, HideBySig	0x1004cc5d4	0x9488cf73	0x1027003a0	0x1027003a0	mapped	0x1027003a0
+System.Net.Primitives	88	0x06000059	System.Net.CookieContainer	InternalGetCookies	0x2050	NoInlining	Assembly, HideBySig	0x1004cc5d8	0x9488cfbf	0x1027004d4	0x1027004d4	mapped	0x1027004d4
+System.Net.Primitives	89	0x0600005a	System.Net.CookieContainer	BuildCookieCollectionFromDomainMatches	0x2050	NoInlining	Private, HideBySig	0x1004cc5dc	0x9488d11a	0x102700a44	0x102700a44	mapped	0x102700a44
+System.Net.Primitives	90	0x0600005b	System.Net.CookieContainer	PathMatch	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc5e0	0x9488d2a7	0x10270107c	0x10270107c	mapped	0x10270107c
+System.Net.Primitives	91	0x0600005c	System.Net.CookieContainer	MergeUpdateCollections	0x2050	NoInlining	Private, HideBySig	0x1004cc5e4	0x9488d2eb	0x102701190	0x102701190	mapped	0x102701190
+System.Net.Primitives	92	0x0600005d	System.Net.CookieContainer	GetCookieHeader	0x2050	NoInlining	Public, HideBySig	0x1004cc5e8	0x9488d3a1	0x10270146c	0x10270146c	mapped	0x10270146c
+System.Net.Primitives	93	0x0600005e	System.Net.CookieContainer	GetCookieHeader	0x2050	NoInlining	Assembly, HideBySig	0x1004cc5ec	0x9488d3c3	0x1027014f8	0x1027014f8	mapped	0x1027014f8
+System.Net.Primitives	94	0x0600005f	System.Net.CookieContainer	SetCookies	0x2050	NoInlining	Public, HideBySig	0x1004cc5f0	0x9488d433	0x1027016bc	0x1027016bc	mapped	0x1027016bc
+System.Net.Primitives	95	0x06000060	System.Net.CookieContainer	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cc5f4	0x9488d45b	0x102701760	0x102701760	mapped	0x102701760
+System.Net.Primitives	96	0x06000061	System.Net.PathList	get_Count	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc5f8	0x9488d4a2	0x102701880	0x102701880	mapped	0x102701880
+System.Net.Primitives	97	0x06000062	System.Net.PathList	GetCookiesCount	0x2050	NoInlining	Assembly, HideBySig	0x1004cc5fc	0x9488d4ba	0x1027018e4	0x1027018e4	mapped	0x1027018e4
+System.Net.Primitives	98	0x06000063	System.Net.PathList	get_Values	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc600	0x9488d527	0x102701a9c	0x102701a9c	mapped	0x102701a9c
+System.Net.Primitives	99	0x06000064	System.Net.PathList	get_Item	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc604	0x9488d53e	0x102701afc	0x102701afc	mapped	0x102701afc
+System.Net.Primitives	100	0x06000065	System.Net.PathList	set_Item	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc608	0x9488d57a	0x102701bf0	0x102701bf0	mapped	0x102701bf0
+System.Net.Primitives	101	0x06000066	System.Net.PathList	GetEnumerator	0x2050	NoInlining	Assembly, HideBySig	0x1004cc60c	0x9488d5b4	0x102701cdc	0x102701cdc	mapped	0x102701cdc
+System.Net.Primitives	102	0x06000067	System.Net.PathList	Remove	0x2050	NoInlining	Assembly, HideBySig	0x1004cc610	0x9488d5ec	0x102701dc0	0x102701dc0	mapped	0x102701dc0
+System.Net.Primitives	103	0x06000068	System.Net.PathList	get_List	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc614	0x9488d624	0x102701ea4	0x102701ea4	mapped	0x102701ea4
+System.Net.Primitives	104	0x06000069	System.Net.PathList	get_SyncRoot	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc618	0x9488d62c	0x102701ec8	0x102701ec8	mapped	0x102701ec8
+System.Net.Primitives	105	0x0600006a	System.Net.PathList	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc61c	0x9488d644	0x102701f2c	0x102701f2c	mapped	0x102701f2c
+System.Net.Primitives	106	0x0600006b	System.Net.PathList+PathListComparer	System.Collections.IComparer.Compare	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc620	0x9488d673	0x102701fec	0x102701fec	mapped	0x102701fec
+System.Net.Primitives	107	0x0600006c	System.Net.PathList+PathListComparer	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc624	0x9488d6d5	0x102702178	0x102702178	mapped	0x102702178
+System.Net.Primitives	108	0x0600006d	System.Net.PathList+PathListComparer	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cc628	0x9488d6e2	0x1027021b0	0x1027021b0	mapped	0x1027021b0
+System.Net.Primitives	109	0x0600006e	System.Net.CookieCollection	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc62c	0x9488d6fd	0x102702220	0x102702220	mapped	0x102702220
+System.Net.Primitives	110	0x0600006f	System.Net.CookieCollection	get_Item	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc630	0x9488d738	0x102702310	0x102702310	mapped	0x102702310
+System.Net.Primitives	111	0x06000070	System.Net.CookieCollection	Add	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc634	0x9488d775	0x102702408	0x102702408	mapped	0x102702408
+System.Net.Primitives	112	0x06000071	System.Net.CookieCollection	Clear	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc638	0x9488d7b0	0x1027024f8	0x1027024f8	mapped	0x1027024f8
+System.Net.Primitives	113	0x06000072	System.Net.CookieCollection	Contains	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc63c	0x9488d7c8	0x10270255c	0x10270255c	mapped	0x10270255c
+System.Net.Primitives	114	0x06000073	System.Net.CookieCollection	Remove	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc640	0x9488d7d9	0x1027025a4	0x1027025a4	mapped	0x1027025a4
+System.Net.Primitives	115	0x06000074	System.Net.CookieCollection	get_IsReadOnly	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004cc644	0x9488d7fb	0x102702630	0x102702630	mapped	0x102702630
+System.Net.Primitives	116	0x06000075	System.Net.CookieCollection	get_Count	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004cc648	0x9488d7fc	0x102702638	0x102702638	mapped	0x102702638
+System.Net.Primitives	117	0x06000076	System.Net.CookieCollection	get_IsSynchronized	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004cc64c	0x9488d814	0x10270269c	0x10270269c	mapped	0x10270269c
+System.Net.Primitives	118	0x06000077	System.Net.CookieCollection	get_SyncRoot	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004cc650	0x9488d815	0x1027026a4	0x1027026a4	mapped	0x1027026a4
+System.Net.Primitives	119	0x06000078	System.Net.CookieCollection	CopyTo	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc654	0x9488d815	0x1027026a8	0x1027026a8	mapped	0x1027026a8
+System.Net.Primitives	120	0x06000079	System.Net.CookieCollection	CopyTo	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc658	0x9488d841	0x10270275c	0x10270275c	mapped	0x10270275c
+System.Net.Primitives	121	0x0600007a	System.Net.CookieCollection	TimeStamp	0x2050	NoInlining	Assembly, HideBySig	0x1004cc65c	0x9488d85f	0x1027027d8	0x1027027d8	mapped	0x1027027d8
+System.Net.Primitives	122	0x0600007b	System.Net.CookieCollection	get_IsOtherVersionSeen	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc660	0x9488d89e	0x1027028d8	0x1027028d8	mapped	0x1027028d8
+System.Net.Primitives	123	0x0600007c	System.Net.CookieCollection	InternalAdd	0x2050	NoInlining	Assembly, HideBySig	0x1004cc664	0x9488d8a6	0x1027028fc	0x1027028fc	mapped	0x1027028fc
+System.Net.Primitives	124	0x0600007d	System.Net.CookieCollection	IndexOf	0x2050	NoInlining	Assembly, HideBySig	0x1004cc668	0x9488d939	0x102702b4c	0x102702b4c	mapped	0x102702b4c
+System.Net.Primitives	125	0x0600007e	System.Net.CookieCollection	RemoveAt	0x2050	NoInlining	Assembly, HideBySig	0x1004cc66c	0x9488d9d3	0x102702db8	0x102702db8	mapped	0x102702db8
+System.Net.Primitives	126	0x0600007f	System.Net.CookieCollection	System.Collections.Generic.IEnumerable<System.Net.Cookie>.GetEnumerator	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc670	0x9488d9ed	0x102702e24	0x102702e24	mapped	0x102702e24
+System.Net.Primitives	127	0x06000080	System.Net.CookieCollection	GetEnumerator	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc674	0x9488da10	0x102702eb4	0x102702eb4	mapped	0x102702eb4
+System.Net.Primitives	128	0x06000081	System.Net.CookieCollection+<System-Collections-Generic-IEnumerable<System-Net-Cookie>-GetEnumerator>d__32	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc678	0x9488da28	0x102702f18	0x102702f18	mapped	0x102702f18
+System.Net.Primitives	129	0x06000082	System.Net.CookieCollection+<System-Collections-Generic-IEnumerable<System-Net-Cookie>-GetEnumerator>d__32	System.IDisposable.Dispose	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc67c	0x9488da30	0x102702f3c	0x102702f3c	mapped	0x102702f3c
+System.Net.Primitives	130	0x06000083	System.Net.CookieCollection+<System-Collections-Generic-IEnumerable<System-Net-Cookie>-GetEnumerator>d__32	MoveNext	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc680	0x9488da53	0x102702fcc	0x102702fcc	mapped	0x102702fcc
+System.Net.Primitives	131	0x06000084	System.Net.CookieCollection+<System-Collections-Generic-IEnumerable<System-Net-Cookie>-GetEnumerator>d__32	<>m__Finally1	0x2050	NoInlining	Private, HideBySig	0x1004cc684	0x9488dac5	0x102703198	0x102703198	mapped	0x102703198
+System.Net.Primitives	132	0x06000085	System.Net.CookieCollection+<System-Collections-Generic-IEnumerable<System-Net-Cookie>-GetEnumerator>d__32	System.Collections.Generic.IEnumerator<System.Net.Cookie>.get_Current	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004cc688	0x9488daf5	0x10270325c	0x10270325c	mapped	0x10270325c
+System.Net.Primitives	133	0x06000086	System.Net.CookieCollection+<System-Collections-Generic-IEnumerable<System-Net-Cookie>-GetEnumerator>d__32	System.Collections.IEnumerator.Reset	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc68c	0x9488dafd	0x102703280	0x102703280	mapped	0x102703280
+System.Net.Primitives	134	0x06000087	System.Net.CookieCollection+<System-Collections-Generic-IEnumerable<System-Net-Cookie>-GetEnumerator>d__32	System.Collections.IEnumerator.get_Current	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004cc690	0x9488db07	0x1027032ac	0x1027032ac	mapped	0x1027032ac
+System.Net.Primitives	135	0x06000088	System.Net.CookieException	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc694	0x9488db0f	0x1027032d0	0x1027032d0	mapped	0x1027032d0
+System.Net.Primitives	136	0x06000089	System.Net.CookieException	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc698	0x9488db25	0x10270332c	0x10270332c	mapped	0x10270332c
+System.Net.Primitives	137	0x0600008a	System.Net.CookieException	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc69c	0x9488db40	0x10270339c	0x10270339c	mapped	0x10270339c
+System.Net.Primitives	138	0x0600008b	System.Net.CookieException	GetObjectData	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc6a0	0x9488db55	0x1027033f4	0x1027033f4	mapped	0x1027033f4
+System.Net.Primitives	139	0x0600008c	System.Net.CredentialCache	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc6a4	0x9488db6a	0x10270344c	0x10270344c	mapped	0x10270344c
+System.Net.Primitives	140	0x0600008d	System.Net.CredentialCache	Add	0x2050	NoInlining	Public, HideBySig	0x1004cc6a8	0x9488db6a	0x102703450	0x102703450	mapped	0x102703450
+System.Net.Primitives	141	0x0600008e	System.Net.CredentialCache	GetCredential	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc6ac	0x9488dbec	0x10270365c	0x10270365c	mapped	0x10270365c
+System.Net.Primitives	142	0x0600008f	System.Net.CredentialCache	GetEnumerator	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc6b0	0x9488dc70	0x102703870	0x102703870	mapped	0x102703870
+System.Net.Primitives	143	0x06000090	System.Net.CredentialCache	get_DefaultCredentials	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1004cc6b4	0x9488dc7d	0x1027038a8	0x1027038a8	mapped	0x1027038a8
+System.Net.Primitives	144	0x06000091	System.Net.CredentialCache	get_DefaultNetworkCredentials	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1004cc6b8	0x9488dc8d	0x1027038ec	0x1027038ec	mapped	0x1027038ec
+System.Net.Primitives	145	0x06000092	System.Net.CredentialCache+CredentialEnumerator	Create	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc6bc	0x9488dc9d	0x102703930	0x102703930	mapped	0x102703930
+System.Net.Primitives	146	0x06000093	System.Net.CredentialCache+CredentialEnumerator	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x1004cc6c0	0x9488dceb	0x102703a6c	0x102703a6c	mapped	0x102703a6c
+System.Net.Primitives	147	0x06000094	System.Net.CredentialCache+CredentialEnumerator	get_Current	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004cc6c4	0x9488dd00	0x102703ac4	0x102703ac4	mapped	0x102703ac4
+System.Net.Primitives	148	0x06000095	System.Net.CredentialCache+CredentialEnumerator	MoveNext	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc6c8	0x9488dd2a	0x102703b70	0x102703b70	mapped	0x102703b70
+System.Net.Primitives	149	0x06000096	System.Net.CredentialCache+CredentialEnumerator	MoveNext	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004cc6cc	0x9488dd54	0x102703c1c	0x102703c1c	mapped	0x102703c1c
+System.Net.Primitives	150	0x06000097	System.Net.CredentialCache+CredentialEnumerator	Reset	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004cc6d0	0x9488dd5f	0x102703c4c	0x102703c4c	mapped	0x102703c4c
+System.Net.Primitives	151	0x06000098	System.Net.CredentialCache+CredentialEnumerator+SingleTableCredentialEnumerator`1	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc6d4	0x9488dd67	0x102703c70	0x102703c70	mapped	0x102703c70
+System.Net.Primitives	152	0x06000099	System.Net.CredentialCache+CredentialEnumerator+SingleTableCredentialEnumerator`1	MoveNext	0x2050	NoInlining	Family, Virtual, HideBySig	0x1004cc6d8	0x9488ddc4	0x102703de8	0x102703de8	mapped	0x102703de8
+System.Net.Primitives	153	0x0600009a	System.Net.CredentialCache+CredentialEnumerator+SingleTableCredentialEnumerator`1	Reset	0x2050	NoInlining	Public, Virtual, HideBySig	0x1004cc6dc	0x9488ddf4	0x102703eac	0x102703eac	mapped	0x102703eac
+System.Net.Primitives	154	0x0600009b	System.Net.CredentialCache+CredentialEnumerator+DoubleTableCredentialEnumerator	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc6e0	0x9488de23	0x102703f6c	0x102703f6c	mapped	0x102703f6c
+System.Net.Primitives	155	0x0600009c	System.Net.CredentialCache+CredentialEnumerator+DoubleTableCredentialEnumerator	MoveNext	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004cc6e4	0x9488de74	0x1027040b4	0x1027040b4	mapped	0x1027040b4
+System.Net.Primitives	156	0x0600009d	System.Net.CredentialCache+CredentialEnumerator+DoubleTableCredentialEnumerator	Reset	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc6e8	0x9488dea4	0x102704178	0x102704178	mapped	0x102704178
+System.Net.Primitives	157	0x0600009e	System.Net.CredentialCache+CredentialEnumerator+DictionaryEnumeratorHelper	MoveNext	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc6ec	0x9488dec9	0x102704210	0x102704210	mapped	0x102704210
+System.Net.Primitives	158	0x0600009f	System.Net.CredentialCache+CredentialEnumerator+DictionaryEnumeratorHelper	Reset	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc6f0	0x9488df03	0x1027042fc	0x1027042fc	mapped	0x1027042fc
+System.Net.Primitives	159	0x060000a0	System.Net.SystemNetworkCredential	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x1004cc6f4	0x9488df32	0x1027043bc	0x1027043bc	mapped	0x1027043bc
+System.Net.Primitives	160	0x060000a1	System.Net.SystemNetworkCredential	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cc6f8	0x9488df4f	0x102704434	0x102704434	mapped	0x102704434
+System.Net.Primitives	161	0x060000a2	System.Net.CredentialHostKey	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc6fc	0x9488df6c	0x1027044ac	0x1027044ac	mapped	0x1027044ac
+System.Net.Primitives	162	0x060000a3	System.Net.CredentialHostKey	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc700	0x9488dfb0	0x1027045c0	0x1027045c0	mapped	0x1027045c0
+System.Net.Primitives	163	0x060000a4	System.Net.CredentialHostKey	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc704	0x9488dfe6	0x10270469c	0x10270469c	mapped	0x10270469c
+System.Net.Primitives	164	0x060000a5	System.Net.CredentialHostKey	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc708	0x9488e01f	0x102704784	0x102704784	mapped	0x102704784
+System.Net.Primitives	165	0x060000a6	System.Net.CredentialKey	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc70c	0x9488e0a0	0x10270498c	0x10270498c	mapped	0x10270498c
+System.Net.Primitives	166	0x060000a7	System.Net.CredentialKey	Match	0x2050	NoInlining	Assembly, HideBySig	0x1004cc710	0x9488e0d0	0x102704a50	0x102704a50	mapped	0x102704a50
+System.Net.Primitives	167	0x060000a8	System.Net.CredentialKey	IsPrefix	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc714	0x9488e109	0x102704b38	0x102704b38	mapped	0x102704b38
+System.Net.Primitives	168	0x060000a9	System.Net.CredentialKey	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc718	0x9488e16e	0x102704cd0	0x102704cd0	mapped	0x102704cd0
+System.Net.Primitives	169	0x060000aa	System.Net.CredentialKey	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc71c	0x9488e1a5	0x102704db0	0x102704db0	mapped	0x102704db0
+System.Net.Primitives	170	0x060000ab	System.Net.CredentialKey	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc720	0x9488e1da	0x102704e88	0x102704e88	mapped	0x102704e88
+System.Net.Primitives	171	0x060000ac	System.Net.CredentialKey	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc724	0x9488e1fb	0x102704f10	0x102704f10	mapped	0x102704f10
+System.Net.Primitives	172	0x060000ad	System.Net.DnsEndPoint	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc728	0x9488e29f	0x1027051a4	0x1027051a4	mapped	0x1027051a4
+System.Net.Primitives	173	0x060000ae	System.Net.DnsEndPoint	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc72c	0x9488e2b3	0x1027051f8	0x1027051f8	mapped	0x1027051f8
+System.Net.Primitives	174	0x060000af	System.Net.DnsEndPoint	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc730	0x9488e305	0x102705344	0x102705344	mapped	0x102705344
+System.Net.Primitives	175	0x060000b0	System.Net.DnsEndPoint	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc734	0x9488e342	0x10270543c	0x10270543c	mapped	0x10270543c
+System.Net.Primitives	176	0x060000b1	System.Net.DnsEndPoint	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc738	0x9488e375	0x10270550c	0x10270550c	mapped	0x10270550c
+System.Net.Primitives	177	0x060000b2	System.Net.DnsEndPoint	get_Host	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc73c	0x9488e3ef	0x1027056f8	0x1027056f8	mapped	0x1027056f8
+System.Net.Primitives	178	0x060000b3	System.Net.DnsEndPoint	get_AddressFamily	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004cc740	0x9488e3f7	0x10270571c	0x10270571c	mapped	0x10270571c
+System.Net.Primitives	179	0x060000b4	System.Net.DnsEndPoint	get_Port	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc744	0x9488e3ff	0x102705740	0x102705740	mapped	0x102705740
+System.Net.Primitives	180	0x060000b5	System.Net.EndPoint	get_AddressFamily	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004cc748	0x9488e407	0x102705764	0x102705764	mapped	0x102705764
+System.Net.Primitives	181	0x060000b6	System.Net.EndPoint	Serialize	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004cc74c	0x9488e415	0x1027057a0	0x1027057a0	mapped	0x1027057a0
+System.Net.Primitives	182	0x060000b7	System.Net.EndPoint	Create	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004cc750	0x9488e423	0x1027057dc	0x1027057dc	mapped	0x1027057dc
+System.Net.Primitives	183	0x060000b8	System.Net.EndPoint	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x1004cc754	0x9488e431	0x102705818	0x102705818	mapped	0x102705818
+System.Net.Primitives	184	0x060000b9	System.Net.HttpVersion	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cc758	0x9488e431	0x10270581c	0x10270581c	mapped	0x10270581c
+System.Net.Primitives	185	0x060000ba	System.Net.ICredentials	GetCredential	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1004cc75c	0x97ffff47	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	186	0x060000bb	System.Net.IPAddress	get_IsIPv4	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1004cc760	0x9488e47b	0x10270594c	0x10270594c	mapped	0x10270594c
+System.Net.Primitives	187	0x060000bc	System.Net.IPAddress	get_IsIPv6	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1004cc764	0x9488e485	0x102705978	0x102705978	mapped	0x102705978
+System.Net.Primitives	188	0x060000bd	System.Net.IPAddress	get_PrivateAddress	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc768	0x9488e48f	0x1027059a4	0x1027059a4	mapped	0x1027059a4
+System.Net.Primitives	189	0x060000be	System.Net.IPAddress	set_PrivateAddress	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1004cc76c	0x9488e497	0x1027059c8	0x1027059c8	mapped	0x1027059c8
+System.Net.Primitives	190	0x060000bf	System.Net.IPAddress	get_PrivateScopeId	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1004cc770	0x9488e4a0	0x1027059f0	0x1027059f0	mapped	0x1027059f0
+System.Net.Primitives	191	0x060000c0	System.Net.IPAddress	set_PrivateScopeId	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1004cc774	0x9488e4a8	0x102705a14	0x102705a14	mapped	0x102705a14
+System.Net.Primitives	192	0x060000c1	System.Net.IPAddress	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc778	0x9488e4b1	0x102705a3c	0x102705a3c	mapped	0x102705a3c
+System.Net.Primitives	193	0x060000c2	System.Net.IPAddress	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc77c	0x9488e4d6	0x102705ad4	0x102705ad4	mapped	0x102705ad4
+System.Net.Primitives	194	0x060000c3	System.Net.IPAddress	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc780	0x9488e554	0x102705cd0	0x102705cd0	mapped	0x102705cd0
+System.Net.Primitives	195	0x060000c4	System.Net.IPAddress	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x1004cc784	0x9488e581	0x102705d88	0x102705d88	mapped	0x102705d88
+System.Net.Primitives	196	0x060000c5	System.Net.IPAddress	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc788	0x9488e5a2	0x102705e10	0x102705e10	mapped	0x102705e10
+System.Net.Primitives	197	0x060000c6	System.Net.IPAddress	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc78c	0x9488e5bf	0x102705e88	0x102705e88	mapped	0x102705e88
+System.Net.Primitives	198	0x060000c7	System.Net.IPAddress	ReadUInt16NumbersFromBytes	0x2050	264	Private, Static, HideBySig	0x1004cc790	0x9488e63d	0x102706084	0x102706084	mapped	0x102706084
+System.Net.Primitives	199	0x060000c8	System.Net.IPAddress	TryParse	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc794	0x9488e68f	0x1027061d0	0x1027061d0	mapped	0x1027061d0
+System.Net.Primitives	200	0x060000c9	System.Net.IPAddress	TryParse	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc798	0x9488e6c3	0x1027062a4	0x1027062a4	mapped	0x1027062a4
+System.Net.Primitives	201	0x060000ca	System.Net.IPAddress	System.IParsable<System.Net.IPAddress>.TryParse	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc79c	0x9488e6f1	0x102706360	0x102706360	mapped	0x102706360
+System.Net.Primitives	202	0x060000cb	System.Net.IPAddress	System.ISpanParsable<System.Net.IPAddress>.TryParse	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc7a0	0x9488e70b	0x1027063cc	0x1027063cc	mapped	0x1027063cc
+System.Net.Primitives	203	0x060000cc	System.Net.IPAddress	Parse	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc7a4	0x9488e729	0x102706448	0x102706448	mapped	0x102706448
+System.Net.Primitives	204	0x060000cd	System.Net.IPAddress	Parse	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc7a8	0x9488e74b	0x1027064d4	0x1027064d4	mapped	0x1027064d4
+System.Net.Primitives	205	0x060000ce	System.Net.IPAddress	System.ISpanParsable<System.Net.IPAddress>.Parse	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc7ac	0x9488e766	0x102706544	0x102706544	mapped	0x102706544
+System.Net.Primitives	206	0x060000cf	System.Net.IPAddress	System.IParsable<System.Net.IPAddress>.Parse	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc7b0	0x9488e780	0x1027065b0	0x1027065b0	mapped	0x1027065b0
+System.Net.Primitives	207	0x060000d0	System.Net.IPAddress	TryWriteBytes	0x2050	NoInlining	Public, HideBySig	0x1004cc7b4	0x9488e798	0x102706614	0x102706614	mapped	0x102706614
+System.Net.Primitives	208	0x060000d1	System.Net.IPAddress	WriteIPv6Bytes	0x2050	264	Private, HideBySig	0x1004cc7b8	0x9488e813	0x102706804	0x102706804	mapped	0x102706804
+System.Net.Primitives	209	0x060000d2	System.Net.IPAddress	WriteIPv4Bytes	0x2050	264	Private, HideBySig	0x1004cc7bc	0x9488e869	0x102706960	0x102706960	mapped	0x102706960
+System.Net.Primitives	210	0x060000d3	System.Net.IPAddress	GetAddressBytes	0x2050	NoInlining	Public, HideBySig	0x1004cc7c0	0x9488e894	0x102706a10	0x102706a10	mapped	0x102706a10
+System.Net.Primitives	211	0x060000d4	System.Net.IPAddress	get_AddressFamily	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc7c4	0x9488e900	0x102706bc4	0x102706bc4	mapped	0x102706bc4
+System.Net.Primitives	212	0x060000d5	System.Net.IPAddress	get_ScopeId	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc7c8	0x9488e90c	0x102706bf8	0x102706bf8	mapped	0x102706bf8
+System.Net.Primitives	213	0x060000d6	System.Net.IPAddress	set_ScopeId	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc7cc	0x9488e921	0x102706c50	0x102706c50	mapped	0x102706c50
+System.Net.Primitives	214	0x060000d7	System.Net.IPAddress	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc7d0	0x9488e94f	0x102706d0c	0x102706d0c	mapped	0x102706d0c
+System.Net.Primitives	215	0x060000d8	System.Net.IPAddress	System.IFormattable.ToString	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc7d4	0x9488e990	0x102706e14	0x102706e14	mapped	0x102706e14
+System.Net.Primitives	216	0x060000d9	System.Net.IPAddress	System.ISpanFormattable.TryFormat	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc7d8	0x9488e9a5	0x102706e6c	0x102706e6c	mapped	0x102706e6c
+System.Net.Primitives	217	0x060000da	System.Net.IPAddress	System.IUtf8SpanFormattable.TryFormat	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc7dc	0x9488e9c7	0x102706ef8	0x102706ef8	mapped	0x102706ef8
+System.Net.Primitives	218	0x060000db	System.Net.IPAddress	TryFormatCore	0x2050	NoInlining	Private, HideBySig	0x1004cc7e0	0x97ffff26	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	219	0x060000dc	System.Net.IPAddress	HostToNetworkOrder	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc7e4	0x9488e9e8	0x102706f84	0x102706f84	mapped	0x102706f84
+System.Net.Primitives	220	0x060000dd	System.Net.IPAddress	NetworkToHostOrder	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc7e8	0x9488e9f7	0x102706fc4	0x102706fc4	mapped	0x102706fc4
+System.Net.Primitives	221	0x060000de	System.Net.IPAddress	IsLoopback	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc7ec	0x9488ea06	0x102707004	0x102707004	mapped	0x102707004
+System.Net.Primitives	222	0x060000df	System.Net.IPAddress	get_IsIPv6Multicast	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc7f0	0x9488ea42	0x1027070f8	0x1027070f8	mapped	0x1027070f8
+System.Net.Primitives	223	0x060000e0	System.Net.IPAddress	get_IsIPv6LinkLocal	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc7f4	0x9488ea58	0x102707154	0x102707154	mapped	0x102707154
+System.Net.Primitives	224	0x060000e1	System.Net.IPAddress	get_IsIPv4MappedToIPv6	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc7f8	0x9488ea70	0x1027071b8	0x1027071b8	mapped	0x1027071b8
+System.Net.Primitives	225	0x060000e2	System.Net.IPAddress	get_Address	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc7fc	0x9488eaa0	0x10270727c	0x10270727c	mapped	0x10270727c
+System.Net.Primitives	226	0x060000e3	System.Net.IPAddress	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc800	0x9488eab5	0x1027072d4	0x1027072d4	mapped	0x1027072d4
+System.Net.Primitives	227	0x060000e4	System.Net.IPAddress	Equals	0x2050	NoInlining	Assembly, HideBySig	0x1004cc804	0x9488eadb	0x102707370	0x102707370	mapped	0x102707370
+System.Net.Primitives	228	0x060000e5	System.Net.IPAddress	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc808	0x9488eb33	0x1027074d4	0x1027074d4	mapped	0x1027074d4
+System.Net.Primitives	229	0x060000e6	System.Net.IPAddress	MapToIPv6	0x2050	NoInlining	Public, HideBySig	0x1004cc80c	0x9488eb6e	0x1027075c4	0x1027075c4	mapped	0x1027075c4
+System.Net.Primitives	230	0x060000e7	System.Net.IPAddress	MapToIPv4	0x2050	NoInlining	Public, HideBySig	0x1004cc810	0x9488eba7	0x1027076ac	0x1027076ac	mapped	0x1027076ac
+System.Net.Primitives	231	0x060000e8	System.Net.IPAddress	ThrowAddressNullException	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc814	0x9488ebed	0x1027077c8	0x1027077c8	mapped	0x1027077c8
+System.Net.Primitives	232	0x060000e9	System.Net.IPAddress	ThrowSocketOperationNotSupported	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc818	0x9488ec05	0x10270782c	0x10270782c	mapped	0x10270782c
+System.Net.Primitives	233	0x060000ea	System.Net.IPAddress	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cc81c	0x9488ec1d	0x102707890	0x102707890	mapped	0x102707890
+System.Net.Primitives	234	0x060000eb	System.Net.IPAddress+ReadOnlyIPAddress	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc820	0x9488ec8f	0x102707a5c	0x102707a5c	mapped	0x102707a5c
+System.Net.Primitives	235	0x060000ec	System.Net.IPAddressParser	Parse	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc824	0x9488eca2	0x102707aac	0x102707aac	mapped	0x102707aac
+System.Net.Primitives	236	0x060000ed	System.Net.IPAddressParser	TryParseIpv4	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc828	0x9488ed0d	0x102707c5c	0x102707c5c	mapped	0x102707c5c
+System.Net.Primitives	237	0x060000ee	System.Net.IPAddressParser	TryParseIPv6	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc82c	0x9488ed39	0x102707d10	0x102707d10	mapped	0x102707d10
+System.Net.Primitives	238	0x060000ef	System.Net.IPAddressParser	FormatIPv4Address	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc830	0x97ffff12	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	239	0x060000f0	System.Net.IPAddressParser	FormatIPv6Address	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc834	0x97ffff11	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	240	0x060000f1	System.Net.IPAddressParser	ExtractIPv4Address	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc838	0x9488ed9a	0x102707ea0	0x102707ea0	mapped	0x102707ea0
+System.Net.Primitives	241	0x060000f2	System.Net.IPAddressParser	<FormatIPv4Address>g__FormatByte|5_0	0x2050	264	Assembly, Static, HideBySig	0x1004cc83c	0x97ffff0f	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	242	0x060000f3	System.Net.IPAddressParser	<FormatIPv6Address>g__AppendSections|6_0	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc840	0x97ffff0e	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	243	0x060000f4	System.Net.IPAddressParser	<FormatIPv6Address>g__AppendHex|6_1	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc844	0x97ffff0d	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	244	0x060000f5	System.Net.IPEndPoint	get_AddressFamily	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004cc848	0x9488edbe	0x102707f40	0x102707f40	mapped	0x102707f40
+System.Net.Primitives	245	0x060000f6	System.Net.IPEndPoint	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc84c	0x9488edce	0x102707f84	0x102707f84	mapped	0x102707f84
+System.Net.Primitives	246	0x060000f7	System.Net.IPEndPoint	get_Address	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc850	0x9488ee05	0x102708064	0x102708064	mapped	0x102708064
+System.Net.Primitives	247	0x060000f8	System.Net.IPEndPoint	set_Address	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc854	0x9488ee0d	0x102708088	0x102708088	mapped	0x102708088
+System.Net.Primitives	248	0x060000f9	System.Net.IPEndPoint	get_Port	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc858	0x9488ee35	0x10270812c	0x10270812c	mapped	0x10270812c
+System.Net.Primitives	249	0x060000fa	System.Net.IPEndPoint	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc85c	0x9488ee3d	0x102708150	0x102708150	mapped	0x102708150
+System.Net.Primitives	250	0x060000fb	System.Net.IPEndPoint	Serialize	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc860	0x9488eef3	0x10270842c	0x10270842c	mapped	0x10270842c
+System.Net.Primitives	251	0x060000fc	System.Net.IPEndPoint	Create	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc864	0x9488ef1a	0x1027084cc	0x1027084cc	mapped	0x1027084cc
+System.Net.Primitives	252	0x060000fd	System.Net.IPEndPoint	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc868	0x9488efaa	0x102708710	0x102708710	mapped	0x102708710
+System.Net.Primitives	253	0x060000fe	System.Net.IPEndPoint	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc86c	0x9488efdd	0x1027087e0	0x1027087e0	mapped	0x1027087e0
+System.Net.Primitives	254	0x060000ff	System.Net.IWebProxy	GetProxy	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1004cc870	0x97ffff02	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	255	0x06000100	System.Net.IWebProxy	IsBypassed	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1004cc874	0x97ffff01	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	256	0x06000101	System.Net.IWebProxy	get_Credentials	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x1004cc878	0x97ffff00	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	257	0x06000102	System.Net.NetEventSource	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc87c	0x9488eff4	0x10270884c	0x10270884c	mapped	0x10270884c
+System.Net.Primitives	258	0x06000103	System.Net.NetEventSource	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cc880	0x9488f009	0x1027088a4	0x1027088a4	mapped	0x1027088a4
+System.Net.Primitives	259	0x06000104	System.Net.NetworkCredential	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc884	0x9488f024	0x102708914	0x102708914	mapped	0x102708914
+System.Net.Primitives	260	0x06000105	System.Net.NetworkCredential	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc888	0x9488f045	0x10270899c	0x10270899c	mapped	0x10270899c
+System.Net.Primitives	261	0x06000106	System.Net.NetworkCredential	get_UserName	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc88c	0x9488f082	0x102708a94	0x102708a94	mapped	0x102708a94
+System.Net.Primitives	262	0x06000107	System.Net.NetworkCredential	set_UserName	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc890	0x9488f08a	0x102708ab8	0x102708ab8	mapped	0x102708ab8
+System.Net.Primitives	263	0x06000108	System.Net.NetworkCredential	get_Password	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc894	0x9488f0ad	0x102708b48	0x102708b48	mapped	0x102708b48
+System.Net.Primitives	264	0x06000109	System.Net.NetworkCredential	set_Password	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc898	0x9488f0de	0x102708c10	0x102708c10	mapped	0x102708c10
+System.Net.Primitives	265	0x0600010a	System.Net.NetworkCredential	get_Domain	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc89c	0x9488f10d	0x102708cd0	0x102708cd0	mapped	0x102708cd0
+System.Net.Primitives	266	0x0600010b	System.Net.NetworkCredential	set_Domain	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc8a0	0x9488f115	0x102708cf4	0x102708cf4	mapped	0x102708cf4
+System.Net.Primitives	267	0x0600010c	System.Net.NetworkCredential	GetCredential	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc8a4	0x9488f138	0x102708d84	0x102708d84	mapped	0x102708d84
+System.Net.Primitives	268	0x0600010d	System.Net.NetworkCredential	MarshalToString	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc8a8	0x9488f138	0x102708d88	0x102708d88	mapped	0x102708d88
+System.Net.Primitives	269	0x0600010e	System.Net.TransportContext	GetChannelBinding	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1004cc8ac	0x97fffef3	0x1004cc478		absent	0x1004cc478
+System.Net.Primitives	270	0x0600010f	System.Net.TransportContext	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x1004cc8b0	0x9488f178	0x102708e90	0x102708e90	mapped	0x102708e90
+System.Net.Primitives	271	0x06000110	System.Net.CookieComparer	Equals	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc8b4	0x9488f178	0x102708e94	0x102708e94	mapped	0x102708e94
+System.Net.Primitives	272	0x06000111	System.Net.CookieComparer	EqualDomains	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc8b8	0x9488f1ac	0x102708f68	0x102708f68	mapped	0x102708f68
+System.Net.Primitives	273	0x06000112	System.Net.CookieTokenizer	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc8bc	0x9488f1e6	0x102709054	0x102709054	mapped	0x102709054
+System.Net.Primitives	274	0x06000113	System.Net.CookieTokenizer	get_EndOfCookie	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8c0	0x9488f210	0x102709100	0x102709100	mapped	0x102709100
+System.Net.Primitives	275	0x06000114	System.Net.CookieTokenizer	set_EndOfCookie	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8c4	0x9488f218	0x102709124	0x102709124	mapped	0x102709124
+System.Net.Primitives	276	0x06000115	System.Net.CookieTokenizer	get_Eof	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8c8	0x9488f220	0x102709148	0x102709148	mapped	0x102709148
+System.Net.Primitives	277	0x06000116	System.Net.CookieTokenizer	get_Name	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8cc	0x9488f22b	0x102709178	0x102709178	mapped	0x102709178
+System.Net.Primitives	278	0x06000117	System.Net.CookieTokenizer	set_Name	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8d0	0x9488f233	0x10270919c	0x10270919c	mapped	0x10270919c
+System.Net.Primitives	279	0x06000118	System.Net.CookieTokenizer	get_Quoted	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8d4	0x9488f242	0x1027091dc	0x1027091dc	mapped	0x1027091dc
+System.Net.Primitives	280	0x06000119	System.Net.CookieTokenizer	set_Quoted	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8d8	0x9488f24a	0x102709200	0x102709200	mapped	0x102709200
+System.Net.Primitives	281	0x0600011a	System.Net.CookieTokenizer	get_Token	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8dc	0x9488f252	0x102709224	0x102709224	mapped	0x102709224
+System.Net.Primitives	282	0x0600011b	System.Net.CookieTokenizer	set_Token	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8e0	0x9488f25a	0x102709248	0x102709248	mapped	0x102709248
+System.Net.Primitives	283	0x0600011c	System.Net.CookieTokenizer	get_Value	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8e4	0x9488f262	0x10270926c	0x10270926c	mapped	0x10270926c
+System.Net.Primitives	284	0x0600011d	System.Net.CookieTokenizer	set_Value	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc8e8	0x9488f26a	0x102709290	0x102709290	mapped	0x102709290
+System.Net.Primitives	285	0x0600011e	System.Net.CookieTokenizer	Extract	0x2050	NoInlining	Assembly, HideBySig	0x1004cc8ec	0x9488f279	0x1027092d0	0x1027092d0	mapped	0x1027092d0
+System.Net.Primitives	286	0x0600011f	System.Net.CookieTokenizer	FindNext	0x2050	NoInlining	Assembly, HideBySig	0x1004cc8f0	0x9488f2a7	0x10270938c	0x10270938c	mapped	0x10270938c
+System.Net.Primitives	287	0x06000120	System.Net.CookieTokenizer	Next	0x2050	NoInlining	Assembly, HideBySig	0x1004cc8f4	0x9488f380	0x1027096f4	0x1027096f4	mapped	0x1027096f4
+System.Net.Primitives	288	0x06000121	System.Net.CookieTokenizer	Reset	0x2050	NoInlining	Assembly, HideBySig	0x1004cc8f8	0x9488f3f3	0x1027098c4	0x1027098c4	mapped	0x1027098c4
+System.Net.Primitives	289	0x06000122	System.Net.CookieTokenizer	TokenFromName	0x2050	NoInlining	Assembly, HideBySig	0x1004cc8fc	0x9488f41d	0x102709970	0x102709970	mapped	0x102709970
+System.Net.Primitives	290	0x06000123	System.Net.CookieTokenizer	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cc900	0x9488f4b4	0x102709bd0	0x102709bd0	mapped	0x102709bd0
+System.Net.Primitives	291	0x06000124	System.Net.CookieTokenizer+RecognizedAttribute	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc904	0x9488f5ee	0x10270a0bc	0x10270a0bc	mapped	0x10270a0bc
+System.Net.Primitives	292	0x06000125	System.Net.CookieTokenizer+RecognizedAttribute	get_Token	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004cc908	0x9488f5fe	0x10270a100	0x10270a100	mapped	0x10270a100
+System.Net.Primitives	293	0x06000126	System.Net.CookieTokenizer+RecognizedAttribute	IsEqualTo	0x2050	NoInlining	Assembly, HideBySig	0x1004cc90c	0x9488f606	0x10270a124	0x10270a124	mapped	0x10270a124
+System.Net.Primitives	294	0x06000127	System.Net.CookieParser	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc910	0x9488f61c	0x10270a180	0x10270a180	mapped	0x10270a180
+System.Net.Primitives	295	0x06000128	System.Net.CookieParser	InternalSetNameMethod	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc914	0x9488f63f	0x10270a210	0x10270a210	mapped	0x10270a210
+System.Net.Primitives	296	0x06000129	System.Net.CookieParser	get_IsQuotedDomainField	0x2050	NoInlining	Private, Static, HideBySig, SpecialName	0x1004cc918	0x9488f654	0x10270a268	0x10270a268	mapped	0x10270a268
+System.Net.Primitives	297	0x0600012a	System.Net.CookieParser	get_IsQuotedVersionField	0x2050	NoInlining	Private, Static, HideBySig, SpecialName	0x1004cc91c	0x9488f67c	0x10270a30c	0x10270a30c	mapped	0x10270a30c
+System.Net.Primitives	298	0x0600012b	System.Net.CookieParser	Get	0x2050	NoInlining	Assembly, HideBySig	0x1004cc920	0x9488f6a4	0x10270a3b0	0x10270a3b0	mapped	0x10270a3b0
+System.Net.Primitives	299	0x0600012c	System.Net.CookieParser	CheckQuoted	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cc924	0x9488f97a	0x10270af0c	0x10270af0c	mapped	0x10270af0c
+System.Net.Primitives	300	0x0600012d	System.Net.CookieParser	EndofHeader	0x2050	NoInlining	Assembly, HideBySig	0x1004cc928	0x9488f99f	0x10270afa4	0x10270afa4	mapped	0x10270afa4
+System.Net.Primitives	301	0x0600012e	System.Net.TcpValidationHelpers	ValidatePortNumber	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc92c	0x9488f9aa	0x10270afd4	0x10270afd4	mapped	0x10270afd4
+System.Net.Primitives	302	0x0600012f	System.Net.SocketAddress	get_Family	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc930	0x9488f9ac	0x10270afe0	0x10270afe0	mapped	0x10270afe0
+System.Net.Primitives	303	0x06000130	System.Net.SocketAddress	get_Size	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc934	0x9488f9c5	0x10270b048	0x10270b048	mapped	0x10270b048
+System.Net.Primitives	304	0x06000131	System.Net.SocketAddress	set_Size	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc938	0x9488f9cd	0x10270b06c	0x10270b06c	mapped	0x10270b06c
+System.Net.Primitives	305	0x06000132	System.Net.SocketAddress	set_Item	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc93c	0x9488f9fd	0x10270b130	0x10270b130	mapped	0x10270b130
+System.Net.Primitives	306	0x06000133	System.Net.SocketAddress	GetMaximumAddressSize	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc940	0x9488fa28	0x10270b1e0	0x10270b1e0	mapped	0x10270b1e0
+System.Net.Primitives	307	0x06000134	System.Net.SocketAddress	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc944	0x9488fa49	0x10270b268	0x10270b268	mapped	0x10270b268
+System.Net.Primitives	308	0x06000135	System.Net.SocketAddress	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc948	0x9488fa66	0x10270b2e0	0x10270b2e0	mapped	0x10270b2e0
+System.Net.Primitives	309	0x06000136	System.Net.SocketAddress	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc94c	0x9488fab0	0x10270b40c	0x10270b40c	mapped	0x10270b40c
+System.Net.Primitives	310	0x06000137	System.Net.SocketAddress	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc950	0x9488fb0c	0x10270b580	0x10270b580	mapped	0x10270b580
+System.Net.Primitives	311	0x06000138	System.Net.SocketAddress	get_Buffer	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc954	0x9488fb37	0x10270b630	0x10270b630	mapped	0x10270b630
+System.Net.Primitives	312	0x06000139	System.Net.SocketAddress	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc958	0x9488fb66	0x10270b6f0	0x10270b6f0	mapped	0x10270b6f0
+System.Net.Primitives	313	0x0600013a	System.Net.SocketAddress	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc95c	0x9488fb89	0x10270b780	0x10270b780	mapped	0x10270b780
+System.Net.Primitives	314	0x0600013b	System.Net.SocketAddress	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc960	0x9488fbf8	0x10270b940	0x10270b940	mapped	0x10270b940
+System.Net.Primitives	315	0x0600013c	System.Net.SocketAddress	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc964	0x9488fc1e	0x10270b9dc	0x10270b9dc	mapped	0x10270b9dc
+System.Net.Primitives	316	0x0600013d	System.Net.SocketAddress	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cc968	0x9488fd0a	0x10270bd90	0x10270bd90	mapped	0x10270bd90
+System.Net.Primitives	317	0x0600013e	System.Net.SocketAddressPal	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cc96c	0x9488fd3b	0x10270be58	0x10270be58	mapped	0x10270be58
+System.Net.Primitives	318	0x0600013f	System.Net.SocketAddressPal	ThrowOnFailure	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc970	0x9488fd66	0x10270bf08	0x10270bf08	mapped	0x10270bf08
+System.Net.Primitives	319	0x06000140	System.Net.SocketAddressPal	GetAddressFamily	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc974	0x9488fd8e	0x10270bfac	0x10270bfac	mapped	0x10270bfac
+System.Net.Primitives	320	0x06000141	System.Net.SocketAddressPal	SetAddressFamily	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc978	0x9488fdaf	0x10270c034	0x10270c034	mapped	0x10270c034
+System.Net.Primitives	321	0x06000142	System.Net.SocketAddressPal	GetPort	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc97c	0x9488fdd3	0x10270c0c8	0x10270c0c8	mapped	0x10270c0c8
+System.Net.Primitives	322	0x06000143	System.Net.SocketAddressPal	SetPort	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc980	0x9488fdf4	0x10270c150	0x10270c150	mapped	0x10270c150
+System.Net.Primitives	323	0x06000144	System.Net.SocketAddressPal	GetIPv4Address	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc984	0x9488fe14	0x10270c1d4	0x10270c1d4	mapped	0x10270c1d4
+System.Net.Primitives	324	0x06000145	System.Net.SocketAddressPal	GetIPv6Address	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc988	0x9488fe34	0x10270c258	0x10270c258	mapped	0x10270c258
+System.Net.Primitives	325	0x06000146	System.Net.SocketAddressPal	SetIPv4Address	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc98c	0x9488fe64	0x10270c31c	0x10270c31c	mapped	0x10270c31c
+System.Net.Primitives	326	0x06000147	System.Net.SocketAddressPal	SetIPv6Address	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc990	0x9488fe84	0x10270c3a0	0x10270c3a0	mapped	0x10270c3a0
+System.Net.Primitives	327	0x06000148	System.Net.SocketAddressPal	SetIPv6Address	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc994	0x9488fea8	0x10270c434	0x10270c434	mapped	0x10270c434
+System.Net.Primitives	328	0x06000149	System.Net.Cache.RequestCachePolicy	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc998	0x9488fece	0x10270c4d0	0x10270c4d0	mapped	0x10270c4d0
+System.Net.Primitives	329	0x0600014a	System.Net.Cache.RequestCachePolicy	get_Level	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc99c	0x9488feed	0x10270c550	0x10270c550	mapped	0x10270c550
+System.Net.Primitives	330	0x0600014b	System.Net.Cache.RequestCachePolicy	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004cc9a0	0x9488fef5	0x10270c574	0x10270c574	mapped	0x10270c574
+System.Net.Primitives	331	0x0600014c	System.Net.NetworkInformation.IPAddressCollection	.ctor	0x2050	NoInlining	FamORAssem, HideBySig, SpecialName, RTSpecialName	0x1004cc9a4	0x9488ff1d	0x10270c618	0x10270c618	mapped	0x10270c618
+System.Net.Primitives	332	0x0600014d	System.Net.NetworkInformation.IPAddressCollection	CopyTo	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004cc9a8	0x9488ff1d	0x10270c61c	0x10270c61c	mapped	0x10270c61c
+System.Net.Primitives	333	0x0600014e	System.Net.NetworkInformation.IPAddressCollection	get_Count	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004cc9ac	0x9488ff25	0x10270c640	0x10270c640	mapped	0x10270c640
+System.Net.Primitives	334	0x0600014f	System.Net.NetworkInformation.IPAddressCollection	get_IsReadOnly	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004cc9b0	0x9488ff2d	0x10270c664	0x10270c664	mapped	0x10270c664
+System.Net.Primitives	335	0x06000150	System.Net.NetworkInformation.IPAddressCollection	Add	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004cc9b4	0x9488ff2e	0x10270c66c	0x10270c66c	mapped	0x10270c66c
+System.Net.Primitives	336	0x06000151	System.Net.NetworkInformation.IPAddressCollection	Contains	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004cc9b8	0x9488ff3f	0x10270c6b4	0x10270c6b4	mapped	0x10270c6b4
+System.Net.Primitives	337	0x06000152	System.Net.NetworkInformation.IPAddressCollection	System.Collections.IEnumerable.GetEnumerator	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc9bc	0x9488ff47	0x10270c6d8	0x10270c6d8	mapped	0x10270c6d8
+System.Net.Primitives	338	0x06000153	System.Net.NetworkInformation.IPAddressCollection	GetEnumerator	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004cc9c0	0x9488ff5c	0x10270c730	0x10270c730	mapped	0x10270c730
+System.Net.Primitives	339	0x06000154	System.Net.NetworkInformation.IPAddressCollection	Remove	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc9c4	0x9488ff64	0x10270c754	0x10270c754	mapped	0x10270c754
+System.Net.Primitives	340	0x06000155	System.Net.NetworkInformation.IPAddressCollection	Clear	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004cc9c8	0x9488ff75	0x10270c79c	0x10270c79c	mapped	0x10270c79c
+System.Net.Primitives	341	0x06000156	System.Net.NetworkInformation.HostInformation	get_DomainName	0x2050	NoInlining	Assembly, Static, HideBySig, SpecialName	0x1004cc9cc	0x9488ff86	0x10270c7e4	0x10270c7e4	mapped	0x10270c7e4
+System.Net.Primitives	342	0x06000157	System.Net.NetworkInformation.HostInformationPal	GetDomainName	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc9d0	0x9488ff8f	0x10270c80c	0x10270c80c	mapped	0x10270c80c
+System.Net.Primitives	343	0x06000158	System.Net.NetworkInformation.InterfaceInfoPal	InterfaceNameToIndex	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc9d4	0x9488ff98	0x10270c834	0x10270c834	mapped	0x10270c834
+System.Net.Primitives	344	0x06000159	System.Net.Sockets.SocketException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc9d8	0x9488ffa5	0x10270c86c	0x10270c86c	mapped	0x10270c86c
+System.Net.Primitives	345	0x0600015a	System.Net.Sockets.SocketException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004cc9dc	0x9488ffb4	0x10270c8ac	0x10270c8ac	mapped	0x10270c8ac
+System.Net.Primitives	346	0x0600015b	System.Net.Sockets.SocketException	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc9e0	0x9488ffc7	0x10270c8fc	0x10270c8fc	mapped	0x10270c8fc
+System.Net.Primitives	347	0x0600015c	System.Net.Sockets.SocketException	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004cc9e4	0x9488ffe7	0x10270c980	0x10270c980	mapped	0x10270c980
+System.Net.Primitives	348	0x0600015d	System.Net.Sockets.SocketException	get_Message	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004cc9e8	0x94890018	0x10270ca48	0x10270ca48	mapped	0x10270ca48
+System.Net.Primitives	349	0x0600015e	System.Net.Sockets.SocketException	get_SocketErrorCode	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004cc9ec	0x94890025	0x10270ca80	0x10270ca80	mapped	0x10270ca80
+System.Net.Primitives	350	0x0600015f	System.Net.Sockets.SocketException	GetNativeErrorForSocketError	0x2050	NoInlining	Private, Static, HideBySig	0x1004cc9f0	0x9489002d	0x10270caa4	0x10270caa4	mapped	0x10270caa4
+System.Net.Primitives	351	0x06000160	System.Net.Sockets.IPEndPointExtensions	GetIPAddress	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc9f4	0x94890044	0x10270cb04	0x10270cb04	mapped	0x10270cb04
+System.Net.Primitives	352	0x06000161	System.Net.Sockets.SocketAddressExtensions	GetIPAddress	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc9f8	0x948900a4	0x10270cc88	0x10270cc88	mapped	0x10270cc88
+System.Net.Primitives	353	0x06000162	System.Net.Sockets.SocketAddressExtensions	GetPort	0x2050	NoInlining	Public, Static, HideBySig	0x1004cc9fc	0x948900ea	0x10270cda4	0x10270cda4	mapped	0x10270cda4
+System.Net.Primitives	354	0x06000163	System.Net.Sockets.SocketAddressExtensions	GetIPEndPoint	0x2050	NoInlining	Public, Static, HideBySig	0x1004cca00	0x94890131	0x10270cec4	0x10270cec4	mapped	0x10270cec4
+System.Net.Primitives	355	0x06000164	System.Net.Sockets.SocketErrorPal	TryGetNativeErrorForSocketError	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004cca04	0x94890156	0x10270cf5c	0x10270cf5c	mapped	0x10270cf5c
+System.Net.Primitives	356	0x06000165	System.Net.Sockets.SocketErrorPal	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004cca08	0x9489017b	0x10270cff4	0x10270cff4	mapped	0x10270cff4

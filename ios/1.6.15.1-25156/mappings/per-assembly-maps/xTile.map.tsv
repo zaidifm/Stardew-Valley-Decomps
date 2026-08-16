@@ -1,0 +1,383 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+xTile	0	0x06000001	xTile.Map	get_DisplaySize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c178	0x94829784	0x1024b1f88	0x1024b1f88	mapped	0x1024b1f88
+xTile	1	0x06000002	xTile.Map	get_DisplayWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c17c	0x9482978c	0x1024b1fac	0x1024b1fac	mapped	0x1024b1fac
+xTile	2	0x06000003	xTile.Map	get_DisplayHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c180	0x9482979a	0x1024b1fe8	0x1024b1fe8	mapped	0x1024b1fe8
+xTile	3	0x06000004	xTile.Map	get_Layers	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c184	0x948297a8	0x1024b2024	0x1024b2024	mapped	0x1024b2024
+xTile	4	0x06000005	xTile.Map	get_TileSheets	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c188	0x948297b0	0x1024b2048	0x1024b2048	mapped	0x1024b2048
+xTile	5	0x06000006	xTile.Map	get_ElapsedTime	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c18c	0x948297b8	0x1024b206c	0x1024b206c	mapped	0x1024b206c
+xTile	6	0x06000007	xTile.Map	set_ElapsedTime	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c190	0x948297c0	0x1024b2090	0x1024b2090	mapped	0x1024b2090
+xTile	7	0x06000008	xTile.Map	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c194	0x948297c8	0x1024b20b4	0x1024b20b4	mapped	0x1024b20b4
+xTile	8	0x06000009	xTile.Map	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c198	0x9482983e	0x1024b2290	0x1024b2290	mapped	0x1024b2290
+xTile	9	0x0600000a	xTile.Map	GetFullAssetPath	0x2050	NoInlining	Public, HideBySig	0x10040c19c	0x948298bf	0x1024b2498	0x1024b2498	mapped	0x1024b2498
+xTile	10	0x0600000b	xTile.Map	FlattenTileSheetPaths	0x2050	NoInlining	Public, HideBySig	0x10040c1a0	0x948298f3	0x1024b256c	0x1024b256c	mapped	0x1024b256c
+xTile	11	0x0600000c	xTile.Map	GetLayer	0x2050	NoInlining	Public, HideBySig	0x10040c1a4	0x94829955	0x1024b26f8	0x1024b26f8	mapped	0x1024b26f8
+xTile	12	0x0600000d	xTile.Map	AddLayer	0x2050	NoInlining	Public, HideBySig	0x10040c1a8	0x9482997f	0x1024b27a4	0x1024b27a4	mapped	0x1024b27a4
+xTile	13	0x0600000e	xTile.Map	InsertLayer	0x2050	NoInlining	Public, HideBySig	0x10040c1ac	0x94829999	0x1024b2810	0x1024b2810	mapped	0x1024b2810
+xTile	14	0x0600000f	xTile.Map	RemoveLayer	0x2050	NoInlining	Public, HideBySig	0x10040c1b0	0x948299f3	0x1024b297c	0x1024b297c	mapped	0x1024b297c
+xTile	15	0x06000010	xTile.Map	BringLayerForward	0x2050	NoInlining	Public, HideBySig	0x10040c1b4	0x94829a3d	0x1024b2aa8	0x1024b2aa8	mapped	0x1024b2aa8
+xTile	16	0x06000011	xTile.Map	SendLayerBackward	0x2050	NoInlining	Public, HideBySig	0x10040c1b8	0x94829a96	0x1024b2c10	0x1024b2c10	mapped	0x1024b2c10
+xTile	17	0x06000012	xTile.Map	DependsOnTileSheet	0x2050	NoInlining	Public, HideBySig	0x10040c1bc	0x94829aed	0x1024b2d70	0x1024b2d70	mapped	0x1024b2d70
+xTile	18	0x06000013	xTile.Map	GetTileSheet	0x2050	NoInlining	Public, HideBySig	0x10040c1c0	0x94829b5f	0x1024b2f3c	0x1024b2f3c	mapped	0x1024b2f3c
+xTile	19	0x06000014	xTile.Map	AddTileSheet	0x2050	NoInlining	Public, HideBySig	0x10040c1c4	0x94829bc9	0x1024b30e8	0x1024b30e8	mapped	0x1024b30e8
+xTile	20	0x06000015	xTile.Map	RemoveTileSheet	0x2050	NoInlining	Public, HideBySig	0x10040c1c8	0x94829c50	0x1024b3308	0x1024b3308	mapped	0x1024b3308
+xTile	21	0x06000016	xTile.Map	RemoveTileSheetDependencies	0x2050	NoInlining	Public, HideBySig	0x10040c1cc	0x94829cd9	0x1024b3530	0x1024b3530	mapped	0x1024b3530
+xTile	22	0x06000017	xTile.Map	Update	0x2050	NoInlining	Public, HideBySig	0x10040c1d0	0x94829d2d	0x1024b3684	0x1024b3684	mapped	0x1024b3684
+xTile	23	0x06000018	xTile.Map	LoadTileSheets	0x2050	NoInlining	Public, HideBySig	0x10040c1d4	0x94829d37	0x1024b36b0	0x1024b36b0	mapped	0x1024b36b0
+xTile	24	0x06000019	xTile.Map	DisposeTileSheets	0x2050	NoInlining	Public, HideBySig	0x10040c1d8	0x94829d92	0x1024b3820	0x1024b3820	mapped	0x1024b3820
+xTile	25	0x0600001a	xTile.Map	Draw	0x2050	NoInlining	Public, HideBySig	0x10040c1dc	0x94829ded	0x1024b3990	0x1024b3990	mapped	0x1024b3990
+xTile	26	0x0600001b	xTile.Map	Draw	0x2050	NoInlining	Public, HideBySig	0x10040c1e0	0x94829e06	0x1024b39f8	0x1024b39f8	mapped	0x1024b39f8
+xTile	27	0x0600001c	xTile.Map	UpdateDisplaySize	0x2050	NoInlining	Assembly, HideBySig	0x10040c1e4	0x94829e06	0x1024b39fc	0x1024b39fc	mapped	0x1024b39fc
+xTile	28	0x0600001d	xTile.Tiles.AnimatedTile	get_BlendMode	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x10040c1e8	0x94829e68	0x1024b3b88	0x1024b3b88	mapped	0x1024b3b88
+xTile	29	0x0600001e	xTile.Tiles.AnimatedTile	set_BlendMode	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x10040c1ec	0x94829eb2	0x1024b3cb4	0x1024b3cb4	mapped	0x1024b3cb4
+xTile	30	0x0600001f	xTile.Tiles.AnimatedTile	get_TileSheet	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x10040c1f0	0x94829ede	0x1024b3d68	0x1024b3d68	mapped	0x1024b3d68
+xTile	31	0x06000020	xTile.Tiles.AnimatedTile	get_TileIndex	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x10040c1f4	0x94829f28	0x1024b3e94	0x1024b3e94	mapped	0x1024b3e94
+xTile	32	0x06000021	xTile.Tiles.AnimatedTile	set_TileIndex	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x10040c1f8	0x94829f72	0x1024b3fc0	0x1024b3fc0	mapped	0x1024b3fc0
+xTile	33	0x06000022	xTile.Tiles.AnimatedTile	get_TileFrames	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c1fc	0x94829f72	0x1024b3fc4	0x1024b3fc4	mapped	0x1024b3fc4
+xTile	34	0x06000023	xTile.Tiles.AnimatedTile	get_FrameInterval	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c200	0x94829fa2	0x1024b4088	0x1024b4088	mapped	0x1024b4088
+xTile	35	0x06000024	xTile.Tiles.AnimatedTile	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c204	0x94829faa	0x1024b40ac	0x1024b40ac	mapped	0x1024b40ac
+xTile	36	0x06000025	xTile.Tiles.AnimatedTile	DependsOnTileSheet	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c208	0x94829ff1	0x1024b41cc	0x1024b41cc	mapped	0x1024b41cc
+xTile	37	0x06000026	xTile.Tiles.AnimatedTile	Clone	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c20c	0x9482a022	0x1024b4294	0x1024b4294	mapped	0x1024b4294
+xTile	38	0x06000027	xTile.Tiles.AnimatedTile	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c210	0x9482a0a0	0x1024b4490	0x1024b4490	mapped	0x1024b4490
+xTile	39	0x06000028	xTile.Tiles.StaticTile	get_BlendMode	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x10040c214	0x9482a100	0x1024b4614	0x1024b4614	mapped	0x1024b4614
+xTile	40	0x06000029	xTile.Tiles.StaticTile	set_BlendMode	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x10040c218	0x9482a108	0x1024b4638	0x1024b4638	mapped	0x1024b4638
+xTile	41	0x0600002a	xTile.Tiles.StaticTile	get_TileSheet	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x10040c21c	0x9482a110	0x1024b465c	0x1024b465c	mapped	0x1024b465c
+xTile	42	0x0600002b	xTile.Tiles.StaticTile	get_TileIndex	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x10040c220	0x9482a118	0x1024b4680	0x1024b4680	mapped	0x1024b4680
+xTile	43	0x0600002c	xTile.Tiles.StaticTile	set_TileIndex	0x2050	NoInlining	Public, Virtual, HideBySig, SpecialName	0x10040c224	0x9482a120	0x1024b46a4	0x1024b46a4	mapped	0x1024b46a4
+xTile	44	0x0600002d	xTile.Tiles.StaticTile	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c228	0x9482a128	0x1024b46c8	0x1024b46c8	mapped	0x1024b46c8
+xTile	45	0x0600002e	xTile.Tiles.StaticTile	DependsOnTileSheet	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c22c	0x9482a17f	0x1024b4828	0x1024b4828	mapped	0x1024b4828
+xTile	46	0x0600002f	xTile.Tiles.StaticTile	Clone	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c230	0x9482a189	0x1024b4854	0x1024b4854	mapped	0x1024b4854
+xTile	47	0x06000030	xTile.Tiles.StaticTile	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c234	0x9482a1be	0x1024b492c	0x1024b492c	mapped	0x1024b492c
+xTile	48	0x06000031	xTile.Tiles.Tile	get_Layer	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c238	0x9482a20a	0x1024b4a60	0x1024b4a60	mapped	0x1024b4a60
+xTile	49	0x06000032	xTile.Tiles.Tile	get_BlendMode	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x10040c23c	0x97ffffcf	0x10040c178		absent	0x10040c178
+xTile	50	0x06000033	xTile.Tiles.Tile	set_BlendMode	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x10040c240	0x97ffffce	0x10040c178		absent	0x10040c178
+xTile	51	0x06000034	xTile.Tiles.Tile	get_TileSheet	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x10040c244	0x97ffffcd	0x10040c178		absent	0x10040c178
+xTile	52	0x06000035	xTile.Tiles.Tile	get_TileIndex	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x10040c248	0x97ffffcc	0x10040c178		absent	0x10040c178
+xTile	53	0x06000036	xTile.Tiles.Tile	set_TileIndex	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x10040c24c	0x97ffffcb	0x10040c178		absent	0x10040c178
+xTile	54	0x06000037	xTile.Tiles.Tile	get_TileIndexProperties	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c250	0x9482a20d	0x1024b4a84	0x1024b4a84	mapped	0x1024b4a84
+xTile	55	0x06000038	xTile.Tiles.Tile	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c254	0x9482a232	0x1024b4b1c	0x1024b4b1c	mapped	0x1024b4b1c
+xTile	56	0x06000039	xTile.Tiles.Tile	DependsOnTileSheet	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c258	0x97ffffc8	0x10040c178		absent	0x10040c178
+xTile	57	0x0600003a	xTile.Tiles.Tile	Clone	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c25c	0x97ffffc7	0x10040c178		absent	0x10040c178
+xTile	58	0x0600003b	xTile.Tiles.TileArray	get_Array	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c260	0x9482a259	0x1024b4bc4	0x1024b4bc4	mapped	0x1024b4bc4
+xTile	59	0x0600003c	xTile.Tiles.TileArray	get_Item	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c264	0x9482a261	0x1024b4be8	0x1024b4be8	mapped	0x1024b4be8
+xTile	60	0x0600003d	xTile.Tiles.TileArray	set_Item	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c268	0x9482a292	0x1024b4cb0	0x1024b4cb0	mapped	0x1024b4cb0
+xTile	61	0x0600003e	xTile.Tiles.TileArray	get_Item	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c26c	0x9482a32e	0x1024b4f24	0x1024b4f24	mapped	0x1024b4f24
+xTile	62	0x0600003f	xTile.Tiles.TileArray	set_Item	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c270	0x9482a341	0x1024b4f74	0x1024b4f74	mapped	0x1024b4f74
+xTile	63	0x06000040	xTile.Tiles.TileArray	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c274	0x9482a362	0x1024b4ffc	0x1024b4ffc	mapped	0x1024b4ffc
+xTile	64	0x06000041	xTile.Tiles.TileIndexPropertyAccessor	get_Item	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c278	0x9482a385	0x1024b508c	0x1024b508c	mapped	0x1024b508c
+xTile	65	0x06000042	xTile.Tiles.TileIndexPropertyAccessor	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x10040c27c	0x9482a3c5	0x1024b5190	0x1024b5190	mapped	0x1024b5190
+xTile	66	0x06000043	xTile.Tiles.TileIndexPropertyCollection	get_Keys	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c280	0x9482a3f6	0x1024b5258	0x1024b5258	mapped	0x1024b5258
+xTile	67	0x06000044	xTile.Tiles.TileIndexPropertyCollection	get_Values	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c284	0x9482a473	0x1024b5450	0x1024b5450	mapped	0x1024b5450
+xTile	68	0x06000045	xTile.Tiles.TileIndexPropertyCollection	get_Item	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c288	0x9482a50e	0x1024b56c0	0x1024b56c0	mapped	0x1024b56c0
+xTile	69	0x06000046	xTile.Tiles.TileIndexPropertyCollection	set_Item	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c28c	0x9482a541	0x1024b5790	0x1024b5790	mapped	0x1024b5790
+xTile	70	0x06000047	xTile.Tiles.TileIndexPropertyCollection	get_Count	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c290	0x9482a578	0x1024b5870	0x1024b5870	mapped	0x1024b5870
+xTile	71	0x06000048	xTile.Tiles.TileIndexPropertyCollection	get_IsReadOnly	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c294	0x9482a59b	0x1024b5900	0x1024b5900	mapped	0x1024b5900
+xTile	72	0x06000049	xTile.Tiles.TileIndexPropertyCollection	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x10040c298	0x9482a5c7	0x1024b59b4	0x1024b59b4	mapped	0x1024b59b4
+xTile	73	0x0600004a	xTile.Tiles.TileIndexPropertyCollection	IndexKey	0x2050	NoInlining	Private, HideBySig	0x10040c29c	0x9482a60f	0x1024b5ad8	0x1024b5ad8	mapped	0x1024b5ad8
+xTile	74	0x0600004b	xTile.Tiles.TileIndexPropertyCollection	ParseIndexedKey	0x2050	NoInlining	Private, HideBySig	0x10040c2a0	0x9482a649	0x1024b5bc4	0x1024b5bc4	mapped	0x1024b5bc4
+xTile	75	0x0600004c	xTile.Tiles.TileIndexPropertyCollection	CopyFrom	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2a4	0x9482a6a3	0x1024b5d30	0x1024b5d30	mapped	0x1024b5d30
+xTile	76	0x0600004d	xTile.Tiles.TileIndexPropertyCollection	Add	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2a8	0x9482a733	0x1024b5f74	0x1024b5f74	mapped	0x1024b5f74
+xTile	77	0x0600004e	xTile.Tiles.TileIndexPropertyCollection	ContainsKey	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2ac	0x9482a76a	0x1024b6054	0x1024b6054	mapped	0x1024b6054
+xTile	78	0x0600004f	xTile.Tiles.TileIndexPropertyCollection	Remove	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2b0	0x9482a79d	0x1024b6124	0x1024b6124	mapped	0x1024b6124
+xTile	79	0x06000050	xTile.Tiles.TileIndexPropertyCollection	TryGetValue	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2b4	0x9482a7d0	0x1024b61f4	0x1024b61f4	mapped	0x1024b61f4
+xTile	80	0x06000051	xTile.Tiles.TileIndexPropertyCollection	Add	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2b8	0x9482a807	0x1024b62d4	0x1024b62d4	mapped	0x1024b62d4
+xTile	81	0x06000052	xTile.Tiles.TileIndexPropertyCollection	Clear	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2bc	0x9482a81a	0x1024b6324	0x1024b6324	mapped	0x1024b6324
+xTile	82	0x06000053	xTile.Tiles.TileIndexPropertyCollection	Contains	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2c0	0x9482a8b4	0x1024b6590	0x1024b6590	mapped	0x1024b6590
+xTile	83	0x06000054	xTile.Tiles.TileIndexPropertyCollection	CopyTo	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2c4	0x9482a8f9	0x1024b66a8	0x1024b66a8	mapped	0x1024b66a8
+xTile	84	0x06000055	xTile.Tiles.TileIndexPropertyCollection	Remove	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2c8	0x9482a985	0x1024b68dc	0x1024b68dc	mapped	0x1024b68dc
+xTile	85	0x06000056	xTile.Tiles.TileIndexPropertyCollection	GetEnumerator	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2cc	0x9482a9c8	0x1024b69ec	0x1024b69ec	mapped	0x1024b69ec
+xTile	86	0x06000057	xTile.Tiles.TileIndexPropertyCollection	System.Collections.IEnumerable.GetEnumerator	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c2d0	0x9482aa8e	0x1024b6d08	0x1024b6d08	mapped	0x1024b6d08
+xTile	87	0x06000058	xTile.Tiles.TileIndexPropertyCollection	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10040c2d4	0x9482aa9b	0x1024b6d40	0x1024b6d40	mapped	0x1024b6d40
+xTile	88	0x06000059	xTile.Tiles.TileIndexPropertyCollection	<get_Keys>b__6_0	0x2050	NoInlining	Private, HideBySig	0x10040c2d8	0x9482aab8	0x1024b6db8	0x1024b6db8	mapped	0x1024b6db8
+xTile	89	0x0600005a	xTile.Tiles.TileIndexPropertyCollection	<Clear>b__26_0	0x2050	NoInlining	Private, HideBySig	0x10040c2dc	0x9482aac7	0x1024b6df8	0x1024b6df8	mapped	0x1024b6df8
+xTile	90	0x0600005b	xTile.Tiles.TileSheet	GetBackgroundSpriteBatch	0x2050	NoInlining	Public, HideBySig	0x10040c2e0	0x9482aad8	0x1024b6e40	0x1024b6e40	mapped	0x1024b6e40
+xTile	91	0x0600005c	xTile.Tiles.TileSheet	get_Map	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c2e4	0x9482ab05	0x1024b6ef8	0x1024b6ef8	mapped	0x1024b6ef8
+xTile	92	0x0600005d	xTile.Tiles.TileSheet	get_ImageSource	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c2e8	0x9482ab0d	0x1024b6f1c	0x1024b6f1c	mapped	0x1024b6f1c
+xTile	93	0x0600005e	xTile.Tiles.TileSheet	set_ImageSource	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c2ec	0x9482ab15	0x1024b6f40	0x1024b6f40	mapped	0x1024b6f40
+xTile	94	0x0600005f	xTile.Tiles.TileSheet	get_SheetSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c2f0	0x9482ab24	0x1024b6f80	0x1024b6f80	mapped	0x1024b6f80
+xTile	95	0x06000060	xTile.Tiles.TileSheet	set_SheetSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c2f4	0x9482ab2c	0x1024b6fa4	0x1024b6fa4	mapped	0x1024b6fa4
+xTile	96	0x06000061	xTile.Tiles.TileSheet	get_SheetWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c2f8	0x9482ab34	0x1024b6fc8	0x1024b6fc8	mapped	0x1024b6fc8
+xTile	97	0x06000062	xTile.Tiles.TileSheet	set_SheetWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c2fc	0x9482ab42	0x1024b7004	0x1024b7004	mapped	0x1024b7004
+xTile	98	0x06000063	xTile.Tiles.TileSheet	get_SheetHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c300	0x9482ab50	0x1024b7040	0x1024b7040	mapped	0x1024b7040
+xTile	99	0x06000064	xTile.Tiles.TileSheet	set_SheetHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c304	0x9482ab5e	0x1024b707c	0x1024b707c	mapped	0x1024b707c
+xTile	100	0x06000065	xTile.Tiles.TileSheet	get_TileSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c308	0x9482ab6c	0x1024b70b8	0x1024b70b8	mapped	0x1024b70b8
+xTile	101	0x06000066	xTile.Tiles.TileSheet	set_TileSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c30c	0x9482ab74	0x1024b70dc	0x1024b70dc	mapped	0x1024b70dc
+xTile	102	0x06000067	xTile.Tiles.TileSheet	get_TileWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c310	0x9482ab7c	0x1024b7100	0x1024b7100	mapped	0x1024b7100
+xTile	103	0x06000068	xTile.Tiles.TileSheet	set_TileWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c314	0x9482ab8a	0x1024b713c	0x1024b713c	mapped	0x1024b713c
+xTile	104	0x06000069	xTile.Tiles.TileSheet	get_TileHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c318	0x9482ab98	0x1024b7178	0x1024b7178	mapped	0x1024b7178
+xTile	105	0x0600006a	xTile.Tiles.TileSheet	set_TileHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c31c	0x9482aba6	0x1024b71b4	0x1024b71b4	mapped	0x1024b71b4
+xTile	106	0x0600006b	xTile.Tiles.TileSheet	get_Margin	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c320	0x9482abb4	0x1024b71f0	0x1024b71f0	mapped	0x1024b71f0
+xTile	107	0x0600006c	xTile.Tiles.TileSheet	set_Margin	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c324	0x9482abbc	0x1024b7214	0x1024b7214	mapped	0x1024b7214
+xTile	108	0x0600006d	xTile.Tiles.TileSheet	get_MarginWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c328	0x9482abc4	0x1024b7238	0x1024b7238	mapped	0x1024b7238
+xTile	109	0x0600006e	xTile.Tiles.TileSheet	set_MarginWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c32c	0x9482abd2	0x1024b7274	0x1024b7274	mapped	0x1024b7274
+xTile	110	0x0600006f	xTile.Tiles.TileSheet	get_MarginHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c330	0x9482abe0	0x1024b72b0	0x1024b72b0	mapped	0x1024b72b0
+xTile	111	0x06000070	xTile.Tiles.TileSheet	set_MarginHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c334	0x9482abee	0x1024b72ec	0x1024b72ec	mapped	0x1024b72ec
+xTile	112	0x06000071	xTile.Tiles.TileSheet	get_Spacing	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c338	0x9482abfc	0x1024b7328	0x1024b7328	mapped	0x1024b7328
+xTile	113	0x06000072	xTile.Tiles.TileSheet	set_Spacing	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c33c	0x9482ac04	0x1024b734c	0x1024b734c	mapped	0x1024b734c
+xTile	114	0x06000073	xTile.Tiles.TileSheet	get_SpacingWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c340	0x9482ac0c	0x1024b7370	0x1024b7370	mapped	0x1024b7370
+xTile	115	0x06000074	xTile.Tiles.TileSheet	set_SpacingWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c344	0x9482ac1a	0x1024b73ac	0x1024b73ac	mapped	0x1024b73ac
+xTile	116	0x06000075	xTile.Tiles.TileSheet	get_SpacingHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c348	0x9482ac28	0x1024b73e8	0x1024b73e8	mapped	0x1024b73e8
+xTile	117	0x06000076	xTile.Tiles.TileSheet	set_SpacingHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c34c	0x9482ac36	0x1024b7424	0x1024b7424	mapped	0x1024b7424
+xTile	118	0x06000077	xTile.Tiles.TileSheet	get_TileCount	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c350	0x9482ac44	0x1024b7460	0x1024b7460	mapped	0x1024b7460
+xTile	119	0x06000078	xTile.Tiles.TileSheet	get_TileIndexProperties	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c354	0x9482ac53	0x1024b74a0	0x1024b74a0	mapped	0x1024b74a0
+xTile	120	0x06000079	xTile.Tiles.TileSheet	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c358	0x9482ac5b	0x1024b74c4	0x1024b74c4	mapped	0x1024b74c4
+xTile	121	0x0600007a	xTile.Tiles.TileSheet	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c35c	0x9482aca4	0x1024b75ec	0x1024b75ec	mapped	0x1024b75ec
+xTile	122	0x0600007b	xTile.Tiles.TileSheet	GetTileImageBounds	0x2050	NoInlining	Public, HideBySig	0x10040c360	0x9482acef	0x1024b771c	0x1024b771c	mapped	0x1024b771c
+xTile	123	0x0600007c	xTile.Tiles.TileSheet	GetTileIndex	0x2050	NoInlining	Public, HideBySig	0x10040c364	0x9482ad18	0x1024b77c4	0x1024b77c4	mapped	0x1024b77c4
+xTile	124	0x0600007d	xTile.Pipeline.TideReader	Read	0x2050	NoInlining	Family, Virtual, HideBySig	0x10040c368	0x9482ad63	0x1024b78f4	0x1024b78f4	mapped	0x1024b78f4
+xTile	125	0x0600007e	xTile.Pipeline.TideReader	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c36c	0x9482adb1	0x1024b7a30	0x1024b7a30	mapped	0x1024b7a30
+xTile	126	0x0600007f	xTile.ObjectModel.Component	get_Id	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c370	0x9482adce	0x1024b7aa8	0x1024b7aa8	mapped	0x1024b7aa8
+xTile	127	0x06000080	xTile.ObjectModel.Component	set_Id	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c374	0x9482add6	0x1024b7acc	0x1024b7acc	mapped	0x1024b7acc
+xTile	128	0x06000081	xTile.ObjectModel.Component	get_Properties	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c378	0x9482ade5	0x1024b7b0c	0x1024b7b0c	mapped	0x1024b7b0c
+xTile	129	0x06000082	xTile.ObjectModel.Component	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c37c	0x9482aded	0x1024b7b30	0x1024b7b30	mapped	0x1024b7b30
+xTile	130	0x06000083	xTile.ObjectModel.Component	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c380	0x9482ae21	0x1024b7c04	0x1024b7c04	mapped	0x1024b7c04
+xTile	131	0x06000084	xTile.ObjectModel.Component	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c384	0x9482ae50	0x1024b7cc4	0x1024b7cc4	mapped	0x1024b7cc4
+xTile	132	0x06000085	xTile.ObjectModel.DescribedComponent	get_Description	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c388	0x9482ae70	0x1024b7d48	0x1024b7d48	mapped	0x1024b7d48
+xTile	133	0x06000086	xTile.ObjectModel.DescribedComponent	set_Description	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c38c	0x9482ae78	0x1024b7d6c	0x1024b7d6c	mapped	0x1024b7d6c
+xTile	134	0x06000087	xTile.ObjectModel.DescribedComponent	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c390	0x9482ae87	0x1024b7dac	0x1024b7dac	mapped	0x1024b7dac
+xTile	135	0x06000088	xTile.ObjectModel.DescribedComponent	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c394	0x9482aeae	0x1024b7e4c	0x1024b7e4c	mapped	0x1024b7e4c
+xTile	136	0x06000089	xTile.ObjectModel.DescribedComponent	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c398	0x9482aed7	0x1024b7ef4	0x1024b7ef4	mapped	0x1024b7ef4
+xTile	137	0x0600008a	xTile.ObjectModel.IPropertyCollection	CopyFrom	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c39c	0x97ffff77	0x10040c178		absent	0x10040c178
+xTile	138	0x0600008b	xTile.ObjectModel.PropertyCollection	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c3a0	0x9482aef5	0x1024b7f74	0x1024b7f74	mapped	0x1024b7f74
+xTile	139	0x0600008c	xTile.ObjectModel.PropertyCollection	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c3a4	0x9482af0f	0x1024b7fe0	0x1024b7fe0	mapped	0x1024b7fe0
+xTile	140	0x0600008d	xTile.ObjectModel.PropertyCollection	CopyFrom	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c3a8	0x9482af3a	0x1024b8090	0x1024b8090	mapped	0x1024b8090
+xTile	141	0x0600008e	xTile.ObjectModel.PropertyValue	get_Type	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c3ac	0x9482afb5	0x1024b8280	0x1024b8280	mapped	0x1024b8280
+xTile	142	0x0600008f	xTile.ObjectModel.PropertyValue	op_Implicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c3b0	0x9482afc2	0x1024b82b8	0x1024b82b8	mapped	0x1024b82b8
+xTile	143	0x06000090	xTile.ObjectModel.PropertyValue	op_Implicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c3b4	0x9482afeb	0x1024b8360	0x1024b8360	mapped	0x1024b8360
+xTile	144	0x06000091	xTile.ObjectModel.PropertyValue	op_Implicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c3b8	0x9482b014	0x1024b8408	0x1024b8408	mapped	0x1024b8408
+xTile	145	0x06000092	xTile.ObjectModel.PropertyValue	op_Implicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c3bc	0x9482b03d	0x1024b84b0	0x1024b84b0	mapped	0x1024b84b0
+xTile	146	0x06000093	xTile.ObjectModel.PropertyValue	op_Implicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c3c0	0x9482b05f	0x1024b853c	0x1024b853c	mapped	0x1024b853c
+xTile	147	0x06000094	xTile.ObjectModel.PropertyValue	op_Implicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c3c4	0x9482b09d	0x1024b8638	0x1024b8638	mapped	0x1024b8638
+xTile	148	0x06000095	xTile.ObjectModel.PropertyValue	op_Implicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c3c8	0x9482b0db	0x1024b8734	0x1024b8734	mapped	0x1024b8734
+xTile	149	0x06000096	xTile.ObjectModel.PropertyValue	op_Implicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c3cc	0x9482b12e	0x1024b8884	0x1024b8884	mapped	0x1024b8884
+xTile	150	0x06000097	xTile.ObjectModel.PropertyValue	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c3d0	0x9482b146	0x1024b88e8	0x1024b88e8	mapped	0x1024b88e8
+xTile	151	0x06000098	xTile.ObjectModel.PropertyValue	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c3d4	0x9482b16f	0x1024b8990	0x1024b8990	mapped	0x1024b8990
+xTile	152	0x06000099	xTile.ObjectModel.PropertyValue	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c3d8	0x9482b198	0x1024b8a38	0x1024b8a38	mapped	0x1024b8a38
+xTile	153	0x0600009a	xTile.ObjectModel.PropertyValue	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c3dc	0x9482b1c3	0x1024b8ae8	0x1024b8ae8	mapped	0x1024b8ae8
+xTile	154	0x0600009b	xTile.ObjectModel.PropertyValue	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c3e0	0x9482b1d2	0x1024b8b28	0x1024b8b28	mapped	0x1024b8b28
+xTile	155	0x0600009c	xTile.ObjectModel.PropertyValue	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c3e4	0x9482b1e6	0x1024b8b7c	0x1024b8b7c	mapped	0x1024b8b7c
+xTile	156	0x0600009d	xTile.Layers.Layer	add_BeforeDraw	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c3e8	0x9482b1fe	0x1024b8be0	0x1024b8be0	mapped	0x1024b8be0
+xTile	157	0x0600009e	xTile.Layers.Layer	remove_BeforeDraw	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c3ec	0x9482b24d	0x1024b8d20	0x1024b8d20	mapped	0x1024b8d20
+xTile	158	0x0600009f	xTile.Layers.Layer	add_AfterDraw	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c3f0	0x9482b29c	0x1024b8e60	0x1024b8e60	mapped	0x1024b8e60
+xTile	159	0x060000a0	xTile.Layers.Layer	remove_AfterDraw	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c3f4	0x9482b2eb	0x1024b8fa0	0x1024b8fa0	mapped	0x1024b8fa0
+xTile	160	0x060000a1	xTile.Layers.Layer	get_Map	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c3f8	0x9482b33a	0x1024b90e0	0x1024b90e0	mapped	0x1024b90e0
+xTile	161	0x060000a2	xTile.Layers.Layer	get_LayerSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c3fc	0x9482b342	0x1024b9104	0x1024b9104	mapped	0x1024b9104
+xTile	162	0x060000a3	xTile.Layers.Layer	set_LayerSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c400	0x9482b34a	0x1024b9128	0x1024b9128	mapped	0x1024b9128
+xTile	163	0x060000a4	xTile.Layers.Layer	get_LayerWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c404	0x9482b3f4	0x1024b93d4	0x1024b93d4	mapped	0x1024b93d4
+xTile	164	0x060000a5	xTile.Layers.Layer	set_LayerWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c408	0x9482b402	0x1024b9410	0x1024b9410	mapped	0x1024b9410
+xTile	165	0x060000a6	xTile.Layers.Layer	get_LayerHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c40c	0x9482b41e	0x1024b9484	0x1024b9484	mapped	0x1024b9484
+xTile	166	0x060000a7	xTile.Layers.Layer	set_LayerHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c410	0x9482b42c	0x1024b94c0	0x1024b94c0	mapped	0x1024b94c0
+xTile	167	0x060000a8	xTile.Layers.Layer	get_TileSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c414	0x9482b448	0x1024b9534	0x1024b9534	mapped	0x1024b9534
+xTile	168	0x060000a9	xTile.Layers.Layer	set_TileSize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c418	0x9482b458	0x1024b9578	0x1024b9578	mapped	0x1024b9578
+xTile	169	0x060000aa	xTile.Layers.Layer	get_TileWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c41c	0x9482b469	0x1024b95c0	0x1024b95c0	mapped	0x1024b95c0
+xTile	170	0x060000ab	xTile.Layers.Layer	set_TileWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c420	0x9482b47e	0x1024b9618	0x1024b9618	mapped	0x1024b9618
+xTile	171	0x060000ac	xTile.Layers.Layer	get_TileHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c424	0x9482b494	0x1024b9674	0x1024b9674	mapped	0x1024b9674
+xTile	172	0x060000ad	xTile.Layers.Layer	set_TileHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c428	0x9482b4a9	0x1024b96cc	0x1024b96cc	mapped	0x1024b96cc
+xTile	173	0x060000ae	xTile.Layers.Layer	get_DisplaySize	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c42c	0x9482b4bf	0x1024b9728	0x1024b9728	mapped	0x1024b9728
+xTile	174	0x060000af	xTile.Layers.Layer	get_DisplayWidth	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c430	0x9482b4e3	0x1024b97bc	0x1024b97bc	mapped	0x1024b97bc
+xTile	175	0x060000b0	xTile.Layers.Layer	get_DisplayHeight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c434	0x9482b506	0x1024b984c	0x1024b984c	mapped	0x1024b984c
+xTile	176	0x060000b1	xTile.Layers.Layer	get_Visible	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c438	0x9482b528	0x1024b98d8	0x1024b98d8	mapped	0x1024b98d8
+xTile	177	0x060000b2	xTile.Layers.Layer	set_Visible	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c43c	0x9482b530	0x1024b98fc	0x1024b98fc	mapped	0x1024b98fc
+xTile	178	0x060000b3	xTile.Layers.Layer	get_Tiles	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c440	0x9482b538	0x1024b9920	0x1024b9920	mapped	0x1024b9920
+xTile	179	0x060000b4	xTile.Layers.Layer	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c444	0x9482b540	0x1024b9944	0x1024b9944	mapped	0x1024b9944
+xTile	180	0x060000b5	xTile.Layers.Layer	MarkRowDirty	0x2050	NoInlining	Public, HideBySig	0x10040c448	0x9482b5a1	0x1024b9acc	0x1024b9acc	mapped	0x1024b9acc
+xTile	181	0x060000b6	xTile.Layers.Layer	DependsOnTileSheet	0x2050	NoInlining	Public, HideBySig	0x10040c44c	0x9482b5c7	0x1024b9b68	0x1024b9b68	mapped	0x1024b9b68
+xTile	182	0x060000b7	xTile.Layers.Layer	GetTileLocation	0x2050	NoInlining	Public, HideBySig	0x10040c450	0x9482b621	0x1024b9cd4	0x1024b9cd4	mapped	0x1024b9cd4
+xTile	183	0x060000b8	xTile.Layers.Layer	IsValidTileLocation	0x2050	NoInlining	Public, HideBySig	0x10040c454	0x9482b658	0x1024b9db4	0x1024b9db4	mapped	0x1024b9db4
+xTile	184	0x060000b9	xTile.Layers.Layer	IsValidTileLocation	0x2050	NoInlining	Public, HideBySig	0x10040c458	0x9482b673	0x1024b9e24	0x1024b9e24	mapped	0x1024b9e24
+xTile	185	0x060000ba	xTile.Layers.Layer	ConvertMapToLayerViewport	0x2050	NoInlining	Public, HideBySig	0x10040c45c	0x9482b68c	0x1024b9e8c	0x1024b9e8c	mapped	0x1024b9e8c
+xTile	186	0x060000bb	xTile.Layers.Layer	ConvertMapToLayerLocation	0x2050	NoInlining	Public, HideBySig	0x10040c460	0x9482b69e	0x1024b9ed8	0x1024b9ed8	mapped	0x1024b9ed8
+xTile	187	0x060000bc	xTile.Layers.Layer	ConvertLayerToMapLocation	0x2050	NoInlining	Public, HideBySig	0x10040c464	0x9482b6d5	0x1024b9fb8	0x1024b9fb8	mapped	0x1024b9fb8
+xTile	188	0x060000bd	xTile.Layers.Layer	GetTileDisplayRectangle	0x2050	NoInlining	Public, HideBySig	0x10040c468	0x9482b71c	0x1024ba0d8	0x1024ba0d8	mapped	0x1024ba0d8
+xTile	189	0x060000be	xTile.Layers.Layer	PickTile	0x2050	NoInlining	Public, HideBySig	0x10040c46c	0x9482b74a	0x1024ba194	0x1024ba194	mapped	0x1024ba194
+xTile	190	0x060000bf	xTile.Layers.Layer	RemoveTileSheetDependency	0x2050	NoInlining	Public, HideBySig	0x10040c470	0x9482b77f	0x1024ba26c	0x1024ba26c	mapped	0x1024ba26c
+xTile	191	0x060000c0	xTile.Layers.Layer	DrawBackground	0x2050	NoInlining	Public, HideBySig	0x10040c474	0x9482b7ef	0x1024ba430	0x1024ba430	mapped	0x1024ba430
+xTile	192	0x060000c1	xTile.Layers.Layer	Draw	0x2050	NoInlining	Public, HideBySig	0x10040c478	0x9482baa3	0x1024baf04	0x1024baf04	mapped	0x1024baf04
+xTile	193	0x060000c2	xTile.Layers.Layer	Wrap	0x2050	NoInlining	Private, HideBySig	0x10040c47c	0x9482bad7	0x1024bafd8	0x1024bafd8	mapped	0x1024bafd8
+xTile	194	0x060000c3	xTile.Layers.Layer	_RebakeRow	0x2050	NoInlining	Family, HideBySig	0x10040c480	0x9482baed	0x1024bb034	0x1024bb034	mapped	0x1024bb034
+xTile	195	0x060000c4	xTile.Layers.Layer	DrawNormal	0x2050	NoInlining	Private, HideBySig	0x10040c484	0x9482bb3a	0x1024bb16c	0x1024bb16c	mapped	0x1024bb16c
+xTile	196	0x060000c5	xTile.Layers.Layer	DrawWrapped	0x2050	NoInlining	Private, HideBySig	0x10040c488	0x9482bda7	0x1024bbb24	0x1024bbb24	mapped	0x1024bbb24
+xTile	197	0x060000c6	xTile.Layers.Layer	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10040c48c	0x9482befd	0x1024bc080	0x1024bc080	mapped	0x1024bc080
+xTile	198	0x060000c7	xTile.Layers.LayerEventArgs	get_Layer	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c490	0x9482bf0e	0x1024bc0c8	0x1024bc0c8	mapped	0x1024bc0c8
+xTile	199	0x060000c8	xTile.Layers.LayerEventArgs	get_Viewport	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c494	0x9482bf16	0x1024bc0ec	0x1024bc0ec	mapped	0x1024bc0ec
+xTile	200	0x060000c9	xTile.Layers.LayerEventArgs	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c498	0x9482bf20	0x1024bc118	0x1024bc118	mapped	0x1024bc118
+xTile	201	0x060000ca	xTile.Layers.LayerEventHandler	.ctor	0x0	11	Public, HideBySig, SpecialName, RTSpecialName	0x10040c49c	0x97ffff37	0x10040c178		absent	0x10040c178
+xTile	202	0x060000cb	xTile.Layers.LayerEventHandler	Invoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x10040c4a0	0x97ffff36	0x10040c178		absent	0x10040c178
+xTile	203	0x060000cc	xTile.Layers.LayerEventHandler	BeginInvoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x10040c4a4	0x97ffff35	0x10040c178		absent	0x10040c178
+xTile	204	0x060000cd	xTile.Layers.LayerEventHandler	EndInvoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x10040c4a8	0x97ffff34	0x10040c178		absent	0x10040c178
+xTile	205	0x060000ce	xTile.Format.CompatibilityNote	get_CompatibilityLevel	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c4ac	0x9482bf2c	0x1024bc15c	0x1024bc15c	mapped	0x1024bc15c
+xTile	206	0x060000cf	xTile.Format.CompatibilityNote	get_Remarks	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c4b0	0x9482bf34	0x1024bc180	0x1024bc180	mapped	0x1024bc180
+xTile	207	0x060000d0	xTile.Format.CompatibilityNote	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c4b4	0x9482bf3c	0x1024bc1a4	0x1024bc1a4	mapped	0x1024bc1a4
+xTile	208	0x060000d1	xTile.Format.CompatibilityReport	get_CompatibilityLevel	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c4b8	0x9482bf4b	0x1024bc1e4	0x1024bc1e4	mapped	0x1024bc1e4
+xTile	209	0x060000d2	xTile.Format.CompatibilityReport	get_CompatibilityNotes	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c4bc	0x9482bfb5	0x1024bc390	0x1024bc390	mapped	0x1024bc390
+xTile	210	0x060000d3	xTile.Format.CompatibilityReport	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c4c0	0x9482bfe7	0x1024bc45c	0x1024bc45c	mapped	0x1024bc45c
+xTile	211	0x060000d4	xTile.Format.CompatibilityReport	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c4c4	0x9482c014	0x1024bc514	0x1024bc514	mapped	0x1024bc514
+xTile	212	0x060000d5	xTile.Format.FormatManager	get_Instance	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c4c8	0x9482c043	0x1024bc5d4	0x1024bc5d4	mapped	0x1024bc5d4
+xTile	213	0x060000d6	xTile.Format.FormatManager	get_Item	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c4cc	0x9482c053	0x1024bc618	0x1024bc618	mapped	0x1024bc618
+xTile	214	0x060000d7	xTile.Format.FormatManager	get_DefaultFormat	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c4d0	0x9482c097	0x1024bc72c	0x1024bc72c	mapped	0x1024bc72c
+xTile	215	0x060000d8	xTile.Format.FormatManager	get_BinaryFormat	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c4d4	0x9482c09f	0x1024bc750	0x1024bc750	mapped	0x1024bc750
+xTile	216	0x060000d9	xTile.Format.FormatManager	get_MapFormats	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c4d8	0x9482c0a7	0x1024bc774	0x1024bc774	mapped	0x1024bc774
+xTile	217	0x060000da	xTile.Format.FormatManager	RegisterMapFormat	0x2050	NoInlining	Public, HideBySig	0x10040c4dc	0x9482c0f3	0x1024bc8a8	0x1024bc8a8	mapped	0x1024bc8a8
+xTile	218	0x060000db	xTile.Format.FormatManager	UnregisterMapFormat	0x2050	NoInlining	Public, HideBySig	0x10040c4e0	0x9482c14f	0x1024bca1c	0x1024bca1c	mapped	0x1024bca1c
+xTile	219	0x060000dc	xTile.Format.FormatManager	GetMapFormatByExtension	0x2050	NoInlining	Public, HideBySig	0x10040c4e4	0x9482c1aa	0x1024bcb8c	0x1024bcb8c	mapped	0x1024bcb8c
+xTile	220	0x060000dd	xTile.Format.FormatManager	LoadMap	0x2050	NoInlining	Public, HideBySig	0x10040c4e8	0x9482c22c	0x1024bcd98	0x1024bcd98	mapped	0x1024bcd98
+xTile	221	0x060000de	xTile.Format.FormatManager	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x10040c4ec	0x9482c2ad	0x1024bcfa0	0x1024bcfa0	mapped	0x1024bcfa0
+xTile	222	0x060000df	xTile.Format.FormatManager	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10040c4f0	0x9482c32f	0x1024bd1ac	0x1024bd1ac	mapped	0x1024bd1ac
+xTile	223	0x060000e0	xTile.Format.IMapFormat	get_Name	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x10040c4f4	0x97ffff21	0x10040c178		absent	0x10040c178
+xTile	224	0x060000e1	xTile.Format.IMapFormat	get_FileExtensionDescriptor	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x10040c4f8	0x97ffff20	0x10040c178		absent	0x10040c178
+xTile	225	0x060000e2	xTile.Format.IMapFormat	get_FileExtension	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x10040c4fc	0x97ffff1f	0x10040c178		absent	0x10040c178
+xTile	226	0x060000e3	xTile.Format.IMapFormat	DetermineCompatibility	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c500	0x97ffff1e	0x10040c178		absent	0x10040c178
+xTile	227	0x060000e4	xTile.Format.IMapFormat	Load	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c504	0x97ffff1d	0x10040c178		absent	0x10040c178
+xTile	228	0x060000e5	xTile.Format.IMapFormat	Store	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c508	0x97ffff1c	0x10040c178		absent	0x10040c178
+xTile	229	0x060000e6	xTile.Format.TbinFormat	get_Name	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c50c	0x9482c346	0x1024bd224	0x1024bd224	mapped	0x1024bd224
+xTile	230	0x060000e7	xTile.Format.TbinFormat	get_FileExtensionDescriptor	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c510	0x9482c355	0x1024bd264	0x1024bd264	mapped	0x1024bd264
+xTile	231	0x060000e8	xTile.Format.TbinFormat	get_FileExtension	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c514	0x9482c364	0x1024bd2a4	0x1024bd2a4	mapped	0x1024bd2a4
+xTile	232	0x060000e9	xTile.Format.TbinFormat	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c518	0x9482c373	0x1024bd2e4	0x1024bd2e4	mapped	0x1024bd2e4
+xTile	233	0x060000ea	xTile.Format.TbinFormat	DetermineCompatibility	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c51c	0x9482c3f6	0x1024bd4f4	0x1024bd4f4	mapped	0x1024bd4f4
+xTile	234	0x060000eb	xTile.Format.TbinFormat	Load	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c520	0x9482c3fe	0x1024bd518	0x1024bd518	mapped	0x1024bd518
+xTile	235	0x060000ec	xTile.Format.TbinFormat	Store	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c524	0x9482c462	0x1024bd6ac	0x1024bd6ac	mapped	0x1024bd6ac
+xTile	236	0x060000ed	xTile.Format.TbinFormat	StoreSequence	0x2050	NoInlining	Private, HideBySig	0x10040c528	0x9482c48c	0x1024bd758	0x1024bd758	mapped	0x1024bd758
+xTile	237	0x060000ee	xTile.Format.TbinFormat	GetBuffer	0x2050	NoInlining	Private, HideBySig	0x10040c52c	0x9482c4a8	0x1024bd7cc	0x1024bd7cc	mapped	0x1024bd7cc
+xTile	238	0x060000ef	xTile.Format.TbinFormat	LoadSequence	0x2050	NoInlining	Private, HideBySig	0x10040c530	0x9482c4d8	0x1024bd890	0x1024bd890	mapped	0x1024bd890
+xTile	239	0x060000f0	xTile.Format.TbinFormat	LoadSequence	0x2050	NoInlining	Private, HideBySig	0x10040c534	0x9482c50e	0x1024bd96c	0x1024bd96c	mapped	0x1024bd96c
+xTile	240	0x060000f1	xTile.Format.TbinFormat	StoreBool	0x2050	NoInlining	Private, HideBySig	0x10040c538	0x9482c580	0x1024bdb38	0x1024bdb38	mapped	0x1024bdb38
+xTile	241	0x060000f2	xTile.Format.TbinFormat	LoadBool	0x2050	NoInlining	Private, HideBySig	0x10040c53c	0x9482c598	0x1024bdb9c	0x1024bdb9c	mapped	0x1024bdb9c
+xTile	242	0x060000f3	xTile.Format.TbinFormat	StoreInt32	0x2050	NoInlining	Private, HideBySig	0x10040c540	0x9482c5af	0x1024bdbfc	0x1024bdbfc	mapped	0x1024bdbfc
+xTile	243	0x060000f4	xTile.Format.TbinFormat	LoadInt32	0x2050	NoInlining	Private, HideBySig	0x10040c544	0x9482c5d5	0x1024bdc98	0x1024bdc98	mapped	0x1024bdc98
+xTile	244	0x060000f5	xTile.Format.TbinFormat	StoreUInt16	0x2050	NoInlining	Private, HideBySig	0x10040c548	0x9482c600	0x1024bdd48	0x1024bdd48	mapped	0x1024bdd48
+xTile	245	0x060000f6	xTile.Format.TbinFormat	LoadUInt16	0x2050	NoInlining	Private, HideBySig	0x10040c54c	0x9482c631	0x1024bde10	0x1024bde10	mapped	0x1024bde10
+xTile	246	0x060000f7	xTile.Format.TbinFormat	StoreFloat	0x2050	NoInlining	Private, HideBySig	0x10040c550	0x9482c64c	0x1024bde80	0x1024bde80	mapped	0x1024bde80
+xTile	247	0x060000f8	xTile.Format.TbinFormat	LoadFloat	0x2050	NoInlining	Private, HideBySig	0x10040c554	0x9482c674	0x1024bdf24	0x1024bdf24	mapped	0x1024bdf24
+xTile	248	0x060000f9	xTile.Format.TbinFormat	StoreString	0x2050	NoInlining	Private, HideBySig	0x10040c558	0x9482c686	0x1024bdf70	0x1024bdf70	mapped	0x1024bdf70
+xTile	249	0x060000fa	xTile.Format.TbinFormat	LoadString	0x2050	NoInlining	Private, HideBySig	0x10040c55c	0x9482c6bc	0x1024be04c	0x1024be04c	mapped	0x1024be04c
+xTile	250	0x060000fb	xTile.Format.TbinFormat	StoreSize	0x2050	NoInlining	Private, HideBySig	0x10040c560	0x9482c6e9	0x1024be104	0x1024be104	mapped	0x1024be104
+xTile	251	0x060000fc	xTile.Format.TbinFormat	LoadSize	0x2050	NoInlining	Private, HideBySig	0x10040c564	0x9482c6fe	0x1024be15c	0x1024be15c	mapped	0x1024be15c
+xTile	252	0x060000fd	xTile.Format.TbinFormat	StoreProperties	0x2050	NoInlining	Private, HideBySig	0x10040c568	0x9482c715	0x1024be1bc	0x1024be1bc	mapped	0x1024be1bc
+xTile	253	0x060000fe	xTile.Format.TbinFormat	LoadProperties	0x2050	NoInlining	Private, HideBySig	0x10040c56c	0x9482c823	0x1024be5f8	0x1024be5f8	mapped	0x1024be5f8
+xTile	254	0x060000ff	xTile.Format.TbinFormat	StoreTileSheet	0x2050	NoInlining	Private, HideBySig	0x10040c570	0x9482c8fb	0x1024be95c	0x1024be95c	mapped	0x1024be95c
+xTile	255	0x06000100	xTile.Format.TbinFormat	LoadTileSheet	0x2050	NoInlining	Private, HideBySig	0x10040c574	0x9482c933	0x1024bea40	0x1024bea40	mapped	0x1024bea40
+xTile	256	0x06000101	xTile.Format.TbinFormat	StoreTileSheets	0x2050	NoInlining	Private, HideBySig	0x10040c578	0x9482c999	0x1024bebdc	0x1024bebdc	mapped	0x1024bebdc
+xTile	257	0x06000102	xTile.Format.TbinFormat	LoadTileSheets	0x2050	NoInlining	Private, HideBySig	0x10040c57c	0x9482ca07	0x1024bed98	0x1024bed98	mapped	0x1024bed98
+xTile	258	0x06000103	xTile.Format.TbinFormat	StoreStaticTile	0x2050	NoInlining	Private, HideBySig	0x10040c580	0x9482ca2a	0x1024bee28	0x1024bee28	mapped	0x1024bee28
+xTile	259	0x06000104	xTile.Format.TbinFormat	LoadStaticTile	0x2050	NoInlining	Private, HideBySig	0x10040c584	0x9482ca53	0x1024beed0	0x1024beed0	mapped	0x1024beed0
+xTile	260	0x06000105	xTile.Format.TbinFormat	StoreAnimatedTile	0x2050	NoInlining	Private, HideBySig	0x10040c588	0x9482ca8e	0x1024befc0	0x1024befc0	mapped	0x1024befc0
+xTile	261	0x06000106	xTile.Format.TbinFormat	LoadAnimatedTile	0x2050	NoInlining	Private, HideBySig	0x10040c58c	0x9482caf8	0x1024bf16c	0x1024bf16c	mapped	0x1024bf16c
+xTile	262	0x06000107	xTile.Format.TbinFormat	StoreLayer	0x2050	NoInlining	Private, HideBySig	0x10040c590	0x9482cb95	0x1024bf3e4	0x1024bf3e4	mapped	0x1024bf3e4
+xTile	263	0x06000108	xTile.Format.TbinFormat	LoadLayer	0x2050	NoInlining	Private, HideBySig	0x10040c594	0x9482cca3	0x1024bf820	0x1024bf820	mapped	0x1024bf820
+xTile	264	0x06000109	xTile.Format.TbinFormat	StoreLayers	0x2050	NoInlining	Private, HideBySig	0x10040c598	0x9482cd71	0x1024bfb5c	0x1024bfb5c	mapped	0x1024bfb5c
+xTile	265	0x0600010a	xTile.Format.TbinFormat	LoadLayers	0x2050	NoInlining	Private, HideBySig	0x10040c59c	0x9482cddf	0x1024bfd18	0x1024bfd18	mapped	0x1024bfd18
+xTile	266	0x0600010b	xTile.Format.TideFormat	get_Name	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c5a0	0x9482ce02	0x1024bfda8	0x1024bfda8	mapped	0x1024bfda8
+xTile	267	0x0600010c	xTile.Format.TideFormat	get_FileExtensionDescriptor	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c5a4	0x9482ce11	0x1024bfde8	0x1024bfde8	mapped	0x1024bfde8
+xTile	268	0x0600010d	xTile.Format.TideFormat	get_FileExtension	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x10040c5a8	0x9482ce20	0x1024bfe28	0x1024bfe28	mapped	0x1024bfe28
+xTile	269	0x0600010e	xTile.Format.TideFormat	DetermineCompatibility	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c5ac	0x9482ce2f	0x1024bfe68	0x1024bfe68	mapped	0x1024bfe68
+xTile	270	0x0600010f	xTile.Format.TideFormat	Load	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c5b0	0x9482ce37	0x1024bfe8c	0x1024bfe8c	mapped	0x1024bfe8c
+xTile	271	0x06000110	xTile.Format.TideFormat	Store	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c5b4	0x9482ce93	0x1024c0000	0x1024c0000	mapped	0x1024c0000
+xTile	272	0x06000111	xTile.Format.TideFormat	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x10040c5b8	0x9482ceef	0x1024c0174	0x1024c0174	mapped	0x1024c0174
+xTile	273	0x06000112	xTile.Format.TideFormat	LoadProperties	0x2050	NoInlining	Private, HideBySig	0x10040c5bc	0x9482cf2f	0x1024c0278	0x1024c0278	mapped	0x1024c0278
+xTile	274	0x06000113	xTile.Format.TideFormat	StoreProperties	0x2050	NoInlining	Private, HideBySig	0x10040c5c0	0x9482d038	0x1024c06a0	0x1024c06a0	mapped	0x1024c06a0
+xTile	275	0x06000114	xTile.Format.TideFormat	LoadStaticTile	0x2050	NoInlining	Private, HideBySig	0x10040c5c4	0x9482d0dc	0x1024c0934	0x1024c0934	mapped	0x1024c0934
+xTile	276	0x06000115	xTile.Format.TideFormat	StoreStaticTile	0x2050	NoInlining	Private, HideBySig	0x10040c5c8	0x9482d12c	0x1024c0a78	0x1024c0a78	mapped	0x1024c0a78
+xTile	277	0x06000116	xTile.Format.TideFormat	LoadAnimatedTile	0x2050	NoInlining	Private, HideBySig	0x10040c5cc	0x9482d187	0x1024c0be8	0x1024c0be8	mapped	0x1024c0be8
+xTile	278	0x06000117	xTile.Format.TideFormat	StoreAnimatedTile	0x2050	NoInlining	Private, HideBySig	0x10040c5d0	0x9482d238	0x1024c0eb0	0x1024c0eb0	mapped	0x1024c0eb0
+xTile	279	0x06000118	xTile.Format.TideFormat	LoadTileSheet	0x2050	NoInlining	Private, HideBySig	0x10040c5d4	0x9482d2c3	0x1024c10e0	0x1024c10e0	mapped	0x1024c10e0
+xTile	280	0x06000119	xTile.Format.TideFormat	StoreTileSheet	0x2050	NoInlining	Private, HideBySig	0x10040c5d8	0x9482d33a	0x1024c12c0	0x1024c12c0	mapped	0x1024c12c0
+xTile	281	0x0600011a	xTile.Format.TideFormat	LoadTileSheets	0x2050	NoInlining	Private, HideBySig	0x10040c5dc	0x9482d3b7	0x1024c14b8	0x1024c14b8	mapped	0x1024c14b8
+xTile	282	0x0600011b	xTile.Format.TideFormat	StoreTileSheets	0x2050	NoInlining	Private, HideBySig	0x10040c5e0	0x9482d3f4	0x1024c15b0	0x1024c15b0	mapped	0x1024c15b0
+xTile	283	0x0600011c	xTile.Format.TideFormat	LoadLayer	0x2050	NoInlining	Private, HideBySig	0x10040c5e4	0x9482d464	0x1024c1774	0x1024c1774	mapped	0x1024c1774
+xTile	284	0x0600011d	xTile.Format.TideFormat	StoreLayer	0x2050	NoInlining	Private, HideBySig	0x10040c5e8	0x9482d579	0x1024c1bcc	0x1024c1bcc	mapped	0x1024c1bcc
+xTile	285	0x0600011e	xTile.Format.TideFormat	LoadLayers	0x2050	NoInlining	Private, HideBySig	0x10040c5ec	0x9482d67c	0x1024c1fdc	0x1024c1fdc	mapped	0x1024c1fdc
+xTile	286	0x0600011f	xTile.Format.TideFormat	StoreLayers	0x2050	NoInlining	Private, HideBySig	0x10040c5f0	0x9482d6b9	0x1024c20d4	0x1024c20d4	mapped	0x1024c20d4
+xTile	287	0x06000120	xTile.Format.XmlHelper	get_XmlReader	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c5f4	0x9482d729	0x1024c2298	0x1024c2298	mapped	0x1024c2298
+xTile	288	0x06000121	xTile.Format.XmlHelper	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c5f8	0x9482d731	0x1024c22bc	0x1024c22bc	mapped	0x1024c22bc
+xTile	289	0x06000122	xTile.Format.XmlHelper	AdvanceNode	0x2050	NoInlining	Public, HideBySig	0x10040c5fc	0x9482d740	0x1024c22fc	0x1024c22fc	mapped	0x1024c22fc
+xTile	290	0x06000123	xTile.Format.XmlHelper	AdvanceNode	0x2050	NoInlining	Public, HideBySig	0x10040c600	0x9482d76b	0x1024c23ac	0x1024c23ac	mapped	0x1024c23ac
+xTile	291	0x06000124	xTile.Format.XmlHelper	AdvanceNamedNode	0x2050	NoInlining	Public, HideBySig	0x10040c604	0x9482d7df	0x1024c2580	0x1024c2580	mapped	0x1024c2580
+xTile	292	0x06000125	xTile.Format.XmlHelper	AdvanceDeclaration	0x2050	NoInlining	Public, HideBySig	0x10040c608	0x9482d85f	0x1024c2784	0x1024c2784	mapped	0x1024c2784
+xTile	293	0x06000126	xTile.Format.XmlHelper	AdvanceStartElement	0x2050	NoInlining	Public, HideBySig	0x10040c60c	0x9482d86d	0x1024c27c0	0x1024c27c0	mapped	0x1024c27c0
+xTile	294	0x06000127	xTile.Format.XmlHelper	AdvanceStartRepeatedElement	0x2050	NoInlining	Public, HideBySig	0x10040c610	0x9482d87d	0x1024c2804	0x1024c2804	mapped	0x1024c2804
+xTile	295	0x06000128	xTile.Format.XmlHelper	AdvanceEndElement	0x2050	NoInlining	Public, HideBySig	0x10040c614	0x9482d8ee	0x1024c29cc	0x1024c29cc	mapped	0x1024c29cc
+xTile	296	0x06000129	xTile.Format.XmlHelper	SkipToEndElement	0x2050	NoInlining	Public, HideBySig	0x10040c618	0x9482d918	0x1024c2a78	0x1024c2a78	mapped	0x1024c2a78
+xTile	297	0x0600012a	xTile.Format.XmlHelper	GetAttribute	0x2050	NoInlining	Public, HideBySig	0x10040c61c	0x9482d94b	0x1024c2b48	0x1024c2b48	mapped	0x1024c2b48
+xTile	298	0x0600012b	xTile.Format.XmlHelper	GetAttribute	0x2050	NoInlining	Public, HideBySig	0x10040c620	0x9482d9d2	0x1024c2d68	0x1024c2d68	mapped	0x1024c2d68
+xTile	299	0x0600012c	xTile.Format.XmlHelper	GetIntAttribute	0x2050	NoInlining	Public, HideBySig	0x10040c624	0x9482d9f1	0x1024c2de8	0x1024c2de8	mapped	0x1024c2de8
+xTile	300	0x0600012d	xTile.Format.XmlHelper	GetIntAttribute	0x2050	NoInlining	Public, HideBySig	0x10040c628	0x9482da25	0x1024c2ebc	0x1024c2ebc	mapped	0x1024c2ebc
+xTile	301	0x0600012e	xTile.Format.XmlHelper	GetCData	0x2050	NoInlining	Public, HideBySig	0x10040c62c	0x9482da68	0x1024c2fcc	0x1024c2fcc	mapped	0x1024c2fcc
+xTile	302	0x0600012f	xTile.Display.IDisplayDevice	LoadTileSheet	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c630	0x97fffed2	0x10040c178		absent	0x10040c178
+xTile	303	0x06000130	xTile.Display.IDisplayDevice	DisposeTileSheet	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c634	0x97fffed1	0x10040c178		absent	0x10040c178
+xTile	304	0x06000131	xTile.Display.IDisplayDevice	BeginScene	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c638	0x97fffed0	0x10040c178		absent	0x10040c178
+xTile	305	0x06000132	xTile.Display.IDisplayDevice	SetClippingRegion	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c63c	0x97fffecf	0x10040c178		absent	0x10040c178
+xTile	306	0x06000133	xTile.Display.IDisplayDevice	DrawTile	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c640	0x97fffece	0x10040c178		absent	0x10040c178
+xTile	307	0x06000134	xTile.Display.IDisplayDevice	EndScene	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10040c644	0x97fffecd	0x10040c178		absent	0x10040c178
+xTile	308	0x06000135	xTile.Display.XnaDisplayDevice	get_ModulationColour	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c648	0x9482da7c	0x1024c3038	0x1024c3038	mapped	0x1024c3038
+xTile	309	0x06000136	xTile.Display.XnaDisplayDevice	set_ModulationColour	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c64c	0x9482da84	0x1024c305c	0x1024c305c	mapped	0x1024c305c
+xTile	310	0x06000137	xTile.Display.XnaDisplayDevice	get_SpriteBatchAlpha	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c650	0x9482da8c	0x1024c3080	0x1024c3080	mapped	0x1024c3080
+xTile	311	0x06000138	xTile.Display.XnaDisplayDevice	get_SpriteBatchAdditive	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c654	0x9482da94	0x1024c30a4	0x1024c30a4	mapped	0x1024c30a4
+xTile	312	0x06000139	xTile.Display.XnaDisplayDevice	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c658	0x9482da9c	0x1024c30c8	0x1024c30c8	mapped	0x1024c30c8
+xTile	313	0x0600013a	xTile.Display.XnaDisplayDevice	LoadTileSheet	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c65c	0x9482daee	0x1024c3214	0x1024c3214	mapped	0x1024c3214
+xTile	314	0x0600013b	xTile.Display.XnaDisplayDevice	DisposeTileSheet	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c660	0x9482db25	0x1024c32f4	0x1024c32f4	mapped	0x1024c32f4
+xTile	315	0x0600013c	xTile.Display.XnaDisplayDevice	BeginScene	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c664	0x9482db4b	0x1024c3390	0x1024c3390	mapped	0x1024c3390
+xTile	316	0x0600013d	xTile.Display.XnaDisplayDevice	SetClippingRegion	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c668	0x9482db5a	0x1024c33d0	0x1024c33d0	mapped	0x1024c33d0
+xTile	317	0x0600013e	xTile.Display.XnaDisplayDevice	DrawTile	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x10040c66c	0x9482dba3	0x1024c34f8	0x1024c34f8	mapped	0x1024c34f8
+xTile	318	0x0600013f	xTile.Display.XnaDisplayDevice	EndScene	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10040c670	0x9482dc28	0x1024c3710	0x1024c3710	mapped	0x1024c3710
+xTile	319	0x06000140	xTile.Display.XnaDisplayDevice	DrawImpl	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x10040c674	0x9482dc28	0x1024c3714	0x1024c3714	mapped	0x1024c3714
+xTile	320	0x06000141	xTile.Display.XnaDisplayDevice	Clamp	0x2050	NoInlining	Private, HideBySig	0x10040c678	0x9482dc75	0x1024c384c	0x1024c384c	mapped	0x1024c384c
+xTile	321	0x06000142	xTile.Dimensions.Location	get_Origin	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c67c	0x9482dc79	0x1024c3860	0x1024c3860	mapped	0x1024c3860
+xTile	322	0x06000143	xTile.Dimensions.Location	get_AboveLeft	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c680	0x9482dc89	0x1024c38a4	0x1024c38a4	mapped	0x1024c38a4
+xTile	323	0x06000144	xTile.Dimensions.Location	get_Above	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c684	0x9482dc95	0x1024c38d8	0x1024c38d8	mapped	0x1024c38d8
+xTile	324	0x06000145	xTile.Dimensions.Location	get_AboveRight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c688	0x9482dca0	0x1024c3908	0x1024c3908	mapped	0x1024c3908
+xTile	325	0x06000146	xTile.Dimensions.Location	get_Left	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c68c	0x9482dcac	0x1024c393c	0x1024c393c	mapped	0x1024c393c
+xTile	326	0x06000147	xTile.Dimensions.Location	get_Right	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c690	0x9482dcb7	0x1024c396c	0x1024c396c	mapped	0x1024c396c
+xTile	327	0x06000148	xTile.Dimensions.Location	get_BelowLeft	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c694	0x9482dcc2	0x1024c399c	0x1024c399c	mapped	0x1024c399c
+xTile	328	0x06000149	xTile.Dimensions.Location	get_Below	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c698	0x9482dcce	0x1024c39d0	0x1024c39d0	mapped	0x1024c39d0
+xTile	329	0x0600014a	xTile.Dimensions.Location	get_BelowRight	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c69c	0x9482dcd9	0x1024c3a00	0x1024c3a00	mapped	0x1024c3a00
+xTile	330	0x0600014b	xTile.Dimensions.Location	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c6a0	0x9482dce5	0x1024c3a34	0x1024c3a34	mapped	0x1024c3a34
+xTile	331	0x0600014c	xTile.Dimensions.Location	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c6a4	0x9482dcf8	0x1024c3a84	0x1024c3a84	mapped	0x1024c3a84
+xTile	332	0x0600014d	xTile.Dimensions.Location	op_UnaryNegation	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c6a8	0x9482dd0b	0x1024c3ad4	0x1024c3ad4	mapped	0x1024c3ad4
+xTile	333	0x0600014e	xTile.Dimensions.Location	op_Addition	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c6ac	0x9482dd1c	0x1024c3b1c	0x1024c3b1c	mapped	0x1024c3b1c
+xTile	334	0x0600014f	xTile.Dimensions.Location	op_Subtraction	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c6b0	0x9482dd32	0x1024c3b78	0x1024c3b78	mapped	0x1024c3b78
+xTile	335	0x06000150	xTile.Dimensions.Location	op_Multiply	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c6b4	0x9482dd48	0x1024c3bd4	0x1024c3bd4	mapped	0x1024c3bd4
+xTile	336	0x06000151	xTile.Dimensions.Location	op_Multiply	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c6b8	0x9482dd5d	0x1024c3c2c	0x1024c3c2c	mapped	0x1024c3c2c
+xTile	337	0x06000152	xTile.Dimensions.Location	op_Division	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c6bc	0x9482dd72	0x1024c3c84	0x1024c3c84	mapped	0x1024c3c84
+xTile	338	0x06000153	xTile.Dimensions.Location	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c6c0	0x9482dd9f	0x1024c3d3c	0x1024c3d3c	mapped	0x1024c3d3c
+xTile	339	0x06000154	xTile.Dimensions.Location	GetHashCode	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c6c4	0x9482ddb8	0x1024c3da4	0x1024c3da4	mapped	0x1024c3da4
+xTile	340	0x06000155	xTile.Dimensions.Location	Equals	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c6c8	0x9482ddc2	0x1024c3dd0	0x1024c3dd0	mapped	0x1024c3dd0
+xTile	341	0x06000156	xTile.Dimensions.Location	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c6cc	0x9482ddf9	0x1024c3eb0	0x1024c3eb0	mapped	0x1024c3eb0
+xTile	342	0x06000157	xTile.Dimensions.Location	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10040c6d0	0x9482de47	0x1024c3fec	0x1024c3fec	mapped	0x1024c3fec
+xTile	343	0x06000158	xTile.Dimensions.Rectangle	get_X	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c6d4	0x9482de57	0x1024c4030	0x1024c4030	mapped	0x1024c4030
+xTile	344	0x06000159	xTile.Dimensions.Rectangle	set_X	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c6d8	0x9482de5f	0x1024c4054	0x1024c4054	mapped	0x1024c4054
+xTile	345	0x0600015a	xTile.Dimensions.Rectangle	get_Y	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c6dc	0x9482de67	0x1024c4078	0x1024c4078	mapped	0x1024c4078
+xTile	346	0x0600015b	xTile.Dimensions.Rectangle	set_Y	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c6e0	0x9482de6f	0x1024c409c	0x1024c409c	mapped	0x1024c409c
+xTile	347	0x0600015c	xTile.Dimensions.Rectangle	get_Width	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c6e4	0x9482de77	0x1024c40c0	0x1024c40c0	mapped	0x1024c40c0
+xTile	348	0x0600015d	xTile.Dimensions.Rectangle	set_Width	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c6e8	0x9482de85	0x1024c40fc	0x1024c40fc	mapped	0x1024c40fc
+xTile	349	0x0600015e	xTile.Dimensions.Rectangle	get_Height	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c6ec	0x9482de93	0x1024c4138	0x1024c4138	mapped	0x1024c4138
+xTile	350	0x0600015f	xTile.Dimensions.Rectangle	set_Height	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c6f0	0x9482dea1	0x1024c4174	0x1024c4174	mapped	0x1024c4174
+xTile	351	0x06000160	xTile.Dimensions.Rectangle	get_MaxCorner	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c6f4	0x9482deaf	0x1024c41b0	0x1024c41b0	mapped	0x1024c41b0
+xTile	352	0x06000161	xTile.Dimensions.Rectangle	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c6f8	0x9482dec3	0x1024c4204	0x1024c4204	mapped	0x1024c4204
+xTile	353	0x06000162	xTile.Dimensions.Rectangle	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c6fc	0x9482decb	0x1024c4228	0x1024c4228	mapped	0x1024c4228
+xTile	354	0x06000163	xTile.Dimensions.Rectangle	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c700	0x9482def2	0x1024c42c8	0x1024c42c8	mapped	0x1024c42c8
+xTile	355	0x06000164	xTile.Dimensions.Rectangle	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c704	0x9482defb	0x1024c42f0	0x1024c42f0	mapped	0x1024c42f0
+xTile	356	0x06000165	xTile.Dimensions.Rectangle	Contains	0x2050	NoInlining	Public, HideBySig	0x10040c708	0x9482df08	0x1024c4328	0x1024c4328	mapped	0x1024c4328
+xTile	357	0x06000166	xTile.Dimensions.Rectangle	Intersects	0x2050	NoInlining	Public, HideBySig	0x10040c70c	0x9482df26	0x1024c43a4	0x1024c43a4	mapped	0x1024c43a4
+xTile	358	0x06000167	xTile.Dimensions.Rectangle	ExtendTo	0x2050	NoInlining	Public, HideBySig	0x10040c710	0x9482df4b	0x1024c443c	0x1024c443c	mapped	0x1024c443c
+xTile	359	0x06000168	xTile.Dimensions.Rectangle	ExtendTo	0x2050	NoInlining	Public, HideBySig	0x10040c714	0x9482df8b	0x1024c4540	0x1024c4540	mapped	0x1024c4540
+xTile	360	0x06000169	xTile.Dimensions.Rectangle	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c718	0x9482dfb4	0x1024c45e8	0x1024c45e8	mapped	0x1024c45e8
+xTile	361	0x0600016a	xTile.Dimensions.Size	get_Zero	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c71c	0x9482dfdb	0x1024c4688	0x1024c4688	mapped	0x1024c4688
+xTile	362	0x0600016b	xTile.Dimensions.Size	get_Area	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c720	0x9482dfeb	0x1024c46cc	0x1024c46cc	mapped	0x1024c46cc
+xTile	363	0x0600016c	xTile.Dimensions.Size	get_Square	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10040c724	0x9482dff5	0x1024c46f8	0x1024c46f8	mapped	0x1024c46f8
+xTile	364	0x0600016d	xTile.Dimensions.Size	FromString	0x2050	NoInlining	Public, Static, HideBySig	0x10040c728	0x9482e000	0x1024c4728	0x1024c4728	mapped	0x1024c4728
+xTile	365	0x0600016e	xTile.Dimensions.Size	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c72c	0x9482e046	0x1024c4844	0x1024c4844	mapped	0x1024c4844
+xTile	366	0x0600016f	xTile.Dimensions.Size	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x10040c730	0x9482e059	0x1024c4894	0x1024c4894	mapped	0x1024c4894
+xTile	367	0x06000170	xTile.Dimensions.Size	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c734	0x9482e06c	0x1024c48e4	0x1024c48e4	mapped	0x1024c48e4
+xTile	368	0x06000171	xTile.Dimensions.Size	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c738	0x9482e085	0x1024c494c	0x1024c494c	mapped	0x1024c494c
+xTile	369	0x06000172	xTile.Dimensions.Size	Equals	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c73c	0x9482e09d	0x1024c49b0	0x1024c49b0	mapped	0x1024c49b0
+xTile	370	0x06000173	xTile.Dimensions.Size	GetHashCode	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c740	0x9482e0d4	0x1024c4a90	0x1024c4a90	mapped	0x1024c4a90
+xTile	371	0x06000174	xTile.Dimensions.Size	ToString	0x2050	NoInlining	Public, Virtual, HideBySig	0x10040c744	0x9482e0de	0x1024c4abc	0x1024c4abc	mapped	0x1024c4abc
+xTile	372	0x06000175	xTile.Dimensions.Size	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10040c748	0x9482e105	0x1024c4b5c	0x1024c4b5c	mapped	0x1024c4b5c
+xTile	373	0x06000176	xTile.Map+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10040c74c	0x9482e115	0x1024c4ba0	0x1024c4ba0	mapped	0x1024c4ba0
+xTile	374	0x06000177	xTile.Map+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c750	0x9482e130	0x1024c4c10	0x1024c4c10	mapped	0x1024c4c10
+xTile	375	0x06000178	xTile.Map+<>c	<AddTileSheet>b__33_0	0x2050	NoInlining	Assembly, HideBySig	0x10040c754	0x9482e13d	0x1024c4c48	0x1024c4c48	mapped	0x1024c4c48
+xTile	376	0x06000179	xTile.Tiles.TileIndexPropertyCollection+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10040c758	0x9482e157	0x1024c4cb4	0x1024c4cb4	mapped	0x1024c4cb4
+xTile	377	0x0600017a	xTile.Tiles.TileIndexPropertyCollection+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c75c	0x9482e172	0x1024c4d24	0x1024c4d24	mapped	0x1024c4d24
+xTile	378	0x0600017b	xTile.Tiles.TileIndexPropertyCollection+<>c	<get_Keys>b__6_1	0x2050	NoInlining	Assembly, HideBySig	0x10040c760	0x9482e17f	0x1024c4d5c	0x1024c4d5c	mapped	0x1024c4d5c
+xTile	379	0x0600017c	xTile.Format.TbinFormat+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10040c764	0x9482e181	0x1024c4d68	0x1024c4d68	mapped	0x1024c4d68
+xTile	380	0x0600017d	xTile.Format.TbinFormat+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10040c768	0x9482e19c	0x1024c4dd8	0x1024c4dd8	mapped	0x1024c4dd8
+xTile	381	0x0600017e	xTile.Format.TbinFormat+<>c	<.ctor>b__12_0	0x2050	NoInlining	Assembly, HideBySig	0x10040c76c	0x9482e1a9	0x1024c4e10	0x1024c4e10	mapped	0x1024c4e10

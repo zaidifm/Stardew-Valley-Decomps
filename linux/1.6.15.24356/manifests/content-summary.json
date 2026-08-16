@@ -1,0 +1,40 @@
+{
+  "content_files": 3561,
+  "xnb_files": 3550,
+  "top_categories": {
+    "_root": 1,
+    "Strings": 732,
+    "TerrainFeatures": 38,
+    "Maps": 563,
+    "TileSheets": 41,
+    "LooseSprites": 156,
+    "Portraits": 101,
+    "Fonts": 55,
+    "XACT": 4,
+    "Characters": 872,
+    "Animals": 43,
+    "Effects": 3,
+    "Minigames": 53,
+    "VolcanoLayouts": 1,
+    "Buildings": 47,
+    "Data": 851
+  },
+  "xact_files": [
+    {
+      "path": "XACT/Wave Bank(1.4).xwb",
+      "bytes": 37258692
+    },
+    {
+      "path": "XACT/Sound Bank.xsb",
+      "bytes": 32062
+    },
+    {
+      "path": "XACT/FarmerSounds.xgs",
+      "bytes": 1404
+    },
+    {
+      "path": "XACT/Wave Bank.xwb",
+      "bytes": 460453688
+    }
+  ]
+}

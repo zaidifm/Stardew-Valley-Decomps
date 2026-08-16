@@ -1,0 +1,26 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Web.HttpUtility	0	0x06000001	System.HexConverter	ToCharLower	0x2050	264	Public, Static, HideBySig	0x1005bbdf8	0x949544d0	0x102b0d138	0x102b0d138	mapped	0x102b0d138
+System.Web.HttpUtility	1	0x06000002	System.HexConverter	FromChar	0x2050	264	Public, Static, HideBySig	0x1005bbdfc	0x949544d6	0x102b0d154	0x102b0d154	mapped	0x102b0d154
+System.Web.HttpUtility	2	0x06000003	System.HexConverter	get_CharToHexLookup	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1005bbe00	0x94954501	0x102b0d204	0x102b0d204	mapped	0x102b0d204
+System.Web.HttpUtility	3	0x06000004	System.Web.HttpUtility	ParseQueryString	0x2050	NoInlining	Public, Static, HideBySig	0x1005bbe04	0x94954517	0x102b0d260	0x102b0d260	mapped	0x102b0d260
+System.Web.HttpUtility	4	0x06000005	System.Web.HttpUtility	ParseQueryString	0x2050	NoInlining	Public, Static, HideBySig	0x1005bbe08	0x94954538	0x102b0d2e8	0x102b0d2e8	mapped	0x102b0d2e8
+System.Web.HttpUtility	5	0x06000006	System.Web.HttpUtility	UrlEncode	0x2050	NoInlining	Public, Static, HideBySig	0x1005bbe0c	0x949545bd	0x102b0d500	0x102b0d500	mapped	0x102b0d500
+System.Web.HttpUtility	6	0x06000007	System.Web.HttpUtility	UrlEncode	0x2050	NoInlining	Public, Static, HideBySig	0x1005bbe10	0x949545de	0x102b0d588	0x102b0d588	mapped	0x102b0d588
+System.Web.HttpUtility	7	0x06000008	System.Web.HttpUtility	UrlEncodeToBytes	0x2050	NoInlining	Public, Static, HideBySig	0x1005bbe14	0x9495460f	0x102b0d650	0x102b0d650	mapped	0x102b0d650
+System.Web.HttpUtility	8	0x06000009	System.Web.HttpUtility	UrlDecode	0x2050	NoInlining	Public, Static, HideBySig	0x1005bbe18	0x9495462f	0x102b0d6d4	0x102b0d6d4	mapped	0x102b0d6d4
+System.Web.HttpUtility	9	0x0600000a	System.Web.HttpUtility+HttpQSCollection	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1005bbe1c	0x9495463e	0x102b0d714	0x102b0d714	mapped	0x102b0d714
+System.Web.HttpUtility	10	0x0600000b	System.Web.HttpUtility+HttpQSCollection	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005bbe20	0x9495465f	0x102b0d79c	0x102b0d79c	mapped	0x102b0d79c
+System.Web.HttpUtility	11	0x0600000c	System.Web.Util.HttpEncoder	UrlDecode	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005bbe24	0x949546ea	0x102b0d9cc	0x102b0d9cc	mapped	0x102b0d9cc
+System.Web.HttpUtility	12	0x0600000d	System.Web.Util.HttpEncoder	UrlEncode	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005bbe28	0x949547cc	0x102b0dd58	0x102b0dd58	mapped	0x102b0dd58
+System.Web.HttpUtility	13	0x0600000e	System.Web.Util.HttpEncoder	UrlEncode	0x2050	NoInlining	Private, Static, HideBySig	0x1005bbe2c	0x9495480c	0x102b0de5c	0x102b0de5c	mapped	0x102b0de5c
+System.Web.HttpUtility	14	0x0600000f	System.Web.Util.HttpEncoder	ValidateUrlEncodingParameters	0x2050	NoInlining	Private, Static, HideBySig	0x1005bbe30	0x949548fb	0x102b0e21c	0x102b0e21c	mapped	0x102b0e21c
+System.Web.HttpUtility	15	0x06000010	System.Web.Util.HttpEncoder+UrlDecoder	FlushBytes	0x2050	NoInlining	Private, HideBySig	0x1005bbe34	0x9495493b	0x102b0e320	0x102b0e320	mapped	0x102b0e320
+System.Web.HttpUtility	16	0x06000011	System.Web.Util.HttpEncoder+UrlDecoder	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1005bbe38	0x9495495c	0x102b0e3a8	0x102b0e3a8	mapped	0x102b0e3a8
+System.Web.HttpUtility	17	0x06000012	System.Web.Util.HttpEncoder+UrlDecoder	AddChar	0x2050	NoInlining	Assembly, HideBySig	0x1005bbe3c	0x9495498d	0x102b0e470	0x102b0e470	mapped	0x102b0e470
+System.Web.HttpUtility	18	0x06000013	System.Web.Util.HttpEncoder+UrlDecoder	AddByte	0x2050	NoInlining	Assembly, HideBySig	0x1005bbe40	0x949549b5	0x102b0e514	0x102b0e514	mapped	0x102b0e514
+System.Web.HttpUtility	19	0x06000014	System.Web.Util.HttpEncoder+UrlDecoder	GetString	0x2050	NoInlining	Assembly, HideBySig	0x1005bbe44	0x949549f5	0x102b0e618	0x102b0e618	mapped	0x102b0e618
+System.Web.HttpUtility	20	0x06000015	System.Web.Util.HttpEncoderUtility	IsUrlSafeChar	0x2050	NoInlining	Public, Static, HideBySig	0x1005bbe48	0x94954a20	0x102b0e6c8	0x102b0e6c8	mapped	0x102b0e6c8
+System.Web.HttpUtility	21	0x06000016	System.Web.Util.Utf16StringValidator	ValidateString	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005bbe4c	0x94954a36	0x102b0e724	0x102b0e724	mapped	0x102b0e724
+System.Web.HttpUtility	22	0x06000017	System.Web.Util.Utf16StringValidator+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1005bbe50	0x94954a9d	0x102b0e8c4	0x102b0e8c4	mapped	0x102b0e8c4
+System.Web.HttpUtility	23	0x06000018	System.Web.Util.Utf16StringValidator+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005bbe54	0x94954ab8	0x102b0e934	0x102b0e934	mapped	0x102b0e934
+System.Web.HttpUtility	24	0x06000019	System.Web.Util.Utf16StringValidator+<>c	<ValidateString>b__1_0	0x2050	NoInlining	Assembly, HideBySig	0x1005bbe58	0x94954ac5	0x102b0e96c	0x102b0e96c	mapped	0x102b0e96c

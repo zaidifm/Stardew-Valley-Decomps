@@ -1,0 +1,16 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Memory	0	0x06000001	System.ThrowHelper	ThrowArgumentOutOfRangeException	0x2050	NoInlining	Assembly, Static, HideBySig	0x10046e4c8	0x948653ec	0x102603478	0x102603478	mapped	0x102603478
+System.Memory	1	0x06000002	System.ThrowHelper	CreateArgumentOutOfRangeException	0x2050	NoInlining	Private, Static, HideBySig	0x10046e4cc	0x948653f7	0x1026034a8	0x1026034a8	mapped	0x1026034a8
+System.Memory	2	0x06000003	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x10046e4d0	0x9486541c	0x102603540	0x102603540	mapped	0x102603540
+System.Memory	3	0x06000004	System.Buffers.BuffersExtensions	Write	0x2050	264	Public, Static, HideBySig	0x10046e4d4	0x94865448	0x1026035f4	0x1026035f4	mapped	0x1026035f4
+System.Memory	4	0x06000005	System.Buffers.BuffersExtensions	WriteMultiSegment	0x2050	NoInlining	Private, Static, HideBySig	0x10046e4d8	0x948654a1	0x10260375c	0x10260375c	mapped	0x10260375c
+System.Memory	5	0x06000006	System.Buffers.IBufferWriter`1	Advance	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10046e4dc	0x97fffffb	0x10046e4c8		absent	0x10046e4c8
+System.Memory	6	0x06000007	System.Buffers.IBufferWriter`1	GetSpan	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x10046e4e0	0x97fffffa	0x10046e4c8		absent	0x10046e4c8
+System.Memory	7	0x06000008	System.Buffers.ArrayBufferWriter`1	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10046e4e4	0x9486550a	0x10260390c	0x10260390c	mapped	0x10260390c
+System.Memory	8	0x06000009	System.Buffers.ArrayBufferWriter`1	get_WrittenSpan	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10046e4e8	0x94865543	0x1026039f4	0x1026039f4	mapped	0x1026039f4
+System.Memory	9	0x0600000a	System.Buffers.ArrayBufferWriter`1	get_FreeCapacity	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10046e4ec	0x9486557f	0x102603ae8	0x102603ae8	mapped	0x102603ae8
+System.Memory	10	0x0600000b	System.Buffers.ArrayBufferWriter`1	Advance	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10046e4f0	0x94865590	0x102603b30	0x102603b30	mapped	0x102603b30
+System.Memory	11	0x0600000c	System.Buffers.ArrayBufferWriter`1	GetSpan	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x10046e4f4	0x948655d5	0x102603c48	0x102603c48	mapped	0x102603c48
+System.Memory	12	0x0600000d	System.Buffers.ArrayBufferWriter`1	CheckAndResizeBuffer	0x2050	NoInlining	Private, HideBySig	0x10046e4f8	0x9486561f	0x102603d74	0x102603d74	mapped	0x102603d74
+System.Memory	13	0x0600000e	System.Buffers.ArrayBufferWriter`1	ThrowInvalidOperationException_AdvancedTooFar	0x2050	NoInlining	Private, Static, HideBySig	0x10046e4fc	0x94865676	0x102603ed4	0x102603ed4	mapped	0x102603ed4
+System.Memory	14	0x0600000f	System.Buffers.ArrayBufferWriter`1	ThrowOutOfMemoryException	0x2050	NoInlining	Private, Static, HideBySig	0x10046e500	0x94865691	0x102603f44	0x102603f44	mapped	0x102603f44

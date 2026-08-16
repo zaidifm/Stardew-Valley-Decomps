@@ -1,0 +1,4 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Runtime.Serialization.Primitives	0	0x06000001	System.Runtime.Serialization.DataContractAttribute	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100561798	0x9491c5c4	0x1029d2ea8	0x1029d2ea8	mapped	0x1029d2ea8
+System.Runtime.Serialization.Primitives	1	0x06000002	System.Runtime.Serialization.DataMemberAttribute	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10056179c	0x9491c5c4	0x1029d2eac	0x1029d2eac	mapped	0x1029d2eac
+System.Runtime.Serialization.Primitives	2	0x06000003	System.Runtime.Serialization.DataMemberAttribute	set_Name	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005617a0	0x9491c5d0	0x1029d2ee0	0x1029d2ee0	mapped	0x1029d2ee0

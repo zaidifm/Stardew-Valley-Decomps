@@ -1,0 +1,233 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Formats.Asn1	0	0x06000001	System.LocalAppContextSwitches	GetCachedSwitchValue	0x2050	264	Assembly, Static, HideBySig	0x1004348a8	0x9483c400	0x1025258a8	0x1025258a8	mapped	0x1025258a8
+System.Formats.Asn1	1	0x06000002	System.LocalAppContextSwitches	GetCachedSwitchValueInternal	0x2050	NoInlining	Private, Static, HideBySig	0x1004348ac	0x9483c41c	0x10252591c	0x10252591c	mapped	0x10252591c
+System.Formats.Asn1	2	0x06000003	System.LocalAppContextSwitches	GetSwitchDefaultValue	0x2050	NoInlining	Private, Static, HideBySig	0x1004348b0	0x9483c451	0x1025259f4	0x1025259f4	mapped	0x1025259f4
+System.Formats.Asn1	3	0x06000004	System.LocalAppContextSwitches	get_AllowAnySizeOid	0x2050	264	Public, Static, HideBySig, SpecialName	0x1004348b4	0x9483c47b	0x102525aa0	0x102525aa0	mapped	0x102525aa0
+System.Formats.Asn1	4	0x06000005	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004348b8	0x9483c49f	0x102525b34	0x102525b34	mapped	0x102525b34
+System.Formats.Asn1	5	0x06000006	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004348bc	0x9483c4cb	0x102525be8	0x102525be8	mapped	0x102525be8
+System.Formats.Asn1	6	0x06000007	System.Formats.Asn1.Asn1Tag	get_TagClass	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004348c0	0x9483c4ef	0x102525c7c	0x102525c7c	mapped	0x102525c7c
+System.Formats.Asn1	7	0x06000008	System.Formats.Asn1.Asn1Tag	get_IsConstructed	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004348c4	0x9483c4f8	0x102525ca4	0x102525ca4	mapped	0x102525ca4
+System.Formats.Asn1	8	0x06000009	System.Formats.Asn1.Asn1Tag	get_TagValue	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004348c8	0x9483c501	0x102525ccc	0x102525ccc	mapped	0x102525ccc
+System.Formats.Asn1	9	0x0600000a	System.Formats.Asn1.Asn1Tag	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x1004348cc	0x9483c509	0x102525cf0	0x102525cf0	mapped	0x102525cf0
+System.Formats.Asn1	10	0x0600000b	System.Formats.Asn1.Asn1Tag	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004348d0	0x9483c524	0x102525d60	0x102525d60	mapped	0x102525d60
+System.Formats.Asn1	11	0x0600000c	System.Formats.Asn1.Asn1Tag	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004348d4	0x9483c557	0x102525e30	0x102525e30	mapped	0x102525e30
+System.Formats.Asn1	12	0x0600000d	System.Formats.Asn1.Asn1Tag	AsConstructed	0x2050	NoInlining	Public, HideBySig	0x1004348d8	0x9483c593	0x102525f24	0x102525f24	mapped	0x102525f24
+System.Formats.Asn1	13	0x0600000e	System.Formats.Asn1.Asn1Tag	AsPrimitive	0x2050	NoInlining	Public, HideBySig	0x1004348dc	0x9483c59f	0x102525f58	0x102525f58	mapped	0x102525f58
+System.Formats.Asn1	14	0x0600000f	System.Formats.Asn1.Asn1Tag	TryDecode	0x2050	NoInlining	Public, Static, HideBySig	0x1004348e0	0x9483c5aa	0x102525f88	0x102525f88	mapped	0x102525f88
+System.Formats.Asn1	15	0x06000010	System.Formats.Asn1.Asn1Tag	Decode	0x2050	NoInlining	Public, Static, HideBySig	0x1004348e4	0x9483c60a	0x10252610c	0x10252610c	mapped	0x10252610c
+System.Formats.Asn1	16	0x06000011	System.Formats.Asn1.Asn1Tag	CalculateEncodedSize	0x2050	NoInlining	Public, HideBySig	0x1004348e8	0x9483c63e	0x1025261e0	0x1025261e0	mapped	0x1025261e0
+System.Formats.Asn1	17	0x06000012	System.Formats.Asn1.Asn1Tag	TryEncode	0x2050	NoInlining	Public, HideBySig	0x1004348ec	0x9483c65e	0x102526264	0x102526264	mapped	0x102526264
+System.Formats.Asn1	18	0x06000013	System.Formats.Asn1.Asn1Tag	Encode	0x2050	NoInlining	Public, HideBySig	0x1004348f0	0x9483c6c4	0x102526400	0x102526400	mapped	0x102526400
+System.Formats.Asn1	19	0x06000014	System.Formats.Asn1.Asn1Tag	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004348f4	0x9483c6ee	0x1025264ac	0x1025264ac	mapped	0x1025264ac
+System.Formats.Asn1	20	0x06000015	System.Formats.Asn1.Asn1Tag	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004348f8	0x9483c6ff	0x1025264f4	0x1025264f4	mapped	0x1025264f4
+System.Formats.Asn1	21	0x06000016	System.Formats.Asn1.Asn1Tag	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004348fc	0x9483c732	0x1025265c4	0x1025265c4	mapped	0x1025265c4
+System.Formats.Asn1	22	0x06000017	System.Formats.Asn1.Asn1Tag	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100434900	0x9483c73c	0x1025265f0	0x1025265f0	mapped	0x1025265f0
+System.Formats.Asn1	23	0x06000018	System.Formats.Asn1.Asn1Tag	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100434904	0x9483c759	0x102526668	0x102526668	mapped	0x102526668
+System.Formats.Asn1	24	0x06000019	System.Formats.Asn1.Asn1Tag	HasSameClassAndValue	0x2050	NoInlining	Public, HideBySig	0x100434908	0x9483c776	0x1025266e0	0x1025266e0	mapped	0x1025266e0
+System.Formats.Asn1	25	0x0600001a	System.Formats.Asn1.Asn1Tag	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10043490c	0x9483c789	0x102526730	0x102526730	mapped	0x102526730
+System.Formats.Asn1	26	0x0600001b	System.Formats.Asn1.Asn1Tag	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100434910	0x9483c7f4	0x1025268e0	0x1025268e0	mapped	0x1025268e0
+System.Formats.Asn1	27	0x0600001c	System.Formats.Asn1.AsnCharacterStringEncodings	GetEncoding	0x2050	NoInlining	Assembly, Static, HideBySig	0x100434914	0x9483c845	0x102526a28	0x102526a28	mapped	0x102526a28
+System.Formats.Asn1	28	0x0600001d	System.Formats.Asn1.AsnCharacterStringEncodings	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100434918	0x9483c894	0x102526b68	0x102526b68	mapped	0x102526b68
+System.Formats.Asn1	29	0x0600001e	System.Formats.Asn1.SpanBasedEncoding	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x10043491c	0x9483c8f3	0x102526ce8	0x102526ce8	mapped	0x102526ce8
+System.Formats.Asn1	30	0x0600001f	System.Formats.Asn1.SpanBasedEncoding	GetBytes	0x0	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask, Abstract	0x100434920	0x97ffffe2	0x1004348a8		absent	0x1004348a8
+System.Formats.Asn1	31	0x06000020	System.Formats.Asn1.SpanBasedEncoding	GetChars	0x0	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask, Abstract	0x100434924	0x97ffffe1	0x1004348a8		absent	0x1004348a8
+System.Formats.Asn1	32	0x06000021	System.Formats.Asn1.SpanBasedEncoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434928	0x9483c91d	0x102526d9c	0x102526d9c	mapped	0x102526d9c
+System.Formats.Asn1	33	0x06000022	System.Formats.Asn1.SpanBasedEncoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10043492c	0x9483c947	0x102526e48	0x102526e48	mapped	0x102526e48
+System.Formats.Asn1	34	0x06000023	System.Formats.Asn1.SpanBasedEncoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434930	0x9483c96f	0x102526eec	0x102526eec	mapped	0x102526eec
+System.Formats.Asn1	35	0x06000024	System.Formats.Asn1.SpanBasedEncoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434934	0x9483c991	0x102526f78	0x102526f78	mapped	0x102526f78
+System.Formats.Asn1	36	0x06000025	System.Formats.Asn1.SpanBasedEncoding	GetBytes	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434938	0x9483c9af	0x102526ff4	0x102526ff4	mapped	0x102526ff4
+System.Formats.Asn1	37	0x06000026	System.Formats.Asn1.SpanBasedEncoding	GetBytes	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10043493c	0x9483c9f4	0x10252710c	0x10252710c	mapped	0x10252710c
+System.Formats.Asn1	38	0x06000027	System.Formats.Asn1.SpanBasedEncoding	GetCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434940	0x9483ca24	0x1025271d0	0x1025271d0	mapped	0x1025271d0
+System.Formats.Asn1	39	0x06000028	System.Formats.Asn1.SpanBasedEncoding	GetCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434944	0x9483ca4e	0x10252727c	0x10252727c	mapped	0x10252727c
+System.Formats.Asn1	40	0x06000029	System.Formats.Asn1.SpanBasedEncoding	GetCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434948	0x9483ca76	0x102527320	0x102527320	mapped	0x102527320
+System.Formats.Asn1	41	0x0600002a	System.Formats.Asn1.SpanBasedEncoding	GetChars	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10043494c	0x9483ca94	0x10252739c	0x10252739c	mapped	0x10252739c
+System.Formats.Asn1	42	0x0600002b	System.Formats.Asn1.SpanBasedEncoding	GetChars	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434950	0x9483cad9	0x1025274b4	0x1025274b4	mapped	0x1025274b4
+System.Formats.Asn1	43	0x0600002c	System.Formats.Asn1.IA5Encoding	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x100434954	0x9483cb09	0x102527578	0x102527578	mapped	0x102527578
+System.Formats.Asn1	44	0x0600002d	System.Formats.Asn1.VisibleStringEncoding	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x100434958	0x9483cb18	0x1025275b8	0x1025275b8	mapped	0x1025275b8
+System.Formats.Asn1	45	0x0600002e	System.Formats.Asn1.NumericStringEncoding	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x10043495c	0x9483cb27	0x1025275f8	0x1025275f8	mapped	0x1025275f8
+System.Formats.Asn1	46	0x0600002f	System.Formats.Asn1.PrintableStringEncoding	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x100434960	0x9483cb41	0x102527664	0x102527664	mapped	0x102527664
+System.Formats.Asn1	47	0x06000030	System.Formats.Asn1.RestrictedAsciiStringEncoding	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x100434964	0x9483cb5b	0x1025276d0	0x1025276d0	mapped	0x1025276d0
+System.Formats.Asn1	48	0x06000031	System.Formats.Asn1.RestrictedAsciiStringEncoding	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x100434968	0x9483cb97	0x1025277c4	0x1025277c4	mapped	0x1025277c4
+System.Formats.Asn1	49	0x06000032	System.Formats.Asn1.RestrictedAsciiStringEncoding	GetMaxByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10043496c	0x9483cbf3	0x102527938	0x102527938	mapped	0x102527938
+System.Formats.Asn1	50	0x06000033	System.Formats.Asn1.RestrictedAsciiStringEncoding	GetMaxCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434970	0x9483cbf4	0x102527940	0x102527940	mapped	0x102527940
+System.Formats.Asn1	51	0x06000034	System.Formats.Asn1.RestrictedAsciiStringEncoding	GetBytes	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100434974	0x9483cbf5	0x102527948	0x102527948	mapped	0x102527948
+System.Formats.Asn1	52	0x06000035	System.Formats.Asn1.RestrictedAsciiStringEncoding	GetChars	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100434978	0x9483cc53	0x102527ac4	0x102527ac4	mapped	0x102527ac4
+System.Formats.Asn1	53	0x06000036	System.Formats.Asn1.BMPEncoding	GetBytes	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x10043497c	0x9483ccc3	0x102527c88	0x102527c88	mapped	0x102527c88
+System.Formats.Asn1	54	0x06000037	System.Formats.Asn1.BMPEncoding	GetChars	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x100434980	0x9483cd26	0x102527e18	0x102527e18	mapped	0x102527e18
+System.Formats.Asn1	55	0x06000038	System.Formats.Asn1.BMPEncoding	GetMaxByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434984	0x9483cdc6	0x10252809c	0x10252809c	mapped	0x10252809c
+System.Formats.Asn1	56	0x06000039	System.Formats.Asn1.BMPEncoding	GetMaxCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434988	0x9483cdd4	0x1025280d8	0x1025280d8	mapped	0x1025280d8
+System.Formats.Asn1	57	0x0600003a	System.Formats.Asn1.BMPEncoding	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10043498c	0x9483cdd7	0x1025280e8	0x1025280e8	mapped	0x1025280e8
+System.Formats.Asn1	58	0x0600003b	System.Formats.Asn1.T61Encoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434990	0x9483cde4	0x102528120	0x102528120	mapped	0x102528120
+System.Formats.Asn1	59	0x0600003c	System.Formats.Asn1.T61Encoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434994	0x9483ce0c	0x1025281c4	0x1025281c4	mapped	0x1025281c4
+System.Formats.Asn1	60	0x0600003d	System.Formats.Asn1.T61Encoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434998	0x9483ce30	0x102528258	0x102528258	mapped	0x102528258
+System.Formats.Asn1	61	0x0600003e	System.Formats.Asn1.T61Encoding	GetByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x10043499c	0x9483ce52	0x1025282e4	0x1025282e4	mapped	0x1025282e4
+System.Formats.Asn1	62	0x0600003f	System.Formats.Asn1.T61Encoding	GetBytes	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004349a0	0x9483ce76	0x102528378	0x102528378	mapped	0x102528378
+System.Formats.Asn1	63	0x06000040	System.Formats.Asn1.T61Encoding	GetBytes	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004349a4	0x9483cea4	0x102528434	0x102528434	mapped	0x102528434
+System.Formats.Asn1	64	0x06000041	System.Formats.Asn1.T61Encoding	GetCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004349a8	0x9483cece	0x1025284e0	0x1025284e0	mapped	0x1025284e0
+System.Formats.Asn1	65	0x06000042	System.Formats.Asn1.T61Encoding	GetCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004349ac	0x9483cf0f	0x1025285e8	0x1025285e8	mapped	0x1025285e8
+System.Formats.Asn1	66	0x06000043	System.Formats.Asn1.T61Encoding	GetCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004349b0	0x9483cf4e	0x1025286e8	0x1025286e8	mapped	0x1025286e8
+System.Formats.Asn1	67	0x06000044	System.Formats.Asn1.T61Encoding	GetChars	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004349b4	0x9483cf8f	0x1025287f0	0x1025287f0	mapped	0x1025287f0
+System.Formats.Asn1	68	0x06000045	System.Formats.Asn1.T61Encoding	GetChars	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004349b8	0x9483cfd6	0x102528910	0x102528910	mapped	0x102528910
+System.Formats.Asn1	69	0x06000046	System.Formats.Asn1.T61Encoding	GetMaxByteCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004349bc	0x9483d01b	0x102528a28	0x102528a28	mapped	0x102528a28
+System.Formats.Asn1	70	0x06000047	System.Formats.Asn1.T61Encoding	GetMaxCharCount	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004349c0	0x9483d03d	0x102528ab4	0x102528ab4	mapped	0x102528ab4
+System.Formats.Asn1	71	0x06000048	System.Formats.Asn1.T61Encoding	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004349c4	0x9483d03e	0x102528abc	0x102528abc	mapped	0x102528abc
+System.Formats.Asn1	72	0x06000049	System.Formats.Asn1.T61Encoding	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004349c8	0x9483d056	0x102528b20	0x102528b20	mapped	0x102528b20
+System.Formats.Asn1	73	0x0600004a	System.Formats.Asn1.AsnContentException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004349cc	0x9483d07c	0x102528bbc	0x102528bbc	mapped	0x102528bbc
+System.Formats.Asn1	74	0x0600004b	System.Formats.Asn1.AsnContentException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004349d0	0x9483d09c	0x102528c40	0x102528c40	mapped	0x102528c40
+System.Formats.Asn1	75	0x0600004c	System.Formats.Asn1.AsnContentException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004349d4	0x9483d0c1	0x102528cd8	0x102528cd8	mapped	0x102528cd8
+System.Formats.Asn1	76	0x0600004d	System.Formats.Asn1.AsnDecoder	TryReadEncodedValue	0x2050	NoInlining	Public, Static, HideBySig	0x1004349d8	0x9483d0ec	0x102528d88	0x102528d88	mapped	0x102528d88
+System.Formats.Asn1	77	0x0600004e	System.Formats.Asn1.AsnDecoder	ReadEncodedValue	0x2050	NoInlining	Public, Static, HideBySig	0x1004349dc	0x9483d16a	0x102528f84	0x102528f84	mapped	0x102528f84
+System.Formats.Asn1	78	0x0600004f	System.Formats.Asn1.AsnDecoder	GetPrimitiveContentSpan	0x2050	NoInlining	Private, Static, HideBySig	0x1004349e0	0x9483d1cf	0x10252911c	0x10252911c	mapped	0x10252911c
+System.Formats.Asn1	79	0x06000050	System.Formats.Asn1.AsnDecoder	TryReadLength	0x2050	NoInlining	Private, Static, HideBySig	0x1004349e4	0x9483d248	0x102529304	0x102529304	mapped	0x102529304
+System.Formats.Asn1	80	0x06000051	System.Formats.Asn1.AsnDecoder	ReadLength	0x2050	NoInlining	Private, Static, HideBySig	0x1004349e8	0x9483d263	0x102529374	0x102529374	mapped	0x102529374
+System.Formats.Asn1	81	0x06000052	System.Formats.Asn1.AsnDecoder	DecodeLength	0x2050	NoInlining	Private, Static, HideBySig	0x1004349ec	0x9483d2ac	0x10252949c	0x10252949c	mapped	0x10252949c
+System.Formats.Asn1	82	0x06000053	System.Formats.Asn1.AsnDecoder	ReadTagAndLength	0x2050	NoInlining	Private, Static, HideBySig	0x1004349f0	0x9483d330	0x1025296b0	0x1025296b0	mapped	0x1025296b0
+System.Formats.Asn1	83	0x06000054	System.Formats.Asn1.AsnDecoder	ValidateEndOfContents	0x2050	NoInlining	Private, Static, HideBySig	0x1004349f4	0x9483d377	0x1025297d0	0x1025297d0	mapped	0x1025297d0
+System.Formats.Asn1	84	0x06000055	System.Formats.Asn1.AsnDecoder	ValidateLength	0x2050	NoInlining	Private, Static, HideBySig	0x1004349f8	0x9483d3a0	0x102529878	0x102529878	mapped	0x102529878
+System.Formats.Asn1	85	0x06000056	System.Formats.Asn1.AsnDecoder	GetValidityException	0x2050	NoInlining	Private, Static, HideBySig	0x1004349fc	0x9483d3ff	0x1025299f8	0x1025299f8	mapped	0x1025299f8
+System.Formats.Asn1	86	0x06000057	System.Formats.Asn1.AsnDecoder	GetPrimitiveIntegerSize	0x2050	NoInlining	Private, Static, HideBySig	0x100434a00	0x9483d430	0x102529ac0	0x102529ac0	mapped	0x102529ac0
+System.Formats.Asn1	87	0x06000058	System.Formats.Asn1.AsnDecoder	SeekEndOfContents	0x2050	NoInlining	Private, Static, HideBySig	0x100434a04	0x9483d47f	0x102529c00	0x102529c00	mapped	0x102529c00
+System.Formats.Asn1	88	0x06000059	System.Formats.Asn1.AsnDecoder	ParseNonNegativeIntAndSlice	0x2050	NoInlining	Private, Static, HideBySig	0x100434a08	0x9483d4dd	0x102529d7c	0x102529d7c	mapped	0x102529d7c
+System.Formats.Asn1	89	0x0600005a	System.Formats.Asn1.AsnDecoder	ParseNonNegativeInt	0x2050	NoInlining	Private, Static, HideBySig	0x100434a0c	0x9483d4fd	0x102529e00	0x102529e00	mapped	0x102529e00
+System.Formats.Asn1	90	0x0600005b	System.Formats.Asn1.AsnDecoder	SliceAtMost	0x2050	NoInlining	Private, Static, HideBySig	0x100434a10	0x9483d52d	0x102529ec4	0x102529ec4	mapped	0x102529ec4
+System.Formats.Asn1	91	0x0600005c	System.Formats.Asn1.AsnDecoder	Slice	0x2050	NoInlining	Private, Static, HideBySig	0x100434a14	0x9483d544	0x102529f24	0x102529f24	mapped	0x102529f24
+System.Formats.Asn1	92	0x0600005d	System.Formats.Asn1.AsnDecoder	Slice	0x2050	NoInlining	Private, Static, HideBySig	0x100434a18	0x9483d57a	0x10252a000	0x10252a000	mapped	0x10252a000
+System.Formats.Asn1	93	0x0600005e	System.Formats.Asn1.AsnDecoder	Slice	0x2050	NoInlining	Assembly, Static, HideBySig	0x100434a1c	0x9483d5bf	0x10252a118	0x10252a118	mapped	0x10252a118
+System.Formats.Asn1	94	0x0600005f	System.Formats.Asn1.AsnDecoder	CheckEncodingRules	0x2050	NoInlining	Assembly, Static, HideBySig	0x100434a20	0x9483d621	0x10252a2a4	0x10252a2a4	mapped	0x10252a2a4
+System.Formats.Asn1	95	0x06000060	System.Formats.Asn1.AsnDecoder	CheckExpectedTag	0x2050	NoInlining	Private, Static, HideBySig	0x100434a24	0x9483d639	0x10252a308	0x10252a308	mapped	0x10252a308
+System.Formats.Asn1	96	0x06000061	System.Formats.Asn1.AsnDecoder	TryReadPrimitiveBitString	0x2050	NoInlining	Public, Static, HideBySig	0x100434a28	0x9483d6b4	0x10252a4f8	0x10252a4f8	mapped	0x10252a4f8
+System.Formats.Asn1	97	0x06000062	System.Formats.Asn1.AsnDecoder	TryReadBitString	0x2050	NoInlining	Public, Static, HideBySig	0x100434a2c	0x9483d723	0x10252a6b8	0x10252a6b8	mapped	0x10252a6b8
+System.Formats.Asn1	98	0x06000063	System.Formats.Asn1.AsnDecoder	ReadBitString	0x2050	NoInlining	Public, Static, HideBySig	0x100434a30	0x9483d7e3	0x10252a9bc	0x10252a9bc	mapped	0x10252a9bc
+System.Formats.Asn1	99	0x06000064	System.Formats.Asn1.AsnDecoder	ParsePrimitiveBitStringContents	0x2050	NoInlining	Private, Static, HideBySig	0x100434a34	0x9483d8a7	0x10252acd0	0x10252acd0	mapped	0x10252acd0
+System.Formats.Asn1	100	0x06000065	System.Formats.Asn1.AsnDecoder	CopyBitStringValue	0x2050	NoInlining	Private, Static, HideBySig	0x100434a38	0x9483d91a	0x10252aea0	0x10252aea0	mapped	0x10252aea0
+System.Formats.Asn1	101	0x06000066	System.Formats.Asn1.AsnDecoder	CountConstructedBitString	0x2050	NoInlining	Private, Static, HideBySig	0x100434a3c	0x9483d95b	0x10252afa8	0x10252afa8	mapped	0x10252afa8
+System.Formats.Asn1	102	0x06000067	System.Formats.Asn1.AsnDecoder	CopyConstructedBitString	0x2050	NoInlining	Private, Static, HideBySig	0x100434a40	0x9483d979	0x10252b024	0x10252b024	mapped	0x10252b024
+System.Formats.Asn1	103	0x06000068	System.Formats.Asn1.AsnDecoder	ProcessConstructedBitString	0x2050	NoInlining	Private, Static, HideBySig	0x100434a44	0x9483d9cb	0x10252b170	0x10252b170	mapped	0x10252b170
+System.Formats.Asn1	104	0x06000069	System.Formats.Asn1.AsnDecoder	TryCopyConstructedBitStringValue	0x2050	NoInlining	Private, Static, HideBySig	0x100434a48	0x9483db2e	0x10252b700	0x10252b700	mapped	0x10252b700
+System.Formats.Asn1	105	0x0600006a	System.Formats.Asn1.AsnDecoder	TryReadPrimitiveBitStringCore	0x2050	NoInlining	Private, Static, HideBySig	0x100434a4c	0x9483db90	0x10252b88c	0x10252b88c	mapped	0x10252b88c
+System.Formats.Asn1	106	0x0600006b	System.Formats.Asn1.AsnDecoder	ReadBoolean	0x2050	NoInlining	Public, Static, HideBySig	0x100434a50	0x9483dbfd	0x10252ba44	0x10252ba44	mapped	0x10252ba44
+System.Formats.Asn1	107	0x0600006c	System.Formats.Asn1.AsnDecoder	ReadEnumeratedValue	0x2050	NoInlining	Public, Static, HideBySig	0x100434a54	0x9483dc62	0x10252bbdc	0x10252bbdc	mapped	0x10252bbdc
+System.Formats.Asn1	108	0x0600006d	System.Formats.Asn1.AsnDecoder	ReadEnumeratedValue	0x2050	NoInlining	Public, Static, HideBySig	0x100434a58	0x9483dc9d	0x10252bccc	0x10252bccc	mapped	0x10252bccc
+System.Formats.Asn1	109	0x0600006e	System.Formats.Asn1.AsnDecoder	ReadGeneralizedTime	0x2050	NoInlining	Public, Static, HideBySig	0x100434a5c	0x9483dd96	0x10252c0b4	0x10252c0b4	mapped	0x10252c0b4
+System.Formats.Asn1	110	0x0600006f	System.Formats.Asn1.AsnDecoder	ParseGeneralizedTime	0x2050	NoInlining	Private, Static, HideBySig	0x100434a60	0x9483dde5	0x10252c1f4	0x10252c1f4	mapped	0x10252c1f4
+System.Formats.Asn1	111	0x06000070	System.Formats.Asn1.AsnDecoder	ReadIntegerBytes	0x2050	NoInlining	Public, Static, HideBySig	0x100434a64	0x9483e06d	0x10252cc18	0x10252cc18	mapped	0x10252cc18
+System.Formats.Asn1	112	0x06000071	System.Formats.Asn1.AsnDecoder	ReadInteger	0x2050	NoInlining	Public, Static, HideBySig	0x100434a68	0x9483e09d	0x10252ccdc	0x10252ccdc	mapped	0x10252ccdc
+System.Formats.Asn1	113	0x06000072	System.Formats.Asn1.AsnDecoder	TryReadInt32	0x2050	NoInlining	Public, Static, HideBySig	0x100434a6c	0x9483e0cd	0x10252cda0	0x10252cda0	mapped	0x10252cda0
+System.Formats.Asn1	114	0x06000073	System.Formats.Asn1.AsnDecoder	GetIntegerContents	0x2050	NoInlining	Private, Static, HideBySig	0x100434a70	0x9483e114	0x10252cec0	0x10252cec0	mapped	0x10252cec0
+System.Formats.Asn1	115	0x06000074	System.Formats.Asn1.AsnDecoder	TryReadSignedInteger	0x2050	NoInlining	Private, Static, HideBySig	0x100434a74	0x9483e15b	0x10252cfe0	0x10252cfe0	mapped	0x10252cfe0
+System.Formats.Asn1	116	0x06000075	System.Formats.Asn1.AsnDecoder	TryReadUnsignedInteger	0x2050	NoInlining	Private, Static, HideBySig	0x100434a78	0x9483e1b8	0x10252d158	0x10252d158	mapped	0x10252d158
+System.Formats.Asn1	117	0x06000076	System.Formats.Asn1.AsnDecoder	ReadNamedBitListValue	0x2050	NoInlining	Public, Static, HideBySig	0x100434a7c	0x9483e226	0x10252d314	0x10252d314	mapped	0x10252d314
+System.Formats.Asn1	118	0x06000077	System.Formats.Asn1.AsnDecoder	ReadNamedBitListValue	0x2050	NoInlining	Public, Static, HideBySig	0x100434a80	0x9483e26a	0x10252d428	0x10252d428	mapped	0x10252d428
+System.Formats.Asn1	119	0x06000078	System.Formats.Asn1.AsnDecoder	InterpretNamedBitListReversed	0x2050	NoInlining	Private, Static, HideBySig	0x100434a84	0x9483e330	0x10252d744	0x10252d744	mapped	0x10252d744
+System.Formats.Asn1	120	0x06000079	System.Formats.Asn1.AsnDecoder	TryReadOctetString	0x2050	NoInlining	Public, Static, HideBySig	0x100434a88	0x9483e396	0x10252d8e0	0x10252d8e0	mapped	0x10252d8e0
+System.Formats.Asn1	121	0x0600007a	System.Formats.Asn1.AsnDecoder	ReadOctetString	0x2050	NoInlining	Public, Static, HideBySig	0x100434a8c	0x9483e437	0x10252db68	0x10252db68	mapped	0x10252db68
+System.Formats.Asn1	122	0x0600007b	System.Formats.Asn1.AsnDecoder	TryReadPrimitiveOctetStringCore	0x2050	NoInlining	Private, Static, HideBySig	0x100434a90	0x9483e47f	0x10252dc8c	0x10252dc8c	mapped	0x10252dc8c
+System.Formats.Asn1	123	0x0600007c	System.Formats.Asn1.AsnDecoder	TryReadPrimitiveOctetString	0x2050	NoInlining	Public, Static, HideBySig	0x100434a94	0x9483e4ec	0x10252de44	0x10252de44	mapped	0x10252de44
+System.Formats.Asn1	124	0x0600007d	System.Formats.Asn1.AsnDecoder	CountConstructedOctetString	0x2050	NoInlining	Private, Static, HideBySig	0x100434a98	0x9483e524	0x10252df28	0x10252df28	mapped	0x10252df28
+System.Formats.Asn1	125	0x0600007e	System.Formats.Asn1.AsnDecoder	CopyConstructedOctetString	0x2050	NoInlining	Private, Static, HideBySig	0x100434a9c	0x9483e55e	0x10252e014	0x10252e014	mapped	0x10252e014
+System.Formats.Asn1	126	0x0600007f	System.Formats.Asn1.AsnDecoder	CopyConstructedOctetString	0x2050	NoInlining	Private, Static, HideBySig	0x100434aa0	0x9483e585	0x10252e0b4	0x10252e0b4	mapped	0x10252e0b4
+System.Formats.Asn1	127	0x06000080	System.Formats.Asn1.AsnDecoder	TryCopyConstructedOctetStringContents	0x2050	NoInlining	Private, Static, HideBySig	0x100434aa4	0x9483e6de	0x10252e61c	0x10252e61c	mapped	0x10252e61c
+System.Formats.Asn1	128	0x06000081	System.Formats.Asn1.AsnDecoder	GetOctetStringContents	0x2050	NoInlining	Private, Static, HideBySig	0x100434aa8	0x9483e715	0x10252e6fc	0x10252e6fc	mapped	0x10252e6fc
+System.Formats.Asn1	129	0x06000082	System.Formats.Asn1.AsnDecoder	ReadObjectIdentifier	0x2050	NoInlining	Public, Static, HideBySig	0x100434aac	0x9483e7b6	0x10252e984	0x10252e984	mapped	0x10252e984
+System.Formats.Asn1	130	0x06000083	System.Formats.Asn1.AsnDecoder	ReadSubIdentifier	0x2050	NoInlining	Private, Static, HideBySig	0x100434ab0	0x9483e7fa	0x10252ea98	0x10252ea98	mapped	0x10252ea98
+System.Formats.Asn1	131	0x06000084	System.Formats.Asn1.AsnDecoder	ReadObjectIdentifier	0x2050	NoInlining	Private, Static, HideBySig	0x100434ab4	0x9483e920	0x10252ef34	0x10252ef34	mapped	0x10252ef34
+System.Formats.Asn1	132	0x06000085	System.Formats.Asn1.AsnDecoder	ReadSequence	0x2050	NoInlining	Public, Static, HideBySig	0x100434ab8	0x9483e9e2	0x10252f240	0x10252f240	mapped	0x10252f240
+System.Formats.Asn1	133	0x06000086	System.Formats.Asn1.AsnDecoder	ReadSetOf	0x2050	NoInlining	Public, Static, HideBySig	0x100434abc	0x9483ea7e	0x10252f4b4	0x10252f4b4	mapped	0x10252f4b4
+System.Formats.Asn1	134	0x06000087	System.Formats.Asn1.AsnDecoder	ReadCharacterString	0x2050	NoInlining	Public, Static, HideBySig	0x100434ac0	0x9483eb50	0x10252f800	0x10252f800	mapped	0x10252f800
+System.Formats.Asn1	135	0x06000088	System.Formats.Asn1.AsnDecoder	ReadCharacterStringCore	0x2050	NoInlining	Private, Static, HideBySig	0x100434ac4	0x9483eb84	0x10252f8d4	0x10252f8d4	mapped	0x10252f8d4
+System.Formats.Asn1	136	0x06000089	System.Formats.Asn1.AsnDecoder	ReadUtcTime	0x2050	NoInlining	Public, Static, HideBySig	0x100434ac8	0x9483ebe8	0x10252fa68	0x10252fa68	mapped	0x10252fa68
+System.Formats.Asn1	137	0x0600008a	System.Formats.Asn1.AsnDecoder	ParseUtcTime	0x2050	NoInlining	Private, Static, HideBySig	0x100434acc	0x9483ec46	0x10252fbe4	0x10252fbe4	mapped	0x10252fbe4
+System.Formats.Asn1	138	0x0600008b	System.Formats.Asn1.AsnDecoder	<ParseGeneralizedTime>g__GetNextState|41_0	0x2050	NoInlining	Assembly, Static, HideBySig	0x100434ad0	0x9483ed55	0x102530024	0x102530024	mapped	0x102530024
+System.Formats.Asn1	139	0x0600008c	System.Formats.Asn1.AsnDecoder+BitStringCopyAction	.ctor	0x0	11	Public, HideBySig, SpecialName, RTSpecialName	0x100434ad4	0x97ffff75	0x1004348a8		absent	0x1004348a8
+System.Formats.Asn1	140	0x0600008d	System.Formats.Asn1.AsnDecoder+BitStringCopyAction	Invoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x100434ad8	0x97ffff74	0x1004348a8		absent	0x1004348a8
+System.Formats.Asn1	141	0x0600008e	System.Formats.Asn1.AsnReader	get_RuleSet	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100434adc	0x9483ed6f	0x102530098	0x102530098	mapped	0x102530098
+System.Formats.Asn1	142	0x0600008f	System.Formats.Asn1.AsnReader	get_HasData	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100434ae0	0x9483ed77	0x1025300bc	0x1025300bc	mapped	0x1025300bc
+System.Formats.Asn1	143	0x06000090	System.Formats.Asn1.AsnReader	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100434ae4	0x9483ed87	0x102530100	0x102530100	mapped	0x102530100
+System.Formats.Asn1	144	0x06000091	System.Formats.Asn1.AsnReader	ThrowIfNotEmpty	0x2050	NoInlining	Public, HideBySig	0x100434ae8	0x9483edb6	0x1025301c0	0x1025301c0	mapped	0x1025301c0
+System.Formats.Asn1	145	0x06000092	System.Formats.Asn1.AsnReader	PeekTag	0x2050	NoInlining	Public, HideBySig	0x100434aec	0x9483ede8	0x10253028c	0x10253028c	mapped	0x10253028c
+System.Formats.Asn1	146	0x06000093	System.Formats.Asn1.AsnReader	PeekEncodedValue	0x2050	NoInlining	Public, HideBySig	0x100434af0	0x9483ee28	0x102530390	0x102530390	mapped	0x102530390
+System.Formats.Asn1	147	0x06000094	System.Formats.Asn1.AsnReader	ReadEncodedValue	0x2050	NoInlining	Public, HideBySig	0x100434af4	0x9483ee7f	0x1025304f0	0x1025304f0	mapped	0x1025304f0
+System.Formats.Asn1	148	0x06000095	System.Formats.Asn1.AsnReader	CloneAtSlice	0x2050	NoInlining	Private, HideBySig	0x100434af8	0x9483eeb3	0x1025305c4	0x1025305c4	mapped	0x1025305c4
+System.Formats.Asn1	149	0x06000096	System.Formats.Asn1.AsnReader	ReadIntegerBytes	0x2050	NoInlining	Public, HideBySig	0x100434afc	0x9483ef08	0x10253071c	0x10253071c	mapped	0x10253071c
+System.Formats.Asn1	150	0x06000097	System.Formats.Asn1.AsnReader	TryReadInt32	0x2050	NoInlining	Public, HideBySig	0x100434b00	0x9483ef6e	0x1025308b8	0x1025308b8	mapped	0x1025308b8
+System.Formats.Asn1	151	0x06000098	System.Formats.Asn1.AsnReader	TryReadPrimitiveOctetString	0x2050	NoInlining	Public, HideBySig	0x100434b04	0x9483efd1	0x102530a48	0x102530a48	mapped	0x102530a48
+System.Formats.Asn1	152	0x06000099	System.Formats.Asn1.AsnReader	ReadObjectIdentifier	0x2050	NoInlining	Public, HideBySig	0x100434b08	0x9483f046	0x102530c20	0x102530c20	mapped	0x102530c20
+System.Formats.Asn1	153	0x0600009a	System.Formats.Asn1.AsnReader	ReadSequence	0x2050	NoInlining	Public, HideBySig	0x100434b0c	0x9483f0a7	0x102530da8	0x102530da8	mapped	0x102530da8
+System.Formats.Asn1	154	0x0600009b	System.Formats.Asn1.AsnReader	ReadSetOf	0x2050	NoInlining	Public, HideBySig	0x100434b10	0x9483f10d	0x102530f44	0x102530f44	mapped	0x102530f44
+System.Formats.Asn1	155	0x0600009c	System.Formats.Asn1.AsnReader	ReadSetOf	0x2050	NoInlining	Public, HideBySig	0x100434b14	0x9483f12c	0x102530fc4	0x102530fc4	mapped	0x102530fc4
+System.Formats.Asn1	156	0x0600009d	System.Formats.Asn1.AsnReader	ReadCharacterString	0x2050	NoInlining	Public, HideBySig	0x100434b18	0x9483f193	0x102531164	0x102531164	mapped	0x102531164
+System.Formats.Asn1	157	0x0600009e	System.Formats.Asn1.AsnReaderOptions	get_SkipSetSortOrderVerification	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100434b1c	0x9483f20f	0x102531358	0x102531358	mapped	0x102531358
+System.Formats.Asn1	158	0x0600009f	System.Formats.Asn1.AsnWriter	get_RuleSet	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100434b20	0x9483f217	0x10253137c	0x10253137c	mapped	0x10253137c
+System.Formats.Asn1	159	0x060000a0	System.Formats.Asn1.AsnWriter	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100434b24	0x9483f21f	0x1025313a0	0x1025313a0	mapped	0x1025313a0
+System.Formats.Asn1	160	0x060000a1	System.Formats.Asn1.AsnWriter	Reset	0x2050	NoInlining	Public, HideBySig	0x100434b28	0x9483f23e	0x102531420	0x102531420	mapped	0x102531420
+System.Formats.Asn1	161	0x060000a2	System.Formats.Asn1.AsnWriter	GetEncodedLength	0x2050	NoInlining	Public, HideBySig	0x100434b2c	0x9483f266	0x1025314c4	0x1025314c4	mapped	0x1025314c4
+System.Formats.Asn1	162	0x060000a3	System.Formats.Asn1.AsnWriter	TryEncode	0x2050	NoInlining	Public, HideBySig	0x100434b30	0x9483f286	0x102531548	0x102531548	mapped	0x102531548
+System.Formats.Asn1	163	0x060000a4	System.Formats.Asn1.AsnWriter	Encode	0x2050	NoInlining	Public, HideBySig	0x100434b34	0x9483f2e6	0x1025316cc	0x1025316cc	mapped	0x1025316cc
+System.Formats.Asn1	164	0x060000a5	System.Formats.Asn1.AsnWriter	EncodeAsSpan	0x2050	NoInlining	Private, HideBySig	0x100434b38	0x9483f335	0x10253180c	0x10253180c	mapped	0x10253180c
+System.Formats.Asn1	165	0x060000a6	System.Formats.Asn1.AsnWriter	EncodedValueEquals	0x2050	NoInlining	Public, HideBySig	0x100434b3c	0x9483f361	0x1025318c0	0x1025318c0	mapped	0x1025318c0
+System.Formats.Asn1	166	0x060000a7	System.Formats.Asn1.AsnWriter	EnsureWriteCapacity	0x2050	NoInlining	Private, HideBySig	0x100434b40	0x9483f384	0x102531950	0x102531950	mapped	0x102531950
+System.Formats.Asn1	167	0x060000a8	System.Formats.Asn1.AsnWriter	WriteTag	0x2050	NoInlining	Private, HideBySig	0x100434b44	0x9483f3cc	0x102531a74	0x102531a74	mapped	0x102531a74
+System.Formats.Asn1	168	0x060000a9	System.Formats.Asn1.AsnWriter	WriteLength	0x2050	NoInlining	Private, HideBySig	0x100434b48	0x9483f41f	0x102531bc4	0x102531bc4	mapped	0x102531bc4
+System.Formats.Asn1	169	0x060000aa	System.Formats.Asn1.AsnWriter	GetEncodedLengthSubsequentByteCount	0x2050	NoInlining	Private, Static, HideBySig	0x100434b4c	0x9483f4a4	0x102531ddc	0x102531ddc	mapped	0x102531ddc
+System.Formats.Asn1	170	0x060000ab	System.Formats.Asn1.AsnWriter	CopyTo	0x2050	NoInlining	Public, HideBySig	0x100434b50	0x9483f4c5	0x102531e64	0x102531e64	mapped	0x102531e64
+System.Formats.Asn1	171	0x060000ac	System.Formats.Asn1.AsnWriter	WriteEncodedValue	0x2050	NoInlining	Public, HideBySig	0x100434b54	0x9483f503	0x102531f60	0x102531f60	mapped	0x102531f60
+System.Formats.Asn1	172	0x060000ad	System.Formats.Asn1.AsnWriter	WriteEndOfContents	0x2050	NoInlining	Private, HideBySig	0x100434b58	0x9483f568	0x1025320f8	0x1025320f8	mapped	0x1025320f8
+System.Formats.Asn1	173	0x060000ae	System.Formats.Asn1.AsnWriter	PushTag	0x2050	NoInlining	Private, HideBySig	0x100434b5c	0x9483f59b	0x1025321c8	0x1025321c8	mapped	0x1025321c8
+System.Formats.Asn1	174	0x060000af	System.Formats.Asn1.AsnWriter	PopTag	0x2050	NoInlining	Private, HideBySig	0x100434b60	0x9483f5fe	0x102532358	0x102532358	mapped	0x102532358
+System.Formats.Asn1	175	0x060000b0	System.Formats.Asn1.AsnWriter	SortContents	0x2050	NoInlining	Private, Static, HideBySig	0x100434b64	0x9483f71f	0x1025327e0	0x1025327e0	mapped	0x1025327e0
+System.Formats.Asn1	176	0x060000b1	System.Formats.Asn1.AsnWriter	CheckUniversalTag	0x2050	NoInlining	Private, Static, HideBySig	0x100434b68	0x9483f816	0x102532bc0	0x102532bc0	mapped	0x102532bc0
+System.Formats.Asn1	177	0x060000b2	System.Formats.Asn1.AsnWriter	WriteBitString	0x2050	NoInlining	Public, HideBySig	0x100434b6c	0x9483f83f	0x102532c68	0x102532c68	mapped	0x102532c68
+System.Formats.Asn1	178	0x060000b3	System.Formats.Asn1.AsnWriter	WriteBitStringCore	0x2050	NoInlining	Private, HideBySig	0x100434b70	0x9483f889	0x102532d94	0x102532d94	mapped	0x102532d94
+System.Formats.Asn1	179	0x060000b4	System.Formats.Asn1.AsnWriter	CheckValidLastByte	0x2050	NoInlining	Private, Static, HideBySig	0x100434b74	0x9483f931	0x102533038	0x102533038	mapped	0x102533038
+System.Formats.Asn1	180	0x060000b5	System.Formats.Asn1.AsnWriter	DetermineCerBitStringTotalLength	0x2050	NoInlining	Private, Static, HideBySig	0x100434b78	0x9483f936	0x102533050	0x102533050	mapped	0x102533050
+System.Formats.Asn1	181	0x060000b6	System.Formats.Asn1.AsnWriter	WriteConstructedCerBitString	0x2050	NoInlining	Private, HideBySig	0x100434b7c	0x9483f97f	0x102533178	0x102533178	mapped	0x102533178
+System.Formats.Asn1	182	0x060000b7	System.Formats.Asn1.AsnWriter	WriteInteger	0x2050	NoInlining	Public, HideBySig	0x100434b80	0x9483fa64	0x102533510	0x102533510	mapped	0x102533510
+System.Formats.Asn1	183	0x060000b8	System.Formats.Asn1.AsnWriter	WriteInteger	0x2050	NoInlining	Public, HideBySig	0x100434b84	0x9483faae	0x10253363c	0x10253363c	mapped	0x10253363c
+System.Formats.Asn1	184	0x060000b9	System.Formats.Asn1.AsnWriter	WriteIntegerUnsigned	0x2050	NoInlining	Public, HideBySig	0x100434b88	0x9483fafc	0x102533778	0x102533778	mapped	0x102533778
+System.Formats.Asn1	185	0x060000ba	System.Formats.Asn1.AsnWriter	WriteIntegerCore	0x2050	NoInlining	Private, HideBySig	0x100434b8c	0x9483fb4a	0x1025338b4	0x1025338b4	mapped	0x1025338b4
+System.Formats.Asn1	186	0x060000bb	System.Formats.Asn1.AsnWriter	WriteNonNegativeIntegerCore	0x2050	NoInlining	Private, HideBySig	0x100434b90	0x9483fbaa	0x102533a38	0x102533a38	mapped	0x102533a38
+System.Formats.Asn1	187	0x060000bc	System.Formats.Asn1.AsnWriter	WriteIntegerUnsignedCore	0x2050	NoInlining	Private, HideBySig	0x100434b94	0x9483fc03	0x102533ba0	0x102533ba0	mapped	0x102533ba0
+System.Formats.Asn1	188	0x060000bd	System.Formats.Asn1.AsnWriter	WriteIntegerCore	0x2050	NoInlining	Private, HideBySig	0x100434b98	0x9483fc90	0x102533dd8	0x102533dd8	mapped	0x102533dd8
+System.Formats.Asn1	189	0x060000be	System.Formats.Asn1.AsnWriter	WriteNull	0x2050	NoInlining	Public, HideBySig	0x100434b9c	0x9483fcf7	0x102533f78	0x102533f78	mapped	0x102533f78
+System.Formats.Asn1	190	0x060000bf	System.Formats.Asn1.AsnWriter	WriteNullCore	0x2050	NoInlining	Private, HideBySig	0x100434ba0	0x9483fd42	0x1025340a8	0x1025340a8	mapped	0x1025340a8
+System.Formats.Asn1	191	0x060000c0	System.Formats.Asn1.AsnWriter	PushOctetString	0x2050	NoInlining	Public, HideBySig	0x100434ba4	0x9483fd54	0x1025340f4	0x1025340f4	mapped	0x1025340f4
+System.Formats.Asn1	192	0x060000c1	System.Formats.Asn1.AsnWriter	PopOctetString	0x2050	NoInlining	Public, HideBySig	0x100434ba8	0x9483fdaf	0x102534264	0x102534264	mapped	0x102534264
+System.Formats.Asn1	193	0x060000c2	System.Formats.Asn1.AsnWriter	WriteOctetString	0x2050	NoInlining	Public, HideBySig	0x100434bac	0x9483fdfa	0x102534394	0x102534394	mapped	0x102534394
+System.Formats.Asn1	194	0x060000c3	System.Formats.Asn1.AsnWriter	WriteOctetStringCore	0x2050	NoInlining	Private, HideBySig	0x100434bb0	0x9483fe42	0x1025344b8	0x1025344b8	mapped	0x1025344b8
+System.Formats.Asn1	195	0x060000c4	System.Formats.Asn1.AsnWriter	WriteConstructedCerOctetString	0x2050	NoInlining	Private, HideBySig	0x100434bb4	0x9483fe97	0x102534610	0x102534610	mapped	0x102534610
+System.Formats.Asn1	196	0x060000c5	System.Formats.Asn1.AsnWriter	WriteObjectIdentifier	0x2050	NoInlining	Public, HideBySig	0x100434bb8	0x9483ff43	0x1025348c4	0x1025348c4	mapped	0x1025348c4
+System.Formats.Asn1	197	0x060000c6	System.Formats.Asn1.AsnWriter	WriteObjectIdentifier	0x2050	NoInlining	Public, HideBySig	0x100434bbc	0x9483ff64	0x10253494c	0x10253494c	mapped	0x10253494c
+System.Formats.Asn1	198	0x060000c7	System.Formats.Asn1.AsnWriter	WriteObjectIdentifierCore	0x2050	NoInlining	Private, HideBySig	0x100434bc0	0x9483fff1	0x102534b84	0x102534b84	mapped	0x102534b84
+System.Formats.Asn1	199	0x060000c8	System.Formats.Asn1.AsnWriter	ParseSubIdentifier	0x2050	NoInlining	Private, Static, HideBySig	0x100434bc4	0x948400b2	0x102534e8c	0x102534e8c	mapped	0x102534e8c
+System.Formats.Asn1	200	0x060000c9	System.Formats.Asn1.AsnWriter	AtoI	0x2050	NoInlining	Private, Static, HideBySig	0x100434bc8	0x94840170	0x102535188	0x102535188	mapped	0x102535188
+System.Formats.Asn1	201	0x060000ca	System.Formats.Asn1.AsnWriter	EncodeSubIdentifier	0x2050	NoInlining	Private, Static, HideBySig	0x100434bcc	0x94840192	0x102535214	0x102535214	mapped	0x102535214
+System.Formats.Asn1	202	0x060000cb	System.Formats.Asn1.AsnWriter	PushSequence	0x2050	NoInlining	Public, HideBySig	0x100434bd0	0x94840231	0x102535494	0x102535494	mapped	0x102535494
+System.Formats.Asn1	203	0x060000cc	System.Formats.Asn1.AsnWriter	PopSequence	0x2050	NoInlining	Public, HideBySig	0x100434bd4	0x9484029a	0x10253563c	0x10253563c	mapped	0x10253563c
+System.Formats.Asn1	204	0x060000cd	System.Formats.Asn1.AsnWriter	PushSequenceCore	0x2050	NoInlining	Private, HideBySig	0x100434bd8	0x948402e5	0x10253576c	0x10253576c	mapped	0x10253576c
+System.Formats.Asn1	205	0x060000ce	System.Formats.Asn1.AsnWriter	PopSequenceCore	0x2050	NoInlining	Private, HideBySig	0x100434bdc	0x94840308	0x1025357fc	0x1025357fc	mapped	0x1025357fc
+System.Formats.Asn1	206	0x060000cf	System.Formats.Asn1.AsnWriter	PushSetOf	0x2050	NoInlining	Public, HideBySig	0x100434be0	0x94840319	0x102535844	0x102535844	mapped	0x102535844
+System.Formats.Asn1	207	0x060000d0	System.Formats.Asn1.AsnWriter	PopSetOf	0x2050	NoInlining	Public, HideBySig	0x100434be4	0x94840382	0x1025359ec	0x1025359ec	mapped	0x1025359ec
+System.Formats.Asn1	208	0x060000d1	System.Formats.Asn1.AsnWriter	PushSetOfCore	0x2050	NoInlining	Private, HideBySig	0x100434be8	0x948403cb	0x102535b14	0x102535b14	mapped	0x102535b14
+System.Formats.Asn1	209	0x060000d2	System.Formats.Asn1.AsnWriter	PopSetOfCore	0x2050	NoInlining	Private, HideBySig	0x100434bec	0x948403ee	0x102535ba4	0x102535ba4	mapped	0x102535ba4
+System.Formats.Asn1	210	0x060000d3	System.Formats.Asn1.AsnWriter+ArrayIndexSetOfValueComparer	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100434bf0	0x94840408	0x102535c10	0x102535c10	mapped	0x102535c10
+System.Formats.Asn1	211	0x060000d4	System.Formats.Asn1.AsnWriter+ArrayIndexSetOfValueComparer	Compare	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100434bf4	0x94840417	0x102535c50	0x102535c50	mapped	0x102535c50
+System.Formats.Asn1	212	0x060000d5	System.Formats.Asn1.AsnWriter+StackFrame	get_Tag	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100434bf8	0x94840477	0x102535dd4	0x102535dd4	mapped	0x102535dd4
+System.Formats.Asn1	213	0x060000d6	System.Formats.Asn1.AsnWriter+StackFrame	get_Offset	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100434bfc	0x9484047f	0x102535df8	0x102535df8	mapped	0x102535df8
+System.Formats.Asn1	214	0x060000d7	System.Formats.Asn1.AsnWriter+StackFrame	get_ItemType	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100434c00	0x94840487	0x102535e1c	0x102535e1c	mapped	0x102535e1c
+System.Formats.Asn1	215	0x060000d8	System.Formats.Asn1.AsnWriter+StackFrame	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x100434c04	0x9484048f	0x102535e40	0x102535e40	mapped	0x102535e40
+System.Formats.Asn1	216	0x060000d9	System.Formats.Asn1.AsnWriter+StackFrame	Deconstruct	0x2050	NoInlining	Public, HideBySig	0x100434c08	0x94840498	0x102535e68	0x102535e68	mapped	0x102535e68
+System.Formats.Asn1	217	0x060000da	System.Formats.Asn1.AsnWriter+StackFrame	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100434c0c	0x948404b2	0x102535ed4	0x102535ed4	mapped	0x102535ed4
+System.Formats.Asn1	218	0x060000db	System.Formats.Asn1.AsnWriter+StackFrame	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434c10	0x948404d8	0x102535f70	0x102535f70	mapped	0x102535f70
+System.Formats.Asn1	219	0x060000dc	System.Formats.Asn1.AsnWriter+StackFrame	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100434c14	0x9484050b	0x102536040	0x102536040	mapped	0x102536040
+System.Formats.Asn1	220	0x060000dd	System.Formats.Asn1.AsnWriter+StackFrame	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100434c18	0x94840531	0x1025360dc	0x1025360dc	mapped	0x1025360dc
+System.Formats.Asn1	221	0x060000de	System.Formats.Asn1.AsnWriter+Scope	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x100434c1c	0x94840551	0x102536160	0x102536160	mapped	0x102536160
+System.Formats.Asn1	222	0x060000df	System.Formats.Asn1.AsnWriter+Scope	Dispose	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100434c20	0x9484058c	0x102536250	0x102536250	mapped	0x102536250
+System.Formats.Asn1	223	0x060000e0	System.Formats.Asn1.SetOfValueComparer	get_Instance	0x2050	NoInlining	Assembly, Static, HideBySig, SpecialName	0x100434c24	0x94840619	0x102536488	0x102536488	mapped	0x102536488
+System.Formats.Asn1	224	0x060000e1	System.Formats.Asn1.SetOfValueComparer	Compare	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100434c28	0x94840629	0x1025364cc	0x1025364cc	mapped	0x1025364cc
+System.Formats.Asn1	225	0x060000e2	System.Formats.Asn1.SetOfValueComparer	Compare	0x2050	NoInlining	Assembly, Static, HideBySig	0x100434c2c	0x94840674	0x1025365fc	0x1025365fc	mapped	0x1025365fc
+System.Formats.Asn1	226	0x060000e3	System.Formats.Asn1.SetOfValueComparer	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100434c30	0x948406b7	0x10253670c	0x10253670c	mapped	0x10253670c
+System.Formats.Asn1	227	0x060000e4	System.Formats.Asn1.SetOfValueComparer	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100434c34	0x948406c4	0x102536744	0x102536744	mapped	0x102536744
+System.Formats.Asn1	228	0x060000e5	System.Formats.Asn1.WellKnownOids	GetValue	0x2050	NoInlining	Assembly, Static, HideBySig	0x100434c38	0x948406df	0x1025367b4	0x1025367b4	mapped	0x1025367b4
+System.Formats.Asn1	229	0x060000e6	System.Formats.Asn1.WellKnownOids	GetContents	0x2050	NoInlining	Assembly, Static, HideBySig	0x100434c3c	0x94840cc7	0x102537f58	0x102537f58	mapped	0x102537f58
+System.Formats.Asn1	230	0x060000e7	System.Security.Cryptography.CryptoPool	Rent	0x2050	NoInlining	Assembly, Static, HideBySig	0x100434c40	0x9484142a	0x102539ce8	0x102539ce8	mapped	0x102539ce8
+System.Formats.Asn1	231	0x060000e8	System.Security.Cryptography.CryptoPool	Return	0x2050	NoInlining	Assembly, Static, HideBySig	0x100434c44	0x94841455	0x102539d98	0x102539d98	mapped	0x102539d98

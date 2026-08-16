@@ -1,0 +1,57 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Drawing.Primitives	0	0x06000001	System.Drawing.PointF	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100433f08	0x9483bf44	0x102523c18	0x102523c18	mapped	0x102523c18
+System.Drawing.Primitives	1	0x06000002	System.Drawing.PointF	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100433f0c	0x9483bf4c	0x102523c3c	0x102523c3c	mapped	0x102523c3c
+System.Drawing.Primitives	2	0x06000003	System.Drawing.PointF	ToVector2	0x2050	NoInlining	Public, HideBySig	0x100433f10	0x9483bf54	0x102523c60	0x102523c60	mapped	0x102523c60
+System.Drawing.Primitives	3	0x06000004	System.Drawing.PointF	get_X	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100433f14	0x9483bf5d	0x102523c88	0x102523c88	mapped	0x102523c88
+System.Drawing.Primitives	4	0x06000005	System.Drawing.PointF	get_Y	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100433f18	0x9483bf65	0x102523cac	0x102523cac	mapped	0x102523cac
+System.Drawing.Primitives	5	0x06000006	System.Drawing.PointF	op_Explicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f1c	0x9483bf6d	0x102523cd0	0x102523cd0	mapped	0x102523cd0
+System.Drawing.Primitives	6	0x06000007	System.Drawing.PointF	op_Explicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f20	0x9483bf6d	0x102523cd4	0x102523cd4	mapped	0x102523cd4
+System.Drawing.Primitives	7	0x06000008	System.Drawing.PointF	op_Addition	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f24	0x9483bf6d	0x102523cd8	0x102523cd8	mapped	0x102523cd8
+System.Drawing.Primitives	8	0x06000009	System.Drawing.PointF	op_Subtraction	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f28	0x9483bf7b	0x102523d14	0x102523d14	mapped	0x102523d14
+System.Drawing.Primitives	9	0x0600000a	System.Drawing.PointF	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f2c	0x9483bf89	0x102523d50	0x102523d50	mapped	0x102523d50
+System.Drawing.Primitives	10	0x0600000b	System.Drawing.PointF	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f30	0x9483bf8d	0x102523d64	0x102523d64	mapped	0x102523d64
+System.Drawing.Primitives	11	0x0600000c	System.Drawing.PointF	Add	0x2050	NoInlining	Public, Static, HideBySig	0x100433f34	0x9483bf9c	0x102523da4	0x102523da4	mapped	0x102523da4
+System.Drawing.Primitives	12	0x0600000d	System.Drawing.PointF	Subtract	0x2050	NoInlining	Public, Static, HideBySig	0x100433f38	0x9483bf9e	0x102523db0	0x102523db0	mapped	0x102523db0
+System.Drawing.Primitives	13	0x0600000e	System.Drawing.PointF	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100433f3c	0x9483bfa0	0x102523dbc	0x102523dbc	mapped	0x102523dbc
+System.Drawing.Primitives	14	0x0600000f	System.Drawing.PointF	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100433f40	0x9483bfd3	0x102523e8c	0x102523e8c	mapped	0x102523e8c
+System.Drawing.Primitives	15	0x06000010	System.Drawing.PointF	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100433f44	0x9483bfed	0x102523ef8	0x102523ef8	mapped	0x102523ef8
+System.Drawing.Primitives	16	0x06000011	System.Drawing.PointF	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100433f48	0x9483c015	0x102523f9c	0x102523f9c	mapped	0x102523f9c
+System.Drawing.Primitives	17	0x06000012	System.Drawing.RectangleF	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100433f4c	0x9483c0aa	0x1025241f4	0x1025241f4	mapped	0x1025241f4
+System.Drawing.Primitives	18	0x06000013	System.Drawing.RectangleF	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100433f50	0x9483c0b5	0x102524224	0x102524224	mapped	0x102524224
+System.Drawing.Primitives	19	0x06000014	System.Drawing.RectangleF	ToVector4	0x2050	NoInlining	Public, HideBySig	0x100433f54	0x9483c0c0	0x102524254	0x102524254	mapped	0x102524254
+System.Drawing.Primitives	20	0x06000015	System.Drawing.RectangleF	op_Explicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f58	0x9483c0ca	0x102524280	0x102524280	mapped	0x102524280
+System.Drawing.Primitives	21	0x06000016	System.Drawing.RectangleF	op_Explicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f5c	0x9483c0de	0x1025242d4	0x1025242d4	mapped	0x1025242d4
+System.Drawing.Primitives	22	0x06000017	System.Drawing.RectangleF	get_X	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100433f60	0x9483c0f2	0x102524328	0x102524328	mapped	0x102524328
+System.Drawing.Primitives	23	0x06000018	System.Drawing.RectangleF	get_Y	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100433f64	0x9483c0fa	0x10252434c	0x10252434c	mapped	0x10252434c
+System.Drawing.Primitives	24	0x06000019	System.Drawing.RectangleF	get_Width	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100433f68	0x9483c102	0x102524370	0x102524370	mapped	0x102524370
+System.Drawing.Primitives	25	0x0600001a	System.Drawing.RectangleF	get_Height	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100433f6c	0x9483c10a	0x102524394	0x102524394	mapped	0x102524394
+System.Drawing.Primitives	26	0x0600001b	System.Drawing.RectangleF	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100433f70	0x9483c112	0x1025243b8	0x1025243b8	mapped	0x1025243b8
+System.Drawing.Primitives	27	0x0600001c	System.Drawing.RectangleF	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100433f74	0x9483c146	0x10252448c	0x10252448c	mapped	0x10252448c
+System.Drawing.Primitives	28	0x0600001d	System.Drawing.RectangleF	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f78	0x9483c16e	0x102524530	0x102524530	mapped	0x102524530
+System.Drawing.Primitives	29	0x0600001e	System.Drawing.RectangleF	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f7c	0x9483c183	0x102524588	0x102524588	mapped	0x102524588
+System.Drawing.Primitives	30	0x0600001f	System.Drawing.RectangleF	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100433f80	0x9483c19a	0x1025245e8	0x1025245e8	mapped	0x1025245e8
+System.Drawing.Primitives	31	0x06000020	System.Drawing.RectangleF	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100433f84	0x9483c1bb	0x102524670	0x102524670	mapped	0x102524670
+System.Drawing.Primitives	32	0x06000021	System.Drawing.SizeF	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100433f88	0x9483c296	0x1025249e0	0x1025249e0	mapped	0x1025249e0
+System.Drawing.Primitives	33	0x06000022	System.Drawing.SizeF	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100433f8c	0x9483c29e	0x102524a04	0x102524a04	mapped	0x102524a04
+System.Drawing.Primitives	34	0x06000023	System.Drawing.SizeF	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100433f90	0x9483c2a6	0x102524a28	0x102524a28	mapped	0x102524a28
+System.Drawing.Primitives	35	0x06000024	System.Drawing.SizeF	ToVector2	0x2050	NoInlining	Public, HideBySig	0x100433f94	0x9483c2ae	0x102524a4c	0x102524a4c	mapped	0x102524a4c
+System.Drawing.Primitives	36	0x06000025	System.Drawing.SizeF	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100433f98	0x9483c2b7	0x102524a74	0x102524a74	mapped	0x102524a74
+System.Drawing.Primitives	37	0x06000026	System.Drawing.SizeF	op_Explicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433f9c	0x9483c2bf	0x102524a98	0x102524a98	mapped	0x102524a98
+System.Drawing.Primitives	38	0x06000027	System.Drawing.SizeF	op_Explicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433fa0	0x9483c2bf	0x102524a9c	0x102524a9c	mapped	0x102524a9c
+System.Drawing.Primitives	39	0x06000028	System.Drawing.SizeF	op_Addition	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433fa4	0x9483c2bf	0x102524aa0	0x102524aa0	mapped	0x102524aa0
+System.Drawing.Primitives	40	0x06000029	System.Drawing.SizeF	op_Subtraction	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433fa8	0x9483c2cd	0x102524adc	0x102524adc	mapped	0x102524adc
+System.Drawing.Primitives	41	0x0600002a	System.Drawing.SizeF	op_Multiply	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433fac	0x9483c2db	0x102524b18	0x102524b18	mapped	0x102524b18
+System.Drawing.Primitives	42	0x0600002b	System.Drawing.SizeF	op_Multiply	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433fb0	0x9483c2de	0x102524b28	0x102524b28	mapped	0x102524b28
+System.Drawing.Primitives	43	0x0600002c	System.Drawing.SizeF	op_Division	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433fb4	0x9483c2e0	0x102524b34	0x102524b34	mapped	0x102524b34
+System.Drawing.Primitives	44	0x0600002d	System.Drawing.SizeF	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433fb8	0x9483c2e2	0x102524b40	0x102524b40	mapped	0x102524b40
+System.Drawing.Primitives	45	0x0600002e	System.Drawing.SizeF	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433fbc	0x9483c2e6	0x102524b54	0x102524b54	mapped	0x102524b54
+System.Drawing.Primitives	46	0x0600002f	System.Drawing.SizeF	op_Explicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100433fc0	0x9483c2f5	0x102524b94	0x102524b94	mapped	0x102524b94
+System.Drawing.Primitives	47	0x06000030	System.Drawing.SizeF	get_Width	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100433fc4	0x9483c2f5	0x102524b98	0x102524b98	mapped	0x102524b98
+System.Drawing.Primitives	48	0x06000031	System.Drawing.SizeF	get_Height	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100433fc8	0x9483c2fd	0x102524bbc	0x102524bbc	mapped	0x102524bbc
+System.Drawing.Primitives	49	0x06000032	System.Drawing.SizeF	Add	0x2050	NoInlining	Public, Static, HideBySig	0x100433fcc	0x9483c305	0x102524be0	0x102524be0	mapped	0x102524be0
+System.Drawing.Primitives	50	0x06000033	System.Drawing.SizeF	Subtract	0x2050	NoInlining	Public, Static, HideBySig	0x100433fd0	0x9483c307	0x102524bec	0x102524bec	mapped	0x102524bec
+System.Drawing.Primitives	51	0x06000034	System.Drawing.SizeF	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100433fd4	0x9483c309	0x102524bf8	0x102524bf8	mapped	0x102524bf8
+System.Drawing.Primitives	52	0x06000035	System.Drawing.SizeF	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x100433fd8	0x9483c33c	0x102524cc8	0x102524cc8	mapped	0x102524cc8
+System.Drawing.Primitives	53	0x06000036	System.Drawing.SizeF	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100433fdc	0x9483c356	0x102524d34	0x102524d34	mapped	0x102524d34
+System.Drawing.Primitives	54	0x06000037	System.Drawing.SizeF	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x100433fe0	0x9483c376	0x102524db8	0x102524db8	mapped	0x102524db8
+System.Drawing.Primitives	55	0x06000038	System.Drawing.SizeF	Multiply	0x2050	NoInlining	Private, Static, HideBySig	0x100433fe4	0x9483c40b	0x102525010	0x102525010	mapped	0x102525010

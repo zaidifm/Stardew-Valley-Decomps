@@ -1,0 +1,15 @@
+using System.Runtime.CompilerServices;
+
+namespace rail;
+
+public class KickOffMemberResult : EventBase
+{
+	public ulong room_id;
+
+	public RailID kicked_id;
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public KickOffMemberResult()
+	{
+	}
+}

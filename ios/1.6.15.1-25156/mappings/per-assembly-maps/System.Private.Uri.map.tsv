@@ -1,0 +1,250 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Private.Uri	0	0x06000001	System.HexConverter	ToCharsBuffer	0x2050	264	Public, Static, HideBySig	0x100519150	0x948aa00a	0x1027c1178	0x1027c1178	mapped	0x1027c1178
+System.Private.Uri	1	0x06000002	System.HexConverter	FromChar	0x2050	264	Public, Static, HideBySig	0x100519154	0x948aa034	0x1027c1224	0x1027c1224	mapped	0x1027c1224
+System.Private.Uri	2	0x06000003	System.HexConverter	get_CharToHexLookup	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100519158	0x948aa05f	0x1027c12d4	0x1027c12d4	mapped	0x1027c12d4
+System.Private.Uri	3	0x06000004	System.DomainNameHelper	ParseCanonicalName	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051915c	0x948aa075	0x1027c1330	0x1027c1330	mapped	0x1027c1330
+System.Private.Uri	4	0x06000005	System.DomainNameHelper	IsValid	0x2050	NoInlining	Public, Static, HideBySig	0x100519160	0x948aa118	0x1027c15c0	0x1027c15c0	mapped	0x1027c15c0
+System.Private.Uri	5	0x06000006	System.DomainNameHelper	IdnEquivalent	0x2050	NoInlining	Public, Static, HideBySig	0x100519164	0x948aa256	0x1027c1abc	0x1027c1abc	mapped	0x1027c1abc
+System.Private.Uri	6	0x06000007	System.DomainNameHelper	TryGetUnicodeEquivalent	0x2050	NoInlining	Public, Static, HideBySig	0x100519168	0x948aa2dc	0x1027c1cd8	0x1027c1cd8	mapped	0x1027c1cd8
+System.Private.Uri	7	0x06000008	System.DomainNameHelper	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10051916c	0x948aa606	0x1027c2984	0x1027c2984	mapped	0x1027c2984
+System.Private.Uri	8	0x06000009	System.IPv4AddressHelper	ParseCanonicalName	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519170	0x948aa645	0x1027c2a84	0x1027c2a84	mapped	0x1027c2a84
+System.Private.Uri	9	0x0600000a	System.IPv4AddressHelper	Parse	0x2050	NoInlining	Private, Static, HideBySig	0x100519174	0x948aa6bd	0x1027c2c68	0x1027c2c68	mapped	0x1027c2c68
+System.Private.Uri	10	0x0600000b	System.IPv4AddressHelper	ParseHostNumber	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519178	0x948aa6f6	0x1027c2d50	0x1027c2d50	mapped	0x1027c2d50
+System.Private.Uri	11	0x0600000c	System.IPv4AddressHelper	IsValid	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051917c	0x948aa7c0	0x1027c307c	0x1027c307c	mapped	0x1027c307c
+System.Private.Uri	12	0x0600000d	System.IPv4AddressHelper	IsValidCanonical	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519180	0x948aa7e1	0x1027c3104	0x1027c3104	mapped	0x1027c3104
+System.Private.Uri	13	0x0600000e	System.IPv4AddressHelper	ParseNonCanonical	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519184	0x948aa87b	0x1027c3370	0x1027c3370	mapped	0x1027c3370
+System.Private.Uri	14	0x0600000f	System.IPv6AddressHelper	ParseCanonicalName	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519188	0x948aa9c9	0x1027c38ac	0x1027c38ac	mapped	0x1027c38ac
+System.Private.Uri	15	0x06000010	System.IPv6AddressHelper	IsLoopback	0x2050	NoInlining	Private, Static, HideBySig	0x10051918c	0x948aaaf9	0x1027c3d70	0x1027c3d70	mapped	0x1027c3d70
+System.Private.Uri	16	0x06000011	System.IPv6AddressHelper	InternalIsValid	0x2050	NoInlining	Private, Static, HideBySig	0x100519190	0x948aab84	0x1027c3fa0	0x1027c3fa0	mapped	0x1027c3fa0
+System.Private.Uri	17	0x06000012	System.IPv6AddressHelper	IsValid	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519194	0x948aaca4	0x1027c4424	0x1027c4424	mapped	0x1027c4424
+System.Private.Uri	18	0x06000013	System.IPv6AddressHelper	FindCompressionRange	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519198	0x948aacb8	0x1027c4478	0x1027c4478	mapped	0x1027c4478
+System.Private.Uri	19	0x06000014	System.IPv6AddressHelper	ShouldHaveIpv4Embedded	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051919c	0x948aacf8	0x1027c457c	0x1027c457c	mapped	0x1027c457c
+System.Private.Uri	20	0x06000015	System.IPv6AddressHelper	Parse	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005191a0	0x948aad73	0x1027c476c	0x1027c476c	mapped	0x1027c476c
+System.Private.Uri	21	0x06000016	System.IriHelper	CheckIriUnicodeRange	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005191a4	0x948aaf4c	0x1027c4ed4	0x1027c4ed4	mapped	0x1027c4ed4
+System.Private.Uri	22	0x06000017	System.IriHelper	CheckIriUnicodeRange	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005191a8	0x948aaf62	0x1027c4f30	0x1027c4f30	mapped	0x1027c4f30
+System.Private.Uri	23	0x06000018	System.IriHelper	CheckIriUnicodeRange	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005191ac	0x948aaf98	0x1027c500c	0x1027c500c	mapped	0x1027c500c
+System.Private.Uri	24	0x06000019	System.IriHelper	IsInInclusiveRange	0x2050	264	Public, Static, HideBySig	0x1005191b0	0x948aafbb	0x1027c509c	0x1027c509c	mapped	0x1027c509c
+System.Private.Uri	25	0x0600001a	System.IriHelper	CheckIsReserved	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005191b4	0x948aafbf	0x1027c50b0	0x1027c50b0	mapped	0x1027c50b0
+System.Private.Uri	26	0x0600001b	System.IriHelper	EscapeUnescapeIri	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005191b8	0x948aafe7	0x1027c5154	0x1027c5154	mapped	0x1027c5154
+System.Private.Uri	27	0x0600001c	System.PercentEncodingHelper	UnescapePercentEncodedUTF8Sequence	0x2050	NoInlining	Public, Static, HideBySig	0x1005191bc	0x948ab175	0x1027c5790	0x1027c5790	mapped	0x1027c5790
+System.Private.Uri	28	0x0600001d	System.UncNameHelper	ParseCanonicalName	0x2050	NoInlining	Public, Static, HideBySig	0x1005191c0	0x948ab276	0x1027c5b98	0x1027c5b98	mapped	0x1027c5b98
+System.Private.Uri	29	0x0600001e	System.UncNameHelper	IsValid	0x2050	NoInlining	Public, Static, HideBySig	0x1005191c4	0x948ab28b	0x1027c5bf0	0x1027c5bf0	mapped	0x1027c5bf0
+System.Private.Uri	30	0x0600001f	System.Uri	InterlockedSetFlags	0x2050	NoInlining	Private, HideBySig	0x1005191c8	0x948ab357	0x1027c5f24	0x1027c5f24	mapped	0x1027c5f24
+System.Private.Uri	31	0x06000020	System.Uri	get_IsImplicitFile	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005191cc	0x948ab39f	0x1027c6048	0x1027c6048	mapped	0x1027c6048
+System.Private.Uri	32	0x06000021	System.Uri	get_IsUncOrDosPath	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005191d0	0x948ab3a8	0x1027c6070	0x1027c6070	mapped	0x1027c6070
+System.Private.Uri	33	0x06000022	System.Uri	get_IsDosPath	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005191d4	0x948ab3b2	0x1027c609c	0x1027c609c	mapped	0x1027c609c
+System.Private.Uri	34	0x06000023	System.Uri	get_IsUncPath	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005191d8	0x948ab3bb	0x1027c60c4	0x1027c60c4	mapped	0x1027c60c4
+System.Private.Uri	35	0x06000024	System.Uri	get_IsUnixPath	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005191dc	0x948ab3c4	0x1027c60ec	0x1027c60ec	mapped	0x1027c60ec
+System.Private.Uri	36	0x06000025	System.Uri	get_HostType	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005191e0	0x948ab3cd	0x1027c6114	0x1027c6114	mapped	0x1027c6114
+System.Private.Uri	37	0x06000026	System.Uri	get_Syntax	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005191e4	0x948ab3d6	0x1027c613c	0x1027c613c	mapped	0x1027c613c
+System.Private.Uri	38	0x06000027	System.Uri	get_IsNotAbsoluteUri	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005191e8	0x948ab3de	0x1027c6160	0x1027c6160	mapped	0x1027c6160
+System.Private.Uri	39	0x06000028	System.Uri	get_IriParsing	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005191ec	0x948ab3e8	0x1027c618c	0x1027c618c	mapped	0x1027c618c
+System.Private.Uri	40	0x06000029	System.Uri	IriParsingStatic	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005191f0	0x948ab3f6	0x1027c61c8	0x1027c61c8	mapped	0x1027c61c8
+System.Private.Uri	41	0x0600002a	System.Uri	get_DisablePathAndQueryCanonicalization	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005191f4	0x948ab409	0x1027c6218	0x1027c6218	mapped	0x1027c6218
+System.Private.Uri	42	0x0600002b	System.Uri	get_UserDrivenParsing	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1005191f8	0x948ab412	0x1027c6240	0x1027c6240	mapped	0x1027c6240
+System.Private.Uri	43	0x0600002c	System.Uri	get_SecuredPathIndex	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1005191fc	0x948ab41b	0x1027c6268	0x1027c6268	mapped	0x1027c6268
+System.Private.Uri	44	0x0600002d	System.Uri	NotAny	0x2050	NoInlining	Private, HideBySig	0x100519200	0x948ab446	0x1027c6318	0x1027c6318	mapped	0x1027c6318
+System.Private.Uri	45	0x0600002e	System.Uri	InFact	0x2050	NoInlining	Private, HideBySig	0x100519204	0x948ab450	0x1027c6344	0x1027c6344	mapped	0x1027c6344
+System.Private.Uri	46	0x0600002f	System.Uri	StaticNotAny	0x2050	NoInlining	Private, Static, HideBySig	0x100519208	0x948ab45a	0x1027c6370	0x1027c6370	mapped	0x1027c6370
+System.Private.Uri	47	0x06000030	System.Uri	StaticInFact	0x2050	NoInlining	Private, Static, HideBySig	0x10051920c	0x948ab46d	0x1027c63c0	0x1027c63c0	mapped	0x1027c63c0
+System.Private.Uri	48	0x06000031	System.Uri	EnsureUriInfo	0x2050	NoInlining	Private, HideBySig	0x100519210	0x948ab480	0x1027c6410	0x1027c6410	mapped	0x1027c6410
+System.Private.Uri	49	0x06000032	System.Uri	EnsureParseRemaining	0x2050	NoInlining	Private, HideBySig	0x100519214	0x948ab496	0x1027c646c	0x1027c646c	mapped	0x1027c646c
+System.Private.Uri	50	0x06000033	System.Uri	EnsureHostString	0x2050	NoInlining	Private, HideBySig	0x100519218	0x948ab4ab	0x1027c64c4	0x1027c64c4	mapped	0x1027c64c4
+System.Private.Uri	51	0x06000034	System.Uri	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10051921c	0x948ab4c9	0x1027c6540	0x1027c6540	mapped	0x1027c6540
+System.Private.Uri	52	0x06000035	System.Uri	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100519220	0x948ab4ed	0x1027c65d4	0x1027c65d4	mapped	0x1027c65d4
+System.Private.Uri	53	0x06000036	System.Uri	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100519224	0x948ab514	0x1027c6674	0x1027c6674	mapped	0x1027c6674
+System.Private.Uri	54	0x06000037	System.Uri	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100519228	0x948ab549	0x1027c674c	0x1027c674c	mapped	0x1027c674c
+System.Private.Uri	55	0x06000038	System.Uri	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10051922c	0x948ab570	0x1027c67ec	0x1027c67ec	mapped	0x1027c67ec
+System.Private.Uri	56	0x06000039	System.Uri	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100519230	0x948ab594	0x1027c6880	0x1027c6880	mapped	0x1027c6880
+System.Private.Uri	57	0x0600003a	System.Uri	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100519234	0x948ab5c8	0x1027c6954	0x1027c6954	mapped	0x1027c6954
+System.Private.Uri	58	0x0600003b	System.Uri	GetObjectData	0x2050	NoInlining	Family, HideBySig	0x100519238	0x948ab5d7	0x1027c6994	0x1027c6994	mapped	0x1027c6994
+System.Private.Uri	59	0x0600003c	System.Uri	CreateUri	0x2050	NoInlining	Private, HideBySig	0x10051923c	0x948ab615	0x1027c6a90	0x1027c6a90	mapped	0x1027c6a90
+System.Private.Uri	60	0x0600003d	System.Uri	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100519240	0x948ab665	0x1027c6bd4	0x1027c6bd4	mapped	0x1027c6bd4
+System.Private.Uri	61	0x0600003e	System.Uri	GetCombinedString	0x2050	NoInlining	Private, Static, HideBySig	0x100519244	0x948ab6d2	0x1027c6d8c	0x1027c6d8c	mapped	0x1027c6d8c
+System.Private.Uri	62	0x0600003f	System.Uri	GetException	0x2050	NoInlining	Private, Static, HideBySig	0x100519248	0x948ab75b	0x1027c6fb4	0x1027c6fb4	mapped	0x1027c6fb4
+System.Private.Uri	63	0x06000040	System.Uri	get_AbsolutePath	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051924c	0x948ab7b1	0x1027c7110	0x1027c7110	mapped	0x1027c7110
+System.Private.Uri	64	0x06000041	System.Uri	get_PrivateAbsolutePath	0x2050	NoInlining	Private, HideBySig, SpecialName	0x100519250	0x948ab7e1	0x1027c71d4	0x1027c71d4	mapped	0x1027c71d4
+System.Private.Uri	65	0x06000042	System.Uri	get_AbsoluteUri	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519254	0x948ab808	0x1027c7274	0x1027c7274	mapped	0x1027c7274
+System.Private.Uri	66	0x06000043	System.Uri	get_LocalPath	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519258	0x948ab841	0x1027c735c	0x1027c735c	mapped	0x1027c735c
+System.Private.Uri	67	0x06000044	System.Uri	get_HostNameType	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051925c	0x948ab860	0x1027c73dc	0x1027c73dc	mapped	0x1027c73dc
+System.Private.Uri	68	0x06000045	System.Uri	get_IsDefaultPort	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519260	0x948ab89e	0x1027c74d8	0x1027c74d8	mapped	0x1027c74d8
+System.Private.Uri	69	0x06000046	System.Uri	get_IsFile	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519264	0x948ab8c8	0x1027c7584	0x1027c7584	mapped	0x1027c7584
+System.Private.Uri	70	0x06000047	System.Uri	get_PathAndQuery	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519268	0x948ab8f6	0x1027c7640	0x1027c7640	mapped	0x1027c7640
+System.Private.Uri	71	0x06000048	System.Uri	get_Segments	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051926c	0x948ab93c	0x1027c775c	0x1027c775c	mapped	0x1027c775c
+System.Private.Uri	72	0x06000049	System.Uri	get_IsUnc	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519270	0x948ab99f	0x1027c78ec	0x1027c78ec	mapped	0x1027c78ec
+System.Private.Uri	73	0x0600004a	System.Uri	get_Host	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519274	0x948ab9be	0x1027c796c	0x1027c796c	mapped	0x1027c796c
+System.Private.Uri	74	0x0600004b	System.Uri	StaticIsFile	0x2050	NoInlining	Private, Static, HideBySig	0x100519278	0x948ab9df	0x1027c79f4	0x1027c79f4	mapped	0x1027c79f4
+System.Private.Uri	75	0x0600004c	System.Uri	GetLocalPath	0x2050	NoInlining	Private, HideBySig	0x10051927c	0x948ab9f5	0x1027c7a50	0x1027c7a50	mapped	0x1027c7a50
+System.Private.Uri	76	0x0600004d	System.Uri	get_Port	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519280	0x948abb2d	0x1027c7f34	0x1027c7f34	mapped	0x1027c7f34
+System.Private.Uri	77	0x0600004e	System.Uri	get_Query	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519284	0x948abb67	0x1027c8020	0x1027c8020	mapped	0x1027c8020
+System.Private.Uri	78	0x0600004f	System.Uri	get_Fragment	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519288	0x948abba1	0x1027c810c	0x1027c810c	mapped	0x1027c810c
+System.Private.Uri	79	0x06000050	System.Uri	get_Scheme	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051928c	0x948abbdb	0x1027c81f8	0x1027c81f8	mapped	0x1027c81f8
+System.Private.Uri	80	0x06000051	System.Uri	get_OriginalString	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519290	0x948abbf9	0x1027c8274	0x1027c8274	mapped	0x1027c8274
+System.Private.Uri	81	0x06000052	System.Uri	get_DnsSafeHost	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519294	0x948abc04	0x1027c82a4	0x1027c82a4	mapped	0x1027c82a4
+System.Private.Uri	82	0x06000053	System.Uri	get_IdnHost	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519298	0x948abc35	0x1027c836c	0x1027c836c	mapped	0x1027c836c
+System.Private.Uri	83	0x06000054	System.Uri	get_IsAbsoluteUri	0x2050	NoInlining	Public, HideBySig, SpecialName	0x10051929c	0x948abcc3	0x1027c85a8	0x1027c85a8	mapped	0x1027c85a8
+System.Private.Uri	84	0x06000055	System.Uri	get_UserEscaped	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005192a0	0x948abccd	0x1027c85d4	0x1027c85d4	mapped	0x1027c85d4
+System.Private.Uri	85	0x06000056	System.Uri	get_UserInfo	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005192a4	0x948abcd6	0x1027c85fc	0x1027c85fc	mapped	0x1027c85fc
+System.Private.Uri	86	0x06000057	System.Uri	CheckSchemeName	0x2050	NoInlining	Public, Static, HideBySig	0x1005192a8	0x948abcf7	0x1027c8684	0x1027c8684	mapped	0x1027c8684
+System.Private.Uri	87	0x06000058	System.Uri	FromHex	0x2050	NoInlining	Public, Static, HideBySig	0x1005192ac	0x948abd26	0x1027c8744	0x1027c8744	mapped	0x1027c8744
+System.Private.Uri	88	0x06000059	System.Uri	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005192b0	0x948abd56	0x1027c8808	0x1027c8808	mapped	0x1027c8808
+System.Private.Uri	89	0x0600005a	System.Uri	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005192b4	0x948abdbf	0x1027c89b0	0x1027c89b0	mapped	0x1027c89b0
+System.Private.Uri	90	0x0600005b	System.Uri	TryFormat	0x2050	NoInlining	Public, HideBySig	0x1005192b8	0x948abdf4	0x1027c8a88	0x1027c8a88	mapped	0x1027c8a88
+System.Private.Uri	91	0x0600005c	System.Uri	System.ISpanFormattable.TryFormat	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1005192bc	0x948abec1	0x1027c8dc0	0x1027c8dc0	mapped	0x1027c8dc0
+System.Private.Uri	92	0x0600005d	System.Uri	System.IFormattable.ToString	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1005192c0	0x948abed6	0x1027c8e18	0x1027c8e18	mapped	0x1027c8e18
+System.Private.Uri	93	0x0600005e	System.Uri	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1005192c4	0x948abeeb	0x1027c8e70	0x1027c8e70	mapped	0x1027c8e70
+System.Private.Uri	94	0x0600005f	System.Uri	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1005192c8	0x948abf0f	0x1027c8f04	0x1027c8f04	mapped	0x1027c8f04
+System.Private.Uri	95	0x06000060	System.Uri	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005192cc	0x948abf35	0x1027c8fa0	0x1027c8fa0	mapped	0x1027c8fa0
+System.Private.Uri	96	0x06000061	System.Uri	InternalEscapeString	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005192d0	0x948ac0cb	0x1027c95fc	0x1027c95fc	mapped	0x1027c95fc
+System.Private.Uri	97	0x06000062	System.Uri	ParseScheme	0x2050	NoInlining	Private, Static, HideBySig	0x1005192d4	0x948ac0ec	0x1027c9684	0x1027c9684	mapped	0x1027c9684
+System.Private.Uri	98	0x06000063	System.Uri	ParseMinimal	0x2050	NoInlining	Assembly, HideBySig	0x1005192d8	0x948ac15e	0x1027c9850	0x1027c9850	mapped	0x1027c9850
+System.Private.Uri	99	0x06000064	System.Uri	PrivateParseMinimal	0x2050	NoInlining	Private, HideBySig	0x1005192dc	0x948ac177	0x1027c98b8	0x1027c98b8	mapped	0x1027c98b8
+System.Private.Uri	100	0x06000065	System.Uri	CreateUriInfo	0x2050	NoInlining	Private, HideBySig	0x1005192e0	0x948ac329	0x1027c9f84	0x1027c9f84	mapped	0x1027c9f84
+System.Private.Uri	101	0x06000066	System.Uri	CreateHostString	0x2050	NoInlining	Private, HideBySig	0x1005192e4	0x948ac4f3	0x1027ca6b0	0x1027ca6b0	mapped	0x1027ca6b0
+System.Private.Uri	102	0x06000067	System.Uri	CreateHostStringHelper	0x2050	NoInlining	Private, Static, HideBySig	0x1005192e8	0x948ac6b0	0x1027cada8	0x1027cada8	mapped	0x1027cada8
+System.Private.Uri	103	0x06000068	System.Uri	GetHostViaCustomSyntax	0x2050	NoInlining	Private, HideBySig	0x1005192ec	0x948ac717	0x1027caf48	0x1027caf48	mapped	0x1027caf48
+System.Private.Uri	104	0x06000069	System.Uri	GetParts	0x2050	NoInlining	Assembly, HideBySig	0x1005192f0	0x948ac832	0x1027cb3b8	0x1027cb3b8	mapped	0x1027cb3b8
+System.Private.Uri	105	0x0600006a	System.Uri	GetEscapedParts	0x2050	NoInlining	Private, HideBySig	0x1005192f4	0x948ac845	0x1027cb408	0x1027cb408	mapped	0x1027cb408
+System.Private.Uri	106	0x0600006b	System.Uri	GetUnescapedParts	0x2050	NoInlining	Private, HideBySig	0x1005192f8	0x948ac891	0x1027cb53c	0x1027cb53c	mapped	0x1027cb53c
+System.Private.Uri	107	0x0600006c	System.Uri	RecreateParts	0x2050	NoInlining	Private, HideBySig	0x1005192fc	0x948ac8dc	0x1027cb66c	0x1027cb66c	mapped	0x1027cb66c
+System.Private.Uri	108	0x0600006d	System.Uri	TryRecreateParts	0x2050	NoInlining	Private, HideBySig	0x100519300	0x948ac93c	0x1027cb7f0	0x1027cb7f0	mapped	0x1027cb7f0
+System.Private.Uri	109	0x0600006e	System.Uri	RecreateParts	0x2050	NoInlining	Private, HideBySig	0x100519304	0x948ac9ad	0x1027cb9b8	0x1027cb9b8	mapped	0x1027cb9b8
+System.Private.Uri	110	0x0600006f	System.Uri	GetUriPartsFromUserString	0x2050	NoInlining	Private, HideBySig	0x100519308	0x948accdf	0x1027cc684	0x1027cc684	mapped	0x1027cc684
+System.Private.Uri	111	0x06000070	System.Uri	GetLengthWithoutTrailingSpaces	0x2050	NoInlining	Private, Static, HideBySig	0x10051930c	0x948ad009	0x1027cd330	0x1027cd330	mapped	0x1027cd330
+System.Private.Uri	112	0x06000071	System.Uri	ParseRemaining	0x2050	NoInlining	Private, HideBySig	0x100519310	0x948ad048	0x1027cd430	0x1027cd430	mapped	0x1027cd430
+System.Private.Uri	113	0x06000072	System.Uri	ParseSchemeCheckImplicitFile	0x2050	NoInlining	Private, Static, HideBySig	0x100519314	0x948ad37b	0x1027ce100	0x1027ce100	mapped	0x1027ce100
+System.Private.Uri	114	0x06000073	System.Uri	CheckSchemeSyntax	0x2050	NoInlining	Private, Static, HideBySig	0x100519318	0x948ad492	0x1027ce560	0x1027ce560	mapped	0x1027ce560
+System.Private.Uri	115	0x06000074	System.Uri	CheckAuthorityHelper	0x2050	NoInlining	Private, HideBySig	0x10051931c	0x948ad5b6	0x1027ce9f4	0x1027ce9f4	mapped	0x1027ce9f4
+System.Private.Uri	116	0x06000075	System.Uri	CheckAuthorityHelperHandleDnsIri	0x2050	NoInlining	Private, Static, HideBySig	0x100519320	0x948ada6a	0x1027cfcc8	0x1027cfcc8	mapped	0x1027cfcc8
+System.Private.Uri	117	0x06000076	System.Uri	CheckCanonical	0x2050	NoInlining	Private, HideBySig	0x100519324	0x948adadc	0x1027cfe94	0x1027cfe94	mapped	0x1027cfe94
+System.Private.Uri	118	0x06000077	System.Uri	GetCanonicalPath	0x2050	NoInlining	Private, HideBySig	0x100519328	0x948adc3d	0x1027d041c	0x1027d041c	mapped	0x1027d041c
+System.Private.Uri	119	0x06000078	System.Uri	UnescapeOnly	0x2050	NoInlining	Private, Static, HideBySig	0x10051932c	0x948ade9b	0x1027d0d98	0x1027d0d98	mapped	0x1027d0d98
+System.Private.Uri	120	0x06000079	System.Uri	Compress	0x2050	NoInlining	Private, Static, HideBySig	0x100519330	0x948adf55	0x1027d1084	0x1027d1084	mapped	0x1027d1084
+System.Private.Uri	121	0x0600007a	System.Uri	Compress	0x2050	NoInlining	Private, Static, HideBySig	0x100519334	0x948adf8b	0x1027d1160	0x1027d1160	mapped	0x1027d1160
+System.Private.Uri	122	0x0600007b	System.Uri	CombineUri	0x2050	NoInlining	Private, Static, HideBySig	0x100519338	0x948ae091	0x1027d157c	0x1027d157c	mapped	0x1027d157c
+System.Private.Uri	123	0x0600007c	System.Uri	CreateThis	0x2050	NoInlining	Private, HideBySig	0x10051933c	0x948ae31e	0x1027d1fb4	0x1027d1fb4	mapped	0x1027d1fb4
+System.Private.Uri	124	0x0600007d	System.Uri	InitializeUri	0x2050	NoInlining	Private, HideBySig	0x100519340	0x948ae380	0x1027d2140	0x1027d2140	mapped	0x1027d2140
+System.Private.Uri	125	0x0600007e	System.Uri	CheckForUnicodeOrEscapedUnreserved	0x2050	NoInlining	Private, Static, HideBySig	0x100519344	0x948ae4c7	0x1027d2660	0x1027d2660	mapped	0x1027d2660
+System.Private.Uri	126	0x0600007f	System.Uri	TryCreate	0x2050	NoInlining	Public, Static, HideBySig	0x100519348	0x948ae525	0x1027d27dc	0x1027d27dc	mapped	0x1027d27dc
+System.Private.Uri	127	0x06000080	System.Uri	TryCreate	0x2050	NoInlining	Public, Static, HideBySig	0x10051934c	0x948ae566	0x1027d28e4	0x1027d28e4	mapped	0x1027d28e4
+System.Private.Uri	128	0x06000081	System.Uri	TryCreate	0x2050	NoInlining	Public, Static, HideBySig	0x100519350	0x948ae5a8	0x1027d29f0	0x1027d29f0	mapped	0x1027d29f0
+System.Private.Uri	129	0x06000082	System.Uri	GetComponents	0x2050	NoInlining	Public, HideBySig	0x100519354	0x948ae615	0x1027d2ba8	0x1027d2ba8	mapped	0x1027d2ba8
+System.Private.Uri	130	0x06000083	System.Uri	InternalGetComponents	0x2050	NoInlining	Private, HideBySig	0x100519358	0x948ae63c	0x1027d2c48	0x1027d2c48	mapped	0x1027d2c48
+System.Private.Uri	131	0x06000084	System.Uri	UnescapeDataString	0x2050	NoInlining	Public, Static, HideBySig	0x10051935c	0x948ae6a0	0x1027d2ddc	0x1027d2ddc	mapped	0x1027d2ddc
+System.Private.Uri	132	0x06000085	System.Uri	EscapeUriString	0x2050	NoInlining	Public, Static, HideBySig	0x100519360	0x948ae6f9	0x1027d2f44	0x1027d2f44	mapped	0x1027d2f44
+System.Private.Uri	133	0x06000086	System.Uri	EscapeDataString	0x2050	NoInlining	Public, Static, HideBySig	0x100519364	0x948ae715	0x1027d2fb8	0x1027d2fb8	mapped	0x1027d2fb8
+System.Private.Uri	134	0x06000087	System.Uri	EscapeUnescapeIri	0x2050	NoInlining	Assembly, HideBySig	0x100519368	0x948ae731	0x1027d302c	0x1027d302c	mapped	0x1027d302c
+System.Private.Uri	135	0x06000088	System.Uri	.ctor	0x2050	NoInlining	Private, HideBySig, SpecialName, RTSpecialName	0x10051936c	0x948ae748	0x1027d308c	0x1027d308c	mapped	0x1027d308c
+System.Private.Uri	136	0x06000089	System.Uri	CreateHelper	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519370	0x948ae770	0x1027d3130	0x1027d3130	mapped	0x1027d3130
+System.Private.Uri	137	0x0600008a	System.Uri	ResolveHelper	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519374	0x948ae802	0x1027d337c	0x1027d337c	mapped	0x1027d337c
+System.Private.Uri	138	0x0600008b	System.Uri	GetRelativeSerializationString	0x2050	NoInlining	Private, HideBySig	0x100519378	0x948ae8f7	0x1027d3754	0x1027d3754	mapped	0x1027d3754
+System.Private.Uri	139	0x0600008c	System.Uri	GetComponentsHelper	0x2050	NoInlining	Assembly, HideBySig	0x10051937c	0x948ae95b	0x1027d38e8	0x1027d38e8	mapped	0x1027d38e8
+System.Private.Uri	140	0x0600008d	System.Uri	IsBaseOf	0x2050	NoInlining	Public, HideBySig	0x100519380	0x948ae9ed	0x1027d3b34	0x1027d3b34	mapped	0x1027d3b34
+System.Private.Uri	141	0x0600008e	System.Uri	IsBaseOfHelper	0x2050	NoInlining	Assembly, HideBySig	0x100519384	0x948aea1a	0x1027d3bec	0x1027d3bec	mapped	0x1027d3bec
+System.Private.Uri	142	0x0600008f	System.Uri	CreateThisFromUri	0x2050	NoInlining	Private, HideBySig	0x100519388	0x948aea85	0x1027d3d9c	0x1027d3d9c	mapped	0x1027d3d9c
+System.Private.Uri	143	0x06000090	System.Uri	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10051938c	0x948aeaea	0x1027d3f34	0x1027d3f34	mapped	0x1027d3f34
+System.Private.Uri	144	0x06000091	System.Uri+UriInfo	get_MoreInfo	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519390	0x948aebc5	0x1027d42a4	0x1027d42a4	mapped	0x1027d42a4
+System.Private.Uri	145	0x06000092	System.Uri+UriInfo	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100519394	0x948aebfb	0x1027d4380	0x1027d4380	mapped	0x1027d4380
+System.Private.Uri	146	0x06000093	System.Uri+MoreInfo	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100519398	0x948aebfb	0x1027d4384	0x1027d4384	mapped	0x1027d4384
+System.Private.Uri	147	0x06000094	System.UriBuilder	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x10051939c	0x948aebfb	0x1027d4388	0x1027d4388	mapped	0x1027d4388
+System.Private.Uri	148	0x06000095	System.UriBuilder	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005193a0	0x948aec5b	0x1027d450c	0x1027d450c	mapped	0x1027d450c
+System.Private.Uri	149	0x06000096	System.UriBuilder	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005193a4	0x948aecb9	0x1027d4688	0x1027d4688	mapped	0x1027d4688
+System.Private.Uri	150	0x06000097	System.UriBuilder	get_Scheme	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193a8	0x948aecdb	0x1027d4714	0x1027d4714	mapped	0x1027d4714
+System.Private.Uri	151	0x06000098	System.UriBuilder	set_Scheme	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193ac	0x948aece3	0x1027d4738	0x1027d4738	mapped	0x1027d4738
+System.Private.Uri	152	0x06000099	System.UriBuilder	get_UserName	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193b0	0x948aed3f	0x1027d48ac	0x1027d48ac	mapped	0x1027d48ac
+System.Private.Uri	153	0x0600009a	System.UriBuilder	set_UserName	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193b4	0x948aed47	0x1027d48d0	0x1027d48d0	mapped	0x1027d48d0
+System.Private.Uri	154	0x0600009b	System.UriBuilder	get_Password	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193b8	0x948aed6b	0x1027d4964	0x1027d4964	mapped	0x1027d4964
+System.Private.Uri	155	0x0600009c	System.UriBuilder	set_Password	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193bc	0x948aed73	0x1027d4988	0x1027d4988	mapped	0x1027d4988
+System.Private.Uri	156	0x0600009d	System.UriBuilder	get_Host	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193c0	0x948aed97	0x1027d4a1c	0x1027d4a1c	mapped	0x1027d4a1c
+System.Private.Uri	157	0x0600009e	System.UriBuilder	set_Host	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193c4	0x948aed9f	0x1027d4a40	0x1027d4a40	mapped	0x1027d4a40
+System.Private.Uri	158	0x0600009f	System.UriBuilder	set_Port	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193c8	0x948aede4	0x1027d4b58	0x1027d4b58	mapped	0x1027d4b58
+System.Private.Uri	159	0x060000a0	System.UriBuilder	get_Path	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193cc	0x948aee11	0x1027d4c10	0x1027d4c10	mapped	0x1027d4c10
+System.Private.Uri	160	0x060000a1	System.UriBuilder	set_Path	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193d0	0x948aee19	0x1027d4c34	0x1027d4c34	mapped	0x1027d4c34
+System.Private.Uri	161	0x060000a2	System.UriBuilder	get_Query	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193d4	0x948aee49	0x1027d4cf8	0x1027d4cf8	mapped	0x1027d4cf8
+System.Private.Uri	162	0x060000a3	System.UriBuilder	get_Fragment	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193d8	0x948aee51	0x1027d4d1c	0x1027d4d1c	mapped	0x1027d4d1c
+System.Private.Uri	163	0x060000a4	System.UriBuilder	set_Fragment	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193dc	0x948aee59	0x1027d4d40	0x1027d4d40	mapped	0x1027d4d40
+System.Private.Uri	164	0x060000a5	System.UriBuilder	get_Uri	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193e0	0x948aee8e	0x1027d4e18	0x1027d4e18	mapped	0x1027d4e18
+System.Private.Uri	165	0x060000a6	System.UriBuilder	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005193e4	0x948aeec4	0x1027d4ef4	0x1027d4ef4	mapped	0x1027d4ef4
+System.Private.Uri	166	0x060000a7	System.UriBuilder	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005193e8	0x948aeee5	0x1027d4f7c	0x1027d4f7c	mapped	0x1027d4f7c
+System.Private.Uri	167	0x060000a8	System.UriBuilder	EncodeUserInfo	0x2050	NoInlining	Private, Static, HideBySig	0x1005193ec	0x948aeefa	0x1027d4fd4	0x1027d4fd4	mapped	0x1027d4fd4
+System.Private.Uri	168	0x060000a9	System.UriBuilder	SetFieldsFromUri	0x2050	NoInlining	Private, HideBySig	0x1005193f0	0x948aef60	0x1027d5170	0x1027d5170	mapped	0x1027d5170
+System.Private.Uri	169	0x060000aa	System.UriBuilder	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005193f4	0x948af000	0x1027d53f4	0x1027d53f4	mapped	0x1027d53f4
+System.Private.Uri	170	0x060000ab	System.UriBuilder	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1005193f8	0x948af1c6	0x1027d5b10	0x1027d5b10	mapped	0x1027d5b10
+System.Private.Uri	171	0x060000ac	System.UriCreationOptions	get_DangerousDisablePathAndQueryCanonicalization	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005193fc	0x948af1e2	0x1027d5b84	0x1027d5b84	mapped	0x1027d5b84
+System.Private.Uri	172	0x060000ad	System.UriFormatException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100519400	0x948af1ea	0x1027d5ba8	0x1027d5ba8	mapped	0x1027d5ba8
+System.Private.Uri	173	0x060000ae	System.UriFormatException	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x100519404	0x948af200	0x1027d5c04	0x1027d5c04	mapped	0x1027d5c04
+System.Private.Uri	174	0x060000af	System.UriHelper	SpanToLowerInvariantString	0x2050	NoInlining	Public, Static, HideBySig	0x100519408	0x948af215	0x1027d5c5c	0x1027d5c5c	mapped	0x1027d5c5c
+System.Private.Uri	175	0x060000b0	System.UriHelper	TestForSubPath	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051940c	0x948af25a	0x1027d5d74	0x1027d5d74	mapped	0x1027d5d74
+System.Private.Uri	176	0x060000b1	System.UriHelper	EscapeString	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519410	0x948af2e6	0x1027d5fa8	0x1027d5fa8	mapped	0x1027d5fa8
+System.Private.Uri	177	0x060000b2	System.UriHelper	EscapeString	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519414	0x948af346	0x1027d612c	0x1027d612c	mapped	0x1027d612c
+System.Private.Uri	178	0x060000b3	System.UriHelper	EscapeStringToBuilder	0x2050	NoInlining	Private, Static, HideBySig	0x100519418	0x948af389	0x1027d623c	0x1027d623c	mapped	0x1027d623c
+System.Private.Uri	179	0x060000b4	System.UriHelper	UnescapeString	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051941c	0x948af496	0x1027d6674	0x1027d6674	mapped	0x1027d6674
+System.Private.Uri	180	0x060000b5	System.UriHelper	UnescapeString	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519420	0x948af4d1	0x1027d6764	0x1027d6764	mapped	0x1027d6764
+System.Private.Uri	181	0x060000b6	System.UriHelper	UnescapeString	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519424	0x948af56f	0x1027d69e0	0x1027d69e0	mapped	0x1027d69e0
+System.Private.Uri	182	0x060000b7	System.UriHelper	UnescapeString	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519428	0x948af5a6	0x1027d6ac0	0x1027d6ac0	mapped	0x1027d6ac0
+System.Private.Uri	183	0x060000b8	System.UriHelper	UnescapeString	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051942c	0x948af5db	0x1027d6b98	0x1027d6b98	mapped	0x1027d6b98
+System.Private.Uri	184	0x060000b9	System.UriHelper	PercentEncodeByte	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519430	0x948af734	0x1027d7100	0x1027d7100	mapped	0x1027d7100
+System.Private.Uri	185	0x060000ba	System.UriHelper	DecodeHexChars	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519434	0x948af791	0x1027d7278	0x1027d7278	mapped	0x1027d7278
+System.Private.Uri	186	0x060000bb	System.UriHelper	IsNotSafeForUnescape	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519438	0x948af7cf	0x1027d7374	0x1027d7374	mapped	0x1027d7374
+System.Private.Uri	187	0x060000bc	System.UriHelper	IsGenDelim	0x2050	NoInlining	Assembly, Static, HideBySig	0x10051943c	0x948af7f5	0x1027d7410	0x1027d7410	mapped	0x1027d7410
+System.Private.Uri	188	0x060000bd	System.UriHelper	IsLWS	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519440	0x948af812	0x1027d7488	0x1027d7488	mapped	0x1027d7488
+System.Private.Uri	189	0x060000be	System.UriHelper	IsBidiControlCharacter	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519444	0x948af833	0x1027d7510	0x1027d7510	mapped	0x1027d7510
+System.Private.Uri	190	0x060000bf	System.UriHelper	StripBidiControlCharacters	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519448	0x948af849	0x1027d756c	0x1027d756c	mapped	0x1027d756c
+System.Private.Uri	191	0x060000c0	System.UriHelper	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x10051944c	0x948af8c9	0x1027d7770	0x1027d7770	mapped	0x1027d7770
+System.Private.Uri	192	0x060000c1	System.UriHelper+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100519450	0x948af90e	0x1027d7888	0x1027d7888	mapped	0x1027d7888
+System.Private.Uri	193	0x060000c2	System.UriHelper+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x100519454	0x948af929	0x1027d78f8	0x1027d78f8	mapped	0x1027d78f8
+System.Private.Uri	194	0x060000c3	System.UriHelper+<>c	<SpanToLowerInvariantString>b__0_0	0x2050	NoInlining	Assembly, HideBySig	0x100519458	0x948af936	0x1027d7930	0x1027d7930	mapped	0x1027d7930
+System.Private.Uri	195	0x060000c4	System.UriHelper+<>c	<StripBidiControlCharacters>b__23_0	0x2050	NoInlining	Assembly, HideBySig	0x10051945c	0x948af94f	0x1027d7998	0x1027d7998	mapped	0x1027d7998
+System.Private.Uri	196	0x060000c5	System.UriParser	get_SchemeName	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100519460	0x948af987	0x1027d7a7c	0x1027d7a7c	mapped	0x1027d7a7c
+System.Private.Uri	197	0x060000c6	System.UriParser	get_DefaultPort	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x100519464	0x948af98f	0x1027d7aa0	0x1027d7aa0	mapped	0x1027d7aa0
+System.Private.Uri	198	0x060000c7	System.UriParser	OnNewUri	0x2050	NoInlining	Family, Final, Virtual, HideBySig, VtableLayoutMask	0x100519468	0x948af997	0x1027d7ac4	0x1027d7ac4	mapped	0x1027d7ac4
+System.Private.Uri	199	0x060000c8	System.UriParser	InitializeAndValidate	0x2050	NoInlining	Family, Final, Virtual, HideBySig, VtableLayoutMask	0x10051946c	0x948af997	0x1027d7ac8	0x1027d7ac8	mapped	0x1027d7ac8
+System.Private.Uri	200	0x060000c9	System.UriParser	Resolve	0x2050	NoInlining	Family, Final, Virtual, HideBySig, VtableLayoutMask	0x100519470	0x948af9ea	0x1027d7c18	0x1027d7c18	mapped	0x1027d7c18
+System.Private.Uri	201	0x060000ca	System.UriParser	IsBaseOf	0x2050	NoInlining	Family, Final, Virtual, HideBySig, VtableLayoutMask	0x100519474	0x948afa34	0x1027d7d44	0x1027d7d44	mapped	0x1027d7d44
+System.Private.Uri	202	0x060000cb	System.UriParser	GetComponents	0x2050	NoInlining	Family, Final, Virtual, HideBySig, VtableLayoutMask	0x100519478	0x948afa49	0x1027d7d9c	0x1027d7d9c	mapped	0x1027d7d9c
+System.Private.Uri	203	0x060000cc	System.UriParser	get_Flags	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x10051947c	0x948afab4	0x1027d7f4c	0x1027d7f4c	mapped	0x1027d7f4c
+System.Private.Uri	204	0x060000cd	System.UriParser	NotAny	0x2050	NoInlining	Assembly, HideBySig	0x100519480	0x948afabc	0x1027d7f70	0x1027d7f70	mapped	0x1027d7f70
+System.Private.Uri	205	0x060000ce	System.UriParser	InFact	0x2050	NoInlining	Assembly, HideBySig	0x100519484	0x948afac6	0x1027d7f9c	0x1027d7f9c	mapped	0x1027d7f9c
+System.Private.Uri	206	0x060000cf	System.UriParser	IsAllSet	0x2050	NoInlining	Assembly, HideBySig	0x100519488	0x948afad0	0x1027d7fc8	0x1027d7fc8	mapped	0x1027d7fc8
+System.Private.Uri	207	0x060000d0	System.UriParser	IsFullMatch	0x2050	NoInlining	Private, HideBySig	0x10051948c	0x948afada	0x1027d7ff4	0x1027d7ff4	mapped	0x1027d7ff4
+System.Private.Uri	208	0x060000d1	System.UriParser	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x100519490	0x948afae5	0x1027d8024	0x1027d8024	mapped	0x1027d8024
+System.Private.Uri	209	0x060000d2	System.UriParser	FindOrFetchAsUnknownV1Syntax	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519494	0x948afb07	0x1027d80b0	0x1027d80b0	mapped	0x1027d80b0
+System.Private.Uri	210	0x060000d3	System.UriParser	GetSyntax	0x2050	NoInlining	Assembly, Static, HideBySig	0x100519498	0x948afb9b	0x1027d8304	0x1027d8304	mapped	0x1027d8304
+System.Private.Uri	211	0x060000d4	System.UriParser	get_IsSimple	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x10051949c	0x948afbd6	0x1027d83f4	0x1027d83f4	mapped	0x1027d83f4
+System.Private.Uri	212	0x060000d5	System.UriParser	InternalOnNewUri	0x2050	NoInlining	Assembly, HideBySig	0x1005194a0	0x948afbdf	0x1027d841c	0x1027d841c	mapped	0x1027d841c
+System.Private.Uri	213	0x060000d6	System.UriParser	InternalValidate	0x2050	NoInlining	Assembly, HideBySig	0x1005194a4	0x948afbe6	0x1027d843c	0x1027d843c	mapped	0x1027d843c
+System.Private.Uri	214	0x060000d7	System.UriParser	InternalResolve	0x2050	NoInlining	Assembly, HideBySig	0x1005194a8	0x948afc0e	0x1027d84e0	0x1027d84e0	mapped	0x1027d84e0
+System.Private.Uri	215	0x060000d8	System.UriParser	InternalIsBaseOf	0x2050	NoInlining	Assembly, HideBySig	0x1005194ac	0x948afc29	0x1027d8550	0x1027d8550	mapped	0x1027d8550
+System.Private.Uri	216	0x060000d9	System.UriParser	InternalGetComponents	0x2050	NoInlining	Assembly, HideBySig	0x1005194b0	0x948afc41	0x1027d85b4	0x1027d85b4	mapped	0x1027d85b4
+System.Private.Uri	217	0x060000da	System.UriParser	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1005194b4	0x948afc5c	0x1027d8624	0x1027d8624	mapped	0x1027d8624
+System.Private.Uri	218	0x060000db	System.UriParser+BuiltInUriParser	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1005194b8	0x948afe4f	0x1027d8df4	0x1027d8df4	mapped	0x1027d8df4
+System.Private.Uri	219	0x060000dc	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005194bc	0x948afe7a	0x1027d8ea4	0x1027d8ea4	mapped	0x1027d8ea4
+System.Private.Uri	220	0x060000dd	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x1005194c0	0x948afea6	0x1027d8f58	0x1027d8f58	mapped	0x1027d8f58
+System.Private.Uri	221	0x060000de	System.Text.ValueStringBuilder	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005194c4	0x948afedb	0x1027d9030	0x1027d9030	mapped	0x1027d9030
+System.Private.Uri	222	0x060000df	System.Text.ValueStringBuilder	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1005194c8	0x948afee5	0x1027d905c	0x1027d905c	mapped	0x1027d905c
+System.Private.Uri	223	0x060000e0	System.Text.ValueStringBuilder	get_Length	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005194cc	0x948aff24	0x1027d915c	0x1027d915c	mapped	0x1027d915c
+System.Private.Uri	224	0x060000e1	System.Text.ValueStringBuilder	set_Length	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005194d0	0x948aff2c	0x1027d9180	0x1027d9180	mapped	0x1027d9180
+System.Private.Uri	225	0x060000e2	System.Text.ValueStringBuilder	EnsureCapacity	0x2050	NoInlining	Public, HideBySig	0x1005194d4	0x948aff34	0x1027d91a4	0x1027d91a4	mapped	0x1027d91a4
+System.Private.Uri	226	0x060000e3	System.Text.ValueStringBuilder	GetPinnableReference	0x2050	NoInlining	Public, HideBySig	0x1005194d8	0x948aff4d	0x1027d920c	0x1027d920c	mapped	0x1027d920c
+System.Private.Uri	227	0x060000e4	System.Text.ValueStringBuilder	get_Item	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005194dc	0x948aff55	0x1027d9230	0x1027d9230	mapped	0x1027d9230
+System.Private.Uri	228	0x060000e5	System.Text.ValueStringBuilder	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1005194e0	0x948aff6a	0x1027d9288	0x1027d9288	mapped	0x1027d9288
+System.Private.Uri	229	0x060000e6	System.Text.ValueStringBuilder	get_RawChars	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1005194e4	0x948affb4	0x1027d93b4	0x1027d93b4	mapped	0x1027d93b4
+System.Private.Uri	230	0x060000e7	System.Text.ValueStringBuilder	AsSpan	0x2050	NoInlining	Public, HideBySig	0x1005194e8	0x948affbe	0x1027d93e0	0x1027d93e0	mapped	0x1027d93e0
+System.Private.Uri	231	0x060000e8	System.Text.ValueStringBuilder	AsSpan	0x2050	NoInlining	Public, HideBySig	0x1005194ec	0x948affdb	0x1027d9458	0x1027d9458	mapped	0x1027d9458
+System.Private.Uri	232	0x060000e9	System.Text.ValueStringBuilder	AsSpan	0x2050	NoInlining	Public, HideBySig	0x1005194f0	0x948afffd	0x1027d94e4	0x1027d94e4	mapped	0x1027d94e4
+System.Private.Uri	233	0x060000ea	System.Text.ValueStringBuilder	Append	0x2050	264	Public, HideBySig	0x1005194f4	0x948b0021	0x1027d9578	0x1027d9578	mapped	0x1027d9578
+System.Private.Uri	234	0x060000eb	System.Text.ValueStringBuilder	Append	0x2050	264	Public, HideBySig	0x1005194f8	0x948b0044	0x1027d9608	0x1027d9608	mapped	0x1027d9608
+System.Private.Uri	235	0x060000ec	System.Text.ValueStringBuilder	AppendSlow	0x2050	NoInlining	Private, HideBySig	0x1005194fc	0x948b0072	0x1027d96c4	0x1027d96c4	mapped	0x1027d96c4
+System.Private.Uri	236	0x060000ed	System.Text.ValueStringBuilder	Append	0x2050	NoInlining	Public, HideBySig	0x100519500	0x948b00bc	0x1027d97f0	0x1027d97f0	mapped	0x1027d97f0
+System.Private.Uri	237	0x060000ee	System.Text.ValueStringBuilder	Append	0x2050	NoInlining	Public, HideBySig	0x100519504	0x948b0103	0x1027d9910	0x1027d9910	mapped	0x1027d9910
+System.Private.Uri	238	0x060000ef	System.Text.ValueStringBuilder	AppendSpan	0x2050	264	Public, HideBySig	0x100519508	0x948b014a	0x1027d9a30	0x1027d9a30	mapped	0x1027d9a30
+System.Private.Uri	239	0x060000f0	System.Text.ValueStringBuilder	GrowAndAppend	0x2050	NoInlining	Private, HideBySig	0x10051950c	0x948b0175	0x1027d9ae0	0x1027d9ae0	mapped	0x1027d9ae0
+System.Private.Uri	240	0x060000f1	System.Text.ValueStringBuilder	Grow	0x2050	NoInlining	Private, HideBySig	0x100519510	0x948b019a	0x1027d9b78	0x1027d9b78	mapped	0x1027d9b78
+System.Private.Uri	241	0x060000f2	System.Text.ValueStringBuilder	Dispose	0x2050	264	Public, HideBySig	0x100519514	0x948b021d	0x1027d9d88	0x1027d9d88	mapped	0x1027d9d88
+System.Private.Uri	242	0x060000f3	System.Text.ValueStringBuilder	Append	0x2050	264	Public, HideBySig	0x100519518	0x948b0251	0x1027d9e5c	0x1027d9e5c	mapped	0x1027d9e5c
+System.Private.Uri	243	0x060000f4	System.Text.ValueStringBuilder	GrowAndAppend	0x2050	NoInlining	Private, HideBySig	0x10051951c	0x948b028b	0x1027d9f48	0x1027d9f48	mapped	0x1027d9f48
+System.Private.Uri	244	0x060000f5	System.Collections.Generic.ArrayBuilder`1	get_Capacity	0x2050	NoInlining	Public, HideBySig, SpecialName	0x100519520	0x948b02c7	0x1027da03c	0x1027da03c	mapped	0x1027da03c
+System.Private.Uri	245	0x060000f6	System.Collections.Generic.ArrayBuilder`1	Add	0x2050	NoInlining	Public, HideBySig	0x100519524	0x948b02d6	0x1027da07c	0x1027da07c	mapped	0x1027da07c
+System.Private.Uri	246	0x060000f7	System.Collections.Generic.ArrayBuilder`1	ToArray	0x2050	NoInlining	Public, HideBySig	0x100519528	0x948b0311	0x1027da16c	0x1027da16c	mapped	0x1027da16c
+System.Private.Uri	247	0x060000f8	System.Collections.Generic.ArrayBuilder`1	UncheckedAdd	0x2050	NoInlining	Public, HideBySig	0x10051952c	0x948b0354	0x1027da27c	0x1027da27c	mapped	0x1027da27c
+System.Private.Uri	248	0x060000f9	System.Collections.Generic.ArrayBuilder`1	EnsureCapacity	0x2050	NoInlining	Private, HideBySig	0x100519530	0x948b0374	0x1027da300	0x1027da300	mapped	0x1027da300

@@ -1,0 +1,5 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Net.ServicePoint	0	0x06000001	System.Net.ServicePointManager	get_SecurityProtocol	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100505a88	0x9489f59c	0x1027830f8	0x1027830f8	mapped	0x1027830f8
+System.Net.ServicePoint	1	0x06000002	System.Net.ServicePointManager	get_ServerCertificateValidationCallback	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100505a8c	0x9489f5ac	0x10278313c	0x10278313c	mapped	0x10278313c
+System.Net.ServicePoint	2	0x06000003	System.Net.ServicePointManager	get_CheckCertificateRevocationList	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x100505a90	0x9489f5bc	0x102783180	0x102783180	mapped	0x102783180
+System.Net.ServicePoint	3	0x06000004	System.Net.ServicePointManager	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x100505a94	0x9489f5cc	0x1027831c4	0x1027831c4	mapped	0x1027831c4

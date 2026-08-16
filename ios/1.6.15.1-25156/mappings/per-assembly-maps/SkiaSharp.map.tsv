@@ -1,0 +1,212 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+SkiaSharp	0	0x06000001	SkiaSharp.HashCode	GenerateGlobalSeed	0x2050	NoInlining	Private, Static, HideBySig	0x1003b2bf8	0x947c0724	0x1022b4888	0x1022b4888	mapped	0x1022b4888
+SkiaSharp	1	0x06000002	SkiaSharp.HashCode	Initialize	0x2050	264	Private, Static, HideBySig	0x1003b2bfc	0x947c0741	0x1022b4900	0x1022b4900	mapped	0x1022b4900
+SkiaSharp	2	0x06000003	SkiaSharp.HashCode	Round	0x2050	264	Private, Static, HideBySig	0x1003b2c00	0x947c077b	0x1022b49ec	0x1022b49ec	mapped	0x1022b49ec
+SkiaSharp	3	0x06000004	SkiaSharp.HashCode	QueueRound	0x2050	264	Private, Static, HideBySig	0x1003b2c04	0x947c0793	0x1022b4a50	0x1022b4a50	mapped	0x1022b4a50
+SkiaSharp	4	0x06000005	SkiaSharp.HashCode	MixState	0x2050	264	Private, Static, HideBySig	0x1003b2c08	0x947c07ab	0x1022b4ab4	0x1022b4ab4	mapped	0x1022b4ab4
+SkiaSharp	5	0x06000006	SkiaSharp.HashCode	RotateLeft	0x2050	264	Private, Static, HideBySig	0x1003b2c0c	0x947c07cd	0x1022b4b40	0x1022b4b40	mapped	0x1022b4b40
+SkiaSharp	6	0x06000007	SkiaSharp.HashCode	MixEmptyState	0x2050	NoInlining	Private, Static, HideBySig	0x1003b2c10	0x947c07e0	0x1022b4b90	0x1022b4b90	mapped	0x1022b4b90
+SkiaSharp	7	0x06000008	SkiaSharp.HashCode	MixFinal	0x2050	264	Private, Static, HideBySig	0x1003b2c14	0x947c07f3	0x1022b4be0	0x1022b4be0	mapped	0x1022b4be0
+SkiaSharp	8	0x06000009	SkiaSharp.HashCode	Add	0x2050	NoInlining	Public, HideBySig	0x1003b2c18	0x947c080a	0x1022b4c40	0x1022b4c40	mapped	0x1022b4c40
+SkiaSharp	9	0x0600000a	SkiaSharp.HashCode	Add	0x2050	NoInlining	Private, HideBySig	0x1003b2c1c	0x947c0823	0x1022b4ca8	0x1022b4ca8	mapped	0x1022b4ca8
+SkiaSharp	10	0x0600000b	SkiaSharp.HashCode	ToHashCode	0x2050	NoInlining	Public, HideBySig	0x1003b2c20	0x947c088f	0x1022b4e5c	0x1022b4e5c	mapped	0x1022b4e5c
+SkiaSharp	11	0x0600000c	SkiaSharp.HashCode	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2c24	0x947c08e3	0x1022b4fb0	0x1022b4fb0	mapped	0x1022b4fb0
+SkiaSharp	12	0x0600000d	SkiaSharp.SkiaExtensions	GetBytesPerPixel	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2c28	0x947c08fa	0x1022b5010	0x1022b5010	mapped	0x1022b5010
+SkiaSharp	13	0x0600000e	SkiaSharp.SkiaExtensions	ToNative	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2c2c	0x947c0915	0x1022b5080	0x1022b5080	mapped	0x1022b5080
+SkiaSharp	14	0x0600000f	SkiaSharp.SkiaExtensions	FromNative	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2c30	0x947c0930	0x1022b50f0	0x1022b50f0	mapped	0x1022b50f0
+SkiaSharp	15	0x06000010	SkiaSharp.HandleDictionary	GetOrAddObject	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2c34	0x947c094b	0x1022b5160	0x1022b5160	mapped	0x1022b5160
+SkiaSharp	16	0x06000011	SkiaSharp.HandleDictionary	GetInstanceNoLocks	0x2050	NoInlining	Private, Static, HideBySig	0x1003b2c38	0x947c09e2	0x1022b53c0	0x1022b53c0	mapped	0x1022b53c0
+SkiaSharp	17	0x06000012	SkiaSharp.HandleDictionary	RegisterHandle	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2c3c	0x947c0a49	0x1022b5560	0x1022b5560	mapped	0x1022b5560
+SkiaSharp	18	0x06000013	SkiaSharp.HandleDictionary	DeregisterHandle	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2c40	0x947c0ad2	0x1022b5788	0x1022b5788	mapped	0x1022b5788
+SkiaSharp	19	0x06000014	SkiaSharp.HandleDictionary	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2c44	0x947c0b4a	0x1022b596c	0x1022b596c	mapped	0x1022b596c
+SkiaSharp	20	0x06000015	SkiaSharp.SKRect	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2c48	0x947c0b74	0x1022b5a18	0x1022b5a18	mapped	0x1022b5a18
+SkiaSharp	21	0x06000016	SkiaSharp.SKRect	get_Width	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2c4c	0x947c0b7f	0x1022b5a48	0x1022b5a48	mapped	0x1022b5a48
+SkiaSharp	22	0x06000017	SkiaSharp.SKRect	get_Height	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2c50	0x947c0b89	0x1022b5a74	0x1022b5a74	mapped	0x1022b5a74
+SkiaSharp	23	0x06000018	SkiaSharp.SKRect	ToString	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1003b2c54	0x947c0b93	0x1022b5aa0	0x1022b5aa0	mapped	0x1022b5aa0
+SkiaSharp	24	0x06000019	SkiaSharp.SKRect	Create	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2c58	0x947c0c72	0x1022b5e20	0x1022b5e20	mapped	0x1022b5e20
+SkiaSharp	25	0x0600001a	SkiaSharp.SKRect	get_Left	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2c5c	0x947c0c86	0x1022b5e74	0x1022b5e74	mapped	0x1022b5e74
+SkiaSharp	26	0x0600001b	SkiaSharp.SKRect	get_Top	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2c60	0x947c0c8e	0x1022b5e98	0x1022b5e98	mapped	0x1022b5e98
+SkiaSharp	27	0x0600001c	SkiaSharp.SKRect	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1003b2c64	0x947c0c96	0x1022b5ebc	0x1022b5ebc	mapped	0x1022b5ebc
+SkiaSharp	28	0x0600001d	SkiaSharp.SKRect	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1003b2c68	0x947c0cac	0x1022b5f18	0x1022b5f18	mapped	0x1022b5f18
+SkiaSharp	29	0x0600001e	SkiaSharp.SKRect	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2c6c	0x947c0ce0	0x1022b5fec	0x1022b5fec	mapped	0x1022b5fec
+SkiaSharp	30	0x0600001f	SkiaSharp.SKRect	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2c70	0x947c0d00	0x1022b6070	0x1022b6070	mapped	0x1022b6070
+SkiaSharp	31	0x06000020	SkiaSharp.SKRect	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1003b2c74	0x947c0d17	0x1022b60d0	0x1022b60d0	mapped	0x1022b60d0
+SkiaSharp	32	0x06000021	SkiaSharp.SKBitmap	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2c78	0x947c0d4a	0x1022b61a0	0x1022b61a0	mapped	0x1022b61a0
+SkiaSharp	33	0x06000022	SkiaSharp.SKBitmap	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2c7c	0x97ffefc5	0x1003aeb90	0x1003aeb90	mapped	0x1003aeb90
+SkiaSharp	34	0x06000023	SkiaSharp.SKBitmap	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2c80	0x947c0d5c	0x1022b61f0	0x1022b61f0	mapped	0x1022b61f0
+SkiaSharp	35	0x06000024	SkiaSharp.SKBitmap	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2c84	0x947c0d80	0x1022b6284	0x1022b6284	mapped	0x1022b6284
+SkiaSharp	36	0x06000025	SkiaSharp.SKBitmap	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2c88	0x947c0daf	0x1022b6344	0x1022b6344	mapped	0x1022b6344
+SkiaSharp	37	0x06000026	SkiaSharp.SKBitmap	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2c8c	0x947c0dd6	0x1022b63e4	0x1022b63e4	mapped	0x1022b63e4
+SkiaSharp	38	0x06000027	SkiaSharp.SKBitmap	DisposeNative	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2c90	0x97ffefe4	0x1003aec20	0x1003aec20	mapped	0x1003aec20
+SkiaSharp	39	0x06000028	SkiaSharp.SKBitmap	TryAllocPixels	0x2050	NoInlining	Public, HideBySig	0x1003b2c94	0x97ffeff7	0x1003aec70	0x1003aec70	mapped	0x1003aec70
+SkiaSharp	40	0x06000029	SkiaSharp.SKBitmap	GetPixels	0x2050	NoInlining	Public, HideBySig	0x1003b2c98	0x947c0de3	0x1022b6424	0x1022b6424	mapped	0x1022b6424
+SkiaSharp	41	0x0600002a	SkiaSharp.SKBitmap	GetPixels	0x2050	NoInlining	Public, HideBySig	0x1003b2c9c	0x97fff015	0x1003aecf0	0x1003aecf0	mapped	0x1003aecf0
+SkiaSharp	42	0x0600002b	SkiaSharp.SKCanvas	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2ca0	0x947c0df3	0x1022b646c	0x1022b646c	mapped	0x1022b646c
+SkiaSharp	43	0x0600002c	SkiaSharp.SKCanvas	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2ca4	0x947c0e06	0x1022b64bc	0x1022b64bc	mapped	0x1022b64bc
+SkiaSharp	44	0x0600002d	SkiaSharp.SKCanvas	DisposeNative	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2ca8	0x97fff026	0x1003aed40	0x1003aed40	mapped	0x1003aed40
+SkiaSharp	45	0x0600002e	SkiaSharp.SKCanvas	DrawImage	0x2050	NoInlining	Public, HideBySig	0x1003b2cac	0x97fff039	0x1003aed90	0x1003aed90	mapped	0x1003aed90
+SkiaSharp	46	0x0600002f	SkiaSharp.SKCanvas	DrawBitmap	0x2050	NoInlining	Public, HideBySig	0x1003b2cb0	0x947c0e13	0x1022b64fc	0x1022b64fc	mapped	0x1022b64fc
+SkiaSharp	47	0x06000030	SkiaSharp.SKCanvas	GetObject	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2cb4	0x947c0e5c	0x1022b6624	0x1022b6624	mapped	0x1022b6624
+SkiaSharp	48	0x06000031	SkiaSharp.SKCanvas+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2cb8	0x947c0ea3	0x1022b6744	0x1022b6744	mapped	0x1022b6744
+SkiaSharp	49	0x06000032	SkiaSharp.SKCanvas+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2cbc	0x947c0ebe	0x1022b67b4	0x1022b67b4	mapped	0x1022b67b4
+SkiaSharp	50	0x06000033	SkiaSharp.SKCanvas+<>c	<GetObject>b__139_0	0x2050	NoInlining	Assembly, HideBySig	0x1003b2cc0	0x947c0ecb	0x1022b67ec	0x1022b67ec	mapped	0x1022b67ec
+SkiaSharp	51	0x06000034	SkiaSharp.SKColorSpace	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2cc4	0x97fff077	0x1003aeea0	0x1003aeea0	mapped	0x1003aeea0
+SkiaSharp	52	0x06000035	SkiaSharp.SKColorSpace	EnsureStaticInstanceAreInitialized	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2cc8	0x947c0ee9	0x1022b686c	0x1022b686c	mapped	0x1022b686c
+SkiaSharp	53	0x06000036	SkiaSharp.SKColorSpace	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2ccc	0x947c0ef6	0x1022b68a4	0x1022b68a4	mapped	0x1022b68a4
+SkiaSharp	54	0x06000037	SkiaSharp.SKColorSpace	SkiaSharp.ISKNonVirtualReferenceCounted.UnreferenceNative	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1003b2cd0	0x97fff0a4	0x1003aef60	0x1003aef60	mapped	0x1003aef60
+SkiaSharp	55	0x06000038	SkiaSharp.SKColorSpace	Dispose	0x2050	NoInlining	Family, Virtual, HideBySig	0x1003b2cd4	0x947c0f13	0x1022b6920	0x1022b6920	mapped	0x1022b6920
+SkiaSharp	56	0x06000039	SkiaSharp.SKColorSpace+SKColorSpaceStatic	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2cd8	0x947c0f22	0x1022b6960	0x1022b6960	mapped	0x1022b6960
+SkiaSharp	57	0x0600003a	SkiaSharp.SKColorSpace+SKColorSpaceStatic	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2cdc	0x947c0f32	0x1022b69a4	0x1022b69a4	mapped	0x1022b69a4
+SkiaSharp	58	0x0600003b	SkiaSharp.SKData	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2ce0	0x97fff0b4	0x1003aefb0	0x1003aefb0	mapped	0x1003aefb0
+SkiaSharp	59	0x0600003c	SkiaSharp.SKData	EnsureStaticInstanceAreInitialized	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2ce4	0x947c0f31	0x1022b69a8	0x1022b69a8	mapped	0x1022b69a8
+SkiaSharp	60	0x0600003d	SkiaSharp.SKData	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2ce8	0x947c0f3e	0x1022b69e0	0x1022b69e0	mapped	0x1022b69e0
+SkiaSharp	61	0x0600003e	SkiaSharp.SKData	Dispose	0x2050	NoInlining	Family, Virtual, HideBySig	0x1003b2cec	0x947c0f5c	0x1022b6a5c	0x1022b6a5c	mapped	0x1022b6a5c
+SkiaSharp	62	0x0600003f	SkiaSharp.SKData	SkiaSharp.ISKNonVirtualReferenceCounted.UnreferenceNative	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1003b2cf0	0x97fff0cc	0x1003af020	0x1003af020	mapped	0x1003af020
+SkiaSharp	63	0x06000040	SkiaSharp.SKData	get_Size	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2cf4	0x97fff0df	0x1003af070	0x1003af070	mapped	0x1003af070
+SkiaSharp	64	0x06000041	SkiaSharp.SKData	get_Data	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2cf8	0x97fff0f2	0x1003af0c0	0x1003af0c0	mapped	0x1003af0c0
+SkiaSharp	65	0x06000042	SkiaSharp.SKData	SaveTo	0x2050	NoInlining	Public, HideBySig	0x1003b2cfc	0x947c0f68	0x1022b6a9c	0x1022b6a9c	mapped	0x1022b6a9c
+SkiaSharp	66	0x06000043	SkiaSharp.SKData	GetObject	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2d00	0x947c0fcc	0x1022b6c30	0x1022b6c30	mapped	0x1022b6c30
+SkiaSharp	67	0x06000044	SkiaSharp.SKData+SKDataStatic	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2d04	0x947c100d	0x1022b6d38	0x1022b6d38	mapped	0x1022b6d38
+SkiaSharp	68	0x06000045	SkiaSharp.SKData+SKDataStatic	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2d08	0x947c101d	0x1022b6d7c	0x1022b6d7c	mapped	0x1022b6d7c
+SkiaSharp	69	0x06000046	SkiaSharp.SKData+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2d0c	0x947c101d	0x1022b6d80	0x1022b6d80	mapped	0x1022b6d80
+SkiaSharp	70	0x06000047	SkiaSharp.SKData+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2d10	0x947c1038	0x1022b6df0	0x1022b6df0	mapped	0x1022b6df0
+SkiaSharp	71	0x06000048	SkiaSharp.SKData+<>c	<GetObject>b__46_0	0x2050	NoInlining	Assembly, HideBySig	0x1003b2d14	0x947c1045	0x1022b6e28	0x1022b6e28	mapped	0x1022b6e28
+SkiaSharp	72	0x06000049	SkiaSharp.SKFontManager	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2d18	0x97fff0fe	0x1003af110	0x1003af110	mapped	0x1003af110
+SkiaSharp	73	0x0600004a	SkiaSharp.SKFontManager	EnsureStaticInstanceAreInitialized	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2d1c	0x947c1068	0x1022b6ebc	0x1022b6ebc	mapped	0x1022b6ebc
+SkiaSharp	74	0x0600004b	SkiaSharp.SKFontManager	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2d20	0x947c1075	0x1022b6ef4	0x1022b6ef4	mapped	0x1022b6ef4
+SkiaSharp	75	0x0600004c	SkiaSharp.SKFontManager	Dispose	0x2050	NoInlining	Family, Virtual, HideBySig	0x1003b2d24	0x947c1093	0x1022b6f70	0x1022b6f70	mapped	0x1022b6f70
+SkiaSharp	76	0x0600004d	SkiaSharp.SKFontManager+SKFontManagerStatic	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2d28	0x947c10a2	0x1022b6fb0	0x1022b6fb0	mapped	0x1022b6fb0
+SkiaSharp	77	0x0600004e	SkiaSharp.SKFontManager+SKFontManagerStatic	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2d2c	0x947c10b2	0x1022b6ff4	0x1022b6ff4	mapped	0x1022b6ff4
+SkiaSharp	78	0x0600004f	SkiaSharp.SkiaApi	sk_bitmap_destructor	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d30	0x97ffffb2	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	79	0x06000050	SkiaSharp.SkiaApi	sk_bitmap_get_pixels	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d34	0x97ffffb1	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	80	0x06000051	SkiaSharp.SkiaApi	sk_bitmap_new	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d38	0x97ffffb0	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	81	0x06000052	SkiaSharp.SkiaApi	sk_bitmap_try_alloc_pixels	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d3c	0x97ffffaf	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	82	0x06000053	SkiaSharp.SkiaApi	sk_canvas_destroy	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d40	0x97ffffae	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	83	0x06000054	SkiaSharp.SkiaApi	sk_canvas_draw_image_rect	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d44	0x97ffffad	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	84	0x06000055	SkiaSharp.SkiaApi	sk_colorspace_new_srgb	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d48	0x97ffffac	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	85	0x06000056	SkiaSharp.SkiaApi	sk_colorspace_new_srgb_linear	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d4c	0x97ffffab	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	86	0x06000057	SkiaSharp.SkiaApi	sk_colorspace_unref	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d50	0x97ffffaa	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	87	0x06000058	SkiaSharp.SkiaApi	sk_data_get_data	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d54	0x97ffffa9	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	88	0x06000059	SkiaSharp.SkiaApi	sk_data_get_size	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d58	0x97ffffa8	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	89	0x0600005a	SkiaSharp.SkiaApi	sk_data_new_empty	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d5c	0x97ffffa7	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	90	0x0600005b	SkiaSharp.SkiaApi	sk_data_unref	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d60	0x97ffffa6	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	91	0x0600005c	SkiaSharp.SkiaApi	sk_colortype_get_default_8888	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d64	0x97ffffa5	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	92	0x0600005d	SkiaSharp.SkiaApi	sk_refcnt_safe_unref	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d68	0x97ffffa4	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	93	0x0600005e	SkiaSharp.SkiaApi	sk_version_get_increment	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d6c	0x97ffffa3	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	94	0x0600005f	SkiaSharp.SkiaApi	sk_version_get_milestone	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d70	0x97ffffa2	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	95	0x06000060	SkiaSharp.SkiaApi	sk_image_encode_specific	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d74	0x97ffffa1	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	96	0x06000061	SkiaSharp.SkiaApi	sk_image_new_from_bitmap	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d78	0x97ffffa0	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	97	0x06000062	SkiaSharp.SkiaApi	sk_color_get_bit_shift	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d7c	0x97ffff9f	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	98	0x06000063	SkiaSharp.SkiaApi	sk_surface_get_canvas	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d80	0x97ffff9e	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	99	0x06000064	SkiaSharp.SkiaApi	sk_surface_new_image_snapshot	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d84	0x97ffff9d	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	100	0x06000065	SkiaSharp.SkiaApi	sk_surface_new_raster	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d88	0x97ffff9c	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	101	0x06000066	SkiaSharp.SkiaApi	sk_fontmgr_ref_default	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d8c	0x97ffff9b	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	102	0x06000067	SkiaSharp.SkiaApi	sk_typeface_ref_default	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d90	0x97ffff9a	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	103	0x06000068	SkiaSharp.SkiaApi	sk_compatpaint_delete	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d94	0x97ffff99	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	104	0x06000069	SkiaSharp.SkiaApi	sk_compatpaint_new	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1003b2d98	0x97ffff98	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	105	0x0600006a	SkiaSharp.SKImageInfoNative	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1003b2d9c	0x947c1097	0x1022b6ff8	0x1022b6ff8	mapped	0x1022b6ff8
+SkiaSharp	106	0x0600006b	SkiaSharp.SKImageInfoNative	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1003b2da0	0x947c10b5	0x1022b7074	0x1022b7074	mapped	0x1022b7074
+SkiaSharp	107	0x0600006c	SkiaSharp.SKImageInfoNative	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2da4	0x947c10ee	0x1022b715c	0x1022b715c	mapped	0x1022b715c
+SkiaSharp	108	0x0600006d	SkiaSharp.SKImageInfoNative	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2da8	0x947c1102	0x1022b71b0	0x1022b71b0	mapped	0x1022b71b0
+SkiaSharp	109	0x0600006e	SkiaSharp.SKImageInfoNative	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1003b2dac	0x947c1118	0x1022b720c	0x1022b720c	mapped	0x1022b720c
+SkiaSharp	110	0x0600006f	SkiaSharp.SKImageInfoNative	FromManaged	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2db0	0x947c1152	0x1022b72f8	0x1022b72f8	mapped	0x1022b72f8
+SkiaSharp	111	0x06000070	SkiaSharp.SkiaSharpVersion	get_NativeMinimum	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2db4	0x947c117d	0x1022b73a8	0x1022b73a8	mapped	0x1022b73a8
+SkiaSharp	112	0x06000071	SkiaSharp.SkiaSharpVersion	get_Native	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2db8	0x97fff0fe	0x1003af1b0	0x1003af1b0	mapped	0x1003af1b0
+SkiaSharp	113	0x06000072	SkiaSharp.SkiaSharpVersion	CheckNativeLibraryCompatible	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2dbc	0x947c119f	0x1022b7438	0x1022b7438	mapped	0x1022b7438
+SkiaSharp	114	0x06000073	SkiaSharp.SkiaSharpVersion	CheckNativeLibraryCompatible	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2dc0	0x947c11bc	0x1022b74b0	0x1022b74b0	mapped	0x1022b74b0
+SkiaSharp	115	0x06000074	SkiaSharp.SkiaSharpVersion	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2dc4	0x947c1371	0x1022b7b88	0x1022b7b88	mapped	0x1022b7b88
+SkiaSharp	116	0x06000075	SkiaSharp.SKImage	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2dc8	0x947c1390	0x1022b7c08	0x1022b7c08	mapped	0x1022b7c08
+SkiaSharp	117	0x06000076	SkiaSharp.SKImage	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2dcc	0x947c13a3	0x1022b7c58	0x1022b7c58	mapped	0x1022b7c58
+SkiaSharp	118	0x06000077	SkiaSharp.SKImage	FromBitmap	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2dd0	0x97fff150	0x1003af310	0x1003af310	mapped	0x1003af310
+SkiaSharp	119	0x06000078	SkiaSharp.SKImage	Encode	0x2050	NoInlining	Public, HideBySig	0x1003b2dd4	0x97fff173	0x1003af3a0	0x1003af3a0	mapped	0x1003af3a0
+SkiaSharp	120	0x06000079	SkiaSharp.SKImage	GetObject	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2dd8	0x947c13b0	0x1022b7c98	0x1022b7c98	mapped	0x1022b7c98
+SkiaSharp	121	0x0600007a	SkiaSharp.SKImage+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2ddc	0x947c13f1	0x1022b7da0	0x1022b7da0	mapped	0x1022b7da0
+SkiaSharp	122	0x0600007b	SkiaSharp.SKImage+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2de0	0x947c140c	0x1022b7e10	0x1022b7e10	mapped	0x1022b7e10
+SkiaSharp	123	0x0600007c	SkiaSharp.SKImage+<>c	<GetObject>b__119_0	0x2050	NoInlining	Assembly, HideBySig	0x1003b2de4	0x947c1419	0x1022b7e48	0x1022b7e48	mapped	0x1022b7e48
+SkiaSharp	124	0x0600007d	SkiaSharp.SKImageInfo	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2de8	0x97fff18a	0x1003af410	0x1003af410	mapped	0x1003af410
+SkiaSharp	125	0x0600007e	SkiaSharp.SKImageInfo	get_Width	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2dec	0x947c1437	0x1022b7ec8	0x1022b7ec8	mapped	0x1022b7ec8
+SkiaSharp	126	0x0600007f	SkiaSharp.SKImageInfo	set_Width	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2df0	0x947c143f	0x1022b7eec	0x1022b7eec	mapped	0x1022b7eec
+SkiaSharp	127	0x06000080	SkiaSharp.SKImageInfo	get_Height	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2df4	0x947c1447	0x1022b7f10	0x1022b7f10	mapped	0x1022b7f10
+SkiaSharp	128	0x06000081	SkiaSharp.SKImageInfo	set_Height	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2df8	0x947c144f	0x1022b7f34	0x1022b7f34	mapped	0x1022b7f34
+SkiaSharp	129	0x06000082	SkiaSharp.SKImageInfo	get_ColorType	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2dfc	0x947c1457	0x1022b7f58	0x1022b7f58	mapped	0x1022b7f58
+SkiaSharp	130	0x06000083	SkiaSharp.SKImageInfo	set_ColorType	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2e00	0x947c145f	0x1022b7f7c	0x1022b7f7c	mapped	0x1022b7f7c
+SkiaSharp	131	0x06000084	SkiaSharp.SKImageInfo	get_AlphaType	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2e04	0x947c1467	0x1022b7fa0	0x1022b7fa0	mapped	0x1022b7fa0
+SkiaSharp	132	0x06000085	SkiaSharp.SKImageInfo	set_AlphaType	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2e08	0x947c146f	0x1022b7fc4	0x1022b7fc4	mapped	0x1022b7fc4
+SkiaSharp	133	0x06000086	SkiaSharp.SKImageInfo	get_ColorSpace	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2e0c	0x947c1477	0x1022b7fe8	0x1022b7fe8	mapped	0x1022b7fe8
+SkiaSharp	134	0x06000087	SkiaSharp.SKImageInfo	set_ColorSpace	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2e10	0x947c147f	0x1022b800c	0x1022b800c	mapped	0x1022b800c
+SkiaSharp	135	0x06000088	SkiaSharp.SKImageInfo	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2e14	0x947c148e	0x1022b804c	0x1022b804c	mapped	0x1022b804c
+SkiaSharp	136	0x06000089	SkiaSharp.SKImageInfo	get_BytesPerPixel	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2e18	0x947c14bb	0x1022b8104	0x1022b8104	mapped	0x1022b8104
+SkiaSharp	137	0x0600008a	SkiaSharp.SKImageInfo	get_RowBytes	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2e1c	0x947c14c9	0x1022b8140	0x1022b8140	mapped	0x1022b8140
+SkiaSharp	138	0x0600008b	SkiaSharp.SKImageInfo	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1003b2e20	0x947c14db	0x1022b818c	0x1022b818c	mapped	0x1022b818c
+SkiaSharp	139	0x0600008c	SkiaSharp.SKImageInfo	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1003b2e24	0x947c150e	0x1022b825c	0x1022b825c	mapped	0x1022b825c
+SkiaSharp	140	0x0600008d	SkiaSharp.SKImageInfo	op_Equality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2e28	0x947c1547	0x1022b8344	0x1022b8344	mapped	0x1022b8344
+SkiaSharp	141	0x0600008e	SkiaSharp.SKImageInfo	op_Inequality	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2e2c	0x947c1567	0x1022b83c8	0x1022b83c8	mapped	0x1022b83c8
+SkiaSharp	142	0x0600008f	SkiaSharp.SKImageInfo	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1003b2e30	0x947c1589	0x1022b8454	0x1022b8454	mapped	0x1022b8454
+SkiaSharp	143	0x06000090	SkiaSharp.SKObject	get_OwnedObjects	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1003b2e34	0x947c15c7	0x1022b8550	0x1022b8550	mapped	0x1022b8550
+SkiaSharp	144	0x06000091	SkiaSharp.SKObject	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2e38	0x947c1628	0x1022b86d8	0x1022b86d8	mapped	0x1022b86d8
+SkiaSharp	145	0x06000092	SkiaSharp.SKObject	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2e3c	0x947c1636	0x1022b8714	0x1022b8714	mapped	0x1022b8714
+SkiaSharp	146	0x06000093	SkiaSharp.SKObject	Dispose	0x2050	NoInlining	Family, Virtual, HideBySig	0x1003b2e40	0x947c1668	0x1022b87e0	0x1022b87e0	mapped	0x1022b87e0
+SkiaSharp	147	0x06000094	SkiaSharp.SKObject	get_Handle	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1003b2e44	0x947c1677	0x1022b8820	0x1022b8820	mapped	0x1022b8820
+SkiaSharp	148	0x06000095	SkiaSharp.SKObject	set_Handle	0x2050	NoInlining	Family, Final, Virtual, HideBySig, SpecialName	0x1003b2e48	0x947c167f	0x1022b8844	0x1022b8844	mapped	0x1022b8844
+SkiaSharp	149	0x06000096	SkiaSharp.SKObject	DisposeUnownedManaged	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2e4c	0x947c16a3	0x1022b88d8	0x1022b88d8	mapped	0x1022b88d8
+SkiaSharp	150	0x06000097	SkiaSharp.SKObject	DisposeManaged	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2e50	0x947c1715	0x1022b8aa4	0x1022b8aa4	mapped	0x1022b8aa4
+SkiaSharp	151	0x06000098	SkiaSharp.SKObject	DisposeNative	0x2050	NoInlining	Family, Virtual, HideBySig	0x1003b2e54	0x947c17ae	0x1022b8d0c	0x1022b8d0c	mapped	0x1022b8d0c
+SkiaSharp	152	0x06000099	SkiaSharp.SKObject	GetOrAddObject	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2e58	0x947c17d4	0x1022b8da8	0x1022b8da8	mapped	0x1022b8da8
+SkiaSharp	153	0x0600009a	SkiaSharp.SKObject	GetOrAddObject	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2e5c	0x947c1803	0x1022b8e68	0x1022b8e68	mapped	0x1022b8e68
+SkiaSharp	154	0x0600009b	SkiaSharp.SKObject	RegisterHandle	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2e60	0x947c1836	0x1022b8f38	0x1022b8f38	mapped	0x1022b8f38
+SkiaSharp	155	0x0600009c	SkiaSharp.SKObject	DeregisterHandle	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2e64	0x947c1853	0x1022b8fb0	0x1022b8fb0	mapped	0x1022b8fb0
+SkiaSharp	156	0x0600009d	SkiaSharp.SKObject	OwnedBy	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2e68	0x947c186f	0x1022b9024	0x1022b9024	mapped	0x1022b9024
+SkiaSharp	157	0x0600009e	SkiaSharp.SKNativeObject	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2e6c	0x947c18a7	0x1022b9108	0x1022b9108	mapped	0x1022b9108
+SkiaSharp	158	0x0600009f	SkiaSharp.SKNativeObject	Finalize	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2e70	0x947c18c2	0x1022b9178	0x1022b9178	mapped	0x1022b9178
+SkiaSharp	159	0x060000a0	SkiaSharp.SKNativeObject	get_Handle	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1003b2e74	0x947c18e6	0x1022b920c	0x1022b920c	mapped	0x1022b920c
+SkiaSharp	160	0x060000a1	SkiaSharp.SKNativeObject	set_Handle	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1003b2e78	0x947c18ee	0x1022b9230	0x1022b9230	mapped	0x1022b9230
+SkiaSharp	161	0x060000a2	SkiaSharp.SKNativeObject	get_OwnsHandle	0x2050	NoInlining	FamORAssem, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1003b2e7c	0x947c18f6	0x1022b9254	0x1022b9254	mapped	0x1022b9254
+SkiaSharp	162	0x060000a3	SkiaSharp.SKNativeObject	set_OwnsHandle	0x2050	NoInlining	Family, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1003b2e80	0x947c18fe	0x1022b9278	0x1022b9278	mapped	0x1022b9278
+SkiaSharp	163	0x060000a4	SkiaSharp.SKNativeObject	get_IgnorePublicDispose	0x2050	NoInlining	FamORAssem, HideBySig, SpecialName	0x1003b2e84	0x947c1906	0x1022b929c	0x1022b929c	mapped	0x1022b929c
+SkiaSharp	164	0x060000a5	SkiaSharp.SKNativeObject	get_IsDisposed	0x2050	NoInlining	FamORAssem, HideBySig, SpecialName	0x1003b2e88	0x947c190e	0x1022b92c0	0x1022b92c0	mapped	0x1022b92c0
+SkiaSharp	165	0x060000a6	SkiaSharp.SKNativeObject	DisposeUnownedManaged	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1003b2e8c	0x947c1918	0x1022b92ec	0x1022b92ec	mapped	0x1022b92ec
+SkiaSharp	166	0x060000a7	SkiaSharp.SKNativeObject	DisposeManaged	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1003b2e90	0x947c1918	0x1022b92f0	0x1022b92f0	mapped	0x1022b92f0
+SkiaSharp	167	0x060000a8	SkiaSharp.SKNativeObject	DisposeNative	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1003b2e94	0x947c1918	0x1022b92f4	0x1022b92f4	mapped	0x1022b92f4
+SkiaSharp	168	0x060000a9	SkiaSharp.SKNativeObject	Dispose	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1003b2e98	0x947c1918	0x1022b92f8	0x1022b92f8	mapped	0x1022b92f8
+SkiaSharp	169	0x060000aa	SkiaSharp.SKNativeObject	Dispose	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1003b2e9c	0x947c1955	0x1022b93f0	0x1022b93f0	mapped	0x1022b93f0
+SkiaSharp	170	0x060000ab	SkiaSharp.SKNativeObject	DisposeInternal	0x2050	NoInlining	FamORAssem, HideBySig	0x1003b2ea0	0x947c196f	0x1022b945c	0x1022b945c	mapped	0x1022b945c
+SkiaSharp	171	0x060000ac	SkiaSharp.SKObjectExtensions	SafeUnRef	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2ea4	0x97fff1a3	0x1003af530	0x1003af530	mapped	0x1003af530
+SkiaSharp	172	0x060000ad	SkiaSharp.ISKReferenceCounted	get_Handle	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x1003b2ea8	0x97ffff54	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	173	0x060000ae	SkiaSharp.ISKNonVirtualReferenceCounted	UnreferenceNative	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003b2eac	0x97ffff53	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	174	0x060000af	SkiaSharp.SKPaint	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2eb0	0x947c1984	0x1022b94c0	0x1022b94c0	mapped	0x1022b94c0
+SkiaSharp	175	0x060000b0	SkiaSharp.SKPaint	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2eb4	0x97fff1db	0x1003af620	0x1003af620	mapped	0x1003af620
+SkiaSharp	176	0x060000b1	SkiaSharp.SKPaint	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2eb8	0x947c1996	0x1022b9510	0x1022b9510	mapped	0x1022b9510
+SkiaSharp	177	0x060000b2	SkiaSharp.SKPaint	DisposeNative	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2ebc	0x97fff1fd	0x1003af6b0	0x1003af6b0	mapped	0x1003af6b0
+SkiaSharp	178	0x060000b3	SkiaSharp.SKSurface	Create	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2ec0	0x947c19a4	0x1022b9550	0x1022b9550	mapped	0x1022b9550
+SkiaSharp	179	0x060000b4	SkiaSharp.SKSurface	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2ec4	0x947c19c6	0x1022b95dc	0x1022b95dc	mapped	0x1022b95dc
+SkiaSharp	180	0x060000b5	SkiaSharp.SKSurface	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2ec8	0x947c19d9	0x1022b962c	0x1022b962c	mapped	0x1022b962c
+SkiaSharp	181	0x060000b6	SkiaSharp.SKSurface	Create	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2ecc	0x947c19e8	0x1022b966c	0x1022b966c	mapped	0x1022b966c
+SkiaSharp	182	0x060000b7	SkiaSharp.SKSurface	Create	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2ed0	0x97fff20c	0x1003af700	0x1003af700	mapped	0x1003af700
+SkiaSharp	183	0x060000b8	SkiaSharp.SKSurface	get_Canvas	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1003b2ed4	0x97fff233	0x1003af7a0	0x1003af7a0	mapped	0x1003af7a0
+SkiaSharp	184	0x060000b9	SkiaSharp.SKSurface	Snapshot	0x2050	NoInlining	Public, HideBySig	0x1003b2ed8	0x97fff24e	0x1003af810	0x1003af810	mapped	0x1003af810
+SkiaSharp	185	0x060000ba	SkiaSharp.SKSurface	GetObject	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2edc	0x947c19f7	0x1022b96b8	0x1022b96b8	mapped	0x1022b96b8
+SkiaSharp	186	0x060000bb	SkiaSharp.SKTypeface	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2ee0	0x97fff260	0x1003af860	0x1003af860	mapped	0x1003af860
+SkiaSharp	187	0x060000bc	SkiaSharp.SKTypeface	EnsureStaticInstanceAreInitialized	0x2050	NoInlining	Assembly, Static, HideBySig	0x1003b2ee4	0x947c1a17	0x1022b9740	0x1022b9740	mapped	0x1022b9740
+SkiaSharp	188	0x060000bd	SkiaSharp.SKTypeface	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2ee8	0x947c1a24	0x1022b9778	0x1022b9778	mapped	0x1022b9778
+SkiaSharp	189	0x060000be	SkiaSharp.SKTypeface	Dispose	0x2050	NoInlining	Family, Virtual, HideBySig	0x1003b2eec	0x947c1a42	0x1022b97f4	0x1022b97f4	mapped	0x1022b97f4
+SkiaSharp	190	0x060000bf	SkiaSharp.SKTypeface+SKTypefaceStatic	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2ef0	0x947c1a51	0x1022b9834	0x1022b9834	mapped	0x1022b9834
+SkiaSharp	191	0x060000c0	SkiaSharp.SKTypeface+SKTypefaceStatic	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1003b2ef4	0x947c1a61	0x1022b9878	0x1022b9878	mapped	0x1022b9878
+SkiaSharp	192	0x060000c1	SkiaSharp.Utils	RentArray	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2ef8	0x947c1a61	0x1022b987c	0x1022b987c	mapped	0x1022b987c
+SkiaSharp	193	0x060000c2	SkiaSharp.Utils+RentedArray`1	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1003b2efc	0x947c1aa2	0x1022b9984	0x1022b9984	mapped	0x1022b9984
+SkiaSharp	194	0x060000c3	SkiaSharp.Utils+RentedArray`1	Dispose	0x2050	NoInlining	Public, HideBySig	0x1003b2f00	0x947c1af6	0x1022b9ad8	0x1022b9ad8	mapped	0x1022b9ad8
+SkiaSharp	195	0x060000c4	SkiaSharp.Utils+RentedArray`1	op_Explicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2f04	0x947c1b2d	0x1022b9bb8	0x1022b9bb8	mapped	0x1022b9bb8
+SkiaSharp	196	0x060000c5	SkiaSharp.Utils+RentedArray`1	op_Implicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2f08	0x947c1b31	0x1022b9bcc	0x1022b9bcc	mapped	0x1022b9bcc
+SkiaSharp	197	0x060000c6	SkiaSharp.Utils+RentedArray`1	op_Implicit	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2f0c	0x947c1b36	0x1022b9be4	0x1022b9be4	mapped	0x1022b9be4
+SkiaSharp	198	0x060000c7	SkiaSharp.Internals.IPlatformLock	EnterWriteLock	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003b2f10	0x97ffff3a	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	199	0x060000c8	SkiaSharp.Internals.IPlatformLock	ExitWriteLock	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003b2f14	0x97ffff39	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	200	0x060000c9	SkiaSharp.Internals.IPlatformLock	EnterUpgradeableReadLock	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003b2f18	0x97ffff38	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	201	0x060000ca	SkiaSharp.Internals.IPlatformLock	ExitUpgradeableReadLock	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003b2f1c	0x97ffff37	0x1003b2bf8		absent	0x1003b2bf8
+SkiaSharp	202	0x060000cb	SkiaSharp.Internals.PlatformLock	Create	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2f20	0x947c1b38	0x1022b9c00	0x1022b9c00	mapped	0x1022b9c00
+SkiaSharp	203	0x060000cc	SkiaSharp.Internals.PlatformLock	get_Factory	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1003b2f24	0x947c1b5b	0x1022b9c90	0x1022b9c90	mapped	0x1022b9c90
+SkiaSharp	204	0x060000cd	SkiaSharp.Internals.PlatformLock	DefaultFactory	0x2050	NoInlining	Public, Static, HideBySig	0x1003b2f28	0x947c1b6b	0x1022b9cd4	0x1022b9cd4	mapped	0x1022b9cd4
+SkiaSharp	205	0x060000ce	SkiaSharp.Internals.PlatformLock	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1003b2f2c	0x947c1b85	0x1022b9d40	0x1022b9d40	mapped	0x1022b9d40
+SkiaSharp	206	0x060000cf	SkiaSharp.Internals.PlatformLock+ReadWriteLock	EnterWriteLock	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1003b2f30	0x947c1baa	0x1022b9dd8	0x1022b9dd8	mapped	0x1022b9dd8
+SkiaSharp	207	0x060000d0	SkiaSharp.Internals.PlatformLock+ReadWriteLock	ExitWriteLock	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1003b2f34	0x947c1bc1	0x1022b9e38	0x1022b9e38	mapped	0x1022b9e38
+SkiaSharp	208	0x060000d1	SkiaSharp.Internals.PlatformLock+ReadWriteLock	EnterUpgradeableReadLock	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1003b2f38	0x947c1bd8	0x1022b9e98	0x1022b9e98	mapped	0x1022b9e98
+SkiaSharp	209	0x060000d2	SkiaSharp.Internals.PlatformLock+ReadWriteLock	ExitUpgradeableReadLock	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1003b2f3c	0x947c1bef	0x1022b9ef8	0x1022b9ef8	mapped	0x1022b9ef8
+SkiaSharp	210	0x060000d3	SkiaSharp.Internals.PlatformLock+ReadWriteLock	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1003b2f40	0x947c1c06	0x1022b9f58	0x1022b9f58	mapped	0x1022b9f58

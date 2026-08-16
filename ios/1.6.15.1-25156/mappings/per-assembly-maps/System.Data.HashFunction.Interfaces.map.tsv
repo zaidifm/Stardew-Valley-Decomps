@@ -1,0 +1,5 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Data.HashFunction.Interfaces	0	0x06000001	System.Data.HashFunction.IHashFunction	get_HashSize	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName	0x1003b7498	0x94000000	0x1003b7498		absent	0x1003b7498
+System.Data.HashFunction.Interfaces	1	0x06000002	System.Data.HashFunction.IHashFunction	ComputeHash	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003b749c	0x97ffffff	0x1003b7498		absent	0x1003b7498
+System.Data.HashFunction.Interfaces	2	0x06000003	System.Data.HashFunction.IHashFunction	ComputeHash	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003b74a0	0x97fffffe	0x1003b7498		absent	0x1003b7498
+System.Data.HashFunction.Interfaces	3	0x06000004	System.Data.HashFunction.IHashFunctionAsync	ComputeHashAsync	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1003b74a4	0x97fffffd	0x1003b7498		absent	0x1003b7498

@@ -1,0 +1,493 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Net.Requests	0	0x06000001	System.NotImplemented	ByDesignWithMessage	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004d5820	0x94890396	0x102716678	0x102716678	mapped	0x102716678
+System.Net.Requests	1	0x06000002	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004d5824	0x948903b4	0x1027166f4	0x1027166f4	mapped	0x1027166f4
+System.Net.Requests	2	0x06000003	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004d5828	0x948903e0	0x1027167a8	0x1027167a8	mapped	0x1027167a8
+System.Net.Requests	3	0x06000004	System.Net.FileWebRequest	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d582c	0x94890415	0x102716880	0x102716880	mapped	0x102716880
+System.Net.Requests	4	0x06000005	System.Net.FileWebRequest	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5830	0x94890468	0x1027169d0	0x1027169d0	mapped	0x1027169d0
+System.Net.Requests	5	0x06000006	System.Net.FileWebRequest	GetObjectData	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d5834	0x94890485	0x102716a48	0x102716a48	mapped	0x102716a48
+System.Net.Requests	6	0x06000007	System.Net.FileWebRequest	get_Aborted	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5838	0x9489048f	0x102716a74	0x102716a74	mapped	0x102716a74
+System.Net.Requests	7	0x06000008	System.Net.FileWebRequest	set_ContentLength	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d583c	0x94890499	0x102716aa0	0x102716aa0	mapped	0x102716aa0
+System.Net.Requests	8	0x06000009	System.Net.FileWebRequest	set_ContentType	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5840	0x948904bc	0x102716b30	0x102716b30	mapped	0x102716b30
+System.Net.Requests	9	0x0600000a	System.Net.FileWebRequest	get_Credentials	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5844	0x948904e2	0x102716bcc	0x102716bcc	mapped	0x102716bcc
+System.Net.Requests	10	0x0600000b	System.Net.FileWebRequest	get_Headers	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5848	0x948904ea	0x102716bf0	0x102716bf0	mapped	0x102716bf0
+System.Net.Requests	11	0x0600000c	System.Net.FileWebRequest	get_Method	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d584c	0x948904f2	0x102716c14	0x102716c14	mapped	0x102716c14
+System.Net.Requests	12	0x0600000d	System.Net.FileWebRequest	set_Method	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5850	0x948904fa	0x102716c38	0x102716c38	mapped	0x102716c38
+System.Net.Requests	13	0x0600000e	System.Net.FileWebRequest	get_PreAuthenticate	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5854	0x94890522	0x102716cdc	0x102716cdc	mapped	0x102716cdc
+System.Net.Requests	14	0x0600000f	System.Net.FileWebRequest	get_Timeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5858	0x9489052a	0x102716d00	0x102716d00	mapped	0x102716d00
+System.Net.Requests	15	0x06000010	System.Net.FileWebRequest	get_RequestUri	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d585c	0x94890532	0x102716d24	0x102716d24	mapped	0x102716d24
+System.Net.Requests	16	0x06000011	System.Net.FileWebRequest	CreateRequestAbortedException	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5860	0x9489053a	0x102716d48	0x102716d48	mapped	0x102716d48
+System.Net.Requests	17	0x06000012	System.Net.FileWebRequest	CheckAndMarkAsyncGetRequestStreamPending	0x2050	NoInlining	Private, HideBySig	0x1004d5864	0x94890564	0x102716df4	0x102716df4	mapped	0x102716df4
+System.Net.Requests	18	0x06000013	System.Net.FileWebRequest	CreateWriteStream	0x2050	NoInlining	Private, HideBySig	0x1004d5868	0x948905d7	0x102716fc4	0x102716fc4	mapped	0x102716fc4
+System.Net.Requests	19	0x06000014	System.Net.FileWebRequest	BeginGetRequestStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d586c	0x9489062e	0x102717124	0x102717124	mapped	0x102717124
+System.Net.Requests	20	0x06000015	System.Net.FileWebRequest	CheckAndMarkAsyncGetResponsePending	0x2050	NoInlining	Private, HideBySig	0x1004d5870	0x94890696	0x1027172c8	0x1027172c8	mapped	0x1027172c8
+System.Net.Requests	21	0x06000016	System.Net.FileWebRequest	CreateResponse	0x2050	NoInlining	Private, HideBySig	0x1004d5874	0x948906d5	0x1027173c8	0x1027173c8	mapped	0x1027173c8
+System.Net.Requests	22	0x06000017	System.Net.FileWebRequest	BeginGetResponse	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5878	0x94890793	0x1027176c4	0x1027176c4	mapped	0x1027176c4
+System.Net.Requests	23	0x06000018	System.Net.FileWebRequest	EndGetRequestStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d587c	0x948907fb	0x102717868	0x102717868	mapped	0x102717868
+System.Net.Requests	24	0x06000019	System.Net.FileWebRequest	EndGetResponse	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5880	0x9489081c	0x1027178f0	0x1027178f0	mapped	0x1027178f0
+System.Net.Requests	25	0x0600001a	System.Net.FileWebRequest	GetRequestStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5884	0x9489083d	0x102717978	0x102717978	mapped	0x102717978
+System.Net.Requests	26	0x0600001b	System.Net.FileWebRequest	GetResponse	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5888	0x948908a8	0x102717b28	0x102717b28	mapped	0x102717b28
+System.Net.Requests	27	0x0600001c	System.Net.FileWebRequest	UnblockReader	0x2050	NoInlining	Assembly, HideBySig	0x1004d588c	0x94890915	0x102717ce0	0x102717ce0	mapped	0x102717ce0
+System.Net.Requests	28	0x0600001d	System.Net.FileWebRequest+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5890	0x94890953	0x102717ddc	0x102717ddc	mapped	0x102717ddc
+System.Net.Requests	29	0x0600001e	System.Net.FileWebRequest+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5894	0x9489096e	0x102717e4c	0x102717e4c	mapped	0x102717e4c
+System.Net.Requests	30	0x0600001f	System.Net.FileWebRequest+<>c	<BeginGetRequestStream>b__55_0	0x2050	NoInlining	Assembly, HideBySig	0x1004d5898	0x9489097b	0x102717e84	0x102717e84	mapped	0x102717e84
+System.Net.Requests	31	0x06000020	System.Net.FileWebRequest+<>c	<BeginGetResponse>b__59_0	0x2050	NoInlining	Assembly, HideBySig	0x1004d589c	0x948909a3	0x102717f28	0x102717f28	mapped	0x102717f28
+System.Net.Requests	32	0x06000021	System.Net.FileWebRequestCreator	Create	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d58a0	0x948909cb	0x102717fcc	0x102717fcc	mapped	0x102717fcc
+System.Net.Requests	33	0x06000022	System.Net.FileWebRequestCreator	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d58a4	0x948909e9	0x102718048	0x102718048	mapped	0x102718048
+System.Net.Requests	34	0x06000023	System.Net.WebFileStream	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d58a8	0x948909e9	0x10271804c	0x10271804c	mapped	0x10271804c
+System.Net.Requests	35	0x06000024	System.Net.WebFileStream	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d58ac	0x94890a10	0x1027180ec	0x1027180ec	mapped	0x1027180ec
+System.Net.Requests	36	0x06000025	System.Net.WebFileStream	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d58b0	0x94890a3d	0x1027181a4	0x1027181a4	mapped	0x1027181a4
+System.Net.Requests	37	0x06000026	System.Net.WebFileStream	Read	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58b4	0x94890a6a	0x10271825c	0x10271825c	mapped	0x10271825c
+System.Net.Requests	38	0x06000027	System.Net.WebFileStream	Write	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58b8	0x94890a8c	0x1027182e8	0x1027182e8	mapped	0x1027182e8
+System.Net.Requests	39	0x06000028	System.Net.WebFileStream	BeginRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58bc	0x94890aac	0x10271836c	0x10271836c	mapped	0x10271836c
+System.Net.Requests	40	0x06000029	System.Net.WebFileStream	EndRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58c0	0x94890ad4	0x102718410	0x102718410	mapped	0x102718410
+System.Net.Requests	41	0x0600002a	System.Net.WebFileStream	BeginWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58c4	0x94890aee	0x10271847c	0x10271847c	mapped	0x10271847c
+System.Net.Requests	42	0x0600002b	System.Net.WebFileStream	EndWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58c8	0x94890b16	0x102718520	0x102718520	mapped	0x102718520
+System.Net.Requests	43	0x0600002c	System.Net.WebFileStream	ReadAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58cc	0x94890b2e	0x102718584	0x102718584	mapped	0x102718584
+System.Net.Requests	44	0x0600002d	System.Net.WebFileStream	WriteAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58d0	0x94890b54	0x102718620	0x102718620	mapped	0x102718620
+System.Net.Requests	45	0x0600002e	System.Net.WebFileStream	CopyToAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58d4	0x94890b7a	0x1027186bc	0x1027186bc	mapped	0x1027186bc
+System.Net.Requests	46	0x0600002f	System.Net.WebFileStream	CheckAborted	0x2050	NoInlining	Private, HideBySig	0x1004d58d8	0x94890b9c	0x102718748	0x102718748	mapped	0x102718748
+System.Net.Requests	47	0x06000030	System.Net.FileWebResponse	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d58dc	0x94890bd8	0x10271883c	0x10271883c	mapped	0x10271883c
+System.Net.Requests	48	0x06000031	System.Net.FileWebResponse	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d58e0	0x94890c6d	0x102718a94	0x102718a94	mapped	0x102718a94
+System.Net.Requests	49	0x06000032	System.Net.FileWebResponse	GetObjectData	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d58e4	0x94890c77	0x102718ac0	0x102718ac0	mapped	0x102718ac0
+System.Net.Requests	50	0x06000033	System.Net.FileWebResponse	CheckDisposed	0x2050	NoInlining	Private, HideBySig	0x1004d58e8	0x94890c81	0x102718aec	0x102718aec	mapped	0x102718aec
+System.Net.Requests	51	0x06000034	System.Net.FileWebResponse	Close	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58ec	0x94890c97	0x102718b48	0x102718b48	mapped	0x102718b48
+System.Net.Requests	52	0x06000035	System.Net.FileWebResponse	GetResponseStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d58f0	0x94890cb2	0x102718bb8	0x102718bb8	mapped	0x102718bb8
+System.Net.Requests	53	0x06000036	System.Net.HttpWebRequest	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d58f4	0x94890cc9	0x102718c18	0x102718c18	mapped	0x102718c18
+System.Net.Requests	54	0x06000037	System.Net.HttpWebRequest	GetObjectData	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d58f8	0x94890cd3	0x102718c44	0x102718c44	mapped	0x102718c44
+System.Net.Requests	55	0x06000038	System.Net.HttpWebRequest	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d58fc	0x94890cdd	0x102718c70	0x102718c70	mapped	0x102718c70
+System.Net.Requests	56	0x06000039	System.Net.HttpWebRequest	SetSpecialHeaders	0x2050	NoInlining	Private, HideBySig	0x1004d5900	0x94890d39	0x102718de4	0x102718de4	mapped	0x102718de4
+System.Net.Requests	57	0x0600003a	System.Net.HttpWebRequest	get_MaximumResponseHeadersLength	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5904	0x94890d61	0x102718e88	0x102718e88	mapped	0x102718e88
+System.Net.Requests	58	0x0600003b	System.Net.HttpWebRequest	get_MaximumAutomaticRedirections	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5908	0x94890d69	0x102718eac	0x102718eac	mapped	0x102718eac
+System.Net.Requests	59	0x0600003c	System.Net.HttpWebRequest	set_ContentType	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d590c	0x94890d71	0x102718ed0	0x102718ed0	mapped	0x102718ed0
+System.Net.Requests	60	0x0600003d	System.Net.HttpWebRequest	get_Timeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5910	0x94890d8d	0x102718f44	0x102718f44	mapped	0x102718f44
+System.Net.Requests	61	0x0600003e	System.Net.HttpWebRequest	set_ContentLength	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5914	0x94890d95	0x102718f68	0x102718f68	mapped	0x102718f68
+System.Net.Requests	62	0x0600003f	System.Net.HttpWebRequest	get_Address	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5918	0x94890dcf	0x102719054	0x102719054	mapped	0x102719054
+System.Net.Requests	63	0x06000040	System.Net.HttpWebRequest	get_Host	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d591c	0x94890dd7	0x102719078	0x102719078	mapped	0x102719078
+System.Net.Requests	64	0x06000041	System.Net.HttpWebRequest	get_KeepAlive	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5920	0x94890e4d	0x102719254	0x102719254	mapped	0x102719254
+System.Net.Requests	65	0x06000042	System.Net.HttpWebRequest	get_AutomaticDecompression	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5924	0x94890e55	0x102719278	0x102719278	mapped	0x102719278
+System.Net.Requests	66	0x06000043	System.Net.HttpWebRequest	get_AllowAutoRedirect	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5928	0x94890e5d	0x10271929c	0x10271929c	mapped	0x10271929c
+System.Net.Requests	67	0x06000044	System.Net.HttpWebRequest	get_PreAuthenticate	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d592c	0x94890e66	0x1027192c4	0x1027192c4	mapped	0x1027192c4
+System.Net.Requests	68	0x06000045	System.Net.HttpWebRequest	get_DefaultCachePolicy	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1004d5930	0x94890e6e	0x1027192e8	0x1027192e8	mapped	0x1027192e8
+System.Net.Requests	69	0x06000046	System.Net.HttpWebRequest	get_SendChunked	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5934	0x94890e7e	0x10271932c	0x10271932c	mapped	0x10271932c
+System.Net.Requests	70	0x06000047	System.Net.HttpWebRequest	get_ServerCertificateValidationCallback	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5938	0x94890e87	0x102719354	0x102719354	mapped	0x102719354
+System.Net.Requests	71	0x06000048	System.Net.HttpWebRequest	get_ProtocolVersion	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d593c	0x94890e8f	0x102719378	0x102719378	mapped	0x102719378
+System.Net.Requests	72	0x06000049	System.Net.HttpWebRequest	get_ReadWriteTimeout	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5940	0x94890eac	0x1027193f0	0x1027193f0	mapped	0x1027193f0
+System.Net.Requests	73	0x0600004a	System.Net.HttpWebRequest	get_Credentials	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5944	0x94890eb4	0x102719414	0x102719414	mapped	0x102719414
+System.Net.Requests	74	0x0600004b	System.Net.HttpWebRequest	get_Headers	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5948	0x94890ebc	0x102719438	0x102719438	mapped	0x102719438
+System.Net.Requests	75	0x0600004c	System.Net.HttpWebRequest	get_Method	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d594c	0x94890ec4	0x10271945c	0x10271945c	mapped	0x10271945c
+System.Net.Requests	76	0x0600004d	System.Net.HttpWebRequest	set_Method	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5950	0x94890ecc	0x102719480	0x102719480	mapped	0x102719480
+System.Net.Requests	77	0x0600004e	System.Net.HttpWebRequest	get_RequestUri	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5954	0x94890f08	0x102719574	0x102719574	mapped	0x102719574
+System.Net.Requests	78	0x0600004f	System.Net.HttpWebRequest	get_IsVersionHttp10	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1004d5958	0x94890f10	0x102719598	0x102719598	mapped	0x102719598
+System.Net.Requests	79	0x06000050	System.Net.HttpWebRequest	GetResponse	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d595c	0x94890f19	0x1027195c0	0x1027195c0	mapped	0x1027195c0
+System.Net.Requests	80	0x06000051	System.Net.HttpWebRequest	GetRequestStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5960	0x94890f65	0x1027196f4	0x1027196f4	mapped	0x1027196f4
+System.Net.Requests	81	0x06000052	System.Net.HttpWebRequest	InternalGetRequestStream	0x2050	NoInlining	Private, HideBySig	0x1004d5964	0x94890f86	0x10271977c	0x10271977c	mapped	0x10271977c
+System.Net.Requests	82	0x06000053	System.Net.HttpWebRequest	BeginGetRequestStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5968	0x94890ffb	0x102719954	0x102719954	mapped	0x102719954
+System.Net.Requests	83	0x06000054	System.Net.HttpWebRequest	EndGetRequestStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d596c	0x9489104b	0x102719a98	0x102719a98	mapped	0x102719a98
+System.Net.Requests	84	0x06000055	System.Net.HttpWebRequest	SendRequest	0x2050	NoInlining	Private, HideBySig	0x1004d5970	0x948910d2	0x102719cb8	0x102719cb8	mapped	0x102719cb8
+System.Net.Requests	85	0x06000056	System.Net.HttpWebRequest	AddCacheControlHeaders	0x2050	NoInlining	Private, HideBySig	0x1004d5974	0x9489110d	0x102719da8	0x102719da8	mapped	0x102719da8
+System.Net.Requests	86	0x06000057	System.Net.HttpWebRequest	GetApplicableCachePolicy	0x2050	NoInlining	Private, HideBySig	0x1004d5978	0x94891194	0x102719fc8	0x102719fc8	mapped	0x102719fc8
+System.Net.Requests	87	0x06000058	System.Net.HttpWebRequest	BeginGetResponse	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d597c	0x948911d9	0x10271a0e0	0x10271a0e0	mapped	0x10271a0e0
+System.Net.Requests	88	0x06000059	System.Net.HttpWebRequest	EndGetResponse	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5980	0x94891233	0x10271a24c	0x10271a24c	mapped	0x10271a24c
+System.Net.Requests	89	0x0600005a	System.Net.HttpWebRequest	get_RequestSubmitted	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1004d5984	0x948912ba	0x10271a46c	0x10271a46c	mapped	0x10271a46c
+System.Net.Requests	90	0x0600005b	System.Net.HttpWebRequest	CheckAbort	0x2050	NoInlining	Private, HideBySig	0x1004d5988	0x948912c4	0x10271a498	0x10271a498	mapped	0x10271a498
+System.Net.Requests	91	0x0600005c	System.Net.HttpWebRequest	IsWellKnownContentHeader	0x2050	NoInlining	Private, Static, HideBySig	0x1004d598c	0x948912f6	0x10271a564	0x10271a564	mapped	0x10271a564
+System.Net.Requests	92	0x0600005d	System.Net.HttpWebRequest	GetCachedOrCreateHttpClient	0x2050	NoInlining	Private, HideBySig	0x1004d5990	0x94891329	0x10271a634	0x10271a634	mapped	0x10271a634
+System.Net.Requests	93	0x0600005e	System.Net.HttpWebRequest	CreateHttpClient	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5994	0x948913cc	0x10271a8c4	0x10271a8c4	mapped	0x10271a8c4
+System.Net.Requests	94	0x0600005f	System.Net.HttpWebRequest	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5998	0x948914fc	0x10271ad88	0x10271ad88	mapped	0x10271ad88
+System.Net.Requests	95	0x06000060	System.Net.HttpWebRequest+HttpClientParameters	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d599c	0x94891560	0x10271af1c	0x10271af1c	mapped	0x10271af1c
+System.Net.Requests	96	0x06000061	System.Net.HttpWebRequest+HttpClientParameters	Matches	0x2050	NoInlining	Public, HideBySig	0x1004d59a0	0x948915e1	0x10271b124	0x10271b124	mapped	0x10271b124
+System.Net.Requests	97	0x06000062	System.Net.HttpWebRequest+HttpClientParameters	AreParametersAcceptableForCaching	0x2050	NoInlining	Public, HideBySig	0x1004d59a4	0x9489162c	0x10271b254	0x10271b254	mapped	0x10271b254
+System.Net.Requests	98	0x06000063	System.Net.HttpWebRequest+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d59a8	0x9489164c	0x10271b2d8	0x10271b2d8	mapped	0x10271b2d8
+System.Net.Requests	99	0x06000064	System.Net.HttpWebRequest+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d59ac	0x94891667	0x10271b348	0x10271b348	mapped	0x10271b348
+System.Net.Requests	100	0x06000065	System.Net.HttpWebRequest+<>c	<CreateHttpClient>b__219_2	0x2050	NoInlining	Assembly, HideBySig	0x1004d59b0	0x94891674	0x10271b380	0x10271b380	mapped	0x10271b380
+System.Net.Requests	101	0x06000066	System.Net.HttpWebRequest+<>c__DisplayClass219_0	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d59b4	0x9489169c	0x10271b424	0x10271b424	mapped	0x10271b424
+System.Net.Requests	102	0x06000067	System.Net.HttpWebRequest+<>c__DisplayClass219_0	<CreateHttpClient>b__1	0x2050	NoInlining	Assembly, HideBySig	0x1004d59b8	0x9489169c	0x10271b428	0x10271b428	mapped	0x10271b428
+System.Net.Requests	103	0x06000068	System.Net.HttpWebRequest+<>c__DisplayClass219_0+<<CreateHttpClient>b__1>d	MoveNext	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d59bc	0x97ffe47d	0x1004cebb0	0x1004cebb0	mapped	0x1004cebb0
+System.Net.Requests	104	0x06000069	System.Net.HttpWebRequest+<>c__DisplayClass219_0+<<CreateHttpClient>b__1>d	SetStateMachine	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d59c0	0x948916e4	0x10271b550	0x10271b550	mapped	0x10271b550
+System.Net.Requests	105	0x0600006a	System.Net.HttpWebRequest+<>c__DisplayClass219_1	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d59c4	0x94891706	0x10271b5dc	0x10271b5dc	mapped	0x10271b5dc
+System.Net.Requests	106	0x0600006b	System.Net.HttpWebRequest+<>c__DisplayClass219_1	<CreateHttpClient>b__0	0x2050	NoInlining	Assembly, HideBySig	0x1004d59c8	0x94891706	0x10271b5e0	0x10271b5e0	mapped	0x10271b5e0
+System.Net.Requests	107	0x0600006c	System.Net.HttpWebRequest+<SendRequest>d__196	MoveNext	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d59cc	0x97ffe6a1	0x1004cf450	0x1004cf450	mapped	0x1004cf450
+System.Net.Requests	108	0x0600006d	System.Net.HttpWebRequest+<SendRequest>d__196	SetStateMachine	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d59d0	0x9489172b	0x10271b67c	0x10271b67c	mapped	0x10271b67c
+System.Net.Requests	109	0x0600006e	System.Net.HttpWebResponse	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d59d4	0x9489174d	0x10271b708	0x10271b708	mapped	0x10271b708
+System.Net.Requests	110	0x0600006f	System.Net.HttpWebResponse	GetObjectData	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d59d8	0x94891757	0x10271b734	0x10271b734	mapped	0x10271b734
+System.Net.Requests	111	0x06000070	System.Net.HttpWebResponse	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d59dc	0x94891761	0x10271b760	0x10271b760	mapped	0x10271b760
+System.Net.Requests	112	0x06000071	System.Net.HttpWebResponse	get_StatusCode	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d59e0	0x948917c6	0x10271b8f8	0x10271b8f8	mapped	0x10271b8f8
+System.Net.Requests	113	0x06000072	System.Net.HttpWebResponse	get_StatusDescription	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d59e4	0x948917dd	0x10271b958	0x10271b958	mapped	0x10271b958
+System.Net.Requests	114	0x06000073	System.Net.HttpWebResponse	GetResponseStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d59e8	0x94891803	0x10271b9f4	0x10271b9f4	mapped	0x10271b9f4
+System.Net.Requests	115	0x06000074	System.Net.HttpWebResponse	Close	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d59ec	0x94891865	0x10271bb80	0x10271bb80	mapped	0x10271bb80
+System.Net.Requests	116	0x06000075	System.Net.HttpWebResponse	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d59f0	0x9489187b	0x10271bbdc	0x10271bbdc	mapped	0x10271bbdc
+System.Net.Requests	117	0x06000076	System.Net.HttpWebResponse	CheckDisposed	0x2050	NoInlining	Private, HideBySig	0x1004d59f4	0x94891890	0x10271bc34	0x10271bc34	mapped	0x10271bc34
+System.Net.Requests	118	0x06000077	System.Net.IWebRequestCreate	Create	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1004d59f8	0x97ffff8a	0x1004d5820		absent	0x1004d5820
+System.Net.Requests	119	0x06000078	System.Net.ProtocolViolationException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d59fc	0x948918a5	0x10271bc90	0x10271bc90	mapped	0x10271bc90
+System.Net.Requests	120	0x06000079	System.Net.ProtocolViolationException	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5a00	0x948918bb	0x10271bcec	0x10271bcec	mapped	0x10271bcec
+System.Net.Requests	121	0x0600007a	System.Net.ProtocolViolationException	GetObjectData	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a04	0x948918d0	0x10271bd44	0x10271bd44	mapped	0x10271bd44
+System.Net.Requests	122	0x0600007b	System.Net.RequestStream	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5a08	0x948918e5	0x10271bd9c	0x10271bd9c	mapped	0x10271bd9c
+System.Net.Requests	123	0x0600007c	System.Net.RequestStream	get_CanRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5a0c	0x9489190e	0x10271be44	0x10271be44	mapped	0x10271be44
+System.Net.Requests	124	0x0600007d	System.Net.RequestStream	get_CanSeek	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5a10	0x9489190f	0x10271be4c	0x10271be4c	mapped	0x10271be4c
+System.Net.Requests	125	0x0600007e	System.Net.RequestStream	get_CanWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5a14	0x94891910	0x10271be54	0x10271be54	mapped	0x10271be54
+System.Net.Requests	126	0x0600007f	System.Net.RequestStream	Flush	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a18	0x94891911	0x10271be5c	0x10271be5c	mapped	0x10271be5c
+System.Net.Requests	127	0x06000080	System.Net.RequestStream	FlushAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a1c	0x94891911	0x10271be60	0x10271be60	mapped	0x10271be60
+System.Net.Requests	128	0x06000081	System.Net.RequestStream	get_Length	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5a20	0x94891937	0x10271befc	0x10271befc	mapped	0x10271befc
+System.Net.Requests	129	0x06000082	System.Net.RequestStream	get_Position	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5a24	0x94891941	0x10271bf28	0x10271bf28	mapped	0x10271bf28
+System.Net.Requests	130	0x06000083	System.Net.RequestStream	set_Position	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5a28	0x9489194b	0x10271bf54	0x10271bf54	mapped	0x10271bf54
+System.Net.Requests	131	0x06000084	System.Net.RequestStream	Read	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a2c	0x94891955	0x10271bf80	0x10271bf80	mapped	0x10271bf80
+System.Net.Requests	132	0x06000085	System.Net.RequestStream	Seek	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a30	0x9489195f	0x10271bfac	0x10271bfac	mapped	0x10271bfac
+System.Net.Requests	133	0x06000086	System.Net.RequestStream	SetLength	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a34	0x94891969	0x10271bfd8	0x10271bfd8	mapped	0x10271bfd8
+System.Net.Requests	134	0x06000087	System.Net.RequestStream	Write	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a38	0x94891973	0x10271c004	0x10271c004	mapped	0x10271c004
+System.Net.Requests	135	0x06000088	System.Net.RequestStream	WriteAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a3c	0x948919a4	0x10271c0cc	0x10271c0cc	mapped	0x10271c0cc
+System.Net.Requests	136	0x06000089	System.Net.RequestStream	WriteAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a40	0x948919d9	0x10271c1a4	0x10271c1a4	mapped	0x10271c1a4
+System.Net.Requests	137	0x0600008a	System.Net.RequestStream	BeginWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a44	0x948919f9	0x10271c228	0x10271c228	mapped	0x10271c228
+System.Net.Requests	138	0x0600008b	System.Net.RequestStream	EndWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a48	0x94891a30	0x10271c308	0x10271c308	mapped	0x10271c308
+System.Net.Requests	139	0x0600008c	System.Net.RequestStream	GetBuffer	0x2050	NoInlining	Public, HideBySig	0x1004d5a4c	0x94891a4a	0x10271c374	0x10271c374	mapped	0x10271c374
+System.Net.Requests	140	0x0600008d	System.Net.TaskExtensions	ToApm	0x2050	NoInlining	Public, Static, HideBySig	0x1004d5a50	0x94891a66	0x10271c3e8	0x10271c3e8	mapped	0x10271c3e8
+System.Net.Requests	141	0x0600008e	System.Net.TaskExtensions+<>c__DisplayClass0_0`1	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5a54	0x94891ad4	0x10271c5a4	0x10271c5a4	mapped	0x10271c5a4
+System.Net.Requests	142	0x0600008f	System.Net.TaskExtensions+<>c__DisplayClass0_0`1	<ToApm>b__0	0x2050	NoInlining	Assembly, HideBySig	0x1004d5a58	0x94891ad7	0x10271c5b4	0x10271c5b4	mapped	0x10271c5b4
+System.Net.Requests	143	0x06000090	System.Net.WebException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5a5c	0x94891b4b	0x10271c788	0x10271c788	mapped	0x10271c788
+System.Net.Requests	144	0x06000091	System.Net.WebException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5a60	0x94891b63	0x10271c7ec	0x10271c7ec	mapped	0x10271c7ec
+System.Net.Requests	145	0x06000092	System.Net.WebException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5a64	0x94891b78	0x10271c844	0x10271c844	mapped	0x10271c844
+System.Net.Requests	146	0x06000093	System.Net.WebException	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5a68	0x94891b8d	0x10271c89c	0x10271c89c	mapped	0x10271c89c
+System.Net.Requests	147	0x06000094	System.Net.WebException	get_Status	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5a6c	0x94891bb3	0x10271c938	0x10271c938	mapped	0x10271c938
+System.Net.Requests	148	0x06000095	System.Net.WebException	get_Response	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5a70	0x94891bbb	0x10271c95c	0x10271c95c	mapped	0x10271c95c
+System.Net.Requests	149	0x06000096	System.Net.WebException	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5a74	0x94891bc3	0x10271c980	0x10271c980	mapped	0x10271c980
+System.Net.Requests	150	0x06000097	System.Net.WebException	GetObjectData	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5a78	0x94891bd8	0x10271c9d8	0x10271c9d8	mapped	0x10271c9d8
+System.Net.Requests	151	0x06000098	System.Net.WebException	CreateCompatibleException	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004d5a7c	0x94891bed	0x10271ca30	0x10271ca30	mapped	0x10271ca30
+System.Net.Requests	152	0x06000099	System.Net.WebException	GetStatusFromExceptionHelper	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5a80	0x94891c5c	0x10271cbf0	0x10271cbf0	mapped	0x10271cbf0
+System.Net.Requests	153	0x0600009a	System.Net.WebException	GetStatusFromException	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004d5a84	0x94891c80	0x10271cc84	0x10271cc84	mapped	0x10271cc84
+System.Net.Requests	154	0x0600009b	System.Net.WebRequest	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x1004d5a88	0x94891c8d	0x10271ccbc	0x10271ccbc	mapped	0x10271ccbc
+System.Net.Requests	155	0x0600009c	System.Net.WebRequest	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5a8c	0x94891ca4	0x10271cd1c	0x10271cd1c	mapped	0x10271cd1c
+System.Net.Requests	156	0x0600009d	System.Net.WebRequest	GetObjectData	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004d5a90	0x94891cae	0x10271cd48	0x10271cd48	mapped	0x10271cd48
+System.Net.Requests	157	0x0600009e	System.Net.WebRequest	Create	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5a94	0x94891cb8	0x10271cd74	0x10271cd74	mapped	0x10271cd74
+System.Net.Requests	158	0x0600009f	System.Net.WebRequest	Create	0x2050	NoInlining	Public, Static, HideBySig	0x1004d5a98	0x94891d3a	0x10271cf80	0x10271cf80	mapped	0x10271cf80
+System.Net.Requests	159	0x060000a0	System.Net.WebRequest	get_PrefixList	0x2050	NoInlining	Assembly, Static, HideBySig, SpecialName	0x1004d5a9c	0x94891d5e	0x10271d014	0x10271d014	mapped	0x10271d014
+System.Net.Requests	160	0x060000a1	System.Net.WebRequest	get_DefaultCachePolicy	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1004d5aa0	0x94891da3	0x10271d12c	0x10271d12c	mapped	0x10271d12c
+System.Net.Requests	161	0x060000a2	System.Net.WebRequest	get_CachePolicy	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5aa4	0x94891db3	0x10271d170	0x10271d170	mapped	0x10271d170
+System.Net.Requests	162	0x060000a3	System.Net.WebRequest	get_Method	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5aa8	0x94891dbb	0x10271d194	0x10271d194	mapped	0x10271d194
+System.Net.Requests	163	0x060000a4	System.Net.WebRequest	set_Method	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5aac	0x94891dc9	0x10271d1d0	0x10271d1d0	mapped	0x10271d1d0
+System.Net.Requests	164	0x060000a5	System.Net.WebRequest	get_RequestUri	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5ab0	0x94891dd7	0x10271d20c	0x10271d20c	mapped	0x10271d20c
+System.Net.Requests	165	0x060000a6	System.Net.WebRequest	get_Headers	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5ab4	0x94891de5	0x10271d248	0x10271d248	mapped	0x10271d248
+System.Net.Requests	166	0x060000a7	System.Net.WebRequest	set_ContentLength	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5ab8	0x94891df3	0x10271d284	0x10271d284	mapped	0x10271d284
+System.Net.Requests	167	0x060000a8	System.Net.WebRequest	set_ContentType	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5abc	0x94891e01	0x10271d2c0	0x10271d2c0	mapped	0x10271d2c0
+System.Net.Requests	168	0x060000a9	System.Net.WebRequest	get_Credentials	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5ac0	0x94891e0f	0x10271d2fc	0x10271d2fc	mapped	0x10271d2fc
+System.Net.Requests	169	0x060000aa	System.Net.WebRequest	get_Timeout	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5ac4	0x94891e1d	0x10271d338	0x10271d338	mapped	0x10271d338
+System.Net.Requests	170	0x060000ab	System.Net.WebRequest	GetRequestStream	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004d5ac8	0x94891e2b	0x10271d374	0x10271d374	mapped	0x10271d374
+System.Net.Requests	171	0x060000ac	System.Net.WebRequest	GetResponse	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004d5acc	0x94891e39	0x10271d3b0	0x10271d3b0	mapped	0x10271d3b0
+System.Net.Requests	172	0x060000ad	System.Net.WebRequest	BeginGetResponse	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004d5ad0	0x94891e47	0x10271d3ec	0x10271d3ec	mapped	0x10271d3ec
+System.Net.Requests	173	0x060000ae	System.Net.WebRequest	EndGetResponse	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004d5ad4	0x94891e55	0x10271d428	0x10271d428	mapped	0x10271d428
+System.Net.Requests	174	0x060000af	System.Net.WebRequest	BeginGetRequestStream	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004d5ad8	0x94891e63	0x10271d464	0x10271d464	mapped	0x10271d464
+System.Net.Requests	175	0x060000b0	System.Net.WebRequest	EndGetRequestStream	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004d5adc	0x94891e71	0x10271d4a0	0x10271d4a0	mapped	0x10271d4a0
+System.Net.Requests	176	0x060000b1	System.Net.WebRequest	GetSystemWebProxy	0x2050	NoInlining	Public, Static, HideBySig	0x1004d5ae0	0x94891e7f	0x10271d4dc	0x10271d4dc	mapped	0x10271d4dc
+System.Net.Requests	177	0x060000b2	System.Net.WebRequest	get_DefaultWebProxy	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1004d5ae4	0x94891e93	0x10271d530	0x10271d530	mapped	0x10271d530
+System.Net.Requests	178	0x060000b3	System.Net.WebRequest	get_PreAuthenticate	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5ae8	0x94891eca	0x10271d610	0x10271d610	mapped	0x10271d610
+System.Net.Requests	179	0x060000b4	System.Net.WebRequest	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5aec	0x94891ed8	0x10271d64c	0x10271d64c	mapped	0x10271d64c
+System.Net.Requests	180	0x060000b5	System.Net.WebRequest+WebRequestPrefixElement	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5af0	0x94891efe	0x10271d6e8	0x10271d6e8	mapped	0x10271d6e8
+System.Net.Requests	181	0x060000b6	System.Net.WebRequest+HttpRequestCreator	Create	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5af4	0x94891f12	0x10271d73c	0x10271d73c	mapped	0x10271d73c
+System.Net.Requests	182	0x060000b7	System.Net.WebRequest+HttpRequestCreator	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5af8	0x94891f30	0x10271d7b8	0x10271d7b8	mapped	0x10271d7b8
+System.Net.Requests	183	0x060000b8	System.Net.WebRequest+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5afc	0x94891f30	0x10271d7bc	0x10271d7bc	mapped	0x10271d7bc
+System.Net.Requests	184	0x060000b9	System.Net.WebRequest+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5b00	0x94891f4b	0x10271d82c	0x10271d82c	mapped	0x10271d82c
+System.Net.Requests	185	0x060000ba	System.Net.WebRequest+<>c	<get_PrefixList>b__17_0	0x2050	NoInlining	Assembly, HideBySig	0x1004d5b04	0x94891f58	0x10271d864	0x10271d864	mapped	0x10271d864
+System.Net.Requests	186	0x060000bb	System.Net.WebResponse	.ctor	0x2050	NoInlining	Family, HideBySig, SpecialName, RTSpecialName	0x1004d5b08	0x9489202f	0x10271dbc4	0x10271dbc4	mapped	0x10271dbc4
+System.Net.Requests	187	0x060000bc	System.Net.WebResponse	System.Runtime.Serialization.ISerializable.GetObjectData	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5b0c	0x9489202f	0x10271dbc8	0x10271dbc8	mapped	0x10271dbc8
+System.Net.Requests	188	0x060000bd	System.Net.WebResponse	GetObjectData	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004d5b10	0x94892039	0x10271dbf4	0x10271dbf4	mapped	0x10271dbf4
+System.Net.Requests	189	0x060000be	System.Net.WebResponse	Close	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004d5b14	0x94892043	0x10271dc20	0x10271dc20	mapped	0x10271dc20
+System.Net.Requests	190	0x060000bf	System.Net.WebResponse	Dispose	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5b18	0x94892043	0x10271dc24	0x10271dc24	mapped	0x10271dc24
+System.Net.Requests	191	0x060000c0	System.Net.WebResponse	Dispose	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004d5b1c	0x9489205b	0x10271dc88	0x10271dc88	mapped	0x10271dc88
+System.Net.Requests	192	0x060000c1	System.Net.WebResponse	get_IsFromCache	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5b20	0x9489207e	0x10271dd18	0x10271dd18	mapped	0x10271dd18
+System.Net.Requests	193	0x060000c2	System.Net.WebResponse	GetResponseStream	0x2050	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask	0x1004d5b24	0x9489207f	0x10271dd20	0x10271dd20	mapped	0x10271dd20
+System.Net.Requests	194	0x060000c3	System.Net.ExceptionHelper	get_PropertyNotSupportedException	0x2050	NoInlining	Assembly, Static, HideBySig, SpecialName	0x1004d5b28	0x9489208d	0x10271dd5c	0x10271dd5c	mapped	0x10271dd5c
+System.Net.Requests	195	0x060000c4	System.Net.ExceptionHelper	get_RequestAbortedException	0x2050	NoInlining	Assembly, Static, HideBySig, SpecialName	0x1004d5b2c	0x948920aa	0x10271ddd4	0x10271ddd4	mapped	0x10271ddd4
+System.Net.Requests	196	0x060000c5	System.Net.ExceptionHelper	get_TimeoutException	0x2050	NoInlining	Assembly, Static, HideBySig, SpecialName	0x1004d5b30	0x948920d3	0x10271de7c	0x10271de7c	mapped	0x10271de7c
+System.Net.Requests	197	0x060000c6	System.Net.FtpMethodInfo	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5b34	0x948920fc	0x10271df24	0x10271df24	mapped	0x10271df24
+System.Net.Requests	198	0x060000c7	System.Net.FtpMethodInfo	HasFlag	0x2050	NoInlining	Assembly, HideBySig	0x1004d5b38	0x94892125	0x10271dfcc	0x10271dfcc	mapped	0x10271dfcc
+System.Net.Requests	199	0x060000c8	System.Net.FtpMethodInfo	get_IsCommandOnly	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5b3c	0x9489212f	0x10271dff8	0x10271dff8	mapped	0x10271dff8
+System.Net.Requests	200	0x060000c9	System.Net.FtpMethodInfo	get_IsUpload	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5b40	0x94892139	0x10271e024	0x10271e024	mapped	0x10271e024
+System.Net.Requests	201	0x060000ca	System.Net.FtpMethodInfo	get_IsDownload	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5b44	0x94892142	0x10271e04c	0x10271e04c	mapped	0x10271e04c
+System.Net.Requests	202	0x060000cb	System.Net.FtpMethodInfo	get_ShouldParseForResponseUri	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5b48	0x9489214b	0x10271e074	0x10271e074	mapped	0x10271e074
+System.Net.Requests	203	0x060000cc	System.Net.FtpMethodInfo	GetMethodInfo	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004d5b4c	0x94892154	0x10271e09c	0x10271e09c	mapped	0x10271e09c
+System.Net.Requests	204	0x060000cd	System.Net.FtpMethodInfo	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5b50	0x948921a1	0x10271e1d4	0x10271e1d4	mapped	0x10271e1d4
+System.Net.Requests	205	0x060000ce	System.Net.FtpWebRequest	get_MethodInfo	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5b54	0x94892289	0x10271e578	0x10271e578	mapped	0x10271e578
+System.Net.Requests	206	0x060000cf	System.Net.FtpWebRequest	get_DefaultCachePolicy	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1004d5b58	0x94892291	0x10271e59c	0x10271e59c	mapped	0x10271e59c
+System.Net.Requests	207	0x060000d0	System.Net.FtpWebRequest	get_Method	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5b5c	0x948922ad	0x10271e610	0x10271e610	mapped	0x10271e610
+System.Net.Requests	208	0x060000d1	System.Net.FtpWebRequest	set_Method	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5b60	0x948922b9	0x10271e644	0x10271e644	mapped	0x10271e644
+System.Net.Requests	209	0x060000d2	System.Net.FtpWebRequest	get_RenameTo	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5b64	0x94892301	0x10271e768	0x10271e768	mapped	0x10271e768
+System.Net.Requests	210	0x060000d3	System.Net.FtpWebRequest	get_Credentials	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5b68	0x94892309	0x10271e78c	0x10271e78c	mapped	0x10271e78c
+System.Net.Requests	211	0x060000d4	System.Net.FtpWebRequest	get_RequestUri	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5b6c	0x94892311	0x10271e7b0	0x10271e7b0	mapped	0x10271e7b0
+System.Net.Requests	212	0x060000d5	System.Net.FtpWebRequest	get_Timeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5b70	0x94892319	0x10271e7d4	0x10271e7d4	mapped	0x10271e7d4
+System.Net.Requests	213	0x060000d6	System.Net.FtpWebRequest	get_RemainingTimeout	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5b74	0x94892321	0x10271e7f8	0x10271e7f8	mapped	0x10271e7f8
+System.Net.Requests	214	0x060000d7	System.Net.FtpWebRequest	get_ReadWriteTimeout	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5b78	0x94892329	0x10271e81c	0x10271e81c	mapped	0x10271e81c
+System.Net.Requests	215	0x060000d8	System.Net.FtpWebRequest	get_ContentOffset	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5b7c	0x94892331	0x10271e840	0x10271e840	mapped	0x10271e840
+System.Net.Requests	216	0x060000d9	System.Net.FtpWebRequest	set_ContentLength	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5b80	0x94892339	0x10271e864	0x10271e864	mapped	0x10271e864
+System.Net.Requests	217	0x060000da	System.Net.FtpWebRequest	get_Aborted	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5b84	0x94892341	0x10271e888	0x10271e888	mapped	0x10271e888
+System.Net.Requests	218	0x060000db	System.Net.FtpWebRequest	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5b88	0x94892349	0x10271e8ac	0x10271e8ac	mapped	0x10271e8ac
+System.Net.Requests	219	0x060000dc	System.Net.FtpWebRequest	GetResponse	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5b8c	0x97ffe9b5	0x1004d0260	0x1004d0260	mapped	0x1004d0260
+System.Net.Requests	220	0x060000dd	System.Net.FtpWebRequest	BeginGetResponse	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5b90	0x97ffead8	0x1004d06f0	0x1004d06f0	mapped	0x1004d06f0
+System.Net.Requests	221	0x060000de	System.Net.FtpWebRequest	EndGetResponse	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5b94	0x94892419	0x10271ebf8	0x10271ebf8	mapped	0x10271ebf8
+System.Net.Requests	222	0x060000df	System.Net.FtpWebRequest	GetRequestStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5b98	0x94892481	0x10271ed9c	0x10271ed9c	mapped	0x10271ed9c
+System.Net.Requests	223	0x060000e0	System.Net.FtpWebRequest	BeginGetRequestStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5b9c	0x97ffebd1	0x1004d0ae0	0x1004d0ae0	mapped	0x1004d0ae0
+System.Net.Requests	224	0x060000e1	System.Net.FtpWebRequest	EndGetRequestStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5ba0	0x94892528	0x10271f040	0x10271f040	mapped	0x10271f040
+System.Net.Requests	225	0x060000e2	System.Net.FtpWebRequest	SubmitRequest	0x2050	NoInlining	Private, HideBySig	0x1004d5ba4	0x97ffec7f	0x1004d0da0	0x1004d0da0	mapped	0x1004d0da0
+System.Net.Requests	226	0x060000e3	System.Net.FtpWebRequest	TranslateConnectException	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5ba8	0x948925a5	0x10271f23c	0x10271f23c	mapped	0x10271f23c
+System.Net.Requests	227	0x060000e4	System.Net.FtpWebRequest	CreateConnectionAsync	0x2050	NoInlining	Private, HideBySig	0x1004d5bac	0x97ffedcd	0x1004d12e0	0x1004d12e0	mapped	0x1004d12e0
+System.Net.Requests	228	0x060000e5	System.Net.FtpWebRequest	CreateConnection	0x2050	NoInlining	Private, HideBySig	0x1004d5bb0	0x948925db	0x10271f31c	0x10271f31c	mapped	0x10271f31c
+System.Net.Requests	229	0x060000e6	System.Net.FtpWebRequest	TimedSubmitRequestHelper	0x2050	NoInlining	Private, HideBySig	0x1004d5bb4	0x94892630	0x10271f474	0x10271f474	mapped	0x10271f474
+System.Net.Requests	230	0x060000e7	System.Net.FtpWebRequest	TimerCallback	0x2050	NoInlining	Private, HideBySig	0x1004d5bb8	0x94892771	0x10271f97c	0x10271f97c	mapped	0x10271f97c
+System.Net.Requests	231	0x060000e8	System.Net.FtpWebRequest	get_TimerQueue	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1004d5bbc	0x94892796	0x10271fa14	0x10271fa14	mapped	0x10271fa14
+System.Net.Requests	232	0x060000e9	System.Net.FtpWebRequest	AttemptedRecovery	0x2050	NoInlining	Private, HideBySig	0x1004d5bc0	0x948927b2	0x10271fa88	0x10271fa88	mapped	0x10271fa88
+System.Net.Requests	233	0x060000ea	System.Net.FtpWebRequest	SetException	0x2050	NoInlining	Private, HideBySig	0x1004d5bc4	0x9489281e	0x10271fc3c	0x10271fc3c	mapped	0x10271fc3c
+System.Net.Requests	234	0x060000eb	System.Net.FtpWebRequest	CheckError	0x2050	NoInlining	Private, HideBySig	0x1004d5bc8	0x948928f0	0x10271ff88	0x10271ff88	mapped	0x10271ff88
+System.Net.Requests	235	0x060000ec	System.Net.FtpWebRequest	RequestCallback	0x2050	NoInlining	Assembly, HideBySig	0x1004d5bcc	0x94892904	0x10271ffdc	0x10271ffdc	mapped	0x10271ffdc
+System.Net.Requests	236	0x060000ed	System.Net.FtpWebRequest	SyncRequestCallback	0x2050	NoInlining	Private, HideBySig	0x1004d5bd0	0x97ffedfc	0x1004d13c0	0x1004d13c0	mapped	0x1004d13c0
+System.Net.Requests	237	0x060000ee	System.Net.FtpWebRequest	AsyncRequestCallback	0x2050	NoInlining	Private, HideBySig	0x1004d5bd4	0x97ffee7f	0x1004d15d0	0x1004d15d0	mapped	0x1004d15d0
+System.Net.Requests	238	0x060000ef	System.Net.FtpWebRequest	FinishRequestStage	0x2050	NoInlining	Private, HideBySig	0x1004d5bd8	0x97fff02a	0x1004d1c80	0x1004d1c80	mapped	0x1004d1c80
+System.Net.Requests	239	0x060000f0	System.Net.FtpWebRequest	get_CachePolicy	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5bdc	0x9489291c	0x10272004c	0x10272004c	mapped	0x10272004c
+System.Net.Requests	240	0x060000f1	System.Net.FtpWebRequest	get_UseBinary	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5be0	0x94892938	0x1027200c0	0x1027200c0	mapped	0x1027200c0
+System.Net.Requests	241	0x060000f2	System.Net.FtpWebRequest	get_UsePassive	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5be4	0x94892940	0x1027200e4	0x1027200e4	mapped	0x1027200e4
+System.Net.Requests	242	0x060000f3	System.Net.FtpWebRequest	get_ClientCertificates	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5be8	0x94892948	0x102720108	0x102720108	mapped	0x102720108
+System.Net.Requests	243	0x060000f4	System.Net.FtpWebRequest	get_EnableSsl	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5bec	0x94892990	0x10272022c	0x10272022c	mapped	0x10272022c
+System.Net.Requests	244	0x060000f5	System.Net.FtpWebRequest	get_Headers	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5bf0	0x94892998	0x102720250	0x102720250	mapped	0x102720250
+System.Net.Requests	245	0x060000f6	System.Net.FtpWebRequest	set_ContentType	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5bf4	0x948929c4	0x102720304	0x102720304	mapped	0x102720304
+System.Net.Requests	246	0x060000f7	System.Net.FtpWebRequest	get_PreAuthenticate	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5bf8	0x948929cc	0x102720328	0x102720328	mapped	0x102720328
+System.Net.Requests	247	0x060000f8	System.Net.FtpWebRequest	get_InUse	0x2050	NoInlining	Private, HideBySig, SpecialName	0x1004d5bfc	0x948929d4	0x10272034c	0x10272034c	mapped	0x10272034c
+System.Net.Requests	248	0x060000f9	System.Net.FtpWebRequest	EnsureFtpWebResponse	0x2050	NoInlining	Private, HideBySig	0x1004d5c00	0x948929e3	0x10272038c	0x10272038c	mapped	0x10272038c
+System.Net.Requests	249	0x060000fa	System.Net.FtpWebRequest	DataStreamClosed	0x2050	NoInlining	Assembly, HideBySig	0x1004d5c04	0x94892ae5	0x102720798	0x102720798	mapped	0x102720798
+System.Net.Requests	250	0x060000fb	System.Net.FtpWebRequest	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5c08	0x94892b11	0x10272084c	0x10272084c	mapped	0x10272084c
+System.Net.Requests	251	0x060000fc	System.Net.FtpWebRequest+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5c0c	0x94892b41	0x102720910	0x102720910	mapped	0x102720910
+System.Net.Requests	252	0x060000fd	System.Net.FtpWebRequest+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5c10	0x94892b5c	0x102720980	0x102720980	mapped	0x102720980
+System.Net.Requests	253	0x060000fe	System.Net.FtpWebRequest+<>c	<get_ClientCertificates>b__114_0	0x2050	NoInlining	Assembly, HideBySig	0x1004d5c14	0x94892b69	0x1027209b8	0x1027209b8	mapped	0x1027209b8
+System.Net.Requests	254	0x060000ff	System.Net.FtpWebRequest+<CreateConnectionAsync>d__86	MoveNext	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5c18	0x97fff142	0x1004d2120	0x1004d2120	mapped	0x1004d2120
+System.Net.Requests	255	0x06000100	System.Net.FtpWebRequest+<CreateConnectionAsync>d__86	SetStateMachine	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5c1c	0x97fff279	0x1004d2600	0x1004d2600	mapped	0x1004d2600
+System.Net.Requests	256	0x06000101	System.Net.FtpWebRequestCreator	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5c20	0x94892b9c	0x102720a90	0x102720a90	mapped	0x102720a90
+System.Net.Requests	257	0x06000102	System.Net.FtpWebRequestCreator	Create	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5c24	0x94892b9c	0x102720a94	0x102720a94	mapped	0x102720a94
+System.Net.Requests	258	0x06000103	System.Net.FtpWebResponse	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5c28	0x94892bba	0x102720b10	0x102720b10	mapped	0x102720b10
+System.Net.Requests	259	0x06000104	System.Net.FtpWebResponse	UpdateStatus	0x2050	NoInlining	Assembly, HideBySig	0x1004d5c2c	0x94892bea	0x102720bd4	0x102720bd4	mapped	0x102720bd4
+System.Net.Requests	260	0x06000105	System.Net.FtpWebResponse	GetResponseStream	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5c30	0x94892bff	0x102720c2c	0x102720c2c	mapped	0x102720c2c
+System.Net.Requests	261	0x06000106	System.Net.FtpWebResponse	SetResponseStream	0x2050	NoInlining	Assembly, HideBySig	0x1004d5c34	0x94892c2b	0x102720ce0	0x102720ce0	mapped	0x102720ce0
+System.Net.Requests	262	0x06000107	System.Net.FtpWebResponse	Close	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5c38	0x94892c55	0x102720d8c	0x102720d8c	mapped	0x102720d8c
+System.Net.Requests	263	0x06000108	System.Net.FtpWebResponse	get_StatusCode	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5c3c	0x94892c6b	0x102720de8	0x102720de8	mapped	0x102720de8
+System.Net.Requests	264	0x06000109	System.Net.FtpWebResponse+EmptyStream	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5c40	0x94892c73	0x102720e0c	0x102720e0c	mapped	0x102720e0c
+System.Net.Requests	265	0x0600010a	System.Net.CommandStream	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5c44	0x94892c95	0x102720e98	0x102720e98	mapped	0x102720e98
+System.Net.Requests	266	0x0600010b	System.Net.CommandStream	Abort	0x2050	NoInlining	Assembly, Final, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride	0x1004d5c48	0x94892cdc	0x102720fb8	0x102720fb8	mapped	0x102720fb8
+System.Net.Requests	267	0x0600010c	System.Net.CommandStream	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d5c4c	0x94892d3e	0x102721144	0x102721144	mapped	0x102721144
+System.Net.Requests	268	0x0600010d	System.Net.CommandStream	InvokeRequestCallback	0x2050	NoInlining	Family, HideBySig	0x1004d5c50	0x94892d60	0x1027211d0	0x1027211d0	mapped	0x1027211d0
+System.Net.Requests	269	0x0600010e	System.Net.CommandStream	get_RecoverableFailure	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5c54	0x94892d90	0x102721294	0x102721294	mapped	0x102721294
+System.Net.Requests	270	0x0600010f	System.Net.CommandStream	MarkAsRecoverableFailure	0x2050	NoInlining	Family, HideBySig	0x1004d5c58	0x94892d98	0x1027212b8	0x1027212b8	mapped	0x1027212b8
+System.Net.Requests	271	0x06000110	System.Net.CommandStream	SubmitRequest	0x2050	NoInlining	Assembly, HideBySig	0x1004d5c5c	0x94892da4	0x1027212ec	0x1027212ec	mapped	0x1027212ec
+System.Net.Requests	272	0x06000111	System.Net.CommandStream	ClearState	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004d5c60	0x94892dcf	0x10272139c	0x10272139c	mapped	0x10272139c
+System.Net.Requests	273	0x06000112	System.Net.CommandStream	BuildCommandsList	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004d5c64	0x94892ddf	0x1027213e0	0x1027213e0	mapped	0x1027213e0
+System.Net.Requests	274	0x06000113	System.Net.CommandStream	GenerateException	0x2050	NoInlining	Family, Static, HideBySig	0x1004d5c68	0x94892de0	0x1027213e8	0x1027213e8	mapped	0x1027213e8
+System.Net.Requests	275	0x06000114	System.Net.CommandStream	GenerateException	0x2050	NoInlining	Family, Static, HideBySig	0x1004d5c6c	0x94892e1c	0x1027214dc	0x1027214dc	mapped	0x1027214dc
+System.Net.Requests	276	0x06000115	System.Net.CommandStream	InitCommandPipeline	0x2050	NoInlining	Family, HideBySig	0x1004d5c70	0x94892e62	0x1027215f8	0x1027215f8	mapped	0x1027215f8
+System.Net.Requests	277	0x06000116	System.Net.CommandStream	CheckContinuePipeline	0x2050	NoInlining	Assembly, HideBySig	0x1004d5c74	0x94892e98	0x1027216d4	0x1027216d4	mapped	0x1027216d4
+System.Net.Requests	278	0x06000117	System.Net.CommandStream	ContinueCommandPipeline	0x2050	NoInlining	Family, HideBySig	0x1004d5c78	0x97fff27a	0x1004d2660	0x1004d2660	mapped	0x1004d2660
+System.Net.Requests	279	0x06000118	System.Net.CommandStream	PostSendCommandProcessing	0x2050	NoInlining	Private, HideBySig	0x1004d5c7c	0x94892ec0	0x10272177c	0x10272177c	mapped	0x10272177c
+System.Net.Requests	280	0x06000119	System.Net.CommandStream	PostReadCommandProcessing	0x2050	NoInlining	Private, HideBySig	0x1004d5c80	0x94892f39	0x102721964	0x102721964	mapped	0x102721964
+System.Net.Requests	281	0x0600011a	System.Net.CommandStream	PipelineCallback	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004d5c84	0x94892fd1	0x102721bc8	0x102721bc8	mapped	0x102721bc8
+System.Net.Requests	282	0x0600011b	System.Net.CommandStream	ReadCallback	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5c88	0x97fff332	0x1004d2950	0x1004d2950	mapped	0x1004d2950
+System.Net.Requests	283	0x0600011c	System.Net.CommandStream	WriteCallback	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5c8c	0x97fff3a5	0x1004d2b20	0x1004d2b20	mapped	0x1004d2b20
+System.Net.Requests	284	0x0600011d	System.Net.CommandStream	get_Encoding	0x2050	NoInlining	Family, HideBySig, SpecialName	0x1004d5c90	0x94892fd0	0x102721bd0	0x102721bd0	mapped	0x102721bd0
+System.Net.Requests	285	0x0600011e	System.Net.CommandStream	set_Encoding	0x2050	NoInlining	Family, HideBySig, SpecialName	0x1004d5c94	0x94892fd8	0x102721bf4	0x102721bf4	mapped	0x102721bf4
+System.Net.Requests	286	0x0600011f	System.Net.CommandStream	CheckValid	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004d5c98	0x94892fff	0x102721c94	0x102721c94	mapped	0x102721c94
+System.Net.Requests	287	0x06000120	System.Net.CommandStream	ReceiveCommandResponse	0x2050	NoInlining	Private, HideBySig	0x1004d5c9c	0x97fff415	0x1004d2cf0	0x1004d2cf0	mapped	0x1004d2cf0
+System.Net.Requests	288	0x06000121	System.Net.CommandStream	ReceiveCommandResponseCallback	0x2050	NoInlining	Private, HideBySig	0x1004d5ca0	0x97fff4a8	0x1004d2f40	0x1004d2f40	mapped	0x1004d2f40
+System.Net.Requests	289	0x06000122	System.Net.CommandStream	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5ca4	0x94892ffe	0x102721c9c	0x102721c9c	mapped	0x102721c9c
+System.Net.Requests	290	0x06000123	System.Net.CommandStream+PipelineEntry	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5ca8	0x94893034	0x102721d78	0x102721d78	mapped	0x102721d78
+System.Net.Requests	291	0x06000124	System.Net.CommandStream+PipelineEntry	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5cac	0x94893043	0x102721db8	0x102721db8	mapped	0x102721db8
+System.Net.Requests	292	0x06000125	System.Net.CommandStream+PipelineEntry	HasFlag	0x2050	NoInlining	Assembly, HideBySig	0x1004d5cb0	0x94893053	0x102721dfc	0x102721dfc	mapped	0x102721dfc
+System.Net.Requests	293	0x06000126	System.Net.ResponseDescription	get_PositiveIntermediate	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5cb4	0x9489305d	0x102721e28	0x102721e28	mapped	0x102721e28
+System.Net.Requests	294	0x06000127	System.Net.ResponseDescription	get_PositiveCompletion	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5cb8	0x94893068	0x102721e58	0x102721e58	mapped	0x102721e58
+System.Net.Requests	295	0x06000128	System.Net.ResponseDescription	get_TransientFailure	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5cbc	0x94893073	0x102721e88	0x102721e88	mapped	0x102721e88
+System.Net.Requests	296	0x06000129	System.Net.ResponseDescription	get_PermanentFailure	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5cc0	0x9489307e	0x102721eb8	0x102721eb8	mapped	0x102721eb8
+System.Net.Requests	297	0x0600012a	System.Net.ResponseDescription	get_InvalidStatusCode	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5cc4	0x94893089	0x102721ee8	0x102721ee8	mapped	0x102721ee8
+System.Net.Requests	298	0x0600012b	System.Net.ResponseDescription	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5cc8	0x94893094	0x102721f18	0x102721f18	mapped	0x102721f18
+System.Net.Requests	299	0x0600012c	System.Net.ReceiveState	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5ccc	0x948930bf	0x102721fc8	0x102721fc8	mapped	0x102721fc8
+System.Net.Requests	300	0x0600012d	System.Net.FtpControlStream	get_Credentials	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5cd0	0x948930f8	0x1027220b0	0x1027220b0	mapped	0x1027220b0
+System.Net.Requests	301	0x0600012e	System.Net.FtpControlStream	set_Credentials	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5cd4	0x94893134	0x1027221a4	0x1027221a4	mapped	0x1027221a4
+System.Net.Requests	302	0x0600012f	System.Net.FtpControlStream	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5cd8	0x94893167	0x102722274	0x102722274	mapped	0x102722274
+System.Net.Requests	303	0x06000130	System.Net.FtpControlStream	AbortConnect	0x2050	NoInlining	Assembly, HideBySig	0x1004d5cdc	0x94893194	0x10272232c	0x10272232c	mapped	0x10272232c
+System.Net.Requests	304	0x06000131	System.Net.FtpControlStream	AcceptCallback	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5ce0	0x97fff5e4	0x1004d3470	0x1004d3470	mapped	0x1004d3470
+System.Net.Requests	305	0x06000132	System.Net.FtpControlStream	ConnectCallback	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5ce4	0x948931b0	0x1027223a4	0x1027223a4	mapped	0x1027223a4
+System.Net.Requests	306	0x06000133	System.Net.FtpControlStream	SSLHandshakeCallback	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5ce8	0x94893205	0x1027224fc	0x1027224fc	mapped	0x1027224fc
+System.Net.Requests	307	0x06000134	System.Net.FtpControlStream	QueueOrCreateFtpDataStream	0x2050	NoInlining	Private, HideBySig	0x1004d5cec	0x9489325a	0x102722654	0x102722654	mapped	0x102722654
+System.Net.Requests	308	0x06000135	System.Net.FtpControlStream	ClearState	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d5cf0	0x94893318	0x102722950	0x102722950	mapped	0x102722950
+System.Net.Requests	309	0x06000136	System.Net.FtpControlStream	PipelineCallback	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d5cf4	0x94893344	0x102722a04	0x102722a04	mapped	0x102722a04
+System.Net.Requests	310	0x06000137	System.Net.FtpControlStream	BuildCommandsList	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d5cf8	0x94893536	0x1027231d0	0x1027231d0	mapped	0x1027231d0
+System.Net.Requests	311	0x06000138	System.Net.FtpControlStream	QueueOrCreateDataConection	0x2050	NoInlining	Private, HideBySig	0x1004d5cfc	0x94893999	0x102724360	0x102724360	mapped	0x102724360
+System.Net.Requests	312	0x06000139	System.Net.FtpControlStream	GetPathInfo	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5d00	0x94893ad2	0x102724848	0x102724848	mapped	0x102724848
+System.Net.Requests	313	0x0600013a	System.Net.FtpControlStream	FormatAddress	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5d04	0x94893b7a	0x102724aec	0x102724aec	mapped	0x102724aec
+System.Net.Requests	314	0x0600013b	System.Net.FtpControlStream	FormatAddressV6	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5d08	0x94893bd3	0x102724c54	0x102724c54	mapped	0x102724c54
+System.Net.Requests	315	0x0600013c	System.Net.FtpControlStream	get_ContentLength	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5d0c	0x94893c15	0x102724d60	0x102724d60	mapped	0x102724d60
+System.Net.Requests	316	0x0600013d	System.Net.FtpControlStream	get_LastModified	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5d10	0x94893c1d	0x102724d84	0x102724d84	mapped	0x102724d84
+System.Net.Requests	317	0x0600013e	System.Net.FtpControlStream	get_ResponseUri	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5d14	0x94893c25	0x102724da8	0x102724da8	mapped	0x102724da8
+System.Net.Requests	318	0x0600013f	System.Net.FtpControlStream	get_BannerMessage	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5d18	0x94893c2d	0x102724dcc	0x102724dcc	mapped	0x102724dcc
+System.Net.Requests	319	0x06000140	System.Net.FtpControlStream	get_WelcomeMessage	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5d1c	0x94893c43	0x102724e28	0x102724e28	mapped	0x102724e28
+System.Net.Requests	320	0x06000141	System.Net.FtpControlStream	get_ExitMessage	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5d20	0x94893c59	0x102724e84	0x102724e84	mapped	0x102724e84
+System.Net.Requests	321	0x06000142	System.Net.FtpControlStream	GetContentLengthFrom213Response	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5d24	0x94893c6f	0x102724ee0	0x102724ee0	mapped	0x102724ee0
+System.Net.Requests	322	0x06000143	System.Net.FtpControlStream	GetLastModifiedFrom213Response	0x2050	NoInlining	Private, HideBySig	0x1004d5d28	0x97fff67a	0x1004d3710	0x1004d3710	mapped	0x1004d3710
+System.Net.Requests	323	0x06000144	System.Net.FtpControlStream	TryUpdateResponseUri	0x2050	NoInlining	Private, HideBySig	0x1004d5d2c	0x94893ca5	0x102724fc0	0x102724fc0	mapped	0x102724fc0
+System.Net.Requests	324	0x06000145	System.Net.FtpControlStream	TryUpdateContentLength	0x2050	NoInlining	Private, HideBySig	0x1004d5d30	0x94893d72	0x1027252f8	0x1027252f8	mapped	0x1027252f8
+System.Net.Requests	325	0x06000146	System.Net.FtpControlStream	GetLoginDirectory	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5d34	0x94893dbf	0x102725430	0x102725430	mapped	0x102725430
+System.Net.Requests	326	0x06000147	System.Net.FtpControlStream	GetPortV4	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5d38	0x94893df8	0x102725518	0x102725518	mapped	0x102725518
+System.Net.Requests	327	0x06000148	System.Net.FtpControlStream	GetPortV6	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5d3c	0x94893e51	0x102725680	0x102725680	mapped	0x102725680
+System.Net.Requests	328	0x06000149	System.Net.FtpControlStream	CreateFtpListenerSocket	0x2050	NoInlining	Private, HideBySig	0x1004d5d40	0x94893ea1	0x1027257c4	0x1027257c4	mapped	0x1027257c4
+System.Net.Requests	329	0x0600014a	System.Net.FtpControlStream	GetPortCommandLine	0x2050	NoInlining	Private, HideBySig	0x1004d5d44	0x94893eff	0x102725940	0x102725940	mapped	0x102725940
+System.Net.Requests	330	0x0600014b	System.Net.FtpControlStream	FormatFtpCommand	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5d48	0x94893f64	0x102725ad8	0x102725ad8	mapped	0x102725ad8
+System.Net.Requests	331	0x0600014c	System.Net.FtpControlStream	CreateFtpDataSocket	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5d4c	0x94893f9a	0x102725bb4	0x102725bb4	mapped	0x102725bb4
+System.Net.Requests	332	0x0600014d	System.Net.FtpControlStream	CheckValid	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d5d50	0x94893fcd	0x102725c84	0x102725c84	mapped	0x102725c84
+System.Net.Requests	333	0x0600014e	System.Net.FtpControlStream	IsFtpDataStreamWriteable	0x2050	NoInlining	Private, HideBySig	0x1004d5d54	0x9489409b	0x102725fc0	0x102725fc0	mapped	0x102725fc0
+System.Net.Requests	334	0x0600014f	System.Net.FtpControlStream	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5d58	0x948940c2	0x102726060	0x102726060	mapped	0x102726060
+System.Net.Requests	335	0x06000150	System.Net.FtpControlStream+<>c__DisplayClass31_0	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5d5c	0x94894124	0x1027261ec	0x1027261ec	mapped	0x1027261ec
+System.Net.Requests	336	0x06000151	System.Net.FtpControlStream+<>c__DisplayClass31_0	<PipelineCallback>b__0	0x2050	NoInlining	Assembly, HideBySig	0x1004d5d60	0x94894124	0x1027261f0	0x1027261f0	mapped	0x1027261f0
+System.Net.Requests	337	0x06000152	System.Net.FtpDataStream	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5d64	0x9489416b	0x102726310	0x102726310	mapped	0x102726310
+System.Net.Requests	338	0x06000153	System.Net.FtpDataStream	Dispose	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d5d68	0x948941a1	0x1027263ec	0x1027263ec	mapped	0x1027263ec
+System.Net.Requests	339	0x06000154	System.Net.FtpDataStream	System.Net.ICloseEx.CloseEx	0x2050	NoInlining	Private, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5d6c	0x97fff89d	0x1004d3fe0	0x1004d3fe0	mapped	0x1004d3fe0
+System.Net.Requests	340	0x06000155	System.Net.FtpDataStream	CheckError	0x2050	NoInlining	Private, HideBySig	0x1004d5d70	0x948941d8	0x1027264d0	0x1027264d0	mapped	0x1027264d0
+System.Net.Requests	341	0x06000156	System.Net.FtpDataStream	get_CanRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5d74	0x948941f2	0x10272653c	0x10272653c	mapped	0x10272653c
+System.Net.Requests	342	0x06000157	System.Net.FtpDataStream	get_CanSeek	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5d78	0x948941fa	0x102726560	0x102726560	mapped	0x102726560
+System.Net.Requests	343	0x06000158	System.Net.FtpDataStream	get_CanWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5d7c	0x94894212	0x1027265c4	0x1027265c4	mapped	0x1027265c4
+System.Net.Requests	344	0x06000159	System.Net.FtpDataStream	get_Length	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5d80	0x9489421a	0x1027265e8	0x1027265e8	mapped	0x1027265e8
+System.Net.Requests	345	0x0600015a	System.Net.FtpDataStream	get_Position	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5d84	0x94894232	0x10272664c	0x10272664c	mapped	0x10272664c
+System.Net.Requests	346	0x0600015b	System.Net.FtpDataStream	set_Position	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5d88	0x9489424a	0x1027266b0	0x1027266b0	mapped	0x1027266b0
+System.Net.Requests	347	0x0600015c	System.Net.FtpDataStream	Seek	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5d8c	0x94894264	0x10272671c	0x10272671c	mapped	0x10272671c
+System.Net.Requests	348	0x0600015d	System.Net.FtpDataStream	Read	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5d90	0x9489428e	0x1027267c8	0x1027267c8	mapped	0x1027267c8
+System.Net.Requests	349	0x0600015e	System.Net.FtpDataStream	Read	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5d94	0x948942cc	0x1027268c4	0x1027268c4	mapped	0x1027268c4
+System.Net.Requests	350	0x0600015f	System.Net.FtpDataStream	Write	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5d98	0x94894308	0x1027269b8	0x1027269b8	mapped	0x1027269b8
+System.Net.Requests	351	0x06000160	System.Net.FtpDataStream	Write	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5d9c	0x94894332	0x102726a64	0x102726a64	mapped	0x102726a64
+System.Net.Requests	352	0x06000161	System.Net.FtpDataStream	AsyncReadCallback	0x2050	NoInlining	Private, HideBySig	0x1004d5da0	0x97fff964	0x1004d4330	0x1004d4330	mapped	0x1004d4330
+System.Net.Requests	353	0x06000162	System.Net.FtpDataStream	BeginRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5da4	0x94894359	0x102726b08	0x102726b08	mapped	0x102726b08
+System.Net.Requests	354	0x06000163	System.Net.FtpDataStream	EndRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5da8	0x948943bb	0x102726c94	0x102726c94	mapped	0x102726c94
+System.Net.Requests	355	0x06000164	System.Net.FtpDataStream	BeginWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5dac	0x9489440b	0x102726dd8	0x102726dd8	mapped	0x102726dd8
+System.Net.Requests	356	0x06000165	System.Net.FtpDataStream	EndWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5db0	0x9489443d	0x102726ea4	0x102726ea4	mapped	0x102726ea4
+System.Net.Requests	357	0x06000166	System.Net.FtpDataStream	Flush	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5db4	0x94894462	0x102726f3c	0x102726f3c	mapped	0x102726f3c
+System.Net.Requests	358	0x06000167	System.Net.FtpDataStream	SetLength	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5db8	0x9489447a	0x102726fa0	0x102726fa0	mapped	0x102726fa0
+System.Net.Requests	359	0x06000168	System.Net.FtpDataStream	get_CanTimeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5dbc	0x94894494	0x10272700c	0x10272700c	mapped	0x10272700c
+System.Net.Requests	360	0x06000169	System.Net.FtpDataStream	set_ReadTimeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5dc0	0x948944ac	0x102727070	0x102727070	mapped	0x102727070
+System.Net.Requests	361	0x0600016a	System.Net.FtpDataStream	set_WriteTimeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5dc4	0x948944c6	0x1027270dc	0x1027270dc	mapped	0x1027270dc
+System.Net.Requests	362	0x0600016b	System.Net.FtpDataStream	SetSocketTimeoutOption	0x2050	NoInlining	Assembly, HideBySig	0x1004d5dc8	0x948944e0	0x102727148	0x102727148	mapped	0x102727148
+System.Net.Requests	363	0x0600016c	System.Net.ICloseEx	CloseEx	0x0	NoInlining	Public, Virtual, HideBySig, VtableLayoutMask, Abstract	0x1004d5dcc	0x97fffe95	0x1004d5820		absent	0x1004d5820
+System.Net.Requests	364	0x0600016d	System.Net.NetRes	GetWebStatusCodeString	0x2050	NoInlining	Public, Static, HideBySig	0x1004d5dd0	0x94894501	0x1027271d4	0x1027271d4	mapped	0x1027271d4
+System.Net.Requests	365	0x0600016e	System.Net.NetworkStreamWrapper	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5dd4	0x9489458a	0x1027273fc	0x1027273fc	mapped	0x1027273fc
+System.Net.Requests	366	0x0600016f	System.Net.NetworkStreamWrapper	get_UsingSecureStream	0x2050	NoInlining	Family, HideBySig, SpecialName	0x1004d5dd8	0x94894599	0x10272743c	0x10272743c	mapped	0x10272743c
+System.Net.Requests	367	0x06000170	System.Net.NetworkStreamWrapper	get_ServerAddress	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5ddc	0x948945b6	0x1027274b4	0x1027274b4	mapped	0x1027274b4
+System.Net.Requests	368	0x06000171	System.Net.NetworkStreamWrapper	get_Socket	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5de0	0x948945eb	0x10272758c	0x10272758c	mapped	0x10272758c
+System.Net.Requests	369	0x06000172	System.Net.NetworkStreamWrapper	get_NetworkStream	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5de4	0x948945f7	0x1027275c0	0x1027275c0	mapped	0x1027275c0
+System.Net.Requests	370	0x06000173	System.Net.NetworkStreamWrapper	set_NetworkStream	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5de8	0x948945ff	0x1027275e4	0x1027275e4	mapped	0x1027275e4
+System.Net.Requests	371	0x06000174	System.Net.NetworkStreamWrapper	get_CanRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5dec	0x9489460e	0x102727624	0x102727624	mapped	0x102727624
+System.Net.Requests	372	0x06000175	System.Net.NetworkStreamWrapper	get_CanSeek	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5df0	0x94894626	0x102727688	0x102727688	mapped	0x102727688
+System.Net.Requests	373	0x06000176	System.Net.NetworkStreamWrapper	get_CanWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5df4	0x9489463e	0x1027276ec	0x1027276ec	mapped	0x1027276ec
+System.Net.Requests	374	0x06000177	System.Net.NetworkStreamWrapper	get_CanTimeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5df8	0x94894656	0x102727750	0x102727750	mapped	0x102727750
+System.Net.Requests	375	0x06000178	System.Net.NetworkStreamWrapper	set_ReadTimeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5dfc	0x9489466e	0x1027277b4	0x1027277b4	mapped	0x1027277b4
+System.Net.Requests	376	0x06000179	System.Net.NetworkStreamWrapper	set_WriteTimeout	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5e00	0x94894688	0x102727820	0x102727820	mapped	0x102727820
+System.Net.Requests	377	0x0600017a	System.Net.NetworkStreamWrapper	get_Length	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5e04	0x948946a2	0x10272788c	0x10272788c	mapped	0x10272788c
+System.Net.Requests	378	0x0600017b	System.Net.NetworkStreamWrapper	get_Position	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5e08	0x948946ba	0x1027278f0	0x1027278f0	mapped	0x1027278f0
+System.Net.Requests	379	0x0600017c	System.Net.NetworkStreamWrapper	set_Position	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5e0c	0x948946d2	0x102727954	0x102727954	mapped	0x102727954
+System.Net.Requests	380	0x0600017d	System.Net.NetworkStreamWrapper	Seek	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e10	0x948946ec	0x1027279c0	0x1027279c0	mapped	0x1027279c0
+System.Net.Requests	381	0x0600017e	System.Net.NetworkStreamWrapper	Read	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e14	0x9489470a	0x102727a3c	0x102727a3c	mapped	0x102727a3c
+System.Net.Requests	382	0x0600017f	System.Net.NetworkStreamWrapper	Write	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e18	0x9489472a	0x102727ac0	0x102727ac0	mapped	0x102727ac0
+System.Net.Requests	383	0x06000180	System.Net.NetworkStreamWrapper	Dispose	0x2050	NoInlining	Family, Virtual, HideBySig	0x1004d5e1c	0x9489474a	0x102727b44	0x102727b44	mapped	0x102727b44
+System.Net.Requests	384	0x06000181	System.Net.NetworkStreamWrapper	CloseSocket	0x2050	NoInlining	Assembly, HideBySig	0x1004d5e20	0x94894767	0x102727bbc	0x102727bbc	mapped	0x102727bbc
+System.Net.Requests	385	0x06000182	System.Net.NetworkStreamWrapper	Close	0x2050	NoInlining	Public, HideBySig	0x1004d5e24	0x9489477f	0x102727c20	0x102727c20	mapped	0x102727c20
+System.Net.Requests	386	0x06000183	System.Net.NetworkStreamWrapper	BeginRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e28	0x94894798	0x102727c88	0x102727c88	mapped	0x102727c88
+System.Net.Requests	387	0x06000184	System.Net.NetworkStreamWrapper	EndRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e2c	0x948947be	0x102727d24	0x102727d24	mapped	0x102727d24
+System.Net.Requests	388	0x06000185	System.Net.NetworkStreamWrapper	ReadAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e30	0x948947d8	0x102727d90	0x102727d90	mapped	0x102727d90
+System.Net.Requests	389	0x06000186	System.Net.NetworkStreamWrapper	ReadAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e34	0x948947fc	0x102727e24	0x102727e24	mapped	0x102727e24
+System.Net.Requests	390	0x06000187	System.Net.NetworkStreamWrapper	BeginWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e38	0x9489481c	0x102727ea8	0x102727ea8	mapped	0x102727ea8
+System.Net.Requests	391	0x06000188	System.Net.NetworkStreamWrapper	EndWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e3c	0x94894842	0x102727f44	0x102727f44	mapped	0x102727f44
+System.Net.Requests	392	0x06000189	System.Net.NetworkStreamWrapper	WriteAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e40	0x9489485c	0x102727fb0	0x102727fb0	mapped	0x102727fb0
+System.Net.Requests	393	0x0600018a	System.Net.NetworkStreamWrapper	WriteAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e44	0x94894880	0x102728044	0x102728044	mapped	0x102728044
+System.Net.Requests	394	0x0600018b	System.Net.NetworkStreamWrapper	Flush	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e48	0x948948a0	0x1027280c8	0x1027280c8	mapped	0x1027280c8
+System.Net.Requests	395	0x0600018c	System.Net.NetworkStreamWrapper	FlushAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e4c	0x948948b8	0x10272812c	0x10272812c	mapped	0x10272812c
+System.Net.Requests	396	0x0600018d	System.Net.NetworkStreamWrapper	SetLength	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5e50	0x948948d2	0x102728198	0x102728198	mapped	0x102728198
+System.Net.Requests	397	0x0600018e	System.Net.NetworkStreamWrapper	SetSocketTimeoutOption	0x2050	NoInlining	Assembly, HideBySig	0x1004d5e54	0x948948ec	0x102728204	0x102728204	mapped	0x102728204
+System.Net.Requests	398	0x0600018f	System.Net.TimerThread	GetOrCreateQueue	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004d5e58	0x9489490e	0x102728290	0x102728290	mapped	0x102728290
+System.Net.Requests	399	0x06000190	System.Net.TimerThread	Prod	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5e5c	0x94894a50	0x10272879c	0x10272879c	mapped	0x10272879c
+System.Net.Requests	400	0x06000191	System.Net.TimerThread	ThreadProc	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5e60	0x97fff9a8	0x1004d4500	0x1004d4500	mapped	0x1004d4500
+System.Net.Requests	401	0x06000192	System.Net.TimerThread	IsTickBetween	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5e64	0x94894a9a	0x1027288cc	0x1027288cc	mapped	0x1027288cc
+System.Net.Requests	402	0x06000193	System.Net.TimerThread	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5e68	0x94894ab4	0x102728938	0x102728938	mapped	0x102728938
+System.Net.Requests	403	0x06000194	System.Net.TimerThread+Queue	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5e6c	0x94894b11	0x102728ab0	0x102728ab0	mapped	0x102728ab0
+System.Net.Requests	404	0x06000195	System.Net.TimerThread+Queue	get_Duration	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5e70	0x94894b19	0x102728ad4	0x102728ad4	mapped	0x102728ad4
+System.Net.Requests	405	0x06000196	System.Net.TimerThread+Queue	CreateTimer	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1004d5e74	0x97fffe6b	0x1004d5820		absent	0x1004d5820
+System.Net.Requests	406	0x06000197	System.Net.TimerThread+Timer	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5e78	0x94894b20	0x102728af8	0x102728af8	mapped	0x102728af8
+System.Net.Requests	407	0x06000198	System.Net.TimerThread+Timer	get_StartTime	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5e7c	0x94894b35	0x102728b50	0x102728b50	mapped	0x102728b50
+System.Net.Requests	408	0x06000199	System.Net.TimerThread+Timer	get_Expiration	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5e80	0x94894b3d	0x102728b74	0x102728b74	mapped	0x102728b74
+System.Net.Requests	409	0x0600019a	System.Net.TimerThread+Timer	Cancel	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract	0x1004d5e84	0x97fffe67	0x1004d5820		absent	0x1004d5820
+System.Net.Requests	410	0x0600019b	System.Net.TimerThread+Timer	get_HasExpired	0x0	NoInlining	Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract, SpecialName	0x1004d5e88	0x97fffe66	0x1004d5820		absent	0x1004d5820
+System.Net.Requests	411	0x0600019c	System.Net.TimerThread+Timer	Dispose	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004d5e8c	0x94894b45	0x102728ba0	0x102728ba0	mapped	0x102728ba0
+System.Net.Requests	412	0x0600019d	System.Net.TimerThread+Callback	.ctor	0x0	11	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5e90	0x97fffe64	0x1004d5820		absent	0x1004d5820
+System.Net.Requests	413	0x0600019e	System.Net.TimerThread+Callback	Invoke	0x0	11	Public, Virtual, HideBySig, VtableLayoutMask	0x1004d5e94	0x97fffe63	0x1004d5820		absent	0x1004d5820
+System.Net.Requests	414	0x0600019f	System.Net.TimerThread+TimerQueue	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5e98	0x94894b58	0x102728bf8	0x102728bf8	mapped	0x102728bf8
+System.Net.Requests	415	0x060001a0	System.Net.TimerThread+TimerQueue	CreateTimer	0x2050	NoInlining	Assembly, Final, Virtual, HideBySig, CheckAccessOnOverride	0x1004d5e9c	0x94894b9c	0x102728d0c	0x102728d0c	mapped	0x102728d0c
+System.Net.Requests	416	0x060001a1	System.Net.TimerThread+TimerQueue	Fire	0x2050	NoInlining	Assembly, HideBySig	0x1004d5ea0	0x94894c25	0x102728f34	0x102728f34	mapped	0x102728f34
+System.Net.Requests	417	0x060001a2	System.Net.TimerThread+InfiniteTimerQueue	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5ea4	0x94894cea	0x10272924c	0x10272924c	mapped	0x10272924c
+System.Net.Requests	418	0x060001a3	System.Net.TimerThread+InfiniteTimerQueue	CreateTimer	0x2050	NoInlining	Assembly, Final, Virtual, HideBySig, CheckAccessOnOverride	0x1004d5ea8	0x94894cf4	0x102729278	0x102729278	mapped	0x102729278
+System.Net.Requests	419	0x060001a4	System.Net.TimerThread+TimerNode	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5eac	0x94894d0f	0x1027292e8	0x1027292e8	mapped	0x1027292e8
+System.Net.Requests	420	0x060001a5	System.Net.TimerThread+TimerNode	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5eb0	0x94894d59	0x102729414	0x102729414	mapped	0x102729414
+System.Net.Requests	421	0x060001a6	System.Net.TimerThread+TimerNode	get_HasExpired	0x2050	NoInlining	Assembly, Final, Virtual, HideBySig, CheckAccessOnOverride, SpecialName	0x1004d5eb4	0x94894d6f	0x102729470	0x102729470	mapped	0x102729470
+System.Net.Requests	422	0x060001a7	System.Net.TimerThread+TimerNode	get_Next	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5eb8	0x94894d79	0x10272949c	0x10272949c	mapped	0x10272949c
+System.Net.Requests	423	0x060001a8	System.Net.TimerThread+TimerNode	set_Next	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5ebc	0x94894d81	0x1027294c0	0x1027294c0	mapped	0x1027294c0
+System.Net.Requests	424	0x060001a9	System.Net.TimerThread+TimerNode	get_Prev	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5ec0	0x94894d90	0x102729500	0x102729500	mapped	0x102729500
+System.Net.Requests	425	0x060001aa	System.Net.TimerThread+TimerNode	set_Prev	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5ec4	0x94894d98	0x102729524	0x102729524	mapped	0x102729524
+System.Net.Requests	426	0x060001ab	System.Net.TimerThread+TimerNode	Cancel	0x2050	NoInlining	Assembly, Final, Virtual, HideBySig, CheckAccessOnOverride	0x1004d5ec8	0x94894da7	0x102729564	0x102729564	mapped	0x102729564
+System.Net.Requests	427	0x060001ac	System.Net.TimerThread+TimerNode	Fire	0x2050	NoInlining	Assembly, HideBySig	0x1004d5ecc	0x94894e24	0x10272975c	0x10272975c	mapped	0x10272975c
+System.Net.Requests	428	0x060001ad	System.Net.TimerThread+InfiniteTimer	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5ed0	0x94894f21	0x102729b54	0x102729b54	mapped	0x102729b54
+System.Net.Requests	429	0x060001ae	System.Net.TimerThread+InfiniteTimer	get_HasExpired	0x2050	NoInlining	Assembly, Final, Virtual, HideBySig, CheckAccessOnOverride, SpecialName	0x1004d5ed4	0x94894f2f	0x102729b90	0x102729b90	mapped	0x102729b90
+System.Net.Requests	430	0x060001af	System.Net.TimerThread+InfiniteTimer	Cancel	0x2050	NoInlining	Assembly, Final, Virtual, HideBySig, CheckAccessOnOverride	0x1004d5ed8	0x94894f30	0x102729b98	0x102729b98	mapped	0x102729b98
+System.Net.Requests	431	0x060001b0	System.Net.NetEventSource	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5edc	0x94894f45	0x102729bf0	0x102729bf0	mapped	0x102729bf0
+System.Net.Requests	432	0x060001b1	System.Net.NetEventSource	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5ee0	0x94894f5a	0x102729c48	0x102729c48	mapped	0x102729c48
+System.Net.Requests	433	0x060001b2	System.Net.InternalException	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5ee4	0x94894f75	0x102729cb8	0x102729cb8	mapped	0x102729cb8
+System.Net.Requests	434	0x060001b3	System.Net.InternalException	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5ee8	0x94894f87	0x102729d04	0x102729d04	mapped	0x102729d04
+System.Net.Requests	435	0x060001b4	System.Net.InternalException	get_Message	0x2050	NoInlining	Public, Final, Virtual, HideBySig, SpecialName	0x1004d5eec	0x94894f99	0x102729d50	0x102729d50	mapped	0x102729d50
+System.Net.Requests	436	0x060001b5	System.Net.HttpValidationHelpers	IsInvalidMethodOrHeaderString	0x2050	NoInlining	Public, Static, HideBySig	0x1004d5ef0	0x94894fc9	0x102729e14	0x102729e14	mapped	0x102729e14
+System.Net.Requests	437	0x060001b6	System.Net.LazyAsyncResult	get_CurrentThreadContext	0x2050	NoInlining	Private, Static, HideBySig, SpecialName	0x1004d5ef4	0x94895016	0x102729f4c	0x102729f4c	mapped	0x102729f4c
+System.Net.Requests	438	0x060001b7	System.Net.LazyAsyncResult	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5ef8	0x94895046	0x10272a010	0x10272a010	mapped	0x10272a010
+System.Net.Requests	439	0x060001b8	System.Net.LazyAsyncResult	get_AsyncState	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5efc	0x94895081	0x10272a100	0x10272a100	mapped	0x10272a100
+System.Net.Requests	440	0x060001b9	System.Net.LazyAsyncResult	get_AsyncCallback	0x2050	NoInlining	Family, HideBySig, SpecialName	0x1004d5f00	0x94895089	0x10272a124	0x10272a124	mapped	0x10272a124
+System.Net.Requests	441	0x060001ba	System.Net.LazyAsyncResult	get_AsyncWaitHandle	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5f04	0x94895091	0x10272a148	0x10272a148	mapped	0x10272a148
+System.Net.Requests	442	0x060001bb	System.Net.LazyAsyncResult	LazilyCreateEvent	0x2050	NoInlining	Private, HideBySig	0x1004d5f08	0x948950de	0x10272a280	0x10272a280	mapped	0x10272a280
+System.Net.Requests	443	0x060001bc	System.Net.LazyAsyncResult	get_CompletedSynchronously	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5f0c	0x94895163	0x10272a498	0x10272a498	mapped	0x10272a498
+System.Net.Requests	444	0x060001bd	System.Net.LazyAsyncResult	get_IsCompleted	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName	0x1004d5f10	0x9489517c	0x10272a500	0x10272a500	mapped	0x10272a500
+System.Net.Requests	445	0x060001be	System.Net.LazyAsyncResult	get_InternalPeekCompleted	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5f14	0x94895195	0x10272a568	0x10272a568	mapped	0x10272a568
+System.Net.Requests	446	0x060001bf	System.Net.LazyAsyncResult	get_EndCalled	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5f18	0x9489519f	0x10272a594	0x10272a594	mapped	0x10272a594
+System.Net.Requests	447	0x060001c0	System.Net.LazyAsyncResult	set_EndCalled	0x2050	NoInlining	Assembly, HideBySig, SpecialName	0x1004d5f1c	0x948951a7	0x10272a5b8	0x10272a5b8	mapped	0x10272a5b8
+System.Net.Requests	448	0x060001c1	System.Net.LazyAsyncResult	ProtectedInvokeCallback	0x2050	NoInlining	Family, HideBySig	0x1004d5f20	0x948951af	0x10272a5dc	0x10272a5dc	mapped	0x10272a5dc
+System.Net.Requests	449	0x060001c2	System.Net.LazyAsyncResult	InvokeCallback	0x2050	NoInlining	Assembly, HideBySig	0x1004d5f24	0x94895229	0x10272a7c8	0x10272a7c8	mapped	0x10272a7c8
+System.Net.Requests	450	0x060001c3	System.Net.LazyAsyncResult	InvokeCallback	0x2050	NoInlining	Assembly, HideBySig	0x1004d5f28	0x94895239	0x10272a80c	0x10272a80c	mapped	0x10272a80c
+System.Net.Requests	451	0x060001c4	System.Net.LazyAsyncResult	Complete	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004d5f2c	0x94895248	0x10272a84c	0x10272a84c	mapped	0x10272a84c
+System.Net.Requests	452	0x060001c5	System.Net.LazyAsyncResult	WorkerThreadComplete	0x2050	NoInlining	Private, Static, HideBySig	0x1004d5f30	0x9489530f	0x10272ab6c	0x10272ab6c	mapped	0x10272ab6c
+System.Net.Requests	453	0x060001c6	System.Net.LazyAsyncResult	Cleanup	0x2050	NoInlining	Family, Virtual, HideBySig, VtableLayoutMask	0x1004d5f34	0x94895358	0x10272ac94	0x10272ac94	mapped	0x10272ac94
+System.Net.Requests	454	0x060001c7	System.Net.LazyAsyncResult	InternalWaitForCompletion	0x2050	NoInlining	Assembly, HideBySig	0x1004d5f38	0x94895358	0x10272ac98	0x10272ac98	mapped	0x10272ac98
+System.Net.Requests	455	0x060001c8	System.Net.LazyAsyncResult	WaitForCompletion	0x2050	NoInlining	Private, HideBySig	0x1004d5f3c	0x97fffb95	0x1004d4d90	0x1004d4d90	mapped	0x1004d4d90
+System.Net.Requests	456	0x060001c9	System.Net.LazyAsyncResult+ThreadContext	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5f40	0x94895365	0x10272acd4	0x10272acd4	mapped	0x10272acd4
+System.Net.Requests	457	0x060001ca	System.Net.LazyAsyncResult+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5f44	0x94895365	0x10272acd8	0x10272acd8	mapped	0x10272acd8
+System.Net.Requests	458	0x060001cb	System.Net.LazyAsyncResult+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5f48	0x94895380	0x10272ad48	0x10272ad48	mapped	0x10272ad48
+System.Net.Requests	459	0x060001cc	System.Net.LazyAsyncResult+<>c	<Complete>b__45_0	0x2050	NoInlining	Assembly, HideBySig	0x1004d5f4c	0x9489538d	0x10272ad80	0x10272ad80	mapped	0x10272ad80
+System.Net.Requests	460	0x060001cd	System.Net.ContextAwareResult	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5f50	0x9489539a	0x10272adb8	0x10272adb8	mapped	0x10272adb8
+System.Net.Requests	461	0x060001ce	System.Net.ContextAwareResult	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5f54	0x948953af	0x10272ae10	0x10272ae10	mapped	0x10272ae10
+System.Net.Requests	462	0x060001cf	System.Net.ContextAwareResult	.ctor	0x2050	NoInlining	Assembly, HideBySig, SpecialName, RTSpecialName	0x1004d5f58	0x948953cb	0x10272ae84	0x10272ae84	mapped	0x10272ae84
+System.Net.Requests	463	0x060001d0	System.Net.ContextAwareResult	StartPostingAsyncOp	0x2050	NoInlining	Assembly, HideBySig	0x1004d5f5c	0x94895401	0x10272af60	0x10272af60	mapped	0x10272af60
+System.Net.Requests	464	0x060001d1	System.Net.ContextAwareResult	StartPostingAsyncOp	0x2050	NoInlining	Assembly, HideBySig	0x1004d5f60	0x9489540f	0x10272af9c	0x10272af9c	mapped	0x10272af9c
+System.Net.Requests	465	0x060001d2	System.Net.ContextAwareResult	FinishPostingAsyncOp	0x2050	NoInlining	Assembly, HideBySig	0x1004d5f64	0x94895440	0x10272b064	0x10272b064	mapped	0x10272b064
+System.Net.Requests	466	0x060001d3	System.Net.ContextAwareResult	Cleanup	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d5f68	0x94895460	0x10272b0e8	0x10272b0e8	mapped	0x10272b0e8
+System.Net.Requests	467	0x060001d4	System.Net.ContextAwareResult	CaptureOrComplete	0x2050	NoInlining	Private, HideBySig	0x1004d5f6c	0x94895476	0x10272b144	0x10272b144	mapped	0x10272b144
+System.Net.Requests	468	0x060001d5	System.Net.ContextAwareResult	Complete	0x2050	NoInlining	Family, Final, Virtual, HideBySig	0x1004d5f70	0x948954f0	0x10272b330	0x10272b330	mapped	0x10272b330
+System.Net.Requests	469	0x060001d6	System.Net.ContextAwareResult	CompleteCallback	0x2050	NoInlining	Private, HideBySig	0x1004d5f74	0x9489554a	0x10272b49c	0x10272b49c	mapped	0x10272b49c
+System.Net.Requests	470	0x060001d7	System.Net.ContextAwareResult+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004d5f78	0x9489556b	0x10272b524	0x10272b524	mapped	0x10272b524
+System.Net.Requests	471	0x060001d8	System.Net.ContextAwareResult+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5f7c	0x94895586	0x10272b594	0x10272b594	mapped	0x10272b594
+System.Net.Requests	472	0x060001d9	System.Net.ContextAwareResult+<>c	<Complete>b__15_0	0x2050	NoInlining	Assembly, HideBySig	0x1004d5f80	0x94895593	0x10272b5cc	0x10272b5cc	mapped	0x10272b5cc
+System.Net.Requests	473	0x060001da	System.Net.ExceptionCheck	IsFatal	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004d5f84	0x948955bb	0x10272b670	0x10272b670	mapped	0x10272b670
+System.Net.Requests	474	0x060001db	System.Net.TlsStream	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004d5f88	0x948955d2	0x10272b6d0	0x10272b6d0	mapped	0x10272b6d0
+System.Net.Requests	475	0x060001dc	System.Net.TlsStream	AuthenticateAsClient	0x2050	NoInlining	Public, HideBySig	0x1004d5f8c	0x9489561b	0x10272b7f8	0x10272b7f8	mapped	0x10272b7f8
+System.Net.Requests	476	0x060001dd	System.Net.TlsStream	BeginAuthenticateAsClient	0x2050	NoInlining	Public, HideBySig	0x1004d5f90	0x94895656	0x10272b8e8	0x10272b8e8	mapped	0x10272b8e8
+System.Net.Requests	477	0x060001de	System.Net.TlsStream	EndAuthenticateAsClient	0x2050	NoInlining	Public, HideBySig	0x1004d5f94	0x94895697	0x10272b9f0	0x10272b9f0	mapped	0x10272b9f0
+System.Net.Requests	478	0x060001df	System.Net.TlsStream	Write	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5f98	0x948956b0	0x10272ba58	0x10272ba58	mapped	0x10272ba58
+System.Net.Requests	479	0x060001e0	System.Net.TlsStream	BeginWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5f9c	0x948956d0	0x10272badc	0x10272badc	mapped	0x10272badc
+System.Net.Requests	480	0x060001e1	System.Net.TlsStream	EndWrite	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5fa0	0x948956f6	0x10272bb78	0x10272bb78	mapped	0x10272bb78
+System.Net.Requests	481	0x060001e2	System.Net.TlsStream	WriteAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5fa4	0x94895710	0x10272bbe4	0x10272bbe4	mapped	0x10272bbe4
+System.Net.Requests	482	0x060001e3	System.Net.TlsStream	WriteAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5fa8	0x94895734	0x10272bc78	0x10272bc78	mapped	0x10272bc78
+System.Net.Requests	483	0x060001e4	System.Net.TlsStream	Read	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5fac	0x94895754	0x10272bcfc	0x10272bcfc	mapped	0x10272bcfc
+System.Net.Requests	484	0x060001e5	System.Net.TlsStream	ReadAsync	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5fb0	0x94895774	0x10272bd80	0x10272bd80	mapped	0x10272bd80
+System.Net.Requests	485	0x060001e6	System.Net.TlsStream	BeginRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5fb4	0x94895798	0x10272be14	0x10272be14	mapped	0x10272be14
+System.Net.Requests	486	0x060001e7	System.Net.TlsStream	EndRead	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5fb8	0x948957be	0x10272beb0	0x10272beb0	mapped	0x10272beb0
+System.Net.Requests	487	0x060001e8	System.Net.TlsStream	Close	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004d5fbc	0x948957d8	0x10272bf1c	0x10272bf1c	mapped	0x10272bf1c
+System.Net.Requests	488	0x060001e9	System.Net.Cache.HttpRequestCachePolicy	get_Level	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5fc0	0x948957ef	0x10272bf7c	0x10272bf7c	mapped	0x10272bf7c
+System.Net.Requests	489	0x060001ea	System.Net.Cache.HttpRequestCachePolicy	get_MaxAge	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5fc4	0x94895800	0x10272bfc4	0x10272bfc4	mapped	0x10272bfc4
+System.Net.Requests	490	0x060001eb	System.Net.Cache.HttpRequestCachePolicy	get_MinFresh	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5fc8	0x94895811	0x10272c00c	0x10272c00c	mapped	0x10272c00c
+System.Net.Requests	491	0x060001ec	System.Net.Cache.HttpRequestCachePolicy	get_MaxStale	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004d5fcc	0x94895822	0x10272c054	0x10272c054	mapped	0x10272c054

@@ -1,0 +1,40 @@
+/* 0x06006684 StardewValley.Mobile.PinchZoom.CenterOnFarmer @ 0x101fb0ddc */
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void SDV_StardewValley_Mobile_PinchZoom_CenterOnFarmer_06006684(long param_1)
+
+{
+  float *pfVar1;
+  char cVar2;
+  code *pcVar3;
+  undefined8 uVar4;
+  
+  cVar2 = cRam0000000103911493;
+  if (lRam0000000103976fb8 != 0) {
+    func_0x00010119b8f8();
+  }
+  if (cVar2 == '\0') {
+    func_0x00010119b908(&UNK_10332508d);
+    cRam0000000103911493 = '\x01';
+  }
+  pfVar1 = pfRam00000001038d5388;
+  if (*(char *)(lRam00000001038c4c88 + 0x35) == '\0') {
+    func_0x0001003319b0();
+    pfVar1 = pfRam00000001038d5388;
+  }
+  uVar4 = _UNK_1036d3b00;
+  pfRam00000001038d5388 = pfVar1;
+  if ((param_1 != 0) && (uVar4 = _UNK_1036d3b08, pfVar1 != (float *)0x0)) {
+    *pfVar1 = *(float *)(param_1 + 0x60) +
+              (*(float *)(param_1 + 0x20) - *(float *)(param_1 + 0x68) * 0.5);
+    pfVar1[1] = *(float *)(param_1 + 100) +
+                (*(float *)(param_1 + 0x24) - *(float *)(param_1 + 0x6c) * 0.5);
+    return;
+  }
+  func_0x0001003316f4(0xee,uVar4);
+                    /* WARNING: Does not return */
+  pcVar3 = (code *)SoftwareBreakpoint(1,0x101fb0ebc);
+  (*pcVar3)();
+}
+

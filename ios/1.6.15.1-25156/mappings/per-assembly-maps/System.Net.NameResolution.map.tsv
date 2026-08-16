@@ -1,0 +1,75 @@
+assembly	index	token	type	method	rva	impl_attrs	attrs	call_entry	call_insn	initial_target	native_address	status	resolve_chain
+System.Net.NameResolution	0	0x06000001	Interop+Sys	Close	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004c2cc8	0x9488a50c	0x1026ec0f8	0x1026ec0f8	mapped	0x1026ec0f8
+System.Net.NameResolution	1	0x06000002	Interop+Sys	GetHostName	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2ccc	0x9488a51f	0x1026ec148	0x1026ec148	mapped	0x1026ec148
+System.Net.NameResolution	2	0x06000003	Interop+Sys	GetHostName	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004c2cd0	0x9488a534	0x1026ec1a0	0x1026ec1a0	mapped	0x1026ec1a0
+System.Net.NameResolution	3	0x06000004	Interop+Sys	GetNameInfo	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004c2cd4	0x97fffffd	0x1004c2cc8		absent	0x1004c2cc8
+System.Net.NameResolution	4	0x06000005	Interop+Sys	GetHostEntryForName	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004c2cd8	0x9488a5a9	0x1026ec37c	0x1026ec37c	mapped	0x1026ec37c
+System.Net.NameResolution	5	0x06000006	Interop+Sys	FreeHostEntry	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004c2cdc	0x97fffffb	0x1004c2cc8		absent	0x1004c2cc8
+System.Net.NameResolution	6	0x06000007	Interop+Sys	Socket	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004c2ce0	0x97fffffa	0x1004c2cc8		absent	0x1004c2cc8
+System.Net.NameResolution	7	0x06000008	Interop+Sys	<Close>g____PInvoke|6_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004c2ce4	0x97fffff9	0x1004c2cc8		absent	0x1004c2cc8
+System.Net.NameResolution	8	0x06000009	Interop+Sys	<GetHostName>g____PInvoke|7_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004c2ce8	0x97fffff8	0x1004c2cc8		absent	0x1004c2cc8
+System.Net.NameResolution	9	0x0600000a	Interop+Sys	<GetHostEntryForName>g____PInvoke|15_0	0x0	136	Assembly, Static, HideBySig, PinvokeImpl	0x1004c2cec	0x97fffff7	0x1004c2cc8		absent	0x1004c2cc8
+System.Net.NameResolution	10	0x0600000b	Interop+Sys+IPAddress	get_IsIPv6	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004c2cf0	0x9488a5db	0x1026ec45c	0x1026ec45c	mapped	0x1026ec45c
+System.Net.NameResolution	11	0x0600000c	Interop+Sys+IPAddress	GetHashCode	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004c2cf4	0x9488a5e5	0x1026ec488	0x1026ec488	mapped	0x1026ec488
+System.Net.NameResolution	12	0x0600000d	Interop+Sys+IPAddress	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig	0x1004c2cf8	0x9488a604	0x1026ec508	0x1026ec508	mapped	0x1026ec508
+System.Net.NameResolution	13	0x0600000e	Interop+Sys+IPAddress	Equals	0x2050	NoInlining	Public, Final, Virtual, HideBySig, VtableLayoutMask	0x1004c2cfc	0x9488a63d	0x1026ec5f0	0x1026ec5f0	mapped	0x1026ec5f0
+System.Net.NameResolution	14	0x0600000f	System.SR	Format	0x2050	NoInlining	Assembly, Static, HideBySig	0x1004c2d00	0x9488a66b	0x1026ec6ac	0x1026ec6ac	mapped	0x1026ec6ac
+System.Net.NameResolution	15	0x06000010	System.Net.Dns	GetHostName	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2d04	0x97fff7e7	0x1004c0ca0	0x1004c0ca0	mapped	0x1004c0ca0
+System.Net.NameResolution	16	0x06000011	System.Net.Dns	GetHostEntryAsync	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2d08	0x9488a69f	0x1026ec784	0x1026ec784	mapped	0x1026ec784
+System.Net.NameResolution	17	0x06000012	System.Net.Dns	GetHostEntryAsync	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2d0c	0x9488a6b9	0x1026ec7f0	0x1026ec7f0	mapped	0x1026ec7f0
+System.Net.NameResolution	18	0x06000013	System.Net.Dns	GetHostEntryAsync	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2d10	0x9488a6d4	0x1026ec860	0x1026ec860	mapped	0x1026ec860
+System.Net.NameResolution	19	0x06000014	System.Net.Dns	BeginGetHostEntry	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2d14	0x9488a6fd	0x1026ec908	0x1026ec908	mapped	0x1026ec908
+System.Net.NameResolution	20	0x06000015	System.Net.Dns	EndGetHostEntry	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2d18	0x9488a71c	0x1026ec988	0x1026ec988	mapped	0x1026ec988
+System.Net.NameResolution	21	0x06000016	System.Net.Dns	GetHostAddresses	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2d1c	0x9488a73a	0x1026eca04	0x1026eca04	mapped	0x1026eca04
+System.Net.NameResolution	22	0x06000017	System.Net.Dns	GetHostAddresses	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2d20	0x9488a753	0x1026eca6c	0x1026eca6c	mapped	0x1026eca6c
+System.Net.NameResolution	23	0x06000018	System.Net.Dns	GetHostAddressesAsync	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2d24	0x9488a7d8	0x1026ecc84	0x1026ecc84	mapped	0x1026ecc84
+System.Net.NameResolution	24	0x06000019	System.Net.Dns	GetHostEntryCore	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d28	0x9488a807	0x1026ecd44	0x1026ecd44	mapped	0x1026ecd44
+System.Net.NameResolution	25	0x0600001a	System.Net.Dns	GetHostAddressesCore	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d2c	0x9488a833	0x1026ecdf8	0x1026ecdf8	mapped	0x1026ecdf8
+System.Net.NameResolution	26	0x0600001b	System.Net.Dns	GetHostEntryOrAddressesCore	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d30	0x97fff868	0x1004c0ed0	0x1004c0ed0	mapped	0x1004c0ed0
+System.Net.NameResolution	27	0x0600001c	System.Net.Dns	GetHostEntryCore	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d34	0x9488a86d	0x1026ecee8	0x1026ecee8	mapped	0x1026ecee8
+System.Net.NameResolution	28	0x0600001d	System.Net.Dns	GetHostAddressesCore	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d38	0x9488a899	0x1026ecf9c	0x1026ecf9c	mapped	0x1026ecf9c
+System.Net.NameResolution	29	0x0600001e	System.Net.Dns	GetHostEntryOrAddressesCore	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d3c	0x97fff939	0x1004c1220	0x1004c1220	mapped	0x1004c1220
+System.Net.NameResolution	30	0x0600001f	System.Net.Dns	GetHostEntryCoreAsync	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d40	0x9488a8d3	0x1026ed08c	0x1026ed08c	mapped	0x1026ed08c
+System.Net.NameResolution	31	0x06000020	System.Net.Dns	GetHostEntryOrAddressesCoreAsync	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d44	0x9488a906	0x1026ed15c	0x1026ed15c	mapped	0x1026ed15c
+System.Net.NameResolution	32	0x06000021	System.Net.Dns	CreateHostEntryForAddress	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d48	0x9488aa22	0x1026ed5d0	0x1026ed5d0	mapped	0x1026ed5d0
+System.Net.NameResolution	33	0x06000022	System.Net.Dns	ValidateHostName	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d4c	0x9488aa6f	0x1026ed708	0x1026ed708	mapped	0x1026ed708
+System.Net.NameResolution	34	0x06000023	System.Net.Dns	LogFailure	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d50	0x9488aab4	0x1026ed820	0x1026ed820	mapped	0x1026ed820
+System.Net.NameResolution	35	0x06000024	System.Net.Dns	RunAsync	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d54	0x9488aade	0x1026ed8cc	0x1026ed8cc	mapped	0x1026ed8cc
+System.Net.NameResolution	36	0x06000025	System.Net.Dns	CreateException	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2d58	0x9488ac13	0x1026edda4	0x1026edda4	mapped	0x1026edda4
+System.Net.NameResolution	37	0x06000026	System.Net.Dns	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004c2d5c	0x9488ac33	0x1026ede28	0x1026ede28	mapped	0x1026ede28
+System.Net.NameResolution	38	0x06000027	System.Net.Dns+<>c	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004c2d60	0x9488ac52	0x1026edea8	0x1026edea8	mapped	0x1026edea8
+System.Net.NameResolution	39	0x06000028	System.Net.Dns+<>c	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004c2d64	0x9488ac6d	0x1026edf18	0x1026edf18	mapped	0x1026edf18
+System.Net.NameResolution	40	0x06000029	System.Net.Dns+<>c	<GetHostEntryOrAddressesCoreAsync>b__33_0	0x2050	NoInlining	Assembly, HideBySig	0x1004c2d68	0x9488ac7a	0x1026edf50	0x1026edf50	mapped	0x1026edf50
+System.Net.NameResolution	41	0x0600002a	System.Net.Dns+<>c	<GetHostEntryOrAddressesCoreAsync>b__33_1	0x2050	NoInlining	Assembly, HideBySig	0x1004c2d6c	0x9488acd7	0x1026ee0c8	0x1026ee0c8	mapped	0x1026ee0c8
+System.Net.NameResolution	42	0x0600002b	System.Net.Dns+<>c__39`1	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004c2d70	0x9488ad34	0x1026ee240	0x1026ee240	mapped	0x1026ee240
+System.Net.NameResolution	43	0x0600002c	System.Net.Dns+<>c__39`1	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004c2d74	0x9488ad61	0x1026ee2f8	0x1026ee2f8	mapped	0x1026ee2f8
+System.Net.NameResolution	44	0x0600002d	System.Net.Dns+<>c__39`1	<RunAsync>b__39_1	0x2050	NoInlining	Assembly, HideBySig	0x1004c2d78	0x9488ad72	0x1026ee340	0x1026ee340	mapped	0x1026ee340
+System.Net.NameResolution	45	0x0600002e	System.Net.Dns+<>c__DisplayClass39_0`1	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004c2d7c	0x9488adc9	0x1026ee4a0	0x1026ee4a0	mapped	0x1026ee4a0
+System.Net.NameResolution	46	0x0600002f	System.Net.Dns+<>c__DisplayClass39_0`1	<RunAsync>b__0	0x2050	NoInlining	Assembly, HideBySig	0x1004c2d80	0x97fffa64	0x1004c1710	0x1004c1710	mapped	0x1004c1710
+System.Net.NameResolution	47	0x06000030	System.Net.IPHostEntry	get_HostName	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004c2d84	0x9488adcb	0x1026ee4b0	0x1026ee4b0	mapped	0x1026ee4b0
+System.Net.NameResolution	48	0x06000031	System.Net.IPHostEntry	set_HostName	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004c2d88	0x9488add3	0x1026ee4d4	0x1026ee4d4	mapped	0x1026ee4d4
+System.Net.NameResolution	49	0x06000032	System.Net.IPHostEntry	set_Aliases	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004c2d8c	0x9488ade2	0x1026ee514	0x1026ee514	mapped	0x1026ee514
+System.Net.NameResolution	50	0x06000033	System.Net.IPHostEntry	get_AddressList	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004c2d90	0x9488adf1	0x1026ee554	0x1026ee554	mapped	0x1026ee554
+System.Net.NameResolution	51	0x06000034	System.Net.IPHostEntry	set_AddressList	0x2050	NoInlining	Public, HideBySig, SpecialName	0x1004c2d94	0x9488adf9	0x1026ee578	0x1026ee578	mapped	0x1026ee578
+System.Net.NameResolution	52	0x06000035	System.Net.IPHostEntry	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004c2d98	0x9488ae08	0x1026ee5b8	0x1026ee5b8	mapped	0x1026ee5b8
+System.Net.NameResolution	53	0x06000036	System.Net.NetEventSource	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004c2d9c	0x9488ae08	0x1026ee5bc	0x1026ee5bc	mapped	0x1026ee5bc
+System.Net.NameResolution	54	0x06000037	System.Net.NetEventSource	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004c2da0	0x9488ae1d	0x1026ee614	0x1026ee614	mapped	0x1026ee614
+System.Net.NameResolution	55	0x06000038	System.Net.NameResolutionMetrics	IsEnabled	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2da4	0x9488ae38	0x1026ee684	0x1026ee684	mapped	0x1026ee684
+System.Net.NameResolution	56	0x06000039	System.Net.NameResolutionMetrics	AfterResolution	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2da8	0x9488ae54	0x1026ee6f8	0x1026ee6f8	mapped	0x1026ee6f8
+System.Net.NameResolution	57	0x0600003a	System.Net.NameResolutionMetrics	GetErrorType	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2dac	0x9488aeb9	0x1026ee890	0x1026ee890	mapped	0x1026ee890
+System.Net.NameResolution	58	0x0600003b	System.Net.NameResolutionMetrics	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004c2db0	0x9488aefd	0x1026ee9a4	0x1026ee9a4	mapped	0x1026ee9a4
+System.Net.NameResolution	59	0x0600003c	System.Net.NameResolutionTelemetry	BeforeResolution	0x2050	NoInlining	Public, HideBySig	0x1004c2db4	0x9488af2b	0x1026eea60	0x1026eea60	mapped	0x1026eea60
+System.Net.NameResolution	60	0x0600003d	System.Net.NameResolutionTelemetry	AfterResolution	0x2050	NoInlining	Public, HideBySig	0x1004c2db8	0x9488af55	0x1026eeb0c	0x1026eeb0c	mapped	0x1026eeb0c
+System.Net.NameResolution	61	0x0600003e	System.Net.NameResolutionTelemetry	GetHostnameFromStateObject	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2dbc	0x9488af95	0x1026eec10	0x1026eec10	mapped	0x1026eec10
+System.Net.NameResolution	62	0x0600003f	System.Net.NameResolutionTelemetry	.ctor	0x2050	NoInlining	Public, HideBySig, SpecialName, RTSpecialName	0x1004c2dc0	0x9488aff0	0x1026eed80	0x1026eed80	mapped	0x1026eed80
+System.Net.NameResolution	63	0x06000040	System.Net.NameResolutionTelemetry	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004c2dc4	0x9488b005	0x1026eedd8	0x1026eedd8	mapped	0x1026eedd8
+System.Net.NameResolution	64	0x06000041	System.Net.SocketProtocolSupportPal	get_OSSupportsIPv6	0x2050	NoInlining	Public, Static, HideBySig, SpecialName	0x1004c2dc8	0x9488b020	0x1026eee48	0x1026eee48	mapped	0x1026eee48
+System.Net.NameResolution	65	0x06000042	System.Net.SocketProtocolSupportPal	IsIPv6Disabled	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2dcc	0x9488b030	0x1026eee8c	0x1026eee8c	mapped	0x1026eee8c
+System.Net.NameResolution	66	0x06000043	System.Net.SocketProtocolSupportPal	IsSupported	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2dd0	0x9488b05f	0x1026eef4c	0x1026eef4c	mapped	0x1026eef4c
+System.Net.NameResolution	67	0x06000044	System.Net.SocketProtocolSupportPal	.cctor	0x2050	NoInlining	Private, Static, HideBySig, SpecialName, RTSpecialName	0x1004c2dd4	0x9488b0a1	0x1026ef058	0x1026ef058	mapped	0x1026ef058
+System.Net.NameResolution	68	0x06000045	System.Net.NameResolutionPal	GetSocketErrorForNativeError	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2dd8	0x9488b0c8	0x1026ef0f8	0x1026ef0f8	mapped	0x1026ef0f8
+System.Net.NameResolution	69	0x06000046	System.Net.NameResolutionPal	ParseHostEntry	0x2050	NoInlining	Private, Static, HideBySig	0x1004c2ddc	0x9488b0ee	0x1026ef194	0x1026ef194	mapped	0x1026ef194
+System.Net.NameResolution	70	0x06000047	System.Net.NameResolutionPal	TryGetAddrInfo	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2de0	0x9488b1ef	0x1026ef59c	0x1026ef59c	mapped	0x1026ef59c
+System.Net.NameResolution	71	0x06000048	System.Net.NameResolutionPal	TryGetNameInfo	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2de4	0x9488b280	0x1026ef7e4	0x1026ef7e4	mapped	0x1026ef7e4
+System.Net.NameResolution	72	0x06000049	System.Net.NameResolutionPal	GetHostName	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2de8	0x9488b2e6	0x1026ef980	0x1026ef980	mapped	0x1026ef980
+System.Net.NameResolution	73	0x0600004a	System.Net.InteropIPAddressExtensions	GetIPAddress	0x2050	NoInlining	Public, Static, HideBySig	0x1004c2dec	0x9488b2ef	0x1026ef9a8	0x1026ef9a8	mapped	0x1026ef9a8
