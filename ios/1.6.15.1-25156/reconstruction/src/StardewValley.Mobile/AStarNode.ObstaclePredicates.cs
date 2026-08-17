@@ -49,4 +49,20 @@ public partial class AStarNode
 
 		return null;
 	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public bool ContainsChest()
+	{
+		return _aStarGraph.gameLocation.objects.TryGetValue(new Vector2(x, y), out Object value)
+			&& value is Chest;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public Chest FetchChest()
+	{
+		if (_aStarGraph.gameLocation.objects.TryGetValue(new Vector2(x, y), out Object value))
+			return value as Chest;
+
+		return null;
+	}
 }
