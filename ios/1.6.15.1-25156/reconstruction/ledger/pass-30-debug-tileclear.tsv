@@ -1,0 +1,2 @@
+assembly	type	method	token	native_address	linux_counterpart	managed_metadata_evidence	native_evidence	status	confidence	notes	completed_commit
+StardewValley	StardewValley.Mobile.AStarNode	DebugTileClear	0x06006637	0x101fa88e0	absent_mobile_only	managed-metadata/source-skeleton/StardewValley.Mobile/AStarNode.cs	native-aot/pseudocode/mobile-core/c/06006637__SDV_StardewValley_Mobile_AStarNode_DebugTileClear_06006637.c	verified	high	Exact wrapper: call DebugObjectParentSheetIndexOnTile, evaluate/discard TileClear, return.	7d80b045c0be5a65908705b7f4966b325c43ecff
