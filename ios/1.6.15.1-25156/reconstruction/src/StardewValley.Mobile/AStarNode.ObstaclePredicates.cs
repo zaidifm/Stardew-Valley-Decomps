@@ -67,6 +67,15 @@ public partial class AStarNode
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
+	public string ObjectParentSheetIndexOnTile()
+	{
+		if (_aStarGraph.gameLocation.objects.TryGetValue(new Vector2(x, y), out Object value))
+			return value.ItemId;
+
+		return "-1";
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool ContainsScarecrow()
 	{
 		if (!_aStarGraph.gameLocation.objects.TryGetValue(new Vector2(x, y), out Object value))
