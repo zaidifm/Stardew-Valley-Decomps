@@ -1,5 +1,6 @@
 using System.Runtime.CompilerServices;
 using Microsoft.Xna.Framework;
+using StardewValley.Buildings;
 using StardewValley.Locations;
 using xTile.Dimensions;
 using xTile.ObjectModel;
@@ -112,5 +113,47 @@ public partial class TapToMoveUtils
 		}
 
 		return shadow2 != null;
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public static bool IsWateringCanFillingSource(Vector2 tile)
+	{
+		if (IsWater(tile) && !IsTilePassable(gameLocation, (int)tile.X, (int)tile.Y))
+			return true;
+
+		if (gameLocation.IsBuildableLocation())
+		{
+			Building building = gameLocation.getBuildingAt(tile);
+			if (building != null
+				&& (building is FishPond || building.buildingType.Equals("Well"))
+				&& building.daysOfConstructionLeft.Value < 1)
+			{
+				return true;
+			}
+		}
+
+		if (gameLocation is Submarine
+			&& tile.X >= 9f && tile.X <= 20f
+			&& tile.Y >= 7f && tile.Y <= 11f)
+		{
+			return true;
+		}
+
+		if (gameLocation.IsGreenhouse
+			&& ((tile.X == 9f && tile.Y == 7f) || (tile.X == 10f && tile.Y == 7f)))
+		{
+			return true;
+		}
+
+		if (gameLocation is Railroad
+			&& tile.X >= 14f && tile.X <= 16f
+			&& tile.Y >= 55f && tile.Y <= 56f)
+		{
+			return true;
+		}
+
+		if (gameLocation is VolcanoDungeon volcanoDungeon)
+			return volcanoDungeon.CanRefillWateringCanOnTile((int)tile.X, (int)tile.Y);
+		return false;
 	}
 }
