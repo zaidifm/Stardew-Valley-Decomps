@@ -2,94 +2,81 @@
 
 Canonical branch: `ios-csharp-reconstruction`
 
-This is the compact resume marker. Detailed per-method evidence belongs in `methods.tsv`, `ledger/*.tsv`, and `notes/`.
+This is the compact resume marker. Detailed evidence lives in `methods.tsv`, `ledger/*.tsv`, and `notes/`.
 
 ## Current checkpoint
 
-The active pilot is the mobile-only AStar subsystem. The current Linux `1.6.15.24356` source has no `StardewValley.Mobile.AStar*`, `TapToMove*`, or `VirtualJoypad` counterpart, so this pilot is native-first rather than a Linux implementation transplant.
+Native-verified reconstructed methods: **60**.
 
-Native-verified reconstructed methods at this checkpoint: **56**.
+- `AStarPath`: 8 emitted; `ToString` remains triaged pending exact AOT string recovery.
+- `AStarNode`: 48 emitted.
+- `AStarGraph`: 4 emitted.
 
-- `AStarPath`: 8 verified/emitted; `ToString` remains triaged because exact AOT-managed string literals are unresolved.
-- `AStarNode`: 44 verified/emitted.
-- `AStarGraph`: 4 verified/emitted.
+The initial mobile pilot is native-first: current Linux `1.6.15.24356` has no `StardewValley.Mobile.AStar*`, `TapToMove*`, or `VirtualJoypad` implementation counterpart.
 
-## Newly completed since the 47-method checkpoint
+## New since the 56-method checkpoint
 
-### Blocking bed tile
+### `FetchBuilding`
 
-`AStarNode.isBlockingBedTile` is complete. The native method uses the mobile `DecoratableLocation` guard, calls mapped `BedFurniture.GetBedAtTile(location,x,y)`, constructs the node's 64x64 rectangle, and dispatches through BedFurniture virtual slot `+0x660`. Direct ARM64 at mapped `BedFurniture.IntersectsForCollision(Rectangle)` reproduces the shared Linux implementation exactly, establishing that virtual target.
+Native `GameLocation` vtable `+0x510` resolves exactly to `IsBuildableLocation()`. Building vtable `+0x100` resolves to `Building.isTilePassable(Vector2)`. The recovered method returns the first `gameLocation.buildings` entry that is not passable at `(x,y)`, or null.
 
-Source: `ab3ae535c735de297a1f70d03f79a127e0583817`.
-Evidence: `notes/AStarNode-blocking-bed-pass7.md`, `ledger/pass-07-blocking-bed.tsv`.
+Source `e9ef95e77c17cb44e69883376579bd3b4528f35e`; evidence `notes/AStarNode-building-pass11.md`, ledger `pass-11-building.tsv`.
 
-### Furniture
+`ContainsBuilding` remains triaged because its non-buildable-location branch probes the map `Buildings` layer through xTile generic helpers. `IsBuildingPassable` likewise still contains unresolved layer-property strings.
 
-`ContainsFurniture` and `GetFurniture` are complete.
+### `SetBubbleIDRecursively`
 
-- `ContainsFurniture` skips rugs (`12`) and beds (`15`) and tests the remaining furniture bounding boxes against the node rectangle.
-- `GetFurniture` makes two passes: intersecting non-rugs first, rugs second. Beds are not excluded from this retrieval method.
+Recovered the exact N,S,W,E recursive bubble flood fill, including `bubbleChecked`, `_searchAStarNode`, the primary `bubbleID != 0 && !TileClear` rejection, and primary/secondary bubble assignment.
 
-Source: `2a5a552ad941bfeb9adb7a8b111e260d0994f3c2`.
-Evidence: `notes/AStarNode-furniture-pass8.md`, `ledger/pass-08-furniture.tsv`.
+Source `f120c5bf97c117817025688f6884e513146d4778`; evidence `notes/AStarNode-bubble-pass12.md`, ledger `pass-12-bubble.tsv`.
 
-### Chests
+### `ContainsProp`
 
-`ContainsChest` / `FetchChest` are complete. Native helper `0x101b560e8` maps exactly to `OverlaidDictionary.TryGetValue`; the key is `new Vector2(x,y)`, followed by a `Chest` type test/cast.
+`Event +0x88` is `CurrentEvent.props`; Object vtable `+0x5f8` resolves to `Object.TileLocation`. The method scans event objects for exact `(TileLocation.X, TileLocation.Y) == (x,y)` equality. This is distinct from `ContainsFestivalProp`, which uses `festivalProps` and solid rectangle collision.
 
-Source: `c2b0d53b9de7c7b117fc923e9af0a05f0e3b8faa`.
-Evidence: `notes/AStarNode-chest-pass9.md`, `ledger/pass-09-chest.tsv`.
+Source `ecb2b33c1797e7d4a924777ab8f2f82b214a29b0`; evidence `notes/AStarNode-event-props-pass13.md`, ledger `pass-13-event-props.tsv`.
 
-### Resource clumps
+### `ContainsScarecrow`
 
-Four methods are complete:
+Direct ARM64 for `Item.get_ParentSheetIndex` proves the field access used by the native method. The shipped hardcoded scarecrow set is exactly:
 
-- `ContainsGiantWeed`: occupying `ResourceClump` with green-rain bush index `44` or `46`.
-- `ContainsGiantCrop`: Farm-only occupying clump typed `GiantCrop`.
-- `FetchGiantCrop`: Farm-only first occupying `GiantCrop`.
-- `ContainsStumpOrHollowLog`: occupying clump with index `600` or `602`.
+`8, 110, 113, 126, 136, 137, 138, 139, 140, 167`.
 
-Native `0x101a983a0` maps exactly to `ResourceClump.occupiesTile(x,y)`. The opaque native bit tests decode directly against shared `ResourceClump` constants.
+Source `f625023e8a71335f02f43f2a3b335c001f5c63a5`; evidence `notes/AStarNode-scarecrow-pass14.md`, ledger `pass-14-scarecrow.tsv`.
 
-Source: `275ba546a794ca24d83eb9af49e5f70a90233f11`.
-Evidence: `notes/AStarNode-resource-clumps-pass10.md`, `ledger/pass-10-resource-clumps.tsv`.
+## Established TileClear anchors
 
-## Previously established anchors
+`TileClear` top-level short-circuit logic is already emitted. Verified child behavior now includes gate/fence handling, furniture, blocking beds, travelling cart/desert shop, festival props, event props, chest lookup, resource-clump predicates, and building retrieval primitives.
 
-- `AStarPath.Distance` is squared Euclidean distance, not square-root distance.
-- Four-way and eight-way neighbour enumeration preserve the shipped direction order and repeated native structure.
-- lowercase `isGate()` excludes `Fence.isSoloGate`; `ContainsGate()` / `FetchGate()` do not.
-- `ContainsTravellingCart` uses an exact `Forest` type check.
-- `ContainsTravellingDesertShop` uses an exact `Desert` type check, excluding `DesertFestival : Desert`.
-- `ContainsFestivalProp` scans `Game1.CurrentEvent.festivalProps`; shipped `Prop.isColliding` is `solid && rectangle.Intersects(boundingRect)`.
-- `TileClear` top-level short-circuit formula is verified and emitted.
-- `GameLocation` virtual call at `MonoVTable + 0x3d0` is proven to be `isTileOccupiedIgnoreFloorsAndHorse(Vector2)`.
-- reusable virtual-slot helper: `scripts/resolve_mono_vtable_offset.py`.
+Important retained distinctions include:
 
-## Current dependency frontier
+- lowercase `isGate()` excludes `Fence.isSoloGate`; `ContainsGate()` / `FetchGate()` do not;
+- furniture collision excludes rugs and beds, while `GetFurniture` prioritizes non-rugs then rugs;
+- cart and desert-shop checks use exact `Forest` and exact `Desert` runtime types;
+- giant-weed indices are 44/46; stump/hollow-log indices are 600/602;
+- `AStarPath.Distance` is squared Euclidean distance, no square root.
 
-Keep shrinking `TileClear` before descending into the broad TapToMove helper graph. Strong next candidates:
+## Reusable tooling
 
-1. `ContainsBuilding` / `FetchBuilding` and `IsBuildingPassable`.
-2. `ContainsNPC` / `FetchNPC`, after naming their special-location branch and collection fields precisely.
-3. `ContainsAnimals`, after naming the two location subclasses selected by its native type checks.
-4. `ContainsStumpOrBoulder`, using the now-known resource-clump primitives plus its object fallback.
-5. `TapToMoveUtils.IsTilePassable` once these leaf predicates no longer obscure its behavior.
+`scripts/resolve_mono_vtable_offset.py` models the exact .NET 8.0.15 / Mono `50c4cb9f...` ARM64 vtable layout and reverse metadata assignment used by this build.
 
-Still defer methods whose semantics depend on unresolved AOT-managed string constants unless the string-recovery problem is solved first:
+`scripts/check_reconstruction_ledger.py` validates the logical union of the consolidated `methods.tsv` plus append-only `ledger/*.tsv` fragments.
 
-- `ContainsCinema`
-- `BrokenFestivalTile`
-- `AStarPath.ToString`
+## Next frontier
 
-`ContainsParrotExpress` is also nontrivial and should be handled as a bounded location-specific pass rather than guessed.
+Proceed evidence-first:
 
-## Validation
+1. Prove and reconstruct `ContainsAnimals` (native class guards are strongly localized to Farm + one other animal location; field `GameLocation +0x28` is the shared `animals` dictionary).
+2. Resolve `ContainsNPC` / `FetchNPC` special-location and secondary-character collection identities.
+3. Finish `ContainsBuilding` once xTile `Buildings`-layer fallback is named exactly.
+4. Recover `ContainsStumpOrBoulder` after resolving its final object ItemId literal.
+5. Attack AOT managed-string recovery as a reusable capability; this should unlock `ObjectParentSheetIndexOnTile` default value, `IsBuildingPassable`, `ContainsCinema`, `BrokenFestivalTile`, `ContainsSomeKindOfWarp`, and `AStarPath.ToString`.
+6. Then descend into `TapToMoveUtils.IsTilePassable` with a substantially smaller unknown leaf set.
 
-Every emitted semantic slice in this checkpoint has been compile-checked with the persisted .NET SDK `10.0.400` against signature-compatible minimal stubs. Current checks produce 0 compile errors; occasional `CS0649` warnings are only stripped-harness uninitialized-field artifacts.
+`ContainsParrotExpress` remains a separate location-specific dependency pass.
 
-## Resume discipline
+## Validation / discipline
 
-`methods.tsv` is the consolidated base ledger. New passes live in append-only `ledger/*.tsv`; the logical ledger is their union. `scripts/check_reconstruction_ledger.py` validates the combined set and rejects duplicate keys.
+Every emitted slice has been compiled with the persisted .NET SDK `10.0.400` against signature-compatible minimal stubs and currently has 0 compile errors. Harness-only `CS0649` warnings are ignored only when caused by deliberately uninitialized private fields.
 
-Do not guess AOT-managed strings or invent helper methods absent from managed metadata. Linux may resolve shared type/member semantics, but iOS native evidence is implementation authority.
+Do not guess AOT strings, collapse observable distinctions, or replace shipped mobile behavior with newer shared APIs merely because they look cleaner. iOS native evidence remains implementation authority; Linux source is a semantic naming/reference oracle.
