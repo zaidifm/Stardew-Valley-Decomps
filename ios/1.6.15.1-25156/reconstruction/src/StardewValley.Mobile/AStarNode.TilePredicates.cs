@@ -16,11 +16,9 @@ public partial class AStarNode
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool ContainsTravellingCart()
 	{
-		GameLocation location = _aStarGraph.gameLocation;
-		if (location == null || location.GetType() != typeof(Forest))
+		if (_aStarGraph.gameLocation is not Forest forest)
 			return false;
 
-		Forest forest = (Forest)location;
 		if (forest.travelingMerchantBounds == null)
 			return false;
 
@@ -37,12 +35,11 @@ public partial class AStarNode
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	public bool ContainsTravellingDesertShop()
 	{
-		GameLocation location = _aStarGraph.gameLocation;
-		if (location == null || location.GetType() != typeof(Desert))
+		if (_aStarGraph.gameLocation is not Desert desert)
 			return false;
 
 		Rectangle tileBounds = new Rectangle(x << 6, y << 6, 64, 64);
-		return ((Desert)location).desertMerchantBounds.Intersects(tileBounds);
+		return desert.desertMerchantBounds.Intersects(tileBounds);
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
