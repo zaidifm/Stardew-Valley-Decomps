@@ -1,6 +1,7 @@
 using System.Runtime.CompilerServices;
 using Microsoft.Xna.Framework;
 using StardewValley.Locations;
+using StardewValley.Objects;
 
 namespace StardewValley.Mobile;
 
@@ -42,6 +43,19 @@ public partial class AStarNode
 
 		Rectangle tileBounds = new Rectangle(x << 6, y << 6, 64, 64);
 		return ((Desert)location).desertMerchantBounds.Intersects(tileBounds);
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public bool isBlockingBedTile()
+	{
+		if (_aStarGraph.gameLocation is not DecoratableLocation location)
+			return false;
+
+		BedFurniture bed = BedFurniture.GetBedAtTile(location, x, y);
+		if (bed == null)
+			return false;
+
+		return bed.IntersectsForCollision(new Rectangle(x << 6, y << 6, 64, 64));
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
