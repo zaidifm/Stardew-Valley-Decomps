@@ -2,102 +2,83 @@
 
 Canonical branch: `ios-csharp-reconstruction`
 
-This is the compact resume marker. Detailed evidence lives in `methods.tsv`, `ledger/*.tsv`, and `notes/`.
+This is the compact resume marker. Detailed evidence lives in `methods.tsv`, append-only `ledger/*.tsv`, and `notes/`.
 
 ## Current checkpoint
 
-Native-verified reconstructed methods: **63**.
+Native-verified reconstructed methods: **79**.
 
-- `AStarPath`: 8 emitted; `ToString` remains triaged pending exact AOT string recovery.
+- `AStarPath`: 8 emitted; `ToString` remains triaged pending exact AOT-managed string recovery.
 - `AStarNode`: 51 emitted.
-- `AStarGraph`: 4 emitted.
+- `AStarGraph`: 20 emitted.
 
-The initial mobile pilot is native-first: current Linux `1.6.15.24356` has no `StardewValley.Mobile.AStar*`, `TapToMove*`, or `VirtualJoypad` implementation counterpart.
+The mobile pilot remains native-first because current Linux `1.6.15.24356` has no `StardewValley.Mobile.AStar*`, `TapToMove*`, or `VirtualJoypad` implementation counterpart.
 
-## Important correction: Mono class-test semantics
+## Most recent pass: AStarGraph direction / bubble helpers
 
-An earlier pass incorrectly interpreted the optimized Mono AOT class/supertype comparison sequence as exact runtime-type equality. iOS `GameLocation.isFarmBuildingInterior`, whose shared C# is `return this is AnimalHouse;`, uses the same sequence. The correct reconstruction is subclass-friendly C# `is` semantics.
+Pass 17 added 16 native-verified methods in source commit `0de7f431a06d1c1f1787c80319281451953e094d`.
 
-Corrected source: `ae80ac2cb6c9da7d42cd1ae6a2f409174ed89bd4`.
-Corrected note: `notes/AStarNode-TilePredicates-pass5.md` at `11c6b61ee39d3d7d674f9308c4ef0b488083600f`.
+Evidence: `notes/AStarGraph-direction-bubble-pass17.md` and `ledger/pass-17-astargraph-direction-bubble.tsv`.
 
-Therefore:
-- `ContainsTravellingCart`: `gameLocation is Forest`.
-- `ContainsTravellingDesertShop`: `gameLocation is Desert`, including `DesertFestival : Desert`.
+Recovered methods:
 
-Any older ledger prose saying those tests are exact runtime-type equality is superseded and must be corrected at the next base-ledger consolidation.
+- `Distance`
+- `IsNeighbouringNode`
+- `IsNeighbouringNodeNoDiagonals`
+- `IsNeighbouringNodeOnDiagonal`
+- `IsSameNode`
+- `OppositeWalkDirection`
+- `WalkDirectionToNextNode`
+- `WalkDirectionBetweenNodes`
+- `WalkDirectionBetweenTwoPoints`
+- `WalkDirectionBetweenTwoPointsNoDiagonals`
+- `WalkDirectionBetweenTwoNodes`
+- `WalkDirectionBetweenTwoTiles`
+- lowercase `distance`
+- `GetShortestPathAStarWithBubbleCheck`
+- `PathBetweenNodesExists`
+- `walkingDirectionToStardewDirection`
 
-## New since the 60-method checkpoint
+Important distinction: `AStarGraph.Distance(int x1,int y1,int x2,int y2)` is squared Euclidean distance returned as float, while lowercase `distance(int x1,int x2,int y1,int y2)` is true Euclidean distance returned as double with `sqrt`.
 
-### `ContainsAnimals`
+`OppositeWalkDirection` is proven from the native table at `0x103333500`: Up<->Down, Left<->Right, UpLeft<->DownRight, UpRight<->DownLeft. `walkingDirectionToStardewDirection` maps Up=0, Down=2, Left=3, Right=1 and returns -1 for non-cardinal directions.
 
-Recovered the full animal-location guard and tile test:
-- only `AnimalHouse` or `Farm` locations participate;
-- iterate `gameLocation.animals.Values`;
-- compare `FarmAnimal.StandingPixel.X / 64` and `.Y / 64` to this node's `(x,y)`.
+`WalkDirectionBetweenTwoTiles` preserves a non-obvious shipped behavior: identical/near-dead-zone points fall through the dominant-axis rule, and identical points return `Down`, not None.
 
-The class globals were independently pinned from iOS `GameLocation.isFarmBuildingInterior` (`AnimalHouse`) and `GameLocation.GetDirtDecayChance` (`Farm`).
+## Previously completed AStarNode anchors
 
-Source: `20fc29f8116953df29e4af33aa0ca6bc2f3fa793`.
-Evidence: `notes/AStarNode-animals-pass15.md`, ledger `ledger/pass-15-animals.tsv`.
+The emitted `TileClear` orchestration and its verified leaves now cover gate/fence handling, furniture, beds, travelling shops, animals, NPCs, festival/event props, chest lookup, scarecrows, resource-clump predicates, and building retrieval primitives.
 
-### `ContainsNPC` / `FetchNPC`
+Preserved quirks/distinctions include:
 
-Recovered both NPC tile scans and their special Beach path.
-
-The special subclass at the AStar native class guard is proven to be `Beach`: the same class global is used in `TapToMove.OnTap`, where native field `+0x2f8` aligns with `Beach.oldMariner` and following field `+0x300` is dereferenced as `Beach.bridgeFixed : NetBool`. The AdventureGuild alternative is incompatible with that layout.
-
-The normal location collections are also pinned:
-- `GameLocation.characters` at `+0xa0`;
-- `GameLocation.currentEvent` at `+0x1f0`;
-- `Event.actors` at `+0x80`.
-
-iOS `GameLocation.isCharacterAtTile` independently uses the same offsets and switches between `currentEvent.actors` and `characters`, matching shared C# semantics.
-
-Preserved shipped asymmetry:
-- `ContainsNPC` skips a `Pet` while `pet.isSleepingOnFarmerBed.Value` is true;
-- `FetchNPC` does not apply that sleeping-pet skip.
-
-Source: `8649b73a6fe52c7ec6dc5fc180a4bb2a4b5c556a`.
-Evidence: `notes/AStarNode-npc-pass16.md`, ledger `ledger/pass-16-npc.tsv`.
-
-## Previously completed after the 56-method checkpoint
-
-- `FetchBuilding`: buildable-location branch returns first building not passable at `(x,y)`.
-- `SetBubbleIDRecursively`: exact N,S,W,E bubble flood fill.
-- `ContainsProp`: scans `CurrentEvent.props` by exact `Object.TileLocation` tile equality.
-- `ContainsScarecrow`: hardcoded shipped ID set `8,110,113,126,136,137,138,139,140,167`.
-
-## Established TileClear anchors
-
-`TileClear` top-level short-circuit logic is emitted. Verified child behavior now includes gate/fence handling, furniture, blocking beds, travelling cart/desert shop, animals, NPCs, festival props, event props, chest lookup, scarecrows, resource-clump predicates, and building retrieval primitives.
-
-Important retained distinctions include:
-- lowercase `isGate()` excludes `Fence.isSoloGate`; `ContainsGate()` / `FetchGate()` do not;
-- furniture collision excludes rugs and beds, while `GetFurniture` prioritizes non-rugs then rugs;
-- travelling-cart and desert-shop guards use subclass-friendly `is Forest` / `is Desert`;
-- giant-weed indices are 44/46; stump/hollow-log indices are 600/602;
-- `ContainsNPC` ignores a pet sleeping on the farmer bed but `FetchNPC` does not;
+- lowercase `isGate()` excludes `Fence.isSoloGate`; `ContainsGate()` / `FetchGate()` do not.
+- `ContainsNPC` ignores a `Pet` sleeping on the farmer bed; `FetchNPC` does not.
+- `ContainsTravellingCart` and `ContainsTravellingDesertShop` use subclass-friendly `is Forest` / `is Desert` semantics. Any older prose saying these were exact `GetType()` tests is superseded.
 - `AStarPath.Distance` is squared Euclidean distance, no square root.
 
 ## Reusable tooling
 
-- `scripts/resolve_mono_vtable_offset.py`: exact .NET 8.0.15 / Mono `50c4cb9f...` ARM64 vtable layout/assignment resolver.
-- `scripts/check_reconstruction_ledger.py`: validates the logical union of `methods.tsv` and append-only `ledger/*.tsv` fragments.
+- `scripts/resolve_mono_vtable_offset.py`: exact .NET 8.0.15 / Mono `50c4cb9f...` ARM64 virtual-slot resolver.
+- `scripts/check_reconstruction_ledger.py`: validates the logical union of base `methods.tsv` and append-only fragments.
 
-## Next frontier
+## Active frontiers
 
-Proceed evidence-first:
+### AStarGraph
 
-1. Finish `ContainsBuilding` by naming its non-buildable xTile `Buildings`-layer fallback exactly.
-2. Recover `ContainsStumpOrBoulder` after resolving its final object ItemId literal.
-3. Reconstruct `IsBuildingPassable` once its Buildings-layer property strings are recovered.
-4. Attack AOT managed-string recovery as reusable tooling. This should unlock `ObjectParentSheetIndexOnTile` default value, `ContainsCinema`, `BrokenFestivalTile`, `ContainsSomeKindOfWarp`, and `AStarPath.ToString`.
-5. Reconstruct `ContainsParrotExpress` as a bounded location-specific pass.
-6. Then descend into `TapToMoveUtils.IsTilePassable` with a substantially smaller unknown leaf set.
+Next low-risk graph units:
+
+1. `ResetBubbles` and `mergeBubbleID2IntoBubbleID`, whose native bodies are bounded 2-D array traversals.
+2. `FarmerAStarNode` and `FetchNeighbourNodeThatIsPassible`; `FarmerAStarNode` already resolves through `Game1.player.Position` / `NetPosition` coordinates.
+3. `RefreshBubbles` after the farmer-node pair is complete.
+4. Reduce `AreOppositeWalkDirection` and `WalkDirectionBetweenTwoPointsWithLastDirection` to exact truth tables/masks before emitting them.
+5. Then tackle `RetracePath`, `SmoothRightAngles`, core A*, and Dijkstra as larger semantic units.
+
+### AOT string recovery
+
+The iOS IPA contains both `StardewValley.dll` and `StardewValley.aotdata.arm64`; both are extracted in the private workspace. Official Mono runtime source proves LDSTR patch records encode image index plus string-token offset. Regular GOT decoding is understood, but the Apple LLVM AOT string constants referenced from later BSS globals are not in the regular `jit_got` range. The next step is to map those LLVM AOT constant globals to their patch-info/string tokens. This should unlock `ContainsCinema`, `BrokenFestivalTile`, `IsBuildingPassable`, `ContainsStumpOrBoulder`, `AStarPath.ToString`, and other currently string-blocked methods.
 
 ## Validation / discipline
 
-Every emitted slice has been compiled with the persisted .NET SDK `10.0.400` against signature-compatible minimal stubs and currently has 0 compile errors. Harness-only `CS0649` warnings are ignored only when caused by deliberately uninitialized private fields.
+The latest 16-method AStarGraph batch compiles under the persisted .NET SDK `10.0.400` against minimal signature-compatible stubs with **0 warnings and 0 errors**.
 
-Do not guess AOT strings, collapse observable distinctions, or replace shipped mobile behavior with newer shared APIs merely because they look cleaner. iOS native evidence remains implementation authority; Linux source is a semantic naming/reference oracle.
+Do not guess AOT strings, collapse observable distinctions, or add convenience helpers absent from managed metadata when the shipped structure is known. iOS native evidence remains implementation authority; Linux source is a naming/semantic reference oracle.
