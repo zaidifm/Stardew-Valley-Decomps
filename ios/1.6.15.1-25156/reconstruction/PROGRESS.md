@@ -8,128 +8,88 @@ This is the compact resume marker. Detailed per-method evidence belongs in `meth
 
 The active pilot is the mobile-only AStar subsystem. The current Linux `1.6.15.24356` source has no `StardewValley.Mobile.AStar*`, `TapToMove*`, or `VirtualJoypad` counterpart, so this pilot is native-first rather than a Linux implementation transplant.
 
-Native-verified reconstructed methods at this checkpoint: **47**.
+Native-verified reconstructed methods at this checkpoint: **56**.
 
-One additional AStarPath method, `ToString`, is triaged but intentionally not emitted because exact AOT-managed string literals/punctuation remain unresolved.
+- `AStarPath`: 8 verified/emitted; `ToString` remains triaged because exact AOT-managed string literals are unresolved.
+- `AStarNode`: 44 verified/emitted.
+- `AStarGraph`: 4 verified/emitted.
 
-## AStarPath
+## Newly completed since the 47-method checkpoint
 
-8 methods are verified/emitted.
+### Blocking bed tile
 
-Key result: `Distance` is squared Euclidean distance (`dx*dx + dy*dy`), not square-root distance.
+`AStarNode.isBlockingBedTile` is complete. The native method uses the mobile `DecoratableLocation` guard, calls mapped `BedFurniture.GetBedAtTile(location,x,y)`, constructs the node's 64x64 rectangle, and dispatches through BedFurniture virtual slot `+0x660`. Direct ARM64 at mapped `BedFurniture.IntersectsForCollision(Rectangle)` reproduces the shared Linux implementation exactly, establishing that virtual target.
 
-Source commit: `46f602a33edf8fd6f6dea2d7cdda67d88e43ed1e`.
-Evidence: `notes/AStarPath-pass1.md`.
+Source: `ab3ae535c735de297a1f70d03f79a127e0583817`.
+Evidence: `notes/AStarNode-blocking-bed-pass7.md`, `ledger/pass-07-blocking-bed.tsv`.
 
-## AStarNode
+### Furniture
 
-35 methods are verified/emitted so far, including:
+`ContainsFurniture` and `GetFurniture` are complete.
 
-- cost/parent/coordinate accessors and constructor;
-- tile rectangle and center geometry;
-- four-way and eight-way neighbour enumeration;
-- gate/object lookup predicates;
-- `TileClear` top-level obstacle orchestration;
-- `isTilePassable` wrapper;
-- travelling-cart and travelling-desert-shop predicates;
-- `ContainsFestivalProp`.
+- `ContainsFurniture` skips rugs (`12`) and beds (`15`) and tests the remaining furniture bounding boxes against the node rectangle.
+- `GetFurniture` makes two passes: intersecting non-rugs first, rugs second. Beds are not excluded from this retrieval method.
 
-Important preserved distinctions:
+Source: `2a5a552ad941bfeb9adb7a8b111e260d0994f3c2`.
+Evidence: `notes/AStarNode-furniture-pass8.md`, `ledger/pass-08-furniture.tsv`.
 
-- lowercase `isGate()` excludes `Fence.isSoloGate`;
-- `ContainsGate()` / `FetchGate()` do not;
-- `ContainsTravellingCart()` performs an exact `Forest` type check;
-- `ContainsTravellingDesertShop()` performs an exact `Desert` type check, so `DesertFestival : Desert` does not match;
-- `ContainsFestivalProp()` scans `Game1.CurrentEvent.festivalProps` and uses the shipped `Prop.isColliding` semantics (`solid && rectangle.Intersects(boundingRect)`).
+### Chests
 
-Canonical neighbour source: `cded72b8af1d54d806668e1a322d312b2f629bf8`.
-TileClear orchestration source: `67918048f3993b4edce56328268d54b87e650b9a`.
-Initial TileClear child predicates: `7f586bef60a509a7fc888127998c9c6a0fb995a0`.
-Festival-prop predicate: `44667410d450dd5256763bf2d3b4fdbf6b55c375`.
+`ContainsChest` / `FetchChest` are complete. Native helper `0x101b560e8` maps exactly to `OverlaidDictionary.TryGetValue`; the key is `new Vector2(x,y)`, followed by a `Chest` type test/cast.
 
-Evidence notes:
+Source: `c2b0d53b9de7c7b117fc923e9af0a05f0e3b8faa`.
+Evidence: `notes/AStarNode-chest-pass9.md`, `ledger/pass-09-chest.tsv`.
 
-- `notes/AStarNode-structural-pass1.md`
-- `notes/AStarNode-gates-pass2.md`
-- `notes/AStar-neighbours-pass3.md`
-- `notes/AStarNode-TileClear-pass4.md`
-- `notes/AStarNode-TilePredicates-pass5.md`
+### Resource clumps
 
-The festival-prop evidence is additionally recorded in `ledger/pass-06-festival-prop.tsv`; `Event + 0x90` was tied to `festivalProps` using the iOS native `Event.removeFestivalProps` implementation.
+Four methods are complete:
 
-## AStarGraph
+- `ContainsGiantWeed`: occupying `ResourceClump` with green-rain bush index `44` or `46`.
+- `ContainsGiantCrop`: Farm-only occupying clump typed `GiantCrop`.
+- `FetchGiantCrop`: Farm-only first occupying `GiantCrop`.
+- `ContainsStumpOrHollowLog`: occupying clump with index `600` or `602`.
 
-4 minimal graph primitives are verified/emitted:
+Native `0x101a983a0` maps exactly to `ResourceClump.occupiesTile(x,y)`. The opaque native bit tests decode directly against shared `ResourceClump` constants.
 
-- `FetchAStarNode`
-- `Nodes`
-- `AddNode`
-- constructor
+Source: `275ba546a794ca24d83eb9af49e5f70a90233f11`.
+Evidence: `notes/AStarNode-resource-clumps-pass10.md`, `ledger/pass-10-resource-clumps.tsv`.
 
-Source commit: `5a8e108cb8c4303a18cb0008d9e9d6bddc162632`.
+## Previously established anchors
 
-## Reusable Mono virtual-call resolution
-
-The exact embedded runtime is .NET 8.0.15 / Mono commit `50c4cb9fc31c47f03eac865d7bc518af173b74b7`.
-
-A reusable resolver is checked in at:
-
-`scripts/resolve_mono_vtable_offset.py`
-
-It models the exact ARM64 MonoVTable header and class-vtable assignment order. For `GameLocation`, the native call through `MonoVTable + 0x3d0` in `AStarNode.TileClear` is proven to be:
-
-`GameLocation.isTileOccupiedIgnoreFloorsAndHorse(Vector2)`
-
-token `0x06003A5A`.
-
-Evidence: `notes/Mono-vtable-resolution.md`.
-
-## TileClear formula verified
-
-`AStarNode.TileClear` (`0x06006635`, native `0x101fa8498`) is emitted with the observed short-circuit order:
-
-1. `_fakeTileClear` => true.
-2. Require `GameLocation.isTileOnMap(tile)`.
-3. Reject `GameLocation.isTileOccupiedIgnoreFloorsAndHorse(tile)` unless `isGate()`.
-4. Require `isTilePassable()`.
-5. Reject stump/boulder.
-6. Reject furniture.
-7. Reject non-gate fence.
-8. Reject impassable building.
-9. Reject animals.
-10. Reject NPC.
-11. Reject festival prop.
-12. Reject blocking bed tile.
-13. Reject travelling cart.
-14. Reject travelling desert shop.
-15. Reject broken festival tile.
-16. Reject cinema.
-17. Require `!ContainsParrotExpress()`.
-
-The child predicates can be reconstructed independently without reopening this top-level logic.
-
-## Ledger/checkpoint structure
-
-`methods.tsv` is the periodically consolidated base ledger. New small passes are appended under `ledger/*.tsv`; the logical ledger is the union of both. `scripts/check_reconstruction_ledger.py` validates the combined set and rejects duplicate method keys. This avoids rewriting the entire growing TSV for every one-method checkpoint through the GitHub contents API.
+- `AStarPath.Distance` is squared Euclidean distance, not square-root distance.
+- Four-way and eight-way neighbour enumeration preserve the shipped direction order and repeated native structure.
+- lowercase `isGate()` excludes `Fence.isSoloGate`; `ContainsGate()` / `FetchGate()` do not.
+- `ContainsTravellingCart` uses an exact `Forest` type check.
+- `ContainsTravellingDesertShop` uses an exact `Desert` type check, excluding `DesertFestival : Desert`.
+- `ContainsFestivalProp` scans `Game1.CurrentEvent.festivalProps`; shipped `Prop.isColliding` is `solid && rectangle.Intersects(boundingRect)`.
+- `TileClear` top-level short-circuit formula is verified and emitted.
+- `GameLocation` virtual call at `MonoVTable + 0x3d0` is proven to be `isTileOccupiedIgnoreFloorsAndHorse(Vector2)`.
+- reusable virtual-slot helper: `scripts/resolve_mono_vtable_offset.py`.
 
 ## Current dependency frontier
 
-Prefer predicates whose native behavior can be completed without inventing managed string constants:
+Keep shrinking `TileClear` before descending into the broad TapToMove helper graph. Strong next candidates:
 
-1. `isBlockingBedTile` (`0x0600663C`, native `0x101fa8f0c`): `BedFurniture.GetBedAtTile` is already mapped, but a BedFurniture virtual call at `MonoVTable + 0x660` still needs exact slot resolution.
-2. `TapToMoveUtils.IsTilePassable` (`0x060066EE`): reconstruct once its own dependency fan-out is bounded.
-3. Continue the remaining `TileClear` children with bounded, evidence-first passes (`ContainsStumpOrBoulder`, `ContainsFurniture`, building/animal/NPC predicates, etc.).
+1. `ContainsBuilding` / `FetchBuilding` and `IsBuildingPassable`.
+2. `ContainsNPC` / `FetchNPC`, after naming their special-location branch and collection fields precisely.
+3. `ContainsAnimals`, after naming the two location subclasses selected by its native type checks.
+4. `ContainsStumpOrBoulder`, using the now-known resource-clump primitives plus its object fallback.
+5. `TapToMoveUtils.IsTilePassable` once these leaf predicates no longer obscure its behavior.
 
-Defer these until string-literal recovery is mechanized:
+Still defer methods whose semantics depend on unresolved AOT-managed string constants unless the string-recovery problem is solved first:
 
 - `ContainsCinema`
 - `BrokenFestivalTile`
 - `AStarPath.ToString`
 
-## Validation state
+`ContainsParrotExpress` is also nontrivial and should be handled as a bounded location-specific pass rather than guessed.
 
-All staged semantic slices have been compile-checked with the persisted .NET SDK `10.0.400` against minimal signature-compatible stubs. The reconstructed units produce 0 compile errors. Occasional `CS0649` warnings are solely artifacts of intentionally uninitialized fields in stripped test harnesses.
+## Validation
 
-## Reconstruction discipline
+Every emitted semantic slice in this checkpoint has been compile-checked with the persisted .NET SDK `10.0.400` against signature-compatible minimal stubs. Current checks produce 0 compile errors; occasional `CS0649` warnings are only stripped-harness uninitialized-field artifacts.
 
-Do not add helper methods or abstractions absent from the managed metadata merely to prettify recovered code when the shipped managed/native structure is known. Do not guess AOT-managed strings. Linux may resolve shared names and type semantics, but iOS native evidence remains implementation authority.
+## Resume discipline
+
+`methods.tsv` is the consolidated base ledger. New passes live in append-only `ledger/*.tsv`; the logical ledger is their union. `scripts/check_reconstruction_ledger.py` validates the combined set and rejects duplicate keys.
+
+Do not guess AOT-managed strings or invent helper methods absent from managed metadata. Linux may resolve shared type/member semantics, but iOS native evidence is implementation authority.
