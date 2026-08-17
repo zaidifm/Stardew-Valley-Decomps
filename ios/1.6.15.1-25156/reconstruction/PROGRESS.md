@@ -6,88 +6,74 @@ Compact resume marker. Detailed evidence lives in base `methods.tsv`, append-onl
 
 ## Current checkpoint
 
-Native-verified reconstructed methods: **105**.
+Native-verified reconstructed methods: **106**.
 
 - `AStarPath`: **9/9 complete**.
-- `AStarNode`: **62/64 emitted**.
-- `AStarGraph`: **34/35 emitted**; only private `DiagonalWalkDirection` remains.
+- `AStarNode`: **63/64 complete**.
+- `AStarGraph`: **34/35 complete**.
 
-Only two AStarNode methods remain: `DebugIsTilePassable` and `AStarNode.ToString`.
+Only two managed methods remain across the complete AStar pilot:
 
-## Methods 101-105
+1. `AStarNode.DebugIsTilePassable` (`0x06006645`, native `0x101faa698`).
+2. `AStarGraph.DiagonalWalkDirection` (`0x06006614`, native `0x101fa3e1c`, ~11 KB raw ARM64 body).
 
-### 101: `IsBuildingPassable`
+## Method 106: `AStarNode.ToString`
 
-Source `616bd1fa63c48ba6d43090ac90f9960b867c6a1b`.
+Source commit: `6f338b4a310dc831d6ac4462ff428651a4222f82`.
+Evidence note: commit `47086152cc14f1bbea6f2048dfabc6edc7f345ac`.
+Ledger record: `ledger/pass-35-node-tostring.tsv`, commit `bc81cd1d1dbe421c40a8b5c9645d882400cece3a`.
 
-Using the owned same-era Linux `xTile.dll` as the dependency oracle, the iOS AOT call sequence resolves to `map.GetLayer("Buildings").PickTile(...)`, `TileIndexProperties`, inherited `Properties`, and `PropertyValue.ToString()`.
+Recovered semantics:
 
-Recovered property literals are `Buildings`, `Passable`, `t`, `true`, `Shadow`. The method accepts explicit Passable values `t`/`true` (case-normalized) from tile-index or direct tile properties, otherwise accepts a `Shadow` tile-index property.
+- starts with an `AStarNode -> x:<x>, y:<y>` diagnostic header;
+- iterates every map layer;
+- reads `layer.Tiles[x,y]`;
+- null tile emits the recovered null-tile diagnostic line;
+- non-null tile appends the tile's own `ToString()`;
+- separately enumerates `TileIndexProperties` and direct inherited `Properties`, formatting each key/value pair with the recovered literals.
 
-### 102: `ContainsSomeKindOfWarp`
+The exact same-era owned Linux `xTile.dll` decompile is used to name/verify the map/layer/tile/property APIs, while iOS AOT remains implementation authority.
 
-Source `24f33954be51232cce5689e8b0bac6ff290d684a`.
+## Major reusable capabilities established during the pilot
 
-Buildings-layer PickTile; retains the shipped unused TileIndexProperties `Passable` lookup; then scans direct tile Properties for exact values `LockedDoorWarp`, `Warp`, `WarpMensLocker`, or `WarpWomensLocker`.
+### LLVM AOT scalar/string decoder
 
-### 103: `ContainsBuilding`
-
-Same source commit `24f33954be51232cce5689e8b0bac6ff290d684a`.
-
-Buildable locations scan `gameLocation.buildings` and return true for the first building where `!building.isTilePassable(new Vector2(x,y))`. Non-buildable locations instead return whether the Buildings-layer PickTile is non-null.
-
-### 104: `ContainsStumpOrBoulder`
-
-Source `26412623dbe8f043369ad6e672d669e518f3f31a`.
-
-The native body has redundant location-class branches, but every one enumerates the same `GameLocation +0x100` field. That field is independently proven `resourceClumps` by iOS `GameLocation.addResourceClumpAndRemoveUnderlyingTerrain`, which loads `this+0x100` immediately before adding a newly constructed ResourceClump, exactly matching current Linux source. Reconstruction therefore collapses the duplicate branches to one `resourceClumps` scan using mapped `ResourceClump.occupiesTile(x,y)`. Fallback is tile object `ItemId == "Boulder"`.
-
-### 105: `DebugObjectParentSheetIndexOnTile`
-
-Source `beee4b954359a267fddf752051ffb4892c9011c2`.
-
-Tile object lookup, then log:
-
-`"obj.parentSheetIndex:" + value.parentSheetIndex?.ToString() + ", " + value.ToString()`
-
-Item `+0x58` is independently proven the `parentSheetIndex : NetInt` field by direct ARM64 for `Item.get_ParentSheetIndex`. MonoVTable `+0x60` is physical slot2 and resolves to `System.Object.ToString`, explaining both virtual calls. The exact prefix/comma-space literals come from the LLVM scalar decoder.
-
-## Major capabilities now available
-
-### LLVM AOT scalar / string decoder
+Checked in:
 
 `scripts/decode_llvm_aotconst.py`
 
-Mechanically resolves Apple LLVM scalar globals through generated `llvm_init_aotconst`, `LLVM_GOT_INFO_OFFSETS`, and Mono patch metadata to exact managed `#US` strings. A private 19,185-row LDSTR map is persisted in the Universal File Library.
+The decoder mechanically resolves:
 
-SFLDA/static-field patch decoding has also been demonstrated, including proof that the date scalar in `BrokenFestivalTile` is `Game1.dayOfMonth`.
+`LLVM scalar global -> llvm_init_aotconst slot -> LLVM_GOT_INFO_OFFSETS patch -> managed #US string`
+
+A private 19,185-row LDSTR mapping is persisted in the Universal File Library. This broke the former string bottleneck and unlocked AStarPath.ToString, AStarNode map/property methods, festival/cinema/warp logic, and diagnostic formatters.
 
 ### Same-era xTile dependency oracle
 
-The owned Linux `1.6.15.24356` distribution's `xTile.dll` was decompiled with persisted ILSpy 11.0.0.9375. The exact dependency source is available privately under `/mnt/data/sdv-recon/xtile-decomp/source/` and is used to name/verify iOS xTile AOT calls rather than relying on older public xTile code.
+The owned Linux `1.6.15.24356` `xTile.dll` was decompiled with persisted ILSpy 11.0.0.9375 and saved privately under the Linux decompilation reference-dependencies area. It is used to name/verify xTile API calls in the iOS native AOT without relying on stale public framework source.
 
-## Remaining methods
+### Mono vtable resolver
 
-### AStarNode (2)
+`scripts/resolve_mono_vtable_offset.py` resolves opaque Mono virtual-call offsets against the exact .NET 8.0.15 / Mono runtime used by this iOS build.
 
-- `DebugIsTilePassable` token `0x06006645`, native `0x101faa698`: large diagnostic/logging method around mobile passability and map properties.
-- `ToString` token `0x0600665D`, native `0x101fadb10`: large formatter; exact LLVM literals are now recoverable, so this is a finite field/method-mapping task rather than a string blocker.
+## Important reconstructed quirks preserved
 
-### AStarGraph (1)
+- `AStarPath.Distance` is squared Euclidean distance.
+- `AStarGraph.Distance` is squared Euclidean while lowercase `distance` uses `sqrt`.
+- core A* ranks by `fCost` but the shipped native body does not update `fCost` during relaxation.
+- Dijkstra includes start and end nodes and bakes normal/unreachable paths; the start==end case returns early without Bake.
+- diagonal-target fallback uses strict minima for NW/NE/SW but accepts SE if TileClear when none of those wins.
+- `isGate()` excludes solo gates while `ContainsGate()` / `FetchGate()` do not.
+- `ContainsNPC` ignores a pet sleeping on the farmer bed while `FetchNPC` does not.
+- Mono AOT class-test sequences here correspond to subclass-friendly C# `is`, not exact runtime-type equality.
 
-- `DiagonalWalkDirection(AStarPath,int)` token `0x06006614`, native `0x101fa3e1c`, ~11 KB. High-level Ghidra decompile crashed; raw ARM64 is persisted privately. `SmoothRightAngles` is already reconstructed around it.
+## Immediate next actions
 
-## Next direction
-
-1. Finish `AStarNode.ToString` using the full scalar map plus method/field mappings.
-2. Recover `DebugIsTilePassable`, ideally leveraging exact same-era xTile APIs and the now-known string constants.
-3. Then tackle `DiagonalWalkDirection` from raw ARM64 to complete AStarGraph.
-4. With the AStar pilot nearly complete, expand outward into `TapToMoveUtils.IsTilePassable` and then broader TapToMove/VirtualJoypad dependencies.
-
-## Canonical correction
-
-Mono class/supertype tests in this target use subclass-friendly C# `is`, not exact `GetType()` equality. `ContainsTravellingCart` is `is Forest`; `ContainsTravellingDesertShop` is `is Desert` and includes `DesertFestival`. Older base-ledger prose saying exact type is superseded until ledger consolidation.
+1. Finish `AStarNode.DebugIsTilePassable` using the now-known exact xTile APIs and recovered LLVM literals. This should complete AStarNode 64/64.
+2. Reduce `AStarGraph.DiagonalWalkDirection` from the persisted raw ARM64 to complete AStarGraph 35/35.
+3. At that point the AStarPath/AStarNode/AStarGraph pilot is **108/108 complete**.
+4. Use the reconstruction machinery learned here to expand into `TapToMoveUtils.IsTilePassable`, then broader TapToMove / VirtualJoypad dependencies.
 
 ## Validation / discipline
 
-All emitted semantic units through method 105 have been compile-checked or signature-checked against the matching managed/dependency shapes; current units have zero compile errors. Preserve shipped quirks and do not guess constants or replace native behavior with cleaner modern APIs.
+Every emitted semantic unit through method 106 has been compile-checked or signature-checked against matching managed/dependency shapes. Preserve shipped quirks; do not invent helper methods, guess constants, or replace native mobile behavior with cleaner modern APIs. iOS native evidence remains implementation authority; current Linux source/dependencies are naming and semantic reference oracles.
