@@ -6,79 +6,79 @@ This is the compact resume marker. Detailed evidence lives in `methods.tsv`, app
 
 ## Current checkpoint
 
-Native-verified reconstructed methods: **79**.
+Native-verified reconstructed methods: **88**.
 
 - `AStarPath`: 8 emitted; `ToString` remains triaged pending exact AOT-managed string recovery.
 - `AStarNode`: 51 emitted.
-- `AStarGraph`: 20 emitted.
+- `AStarGraph`: 29 emitted.
 
 The mobile pilot remains native-first because current Linux `1.6.15.24356` has no `StardewValley.Mobile.AStar*`, `TapToMove*`, or `VirtualJoypad` implementation counterpart.
 
-## Most recent pass: AStarGraph direction / bubble helpers
+## Recent AStarGraph passes
 
-Pass 17 added 16 native-verified methods in source commit `0de7f431a06d1c1f1787c80319281451953e094d`.
+### Pass 17: direction / bubble helpers
 
-Evidence: `notes/AStarGraph-direction-bubble-pass17.md` and `ledger/pass-17-astargraph-direction-bubble.tsv`.
+Source `0de7f431a06d1c1f1787c80319281451953e094d`, 16 methods.
 
-Recovered methods:
+Includes adjacency/equality, cardinal/diagonal direction helpers, both graph distance functions, `PathBetweenNodesExists`, the bubble-checked A* wrapper, and Stardew cardinal-direction conversion.
 
-- `Distance`
-- `IsNeighbouringNode`
-- `IsNeighbouringNodeNoDiagonals`
-- `IsNeighbouringNodeOnDiagonal`
-- `IsSameNode`
-- `OppositeWalkDirection`
-- `WalkDirectionToNextNode`
-- `WalkDirectionBetweenNodes`
-- `WalkDirectionBetweenTwoPoints`
-- `WalkDirectionBetweenTwoPointsNoDiagonals`
-- `WalkDirectionBetweenTwoNodes`
-- `WalkDirectionBetweenTwoTiles`
-- lowercase `distance`
-- `GetShortestPathAStarWithBubbleCheck`
-- `PathBetweenNodesExists`
-- `walkingDirectionToStardewDirection`
+Important: uppercase `Distance(x1,y1,x2,y2)` is squared Euclidean float; lowercase `distance(x1,x2,y1,y2)` is true Euclidean double with `sqrt`.
 
-Important distinction: `AStarGraph.Distance(int x1,int y1,int x2,int y2)` is squared Euclidean distance returned as float, while lowercase `distance(int x1,int x2,int y1,int y2)` is true Euclidean distance returned as double with `sqrt`.
+### Pass 18: graph state / bubble grid
 
-`OppositeWalkDirection` is proven from the native table at `0x103333500`: Up<->Down, Left<->Right, UpLeft<->DownRight, UpRight<->DownLeft. `walkingDirectionToStardewDirection` maps Up=0, Down=2, Left=3, Right=1 and returns -1 for non-cardinal directions.
+Source `f440b04c41ab963ca84e5cefc47204fecb57e244`, 5 methods.
 
-`WalkDirectionBetweenTwoTiles` preserves a non-obvious shipped behavior: identical/near-dead-zone points fall through the dominant-axis rule, and identical points return `Down`, not None.
+- `Init`: stores gameLocation/map, allocates map-sized `AStarNode[,]`, constructs one node per tile.
+- `FarmerAStarNode`: player position / 64 tile lookup.
+- `FetchNeighbourNodeThatIsPassible`: probe +x,-x,+y,-y for first passable + TileClear node.
+- `ResetBubbles`: clears bubbleChecked and selected bubble IDs over map-sized grid.
+- `mergeBubbleID2IntoBubbleID`: promotes secondary zero-region into primary zero-region and clears checked state.
 
-## Previously completed AStarNode anchors
+### Pass 19: farmer offset / bubble refresh
 
-The emitted `TileClear` orchestration and its verified leaves now cover gate/fence handling, furniture, beds, travelling shops, animals, NPCs, festival/event props, chest lookup, scarecrows, resource-clump predicates, and building retrieval primitives.
+Source `394de850b060daf6f0991d81e5714f69a8866f07`, 2 methods.
 
-Preserved quirks/distinctions include:
+`FarmerAStarNodeOffset` uses `(player.position + 32) / 64`. If the offset node is null, it falls back to `FetchNeighbourNodeThatIsPassible` only when `Game1.currentLocation is FarmHouse`.
 
-- lowercase `isGate()` excludes `Fence.isSoloGate`; `ContainsGate()` / `FetchGate()` do not.
-- `ContainsNPC` ignores a `Pet` sleeping on the farmer bed; `FetchNPC` does not.
-- `ContainsTravellingCart` and `ContainsTravellingDesertShop` use subclass-friendly `is Forest` / `is Desert` semantics. Any older prose saying these were exact `GetType()` tests is superseded.
-- `AStarPath.Distance` is squared Euclidean distance, no square root.
+The FarmHouse class identity is proven by exact reuse of native class global `0x1038c6c50` in iOS `DecoratableLocation.MakeMapModifications`, whose shared C# branch is explicitly `this is FarmHouse`.
+
+`RefreshBubbles` resets both bubble sets and floods primary bubble 0 from `FarmerAStarNodeOffset` when the farmer/offset nodes are available.
+
+### Pass 20: direction masks
+
+Source `80bbb4c6e440dcda15242496ddec608c25eabe0b`, 2 methods.
+
+- `AreOppositeWalkDirection`: ARM64 jump tables/masks reduced to an exact readable enum truth table and exhaustively checked against the native control-flow translation.
+- `WalkDirectionBetweenTwoPointsWithLastDirection`: native masks decoded into compatible previous-direction sets; diagonal/cardinal branch ordering and threshold asymmetry preserved.
+
+## AStarNode / TileClear state
+
+The emitted TileClear orchestration and verified leaves cover gate/fence logic, furniture, blocking beds, travelling shops, animals, NPCs, festival/event props, chests, scarecrows, resource clumps, and building retrieval primitives.
+
+Canonical correction: Mono class/supertype tests here are subclass-friendly C# `is`, not exact runtime-type equality. `ContainsTravellingCart` is `is Forest`; `ContainsTravellingDesertShop` is `is Desert` and includes `DesertFestival`. Older base-ledger prose saying exact type is superseded.
 
 ## Reusable tooling
 
 - `scripts/resolve_mono_vtable_offset.py`: exact .NET 8.0.15 / Mono `50c4cb9f...` ARM64 virtual-slot resolver.
-- `scripts/check_reconstruction_ledger.py`: validates the logical union of base `methods.tsv` and append-only fragments.
+- `scripts/check_reconstruction_ledger.py`: validates base `methods.tsv` + append-only fragments.
 
 ## Active frontiers
 
-### AStarGraph
+### Path construction / search
 
-Next low-risk graph units:
-
-1. `ResetBubbles` and `mergeBubbleID2IntoBubbleID`, whose native bodies are bounded 2-D array traversals.
-2. `FarmerAStarNode` and `FetchNeighbourNodeThatIsPassible`; `FarmerAStarNode` already resolves through `Game1.player.Position` / `NetPosition` coordinates.
-3. `RefreshBubbles` after the farmer-node pair is complete.
-4. Reduce `AreOppositeWalkDirection` and `WalkDirectionBetweenTwoPointsWithLastDirection` to exact truth tables/masks before emitting them.
-5. Then tackle `RetracePath`, `SmoothRightAngles`, core A*, and Dijkstra as larger semantic units.
+1. Reconstruct `RetracePath` and `SmoothRightAngles` as bounded path units.
+2. Recover `DiagonalWalkDirection` from raw ARM64 if smoothing requires it.
+3. Then reconstruct core `GetShortestPathAStar` and `GetShortestPathDijkstra` with the path helpers already known.
+4. Handle the larger diagonal/bubble-check path wrapper after its child semantics are readable.
 
 ### AOT string recovery
 
-The iOS IPA contains both `StardewValley.dll` and `StardewValley.aotdata.arm64`; both are extracted in the private workspace. Official Mono runtime source proves LDSTR patch records encode image index plus string-token offset. Regular GOT decoding is understood, but the Apple LLVM AOT string constants referenced from later BSS globals are not in the regular `jit_got` range. The next step is to map those LLVM AOT constant globals to their patch-info/string tokens. This should unlock `ContainsCinema`, `BrokenFestivalTile`, `IsBuildingPassable`, `ContainsStumpOrBoulder`, `AStarPath.ToString`, and other currently string-blocked methods.
+The private workspace contains extracted `StardewValley.dll` and `StardewValley.aotdata.arm64`. Official Mono runtime source proves `LDSTR` patch records encode image index + user-string token offset. Regular separate-data GOT patch decoding is understood. Apple LLVM AOT constants referenced from later BSS globals remain outside the regular `jit_got` range; mapping those globals back to LLVM patch-info/string tokens is the reusable blocker.
+
+Solving that should unlock `ContainsCinema`, `BrokenFestivalTile`, `IsBuildingPassable`, `ContainsStumpOrBoulder`, `AStarPath.ToString`, and other string-dependent methods.
 
 ## Validation / discipline
 
-The latest 16-method AStarGraph batch compiles under the persisted .NET SDK `10.0.400` against minimal signature-compatible stubs with **0 warnings and 0 errors**.
+Every emitted method in passes 17–20 was compile-checked with the persisted .NET SDK `10.0.400` against minimal signature-compatible stubs; current checks have **0 compile errors** and the most recent helper/state/mask batches have 0 warnings.
 
-Do not guess AOT strings, collapse observable distinctions, or add convenience helpers absent from managed metadata when the shipped structure is known. iOS native evidence remains implementation authority; Linux source is a naming/semantic reference oracle.
+Do not guess AOT strings, collapse observable distinctions, or add convenience helpers absent from managed metadata when shipped structure is known. iOS native evidence remains implementation authority; Linux source is a naming/semantic reference oracle.
