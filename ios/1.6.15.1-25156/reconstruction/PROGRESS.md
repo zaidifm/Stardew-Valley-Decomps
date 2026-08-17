@@ -2,83 +2,91 @@
 
 Canonical branch: `ios-csharp-reconstruction`
 
-This is the compact resume marker. Detailed evidence lives in `methods.tsv`, append-only `ledger/*.tsv`, and `notes/`.
+Compact resume marker. Detailed evidence lives in base `methods.tsv`, append-only `ledger/*.tsv`, and `notes/`.
 
 ## Current checkpoint
 
-Native-verified reconstructed methods: **88**.
+Native-verified reconstructed methods: **94**.
 
-- `AStarPath`: 8 emitted; `ToString` remains triaged pending exact AOT-managed string recovery.
-- `AStarNode`: 51 emitted.
-- `AStarGraph`: 29 emitted.
+- `AStarPath`: 8 emitted; `ToString` remains string-blocked.
+- `AStarNode`: 52 emitted.
+- `AStarGraph`: 34 emitted out of 35 managed methods; only private `DiagonalWalkDirection` remains unreconstructed.
 
-The mobile pilot remains native-first because current Linux `1.6.15.24356` has no `StardewValley.Mobile.AStar*`, `TapToMove*`, or `VirtualJoypad` implementation counterpart.
+## Search/path work completed after checkpoint 88
 
-## Recent AStarGraph passes
+### Pass 21: path shaping
 
-### Pass 17: direction / bubble helpers
+Source `3ec8c26868acb7071ed1413c2d07838e6c650c11`.
 
-Source `0de7f431a06d1c1f1787c80319281451953e094d`, 16 methods.
+- `RetracePath`: follow `parentNode` end-to-start, exclude start, reverse nodes.
+- `SmoothRightAngles`: record `i+1` when `DiagonalWalkDirection(path,i)` is non-None, clone node list, remove recorded indices descending, reassign list.
 
-Includes adjacency/equality, cardinal/diagonal direction helpers, both graph distance functions, `PathBetweenNodesExists`, the bubble-checked A* wrapper, and Stardew cardinal-direction conversion.
+### Pass 22: core A*
 
-Important: uppercase `Distance(x1,y1,x2,y2)` is squared Euclidean float; lowercase `distance(x1,x2,y1,y2)` is true Euclidean double with `sqrt`.
+Source `b0cbebe8efc5489edc6735ade0e9faf7bcdf2ed3`.
 
-### Pass 18: graph state / bubble grid
+Open List + closed HashSet; lowest `fCost`, hCost tie-break; cardinal TileClear neighbours; gCost+1 relaxation; squared-Euclidean hCost; parent update; blocking-bed avoidance in DecoratableLocation unless bed is target; `RetracePath` on success.
 
-Source `f440b04c41ab963ca84e5cefc47204fecb57e244`, 5 methods.
+Important shipped quirk: native A* reads `fCost` for ranking but does **not write fCost** during relaxation. Reconstruction preserves that behavior.
 
-- `Init`: stores gameLocation/map, allocates map-sized `AStarNode[,]`, constructs one node per tile.
-- `FarmerAStarNode`: player position / 64 tile lookup.
-- `FetchNeighbourNodeThatIsPassible`: probe +x,-x,+y,-y for first passable + TileClear node.
-- `ResetBubbles`: clears bubbleChecked and selected bubble IDs over map-sized grid.
-- `mergeBubbleID2IntoBubbleID`: promotes secondary zero-region into primary zero-region and clears checked state.
+### Pass 23: Dijkstra
 
-### Pass 19: farmer offset / bubble refresh
+Source `cfca0085cddc038778a39bc0da7060fe5fa18cf0`.
 
-Source `394de850b060daf6f0991d81e5714f69a8866f07`, 2 methods.
+- null start/end throws target `System.ArgumentNullException` (corelib token `0x0200006A`).
+- compiler-generated lambda signature is `float(AStarNode)` and captures `Dictionary<AStarNode,float> distances`, proving `OrderBy(node => distances[node]).ToList()`.
+- initializes all `_nodes` distances to `float.MaxValue`, start to zero.
+- relaxes passable cardinal neighbours with inlined squared coordinate edge distance.
+- path reconstruction through previous dictionary includes **both start and end**.
+- normal/unreachable return calls `path.Bake()`; `start == end` returns single-node path without Bake.
 
-`FarmerAStarNodeOffset` uses `(player.position + 32) / 64`. If the offset node is null, it falls back to `FetchNeighbourNodeThatIsPassible` only when `Game1.currentLocation is FarmHouse`.
+### Pass 24: diagonal-target wrapper
 
-The FarmHouse class identity is proven by exact reuse of native class global `0x1038c6c50` in iOS `DecoratableLocation.MakeMapModifications`, whose shared C# branch is explicitly `this is FarmHouse`.
+Source `106ea0a4bc5d06b22876654a1705b464449c5d95`.
 
-`RefreshBubbles` resets both bubble sets and floods primary bubble 0 from `FarmerAStarNodeOffset` when the farmer/offset nodes are available.
+`GetShortestPathToNeighbouringDiagonalAStarWithBubbleCheck` first tries normal bubble-checked A*. On fake-clear target failure it tests end's NW/NE/SW/SE diagonal neighbours by true Euclidean distance from start. NW/NE/SW require strict unique minimum + TileClear; if none wins, SE is accepted if TileClear with no final distance comparison. This unusual tie/fallback behavior is preserved.
 
-### Pass 20: direction masks
+## New AStarNode method
 
-Source `80bbb4c6e440dcda15242496ddec608c25eabe0b`, 2 methods.
+### Pass 25: `isBed`
 
-- `AreOppositeWalkDirection`: ARM64 jump tables/masks reduced to an exact readable enum truth table and exhaustively checked against the native control-flow translation.
-- `WalkDirectionBetweenTwoPointsWithLastDirection`: native masks decoded into compatible previous-direction sets; diagonal/cardinal branch ordering and threshold asymmetry preserved.
+Source `4032d4774185c85add1ebe34bc4b88246d039c33`.
 
-## AStarNode / TileClear state
+FarmHouse-only. Uses mapped `Utility.getHomeOfFarmer(Game1.player)`, `FarmHouse.GetBed(BedType.Any,0)`, virtual `BedFurniture.GetBedSpot()`, fallback `(-1000,-1000)`, then compares node `x/y` against `bedSpot.X/Y * 64`. The apparent tile-vs-pixel mismatch is present in ARM64 and intentionally preserved.
 
-The emitted TileClear orchestration and verified leaves cover gate/fence logic, furniture, blocking beds, travelling shops, animals, NPCs, festival/event props, chests, scarecrows, resource clumps, and building retrieval primitives.
+## AStarGraph remaining blocker
 
-Canonical correction: Mono class/supertype tests here are subclass-friendly C# `is`, not exact runtime-type equality. `ContainsTravellingCart` is `is Forest`; `ContainsTravellingDesertShop` is `is Desert` and includes `DesertFestival`. Older base-ledger prose saying exact type is superseded.
+Only `DiagonalWalkDirection(AStarPath,int)` remains. Its high-level Ghidra decompile crashed; native body spans about 11,156 bytes (`0x101fa3e1c..0x101fa69b0`). Raw ARM64 is persisted locally for dedicated reduction. `SmoothRightAngles` is already reconstructed as an orchestration method around this child.
 
-## Reusable tooling
+## AStarNode remaining frontiers
 
-- `scripts/resolve_mono_vtable_offset.py`: exact .NET 8.0.15 / Mono `50c4cb9f...` ARM64 virtual-slot resolver.
-- `scripts/check_reconstruction_ledger.py`: validates base `methods.tsv` + append-only fragments.
+Strong blockers/targets include:
 
-## Active frontiers
+- `ContainsParrotExpress`
+- `BrokenFestivalTile`
+- `ContainsCinema`
+- `ObjectParentSheetIndexOnTile` / debug version
+- `IsBuildingPassable`
+- `ContainsSomeKindOfWarp`
+- `ContainsStumpOrBoulder`
+- `ContainsBuilding` fallback branch
+- debug/logging methods
+- `AStarNode.ToString`
 
-### Path construction / search
+Several are blocked primarily by exact AOT-managed string/property-name recovery.
 
-1. Reconstruct `RetracePath` and `SmoothRightAngles` as bounded path units.
-2. Recover `DiagonalWalkDirection` from raw ARM64 if smoothing requires it.
-3. Then reconstruct core `GetShortestPathAStar` and `GetShortestPathDijkstra` with the path helpers already known.
-4. Handle the larger diagonal/bubble-check path wrapper after its child semantics are readable.
+## AOT string recovery
 
-### AOT string recovery
+Private workspace contains extracted `StardewValley.dll` and `StardewValley.aotdata.arm64`. Official Mono runtime source confirms LDSTR patch records encode image index + user-string token offset. Regular separate-data GOT decoding is understood; Apple LLVM AOT constants referenced from later BSS globals still need mapping back to LLVM patch-info/string tokens.
 
-The private workspace contains extracted `StardewValley.dll` and `StardewValley.aotdata.arm64`. Official Mono runtime source proves `LDSTR` patch records encode image index + user-string token offset. Regular separate-data GOT patch decoding is understood. Apple LLVM AOT constants referenced from later BSS globals remain outside the regular `jit_got` range; mapping those globals back to LLVM patch-info/string tokens is the reusable blocker.
+Solving this should unlock multiple remaining node methods and both AStar ToString methods.
 
-Solving that should unlock `ContainsCinema`, `BrokenFestivalTile`, `IsBuildingPassable`, `ContainsStumpOrBoulder`, `AStarPath.ToString`, and other string-dependent methods.
+## Canonical correction
+
+Mono class/supertype tests used by these native methods are subclass-friendly C# `is`, not exact `GetType()` equality. `ContainsTravellingCart` is `is Forest`; `ContainsTravellingDesertShop` is `is Desert` and therefore includes `DesertFestival`. Older base-ledger prose saying exact type is superseded until next consolidation.
 
 ## Validation / discipline
 
-Every emitted method in passes 17–20 was compile-checked with the persisted .NET SDK `10.0.400` against minimal signature-compatible stubs; current checks have **0 compile errors** and the most recent helper/state/mask batches have 0 warnings.
+Every emitted pass through method 94 has been compile-checked with .NET SDK `10.0.400` against minimal signature-compatible stubs. Current semantic units have zero compile errors.
 
-Do not guess AOT strings, collapse observable distinctions, or add convenience helpers absent from managed metadata when shipped structure is known. iOS native evidence remains implementation authority; Linux source is a naming/semantic reference oracle.
+Do not guess AOT strings, collapse observable quirks, or add convenience helpers absent from managed metadata when shipped structure is known. iOS native evidence is implementation authority; Linux current source is a semantic naming/reference oracle.
