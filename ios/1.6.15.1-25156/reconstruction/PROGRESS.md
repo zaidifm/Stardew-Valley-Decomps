@@ -14,6 +14,20 @@ Native-verified reconstructed methods: **60**.
 
 The initial mobile pilot is native-first: current Linux `1.6.15.24356` has no `StardewValley.Mobile.AStar*`, `TapToMove*`, or `VirtualJoypad` implementation counterpart.
 
+## Important correction: Mono class-test semantics
+
+An earlier pass incorrectly interpreted the optimized Mono AOT class/supertype comparison sequence as exact runtime-type equality. That has been disproven by iOS `GameLocation.isFarmBuildingInterior`, whose shared C# is `return this is AnimalHouse;` and whose native ARM64 uses the same sequence.
+
+Therefore these recovered mobile guards are ordinary subclass-friendly C# `is` tests. In particular:
+
+- `ContainsTravellingCart` uses `gameLocation is Forest`;
+- `ContainsTravellingDesertShop` uses `gameLocation is Desert`;
+- `DesertFestival : Desert` is therefore included by the latter test.
+
+The staged source was corrected in commit `ae80ac2cb6c9da7d42cd1ae6a2f409174ed89bd4`, and `notes/AStarNode-TilePredicates-pass5.md` was corrected in `11c6b61ee39d3d7d674f9308c4ef0b488083600f`.
+
+Any older note describing those guards as exact `GetType()` equality is superseded.
+
 ## New since the 56-method checkpoint
 
 ### `FetchBuilding`
@@ -52,7 +66,7 @@ Important retained distinctions include:
 
 - lowercase `isGate()` excludes `Fence.isSoloGate`; `ContainsGate()` / `FetchGate()` do not;
 - furniture collision excludes rugs and beds, while `GetFurniture` prioritizes non-rugs then rugs;
-- cart and desert-shop checks use exact `Forest` and exact `Desert` runtime types;
+- travelling-cart and desert-shop location guards use subclass-friendly `is Forest` / `is Desert` semantics;
 - giant-weed indices are 44/46; stump/hollow-log indices are 600/602;
 - `AStarPath.Distance` is squared Euclidean distance, no square root.
 
@@ -66,7 +80,7 @@ Important retained distinctions include:
 
 Proceed evidence-first:
 
-1. Prove and reconstruct `ContainsAnimals` (native class guards are strongly localized to Farm + one other animal location; field `GameLocation +0x28` is the shared `animals` dictionary).
+1. Prove and reconstruct `ContainsAnimals` (native class guards are strongly localized to Farm + AnimalHouse; field `GameLocation +0x28` is the shared `animals` dictionary).
 2. Resolve `ContainsNPC` / `FetchNPC` special-location and secondary-character collection identities.
 3. Finish `ContainsBuilding` once xTile `Buildings`-layer fallback is named exactly.
 4. Recover `ContainsStumpOrBoulder` after resolving its final object ItemId literal.
