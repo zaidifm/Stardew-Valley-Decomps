@@ -1,5 +1,6 @@
 using System.Runtime.CompilerServices;
 using Microsoft.Xna.Framework;
+using StardewValley.Buildings;
 using StardewValley.Locations;
 
 namespace StardewValley.Mobile;
@@ -71,7 +72,7 @@ public partial class TapToMoveUtils
 		if (!gameLocation.IsBuildableLocation())
 			return false;
 
-		Buildings.Building building = gameLocation.getBuildingAt(tile);
+		Building building = gameLocation.getBuildingAt(tile);
 		if (building == null)
 			return false;
 
