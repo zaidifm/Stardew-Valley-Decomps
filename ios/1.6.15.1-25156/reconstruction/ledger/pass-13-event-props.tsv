@@ -1,0 +1,2 @@
+assembly	type	method	token	native_address	linux_counterpart	managed_metadata_evidence	native_evidence	status	confidence	notes	completed_commit
+StardewValley	StardewValley.Mobile.AStarNode	ContainsProp	0x06006656	0x101fad38c	absent_mobile_only	managed-metadata/source-skeleton/StardewValley.Mobile/AStarNode.cs	native-aot/pseudocode/mobile-core/c/06006656__SDV_StardewValley_Mobile_AStarNode_ContainsProp_06006656.c	verified	high	Scans CurrentEvent.props at Event+0x88; Object vtable +0x5f8 resolves to TileLocation; exact X/Y tile equality.	ecb2b33c1797e7d4a924777ab8f2f82b214a29b0
