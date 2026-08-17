@@ -65,4 +65,13 @@ public partial class AStarNode
 
 		return null;
 	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public bool ContainsScarecrow()
+	{
+		if (!_aStarGraph.gameLocation.objects.TryGetValue(new Vector2(x, y), out Object value))
+			return false;
+
+		return value.ParentSheetIndex is 8 or 110 or 113 or 126 or 136 or 137 or 138 or 139 or 140 or 167;
+	}
 }
