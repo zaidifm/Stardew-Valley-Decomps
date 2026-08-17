@@ -3,10 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace StardewValley.Mobile;
 
-// Staged semantic reconstruction from iOS ARM64/AOT evidence.
-// The original metadata does not mark this class partial; partial is used here only
-// so independently verified method slices can be committed without inventing the
-// still-unresolved ToString implementation. Consolidate when the class is complete.
+// Semantic reconstruction from iOS ARM64/AOT evidence.
 public partial class AStarPath
 {
 	protected List<AStarNode> _nodeList;
@@ -40,9 +37,7 @@ public partial class AStarPath
 			{
 				AStarNode neighbour = node.GetNeighbouringNodeList(true)[j];
 				if (_nodeList.Contains(neighbour) && !visitedNodes.Contains(neighbour))
-				{
 					_length += Distance(node.x, node.y, neighbour.x, neighbour.y);
-				}
 			}
 
 			visitedNodes.Add(node);
@@ -55,6 +50,22 @@ public partial class AStarPath
 		double dx = x1 - x2;
 		double dy = y1 - y2;
 		return (float)(dx * dx + dy * dy);
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public override string ToString()
+	{
+		if (nodes == null || nodes.Count == 0)
+			return "No path";
+
+		string result = "[";
+		for (int i = 0; i < nodes.Count; i++)
+		{
+			result = string.Concat(result, "(", nodes[i].x, ",", nodes[i].y, "), ");
+		}
+
+		result = result.Substring(0, result.Length - 2);
+		return string.Concat(result, "], Length:", nodes.Count);
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
