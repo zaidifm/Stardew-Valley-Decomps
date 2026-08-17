@@ -14,94 +14,121 @@ Compact resume marker. Detailed evidence lives in base `methods.tsv`, append-onl
 - `AStarNode`: 64/64
 - `AStarGraph`: 35/35
 
-Completion commit: `d45eeb4e19e0e5ec0485084b7ec19bca7ce34ddd`.
+Completion marker: `d45eeb4e19e0e5ec0485084b7ec19bca7ce34ddd`.
 
 ### Active frontier: TapToMoveUtils
 
-`TapToMoveUtils` native recovery: 84/84 selected methods available.
+Native selected recovery: 84/84 methods available.
 
-Semantic C# reconstruction completed so far: **32/84 methods**.
+Semantic C# reconstruction: **60/84 methods complete**.
 
-Completed TapToMoveUtils clusters:
+Latest pass: player/warp geometry (`PlayerOffsetPosition`, `PlayerPositionOnScreen`, `WarpRange`) source commit `a0c24242a9cf0fb574b2fff966b0295a2abbcb6e`, evidence `notes/TapToMoveUtils-player-geometry-pass48.md`, ledger `ledger/pass-48-player-geometry.tsv`.
 
-1. Core location/minigame accessors
-   - `gameLocation`
-   - `inMiniGameWhereWeDontWantTaps`
-2. Passability/water
-   - `IsWater`
-   - `IsBuildingPassable`
-   - `IsTilePassable`
-   - `IsWateringCanFillingSource`
-3. Tree core
-   - 3 `TreeGrowthStage` overloads
-   - 3 `IsTreeAt` overloads
-   - `GetTreeAt`
-4. Bush core
-   - 3 `IsBushAt` overloads
-   - `IsBushAtPoint`
-   - `IsChoppableBushAtPoint`
-   - `FetchBushAt`
-   - `FetchBushAtPoint`
-5. Resource-clump/tree-stump-boulder core
-   - `IsMatureTreeStumpOrBoulderAt`
-   - `IsTreeStumpOrBoulderAt`
-   - 3 `IsStumpAt` overloads
-   - 3 `IsGiantWeedAt` overloads
-   - 3 `IsBoulderAt` overloads
-   - `isResourceClumpBoulderAt`
+## Completed TapToMoveUtils clusters
 
-Latest resource-clump source: `2c00b5a77aeb2aae0c0117f5b18316d18f090c64`.
-Evidence: `notes/TapToMoveUtils-resource-clumps-pass43.md`.
-Ledger: `ledger/pass-43-resource-clumps.tsv`.
+### Core / location / minigame
 
-## TapToMoveUtils semantic anchors established
+- `gameLocation`
+- `inMiniGameWhereWeDontWantTaps`
+- empty constructor
 
-### `IsTilePassable`
+### Passability / water
 
-Mobile behavior is distinct from shared `GameLocation.isTilePassable` and from `AStarNode.IsBuildingPassable`.
+- `IsWater`
+- `IsBuildingPassable`
+- `IsTilePassable`
+- `IsWateringCanFillingSource`
 
-- Buildings tile takes precedence.
-- Back `Passable` values beginning with lowercase `f`, and exact `0`, reject.
-- Back `Water` rejects except cooled lava in VolcanoDungeon.
-- Back `WaterSource` rejects.
-- Buildings property precedence is TileIndex `Passable`, then direct `Passable`, then `Shadow`, with no fallthrough when a higher-priority Passable exists but is false.
+### Trees / bushes / resource clumps
 
-### `IsWateringCanFillingSource`
+- 3 `TreeGrowthStage` overloads
+- 3 `IsTreeAt` overloads
+- `GetTreeAt`
+- 3 `IsBushAt` overloads
+- `IsBushAtPoint`
+- `IsChoppableBushAtPoint`
+- `FetchBushAt`
+- `FetchBushAtPoint`
+- `IsMatureTreeStumpOrBoulderAt`
+- `IsTreeStumpOrBoulderAt`
+- 3 `IsStumpAt` overloads
+- 3 `IsGiantWeedAt` overloads
+- 3 `IsBoulderAt` overloads
+- `isResourceClumpBoulderAt`
 
-Accepted sources include:
+### Direction / geometry
 
-- impassable `IsWater` tiles;
-- completed FishPond or `buildingType == Well` building;
-- Submarine water rectangle;
-- Greenhouse sink tiles `(9,7)` / `(10,7)`;
-- Railroad trough rectangle;
-- VolcanoDungeon refill source.
+- `ConvertWalkDirection`
+- `WalkDirectionForAngle`
+- `WalkDirectionForAngleJustDiagonals`
+- `FaceDirectionForAngle`
+- `WalkDirectionsAgree`
+- `GetWalkDirectionFacing`
+- `GetDirectionFacing`
+- `FetchNextPointOut`
+- `PlayerOffsetPosition`
+- `PlayerPositionOnScreen`
+- `WarpRange`
 
-### Trees/bushes/resource clumps
+### Fixed-location / interaction helpers
 
-Exact decoded classes and constants now cover:
+- `ContainsTravellingCart`
+- `ContainsTravellingDesertShop`
+- `ContainsCinemaDoor`
+- `ContainsCinemaTicketOffice`
+- `IsIslandNorthSuspensionBridgeRightSide`
+- 2 `IsWizardBuilding` overloads
 
-- Tree / FruitTree growth and existence;
-- Bush storage in both `largeTerrainFeatures` and `terrainFeatures`;
-- stump/hollow-log 600/602;
-- green-rain bushes 44/46;
-- boulder/meteorite/mine-rock indexes 672/622/752/754/756/758;
-- ordinary object ItemId fallback `Stone` / `Boulder`.
+### Object / terrain helpers
+
+- `NodeContainsMusicBlock`
+- `NodeContainsHousePlant`
+- `GetHousePlant`
+- `IsTerrainFeatureAt`
+- `FetchGate`
+
+### Inventory / tools
+
+- `SelectTool`
+- `PlayerHasTool`
+- `getBestAvailableWeapon`
+- `FetchItemInInventoryByName`
+
+## High-value semantic anchors
+
+- Mobile `IsTilePassable` is distinct from shared `GameLocation.isTilePassable`; its property precedence and Volcano cooled-lava exception are preserved exactly.
+- `IsWateringCanFillingSource` includes impassable water, completed FishPond/Well, Submarine rectangle, Greenhouse sink tiles, Railroad trough, and Volcano refill logic.
+- tree/bush/clump helpers now resolve the two bush storage systems, Tree/FruitTree, stump/hollow-log 600/602, green-rain bushes 44/46, mine-rock/boulder/meteorite resource-clump indexes, and ordinary object `Stone`/`Boulder` fallback.
+- direction helpers preserve all native angle-boundary asymmetries and the raw Mach-O direction lookup table.
+- inventory helpers compare `ItemId`, not display names; best-weapon selection deliberately treats current-best `Scythe` as replaceable by any later MeleeWeapon.
+- `WarpRange` is 128f outdoors or in `BathHousePool`, otherwise 96f.
 
 ## Reusable capabilities
 
 - `scripts/decode_llvm_aotconst.py`: LLVM scalar -> AOT patch -> exact managed string/class constants.
 - private ~19k-row LDSTR map persisted in the Universal File Library.
 - `scripts/resolve_mono_vtable_offset.py`: exact Mono virtual-slot resolver.
-- same-era owned Linux xTile.dll decompile persisted as a private dependency oracle.
-- actual same-era xTile.dll / MonoGame.Framework.dll used for compile validation where possible.
+- same-era owned Linux `xTile.dll` decompile persisted privately.
+- actual same-era `xTile.dll` and `MonoGame.Framework.dll` used in compile validation where appropriate.
 
-## Next action
+## Deliberately unresolved / deferred
 
-Do not choose remaining utility methods alphabetically. Generate a deterministic inventory of the unreconstructed TapToMoveUtils methods with native body size and dependency neighborhood, then take the largest low-ambiguity/high-locality cluster.
+- `IsOreAt`: surrounding logic is understood, but one external-assembly SFLDA static field still needs exact identity.
+- `isOnOrNearSuspensionBridge`: Farmer NetBool field at native object offset `+0x438` still needs exact identity.
 
-Likely candidates include small geometry/path-accessibility/crab-pot helpers and other methods already sitting on top of the reconstructed tree/water/passability vocabulary. Defer broad integration behavior until the utility leaf vocabulary is substantially complete.
+Do not guess either field merely to increase the completion count.
+
+## Immediate next action
+
+Take the shared warp cluster now that `PlayerOffsetPosition` and `WarpRange` are reconstructed:
+
+- `InWarpRange`
+- `NodeIsWarp`
+- `WarpIfInRange`
+- `NpcAtWarpOrDoor`
+
+Resolve only the actual dependencies those methods expose. After the warp cluster, re-rank the remaining utilities by native body size and dependency locality.
 
 ## Validation / discipline
 
-All emitted TapToMoveUtils clusters through pass 43 compile with 0 errors in signature-compatible harnesses; clusters using xTile are checked against the actual same-era owned xTile/MonoGame assemblies. Preserve shipped quirks and native method boundaries. iOS native evidence remains implementation authority; current Linux source/dependencies are naming and semantic reference oracles.
+Every emitted TapToMoveUtils cluster through pass 48 has been compile-checked in a signature-compatible harness; xTile-dependent clusters use the actual same-era owned xTile/MonoGame assemblies. Preserve shipped quirks, native method boundaries, exact constants, and observable side effects. iOS native evidence remains implementation authority; current Linux source/dependencies are naming and shared-semantics oracles.
