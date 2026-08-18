@@ -18,117 +18,88 @@ Completion marker: `d45eeb4e19e0e5ec0485084b7ec19bca7ce34ddd`.
 
 ### Active frontier: TapToMoveUtils
 
-Native selected recovery: 84/84 methods available.
+Native selected recovery: **84/84 methods available**.
 
-Semantic C# reconstruction: **60/84 methods complete**.
+Semantic C# reconstruction: **80/84 methods complete**.
 
-Latest pass: player/warp geometry (`PlayerOffsetPosition`, `PlayerPositionOnScreen`, `WarpRange`) source commit `a0c24242a9cf0fb574b2fff966b0295a2abbcb6e`, evidence `notes/TapToMoveUtils-player-geometry-pass48.md`, ledger `ledger/pass-48-player-geometry.tsv`.
+Only four TapToMoveUtils methods remain:
 
-## Completed TapToMoveUtils clusters
+1. `GetTileNextToBuildingNearestFarmer`
+2. `ListOfTilesSurroundingBuilding`
+3. `ItemCanBePlaced`
+4. `TraceMap`
 
-### Core / location / minigame
+## Passes completed since the prior 60/84 marker
 
-- `gameLocation`
-- `inMiniGameWhereWeDontWantTaps`
-- empty constructor
+### Pass 49 — warp cluster
 
-### Passability / water
+Source `ac62fb1b8218523eedcb54ae46c274931ff2d224`.
 
-- `IsWater`
-- `IsBuildingPassable`
-- `IsTilePassable`
-- `IsWateringCanFillingSource`
+Completed `InWarpRange`, `NodeIsWarp`, `WarpIfInRange`, `NpcAtWarpOrDoor`. Preserved VolcanoEntrance -> VolcanoDungeon0 temporary warp remap, IslandSouth `westernTurtleMoved` guard, BusStop/Desert skip, dual click/player distance checks, and NPC one-tile-ahead Buildings/Action lookup.
 
-### Trees / bushes / resource clumps
+### Pass 50 — ore / suspension bridge
 
-- 3 `TreeGrowthStage` overloads
-- 3 `IsTreeAt` overloads
-- `GetTreeAt`
-- 3 `IsBushAt` overloads
-- `IsBushAtPoint`
-- `IsChoppableBushAtPoint`
-- `FetchBushAt`
-- `FetchBushAtPoint`
-- `IsMatureTreeStumpOrBoulderAt`
-- `IsTreeStumpOrBoulderAt`
-- 3 `IsStumpAt` overloads
-- 3 `IsGiantWeedAt` overloads
-- 3 `IsBoulderAt` overloads
-- `isResourceClumpBoulderAt`
+Source `594f8d925db8a1ffcdde7001d9d4265c185c95fb`.
 
-### Direction / geometry
+Completed the two deliberately deferred helpers without guessing:
 
-- `ConvertWalkDirection`
-- `WalkDirectionForAngle`
-- `WalkDirectionForAngleJustDiagonals`
-- `FaceDirectionForAngle`
-- `WalkDirectionsAgree`
-- `GetWalkDirectionFacing`
-- `GetDirectionFacing`
-- `FetchNextPointOut`
-- `PlayerOffsetPosition`
-- `PlayerPositionOnScreen`
-- `WarpRange`
+- `IsOreAt`: external SFLDA proven `Microsoft.Xna.Framework.Point.zeroPoint` / `Point.Zero`; GameLocation field proven `orePanPoint`.
+- `isOnOrNearSuspensionBridge`: Farmer `+0x438` proven `onBridge` through native `Farmer.SetOnBridge`.
 
-### Fixed-location / interaction helpers
+There are currently no intentionally unresolved TapToMoveUtils field identities.
 
-- `ContainsTravellingCart`
-- `ContainsTravellingDesertShop`
-- `ContainsCinemaDoor`
-- `ContainsCinemaTicketOffice`
-- `IsIslandNorthSuspensionBridgeRightSide`
-- 2 `IsWizardBuilding` overloads
+### Pass 51 — interaction helpers
 
-### Object / terrain helpers
+Source `f681eb58d85acbfda00ca7f83451a8228177a8d3`.
 
-- `NodeContainsMusicBlock`
-- `NodeContainsHousePlant`
-- `GetHousePlant`
-- `IsTerrainFeatureAt`
-- `FetchGate`
+Completed `FetchAccessibleTileNextToBuilding`, `HoeSelectedAndTileHoeable`, `TappedEggAtEggFestival`, `FetchFarmAnimal`.
 
-### Inventory / tools
+Important shipped behavior: successful `FetchAccessibleTileNextToBuilding` leaves the selected node `FakeTileClear=true`; the reset occurs only on failure. `FetchFarmAnimal` prefers an unpetted matching animal and retains a petted hit only as fallback.
 
-- `SelectTool`
-- `PlayerHasTool`
-- `getBestAvailableWeapon`
-- `FetchItemInInventoryByName`
+### Pass 52 — crab-pot helpers
 
-## High-value semantic anchors
+Source `b07cfdcc83da83c51d1cbd51257f4bd60130f98e`.
 
-- Mobile `IsTilePassable` is distinct from shared `GameLocation.isTilePassable`; its property precedence and Volcano cooled-lava exception are preserved exactly.
-- `IsWateringCanFillingSource` includes impassable water, completed FishPond/Well, Submarine rectangle, Greenhouse sink tiles, Railroad trough, and Volcano refill logic.
-- tree/bush/clump helpers now resolve the two bush storage systems, Tree/FruitTree, stump/hollow-log 600/602, green-rain bushes 44/46, mine-rock/boulder/meteorite resource-clump indexes, and ordinary object `Stone`/`Boulder` fallback.
-- direction helpers preserve all native angle-boundary asymmetries and the raw Mach-O direction lookup table.
-- inventory helpers compare `ItemId`, not display names; best-weapon selection deliberately treats current-best `Scythe` as replaceable by any later MeleeWeapon.
-- `WarpRange` is 128f outdoors or in `BathHousePool`, otherwise 96f.
+Completed `FetchMostAccessibleNodeToCrabPot`, `CrabPotNeighbour`, `ClickedCrabPot`.
+
+Raw ARM64 confirms a shipped duplicate in `FetchMostAccessibleNodeToCrabPot`: its eight water probes are N,S,W,E,NW,NE,SW,**SW again**. There is no SE probe.
+
+### Pass 53 — retarget / furniture
+
+Source `fc8bc9895d1061826715d784d18ef91d2aba73f6`.
+
+Completed `retargetToParrotExpressSpot`, `retargetToBedSpot`, `NodeContainsFurniture`, `GetFurnitureClickedOn`.
+
+Preserved two unusual branches: IslandLocation with no matching parrot platform returns `Point.Zero`, while non-Island returns the original click; single-bed retarget chooses the left bed tile when the normal bed spot is strictly closer to the player than the left tile.
+
+### Pass 54 — Island North / water path helpers
+
+Source `91ed92b92bf73d206cd717271458ecf47b02298e`.
+
+Completed `getPathOnIslandNorthBridge`, `FetchAStarNodeNearestWaterSource`, and `FetchNearestAStarLandNodePerpendicularToWaterSource`.
+
+The nearest-water-source helper probes +/-X then +/-Y at radii 1..29. With multiple candidates, its distance loop begins at index 1 with `float.MaxValue`, so candidate 0 is never distance-tested. Distance is from `PlayerOffsetPosition` to the candidate's `NodeCenterOnMap`. The perpendicular scan returns the previous node before the first clear non-filling node.
 
 ## Reusable capabilities
 
 - `scripts/decode_llvm_aotconst.py`: LLVM scalar -> AOT patch -> exact managed string/class constants.
 - private ~19k-row LDSTR map persisted in the Universal File Library.
+- exact SFLDA/static-field decoding across dependent assemblies demonstrated.
 - `scripts/resolve_mono_vtable_offset.py`: exact Mono virtual-slot resolver.
+- GameLocation vtable identities used in current work include `+0x260 -> doesTileHaveProperty` and `+0x3e8 -> IsTileOccupiedBy`.
 - same-era owned Linux `xTile.dll` decompile persisted privately.
-- actual same-era `xTile.dll` and `MonoGame.Framework.dll` used in compile validation where appropriate.
-
-## Deliberately unresolved / deferred
-
-- `IsOreAt`: surrounding logic is understood, but one external-assembly SFLDA static field still needs exact identity.
-- `isOnOrNearSuspensionBridge`: Farmer NetBool field at native object offset `+0x438` still needs exact identity.
-
-Do not guess either field merely to increase the completion count.
+- actual same-era xTile/MonoGame assemblies used for compile validation where appropriate.
 
 ## Immediate next action
 
-Take the shared warp cluster now that `PlayerOffsetPosition` and `WarpRange` are reconstructed:
+Finish the final four TapToMoveUtils methods in bounded passes:
 
-- `InWarpRange`
-- `NodeIsWarp`
-- `WarpIfInRange`
-- `NpcAtWarpOrDoor`
+- building geometry/accessibility: `ListOfTilesSurroundingBuilding`, `GetTileNextToBuildingNearestFarmer`;
+- placement: `ItemCanBePlaced`;
+- remaining map diagnostic/trace method: `TraceMap`.
 
-Resolve only the actual dependencies those methods expose. After the warp cluster, re-rank the remaining utilities by native body size and dependency locality.
+Then mark TapToMoveUtils **84/84 complete**, checkpoint GitHub + Library, and move directly to `VirtualJoypad` (80/80 native high-level recoveries available).
 
 ## Validation / discipline
 
-Every emitted TapToMoveUtils cluster through pass 48 has been compile-checked in a signature-compatible harness; xTile-dependent clusters use the actual same-era owned xTile/MonoGame assemblies. Preserve shipped quirks, native method boundaries, exact constants, and observable side effects. iOS native evidence remains implementation authority; current Linux source/dependencies are naming and shared-semantics oracles.
+Every emitted TapToMoveUtils cluster through pass 54 has been compile-checked in a signature-compatible harness; dependency-sensitive clusters use the actual same-era owned xTile/MonoGame assemblies. Preserve shipped quirks, native method boundaries, exact constants, and observable side effects. iOS native evidence remains implementation authority; current Linux source/dependencies are naming and shared-semantics oracles.
